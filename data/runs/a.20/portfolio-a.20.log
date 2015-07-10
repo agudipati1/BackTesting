@@ -1,0 +1,66 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Thu Jun 25 21:31:33 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 563 shares of IPHI cost-basis=17.7 for $9987.62 CASH-BAL=90005.38
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=80638.51
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=70662.65
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 416 shares of TSM cost-basis=24.0 for $9979.84 CASH-BAL=60675.81
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 943 shares of SBGL cost-basis=10.6 for $9986.37 CASH-BAL=50682.44
+Fri Jan 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.41%)416 shares of TSM for -5.41
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL TSM x416 for $9447.36 CASH-BAL=60122.8
+Wed Feb 04 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.18%)13 shares of CMG for -6.18
+Wed Feb 04 08:00:00 GMT+00:00 2015 SELL CMG x13 for $8788.0 CASH-BAL=68903.8
+Fri Feb 06 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.07%)563 shares of IPHI for 4.21
+Fri Feb 06 08:00:00 GMT+00:00 2015 SELL IPHI x563 for $10415.5 CASH-BAL=79312.3
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=69319.04
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 166 shares of VRSN cost-basis=60.0 for $9955.02 CASH-BAL=59357.02
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 460 shares of CUBI cost-basis=21.7 for $9977.4 CASH-BAL=49372.62
+Tue Feb 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.0%)943 shares of SBGL for -3.85
+Tue Feb 17 08:00:00 GMT+00:00 2015 SELL SBGL x943 for $9609.17 CASH-BAL=58974.79
+Tue Feb 17 08:00:00 GMT+00:00 2015 BUY: 302 shares of PAHC cost-basis=33.0 for $9966.0 CASH-BAL=49001.79
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5955.84 CASH-BAL=43038.95
+Tue Mar 10 08:00:00 GMT+00:00 2015 BUY: 95 shares of VRSN cost-basis=61.0 for $5964.1 CASH-BAL=37067.85
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 170 shares of PAHC cost-basis=33.8 for $5984.0 CASH-BAL=31076.85
+Tue Mar 24 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.4 for $5937.74 CASH-BAL=25132.11
+Thu Mar 26 08:00:00 GMT+00:00 2015 BUY: 61 shares of VRSN cost-basis=61.7 for $3960.12 CASH-BAL=21164.99
+Mon Apr 06 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.5%)167 shares of CME for -3.5
+Mon Apr 06 08:00:00 GMT+00:00 2015 SELL CME x167 for $15379.865 CASH-BAL=36537.855
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 481 shares of GSM cost-basis=20.8 for $9985.56 CASH-BAL=26545.295
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 247 shares of CUBI cost-basis=22.6 for $5979.87 CASH-BAL=20558.425
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.6%)472 shares of PAHC for -1.28
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL PAHC x472 for $15760.08 CASH-BAL=36311.505
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of CE cost-basis=67.2 for $9942.64 CASH-BAL=26361.865
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 83 shares of SBUX cost-basis=45.6 for $3981.51 CASH-BAL=22373.355
+Fri Apr 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.28%)322 shares of VRSN for 5.24
+Fri Apr 24 08:00:00 GMT+00:00 2015 SELL VRSN x322 for $20942.88 CASH-BAL=43309.235
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 344 shares of IMS cost-basis=29.0 for $9976.0 CASH-BAL=33326.235
+Thu Apr 30 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.69%)481 shares of GSM for -4.12
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL GSM x481 for $9581.52 CASH-BAL=42900.755
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 465 shares of IPHI cost-basis=21.5 for $9974.25 CASH-BAL=32919.505
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 159 shares of CUBI cost-basis=23.0 for $3986.13 CASH-BAL=28926.375
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.35%)344 shares of IMS for -5.35
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IMS x344 for $9449.68 CASH-BAL=38369.055
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 411 shares of SC cost-basis=24.3 for $9974.97 CASH-BAL=28387.085
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 238 shares of IPHI cost-basis=22.7 for $5973.8 CASH-BAL=22406.285
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 232 shares of SC cost-basis=24.8 for $5985.6 CASH-BAL=16413.685
+
+---- Final Portfolio Holdings as of Thu Jun 25 21:31:33 GMT+00:00 2015 ----
+null 437 of SBUX with cost basis of 45.6 and pct-chg: 18.6%
+null 866 of CUBI with cost basis of 23.0 and pct-chg: 18.7%
+null 148 of CE with cost basis of 67.2 and pct-chg: 6.63%
+null 703 of IPHI with cost basis of 22.7 and pct-chg: 10.6%
+null 643 of SC with cost basis of 24.8 and pct-chg: 3.9%
+
+Total Invested Amount = 92102.69
+Cash Bal = 16413.685
+Net Value = 108516.375
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Thu Jun 25 21:31:33 GMT+00:00 2015
+Total Trading days: 176
+Net Gain/Loss = 8516.375
+Pct Chg = 8.52%

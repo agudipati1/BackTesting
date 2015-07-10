@@ -1,0 +1,75 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Fri Jul 10 05:35:37 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 02 08:00:00 GMT+00:00 2015 net-val=100000.0; cashbal=100000.0; num-po=0; market-dir=UPTREND; positions={}
+Mon Jan 05 08:00:00 GMT+00:00 2015 net-val=100000.0; cashbal=100000.0; num-po=0; market-dir=DOWNTREND; positions={}
+Tue Jan 06 08:00:00 GMT+00:00 2015 net-val=100000.0; cashbal=100000.0; num-po=0; market-dir=DOWNTREND; positions={}
+Wed Jan 07 08:00:00 GMT+00:00 2015 net-val=100000.0; cashbal=100000.0; num-po=0; market-dir=DOWNTREND; positions={}
+Thu Jan 08 08:00:00 GMT+00:00 2015 net-val=100000.0; cashbal=100000.0; num-po=0; market-dir=CAUTIOUS_UPTREND; positions={}
+Fri Jan 09 08:00:00 GMT+00:00 2015 BUY: 65 shares of AYI cost-basis=152 for $9847.5 CASH-BAL=90145.5
+Fri Jan 09 08:00:00 GMT+00:00 2015 net-val=99993.0; cashbal=90145.5; num-po=1; market-dir=CAUTIOUS_UPTREND; positions={AYI=0.0}
+Mon Jan 12 08:00:00 GMT+00:00 2015 net-val=100089.35; cashbal=90145.5; num-po=1; market-dir=DOWNTREND; positions={AYI=0.978}
+Tue Jan 13 08:00:00 GMT+00:00 2015 net-val=100080.9; cashbal=90145.5; num-po=1; market-dir=DOWNTREND; positions={AYI=0.893}
+Wed Jan 14 08:00:00 GMT+00:00 2015 net-val=99945.05; cashbal=90145.5; num-po=1; market-dir=DOWNTREND; positions={AYI=-0.487}
+Thu Jan 15 08:00:00 GMT+00:00 2015 BUY: 179 shares of HDB cost-basis=55.7 for $9963.14 CASH-BAL=80175.36
+Thu Jan 15 08:00:00 GMT+00:00 2015 net-val=99808.05; cashbal=80175.36; num-po=2; market-dir=DOWNTREND; positions={AYI=-1.81, HDB=0.0}
+Fri Jan 16 08:00:00 GMT+00:00 2015 net-val=100155.95999999999; cashbal=80175.36; num-po=2; market-dir=DOWNTREND; positions={AYI=-0.639, HDB=2.34}
+Tue Jan 20 08:00:00 GMT+00:00 2015 net-val=100465.2; cashbal=80175.36; num-po=2; market-dir=DOWNTREND; positions={AYI=-1.06, HDB=5.86}
+Wed Jan 21 08:00:00 GMT+00:00 2015 net-val=100478.22; cashbal=80175.36; num-po=2; market-dir=DOWNTREND; positions={AYI=-1.07, HDB=6.0}
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 128 shares of HELE cost-basis=77.5 for $9923.84 CASH-BAL=70244.52
+Thu Jan 22 08:00:00 GMT+00:00 2015 net-val=100677.66; cashbal=70244.52; num-po=3; market-dir=CAUTIOUS_UPTREND; positions={AYI=-0.632, HDB=7.64, HELE=0.0}
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=60268.66
+Fri Jan 23 08:00:00 GMT+00:00 2015 net-val=100701.77; cashbal=60268.66; num-po=4; market-dir=UPTREND; positions={AYI=0.173, SBUX=0.0, HDB=9.7, HELE=-2.56}
+Mon Jan 26 08:00:00 GMT+00:00 2015 net-val=100701.77; cashbal=60268.66; num-po=4; market-dir=UPTREND; positions={AYI=0.173, SBUX=0.0, HDB=9.7, HELE=-2.56}
+Tue Jan 27 08:00:00 GMT+00:00 2015 net-val=100983.49; cashbal=60268.66; num-po=4; market-dir=DOWNTREND; positions={AYI=1.11, SBUX=0.0658, HDB=11.3, HELE=-2.34}
+Wed Jan 28 08:00:00 GMT+00:00 2015 BUY: 634 shares of KLIC cost-basis=15.8 for $9985.5 CASH-BAL=50276.16
+Wed Jan 28 08:00:00 GMT+00:00 2015 net-val=100518.77; cashbal=50276.16; num-po=5; market-dir=DOWNTREND; positions={AYI=0.0477, SBUX=-0.818, HDB=8.75, HELE=-2.43, KLIC=0.0}
+Thu Jan 29 08:00:00 GMT+00:00 2015 BUY: 106 shares of VAR cost-basis=94.0 for $9968.24 CASH-BAL=40300.92
+Thu Jan 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BA]
+Thu Jan 29 08:00:00 GMT+00:00 2015 net-val=100677.23; cashbal=40300.92; num-po=6; market-dir=DOWNTREND; positions={AYI=0.206, SBUX=0.871, VAR=0.0, HDB=7.73, HELE=-1.9, KLIC=0.311}
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.05%)128 shares of HELE for -3.05
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.75%)634 shares of KLIC for -3.75
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HELE x128 for $9628.16 -3.05%
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL KLIC x634 for $9617.78 -3.75%
+Fri Jan 30 08:00:00 GMT+00:00 2015 net-val=99149.38; cashbal=59532.86; num-po=4; market-dir=DOWNTREND; positions={AYI=-1.13, SBUX=-0.852, VAR=-1.64, HDB=2.3}
+Mon Feb 02 08:00:00 GMT+00:00 2015 net-val=99472.87; cashbal=59532.86; num-po=4; market-dir=DOWNTREND; positions={AYI=-0.0447, SBUX=-0.331, VAR=-1.33, HDB=3.63}
+Tue Feb 03 08:00:00 GMT+00:00 2015 BUY: 82 shares of PRE cost-basis=121 for $9910.52 CASH-BAL=49615.34
+Tue Feb 03 08:00:00 GMT+00:00 2015 net-val=99472.36; cashbal=49615.34; num-po=5; market-dir=DOWNTREND; positions={AYI=1.76, PRE=0.0, SBUX=0.236, VAR=-1.55, HDB=1.56}
+Wed Feb 04 08:00:00 GMT+00:00 2015 net-val=99423.70999999999; cashbal=49615.34; num-po=5; market-dir=DOWNTREND; positions={AYI=0.899, PRE=-1.23, SBUX=0.474, VAR=-2.34, HDB=3.7}
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 127 shares of EL cost-basis=78.4 for $9956.8 CASH-BAL=39651.54
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 138 shares of BLL cost-basis=72.0 for $9940.14 CASH-BAL=29704.4
+Thu Feb 05 08:00:00 GMT+00:00 2015 net-val=99735.28; cashbal=29704.4; num-po=7; market-dir=CAUTIOUS_UPTREND; positions={AYI=1.62, PRE=0.12, BLL=0.0, SBUX=1.54, VAR=-2.19, HDB=3.7, EL=0.0}
+Fri Feb 06 08:00:00 GMT+00:00 2015 net-val=99508.66; cashbal=29704.4; num-po=7; market-dir=UPTREND; positions={AYI=1.74, PRE=0.111, BLL=-2.04, SBUX=0.814, VAR=-1.68, HDB=2.18, EL=1.4}
+Mon Feb 09 08:00:00 GMT+00:00 2015 BUY: 167 shares of HAS cost-basis=59.7 for $9963.22 CASH-BAL=19734.18
+Mon Feb 09 08:00:00 GMT+00:00 2015 net-val=99572.53; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=4.0, PRE=0.335, BLL=-2.04, SBUX=0.61, VAR=-1.97, HDB=1.04, EL=1.28, HAS=0.0}
+Tue Feb 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SEE, MOH, MLM]
+Tue Feb 10 08:00:00 GMT+00:00 2015 net-val=100693.61; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=5.88, PRE=-1.3, BLL=-0.251, SBUX=3.29, VAR=-1.68, HDB=3.4, EL=1.98, HAS=3.2}
+Wed Feb 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SCI]
+Wed Feb 11 08:00:00 GMT+00:00 2015 net-val=100795.82; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=6.13, PRE=-1.61, BLL=0.443, SBUX=2.84, VAR=-1.9, HDB=4.71, EL=2.43, HAS=2.51}
+Thu Feb 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVDA, AKAM]
+Thu Feb 12 08:00:00 GMT+00:00 2015 net-val=101768.44; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=7.27, PRE=-0.964, BLL=2.72, SBUX=4.01, VAR=-1.58, HDB=6.63, EL=3.13, HAS=4.12}
+Fri Feb 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [JCOM]
+Fri Feb 13 08:00:00 GMT+00:00 2015 net-val=102034.38; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=7.78, PRE=-1.02, BLL=3.96, SBUX=3.74, VAR=-1.55, HDB=4.87, EL=5.15, HAS=5.09}
+Tue Feb 17 08:00:00 GMT+00:00 2015 net-val=101855.79; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=7.84, PRE=-1.78, BLL=3.21, SBUX=4.25, VAR=-1.33, HDB=5.14, EL=4.24, HAS=4.64}
+Wed Feb 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CHE]
+Wed Feb 18 08:00:00 GMT+00:00 2015 net-val=102230.17; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=6.73, PRE=-1.78, BLL=7.05, SBUX=5.35, VAR=-0.357, HDB=5.03, EL=3.88, HAS=4.05}
+Thu Feb 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI]
+Thu Feb 19 08:00:00 GMT+00:00 2015 net-val=101487.87; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=5.71, PRE=-2.02, BLL=2.46, SBUX=5.54, VAR=-1.59, HDB=5.57, EL=3.35, HAS=3.48}
+Fri Feb 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [JWN, INTU]
+Fri Feb 20 08:00:00 GMT+00:00 2015 net-val=101646.27; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=5.66, PRE=-2.69, BLL=1.54, SBUX=5.93, VAR=-1.28, HDB=7.1, EL=4.27, HAS=3.57}
+Mon Feb 23 08:00:00 GMT+00:00 2015 net-val=101698.58; cashbal=19734.18; num-po=8; market-dir=UPTREND; positions={AYI=6.05, PRE=-4.69, BLL=2.32, SBUX=6.01, VAR=-1.01, HDB=7.33, EL=4.7, HAS=3.89}
+Tue Feb 24 08:00:00 GMT+00:00 2015 Selling due to underperformance: PRE -4.63% in 21
+Tue Feb 24 08:00:00 GMT+00:00 2015 SELL PRE x82 for $9458.7 -4.63%
+Tue Feb 24 08:00:00 GMT+00:00 2015 BUY: 68 shares of CBRL cost-basis=146 for $9915.08 CASH-BAL=19263.8
+Tue Feb 24 08:00:00 GMT+00:00 2015 net-val=101614.94; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=6.47, BLL=0.665, SBUX=5.86, VAR=-0.602, CBRL=0.0, HDB=7.91, EL=4.23, HAS=3.94}
+Wed Feb 25 08:00:00 GMT+00:00 2015 net-val=101880.56; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=5.54, BLL=0.11, SBUX=6.78, VAR=-0.527, CBRL=2.5, HDB=8.37, EL=4.37, HAS=3.99}
+Thu Feb 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [UVE, BKS]
+Thu Feb 26 08:00:00 GMT+00:00 2015 net-val=102144.5; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=5.04, BLL=0.471, SBUX=7.11, VAR=-1.76, CBRL=3.5, HDB=9.85, EL=4.88, HAS=4.69}
+Fri Feb 27 08:00:00 GMT+00:00 2015 net-val=102099.4; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=4.54, BLL=-0.515, SBUX=5.89, VAR=-1.21, CBRL=3.51, HDB=11.3, EL=5.38, HAS=4.39}
+Mon Mar 02 08:00:00 GMT+00:00 2015 net-val=102924.52; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=6.2, BLL=0.804, SBUX=6.73, VAR=0.068, CBRL=3.1, HDB=12.6, EL=6.31, HAS=5.78}
+Tue Mar 03 08:00:00 GMT+00:00 2015 net-val=102617.41; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=5.48, BLL=0.304, SBUX=6.48, VAR=-0.219, CBRL=4.01, HDB=11.7, EL=5.68, HAS=5.06}
+Wed Mar 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, BMY]
+Wed Mar 04 08:00:00 GMT+00:00 2015 net-val=101979.96; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=5.32, BLL=-1.08, SBUX=5.42, VAR=-0.347, CBRL=2.51, HDB=10.9, EL=4.81, HAS=4.57}
+Thu Mar 05 08:00:00 GMT+00:00 2015 net-val=102598.07; cashbal=19263.8; num-po=8; market-dir=UPTREND; positions={AYI=5.51, BLL=-1.51, SBUX=6.06, VAR=0.121, CBRL=3.6, HDB=13.9, EL=6.08, HAS=4.57}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p" 
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+  <!-- the application context definition for the feed-listener -->
+  <context:component-scan base-package="com.williamoneil"/>
+
+  <!--Bean to load properties file -->  
+  <bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">    
+	<property name="location" value="classpath:config.properties"/>  <!--reads config.properties file-->  
+  </bean>
+
+  <!--  Bean that starts the main-application  -->
+  <bean id="appMain" class="com.williamoneil.backtesting.BackTestingApplicationImpl">
+      <property name="alphaModel" ref="prAlphaModel"/>
+      <property name="portfolioModel" ref="canslimPortfolioModel"/>
+      <property name="executionModel" ref="simpleExecutionModel"/>
+  </bean>
+
+  <bean id="prAlphaModel" class="com.williamoneil.backtesting.alpha.PatternRecAlphaModelImpl">
+      <property name="wonDAO" ref="wonDAO"/>
+  </bean>
+
+  <bean id="wonMarketTimer" class="com.williamoneil.backtesting.markettimer.WONMarketTimer">
+      <property name="wonDAO" ref="wonDAO"/>
+  </bean>
+    <bean id="simpleWonMarketTimer" class="com.williamoneil.backtesting.markettimer.SimpleWONMarketTimer">
+      <property name="wonDAO" ref="wonDAO"/>
+  </bean>
+  
+  <bean id="canslimPortfolioModel" class="com.williamoneil.backtesting.portfolio.CanSlimPortfolioModelImpl">
+      <property name="wonDAO" ref="wonDAO"/>
+      <property name="marketTimer" ref="wonMarketTimer"/>
+      <property name="simpleMarketTimer" ref="simpleWonMarketTimer"/>
+  </bean>
+  
+  <bean id="simpleExecutionModel" class="com.williamoneil.backtesting.execution.SimpleExecutionModelImpl">
+      <property name="wonDAO" ref="wonDAO"/>
+  </bean>
+  
+  <!--  WON DAO gets prices from WON DB-->
+  <bean id="wonDAO" class="com.williamoneil.backtesting.dao.WONDAOImpl">
+  	<property name="dataSource" ref="pricesDataSource"/>
+  	<property name="lmDataSource" ref="lmDataSource"/>
+  </bean>
+
+    <!-- JDBC data source -->
+   <bean id="pricesDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    <property name="driverClassName" value="${jdbc.driver}"/>
+    <property name="url" value="${prices.jdbc.url}"/>
+<!--
+	<property name="username" value="${jdbc.username}"/>
+    <property name="password" value="${jdbc.password}"/>
+-->
+    <property name="initialSize" value="1"/>
+    <property name="maxActive" value="2"/>
+    <property name="maxIdle" value="1"/>
+    <property name="testOnBorrow" value="false"/>
+    <property name="poolPreparedStatements" value="true"/>
+  </bean>
+   
+    <!-- JDBC data source -->
+   <bean id="lmDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    <property name="driverClassName" value="${jdbc.driver}"/>
+    <property name="url" value="${lm.jdbc.url}"/>
+    <property name="initialSize" value="1"/>
+    <property name="maxActive" value="2"/>
+    <property name="maxIdle" value="1"/>
+    <property name="testOnBorrow" value="false"/>
+    <property name="poolPreparedStatements" value="true"/>
+  </bean>
+   
+</beans>

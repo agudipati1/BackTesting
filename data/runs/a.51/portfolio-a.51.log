@@ -1,0 +1,99 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Fri Jul 03 21:48:08 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 16 08:00:00 GMT+00:00 2015 BUY: 66 shares of AYI cost-basis=151 for $9942.24 CASH-BAL=90050.76
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 128 shares of HELE cost-basis=77.5 for $9923.84 CASH-BAL=80119.92
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 93 shares of AGU cost-basis=107 for $9969.6 CASH-BAL=70143.32
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=60167.46
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.05%)128 shares of HELE for -3.05
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HELE x128 for $9628.16 CASH-BAL=69788.62
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 138 shares of BLL cost-basis=72.0 for $9940.14 CASH-BAL=59841.48
+Mon Feb 09 08:00:00 GMT+00:00 2015 BUY: 167 shares of HAS cost-basis=59.7 for $9963.22 CASH-BAL=49871.26
+Tue Feb 10 08:00:00 GMT+00:00 2015 Selling due to underperformance: AGU
+Tue Feb 10 08:00:00 GMT+00:00 2015 SELL AGU x93 for $9858.0 CASH-BAL=59722.26
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=49755.86
+Wed Mar 04 08:00:00 GMT+00:00 2015 Selling due to underperformance: BLL
+Wed Mar 04 08:00:00 GMT+00:00 2015 SELL BLL x138 for $9839.4 CASH-BAL=59588.26
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 152 shares of BMY cost-basis=65.7 for $9981.84 CASH-BAL=49599.42
+Wed Mar 04 08:00:00 GMT+00:00 2015 Selling due to underperformance: AYI
+Wed Mar 04 08:00:00 GMT+00:00 2015 SELL AYI x66 for $10537.56 CASH-BAL=60129.98
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 330 shares of OLN cost-basis=30.3 for $9982.5 CASH-BAL=50140.48
+Tue Mar 10 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-4.2%)330 shares of OLN for -4.2
+Tue Mar 10 08:00:00 GMT+00:00 2015 SELL OLN x330 for $9570.0 CASH-BAL=59703.48
+Wed Mar 18 08:00:00 GMT+00:00 2015 BUY: 145 shares of AMBA cost-basis=68.5 for $9929.6 CASH-BAL=49766.88
+Wed Mar 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: BMY
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL BMY x152 for $9834.4 CASH-BAL=59594.28
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 70 shares of EW cost-basis=142 for $9957.5 CASH-BAL=49629.78
+Thu Mar 26 08:00:00 GMT+00:00 2015 Selling due to underperformance: SEE
+Thu Mar 26 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9911.0 CASH-BAL=59533.78
+Thu Mar 26 08:00:00 GMT+00:00 2015 BUY: 562 shares of SFS cost-basis=17.8 for $9986.74 CASH-BAL=49540.04
+Thu Mar 26 08:00:00 GMT+00:00 2015 Selling due to underperformance: HAS
+Thu Mar 26 08:00:00 GMT+00:00 2015 SELL HAS x167 for $10112.685 CASH-BAL=59645.725
+Thu Mar 26 08:00:00 GMT+00:00 2015 BUY: 74 shares of SIG cost-basis=135 for $9990.0 CASH-BAL=49648.725
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 62 shares of SBUX cost-basis=91.0 for $5950.76 CASH-BAL=43690.965
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Fri Apr 10 08:00:00 GMT+00:00 2015 Selling due to underperformance: EW
+Fri Apr 10 08:00:00 GMT+00:00 2015 SELL EW x70 for $9917.6 CASH-BAL=53601.565
+Fri Apr 10 08:00:00 GMT+00:00 2015 BUY: 350 shares of GE cost-basis=28.5 for $9978.5 CASH-BAL=43616.065
+Tue Apr 21 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.7%)350 shares of GE for -6.7
+Tue Apr 21 08:00:00 GMT+00:00 2015 SELL GE x350 for $9317.0 CASH-BAL=52926.065
+Mon Apr 27 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.06%)562 shares of SFS for -0.408
+Mon Apr 27 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.03%)145 shares of AMBA for 3.07
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL SFS x562 for $9953.02 CASH-BAL=62872.085
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL AMBA x145 for $10241.35 CASH-BAL=73106.435
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 359 shares of HQY cost-basis=27.8 for $9965.84 CASH-BAL=63133.595
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 204 shares of XPO cost-basis=48.8 for $9961.32 CASH-BAL=53165.275
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.65%)359 shares of HQY for -5.65
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x359 for $9409.39 CASH-BAL=62567.665
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 417 shares of AVG cost-basis=23.9 for $9974.64 CASH-BAL=52586.025
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 184 shares of BFAM cost-basis=54.1 for $9945.2 CASH-BAL=42633.825
+Tue May 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: SIG
+Tue May 05 08:00:00 GMT+00:00 2015 SELL SIG x74 for $10040.32 CASH-BAL=52667.145
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 258 shares of CLGX cost-basis=38.7 for $9984.6 CASH-BAL=42675.545
+Fri May 08 08:00:00 GMT+00:00 2015 BUY: 80 shares of SBUX cost-basis=46.3 for $3982.4 CASH-BAL=38686.145
+Tue May 12 08:00:00 GMT+00:00 2015 Selling due to underperformance: BFAM
+Tue May 12 08:00:00 GMT+00:00 2015 SELL BFAM x184 for $9722.56 CASH-BAL=48401.705
+Tue May 12 08:00:00 GMT+00:00 2015 BUY: 296 shares of IPAR cost-basis=33.7 for $9960.4 CASH-BAL=38434.305
+Fri May 15 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.18%)296 shares of IPAR for -5.18
+Fri May 15 08:00:00 GMT+00:00 2015 SELL IPAR x296 for $9451.28 CASH-BAL=47878.585
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 220 shares of TTPH cost-basis=45.3 for $9972.6 CASH-BAL=37898.985
+Wed May 20 08:00:00 GMT+00:00 2015 Selling due to underperformance: XPO
+Wed May 20 08:00:00 GMT+00:00 2015 SELL XPO x204 for $10085.76 CASH-BAL=47977.745
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=37977.745
+Fri May 22 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.34%)220 shares of TTPH for -5.34
+Fri May 22 08:00:00 GMT+00:00 2015 SELL TTPH x220 for $9446.8 CASH-BAL=47417.545
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=58426.545
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=31.7 for $9976.05 CASH-BAL=48443.495
+Fri May 29 08:00:00 GMT+00:00 2015 BUY: 132 shares of DGX cost-basis=75.2 for $9930.36 CASH-BAL=38506.135
+Fri Jun 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: CLGX
+Fri Jun 05 08:00:00 GMT+00:00 2015 SELL CLGX x258 for $10038.78 CASH-BAL=48537.915
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 146 shares of JUNO cost-basis=68.4 for $9980.56 CASH-BAL=38550.355
+Tue Jun 09 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-9.17%)146 shares of JUNO for -9.17
+Tue Jun 09 08:00:00 GMT+00:00 2015 SELL JUNO x146 for $9072.44 CASH-BAL=47615.795
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 192 shares of CMN cost-basis=52.0 for $9984.0 CASH-BAL=37624.795
+Wed Jun 17 08:00:00 GMT+00:00 2015 Selling due to underperformance: DGX
+Wed Jun 17 08:00:00 GMT+00:00 2015 SELL DGX x132 for $9613.56 CASH-BAL=47231.355
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 193 shares of RDUS cost-basis=51.7 for $9983.89 CASH-BAL=37240.465
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 149 shares of AMED cost-basis=34.3 for $5954.04 CASH-BAL=31279.425
+Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 218 shares of AVG cost-basis=25.1 for $5979.74 CASH-BAL=25292.685
+
+---- Final Portfolio Holdings as of Fri Jul 03 21:48:08 GMT+00:00 2015 ----
+null 430 of SBUX with cost basis of 46.3 and pct-chg: 17.1% with % of portfolio weight=21.5%
+null 635 of AVG with cost basis of 25.1 and pct-chg: 9.64% with % of portfolio weight=16.1%
+null 464 of AMED with cost basis of 34.3 and pct-chg: 18.9% with % of portfolio weight=17.5%
+null 192 of CMN with cost basis of 52.0 and pct-chg: 3.03% with % of portfolio weight=9.49%
+null 193 of RDUS with cost basis of 51.7 and pct-chg: 31.2% with % of portfolio weight=12.1%
+
+Total Invested Amount = 83129.8 with % of portfolio weight=76.7%
+Cash Bal = 25292.685 with % of portfolio weight=23.3%
+Net Value = 108422.485
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Fri Jul 03 21:48:08 GMT+00:00 2015
+Total Trading days: 184
+Net Gain/Loss = 8422.485000000002
+Pct Chg = 8.42%

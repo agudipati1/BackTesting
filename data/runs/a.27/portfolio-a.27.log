@@ -1,0 +1,60 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Sat Jun 27 04:22:20 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=90011.09
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=80035.23
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.29%)421 shares of TSM for -4.29
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9560.91 CASH-BAL=89589.14
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 309 shares of SBH cost-basis=32.2 for $9962.16 CASH-BAL=79619.98
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=69653.58
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=59671.07
+Fri Feb 13 08:00:00 GMT+00:00 2015 BUY: 512 shares of EIGI cost-basis=19.5 for $9978.88 CASH-BAL=49685.19
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5954.56 CASH-BAL=43723.63
+Wed Mar 11 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-7.15%)512 shares of EIGI for -7.15
+Wed Mar 11 08:00:00 GMT+00:00 2015 SELL EIGI x512 for $9272.32 CASH-BAL=52988.95
+Fri Mar 20 08:00:00 GMT+00:00 2015 BUY: 185 shares of HNI cost-basis=53.9 for $9962.25 CASH-BAL=43019.7
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 228 shares of SCI cost-basis=25.1 for $5985.0 CASH-BAL=37027.7
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.24%)309 shares of SBH for 2.91
+Thu Apr 09 08:00:00 GMT+00:00 2015 SELL SBH x309 for $10258.8 CASH-BAL=47279.5
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 476 shares of EIGI cost-basis=21.0 for $9986.48 CASH-BAL=37286.02
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)220 shares of SEE for -1.86
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9781.2 CASH-BAL=47060.22
+Thu Apr 23 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-7.5%)185 shares of HNI for -4.86
+Thu Apr 23 08:00:00 GMT+00:00 2015 SELL HNI x185 for $9484.95 CASH-BAL=56538.17
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 188 shares of JCI cost-basis=52.9 for $9945.2 CASH-BAL=46585.97
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 344 shares of IMS cost-basis=29.0 for $9976.0 CASH-BAL=36602.97
+Tue Apr 28 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.17%)476 shares of EIGI for -6.17
+Tue Apr 28 08:00:00 GMT+00:00 2015 SELL EIGI x476 for $9377.2 CASH-BAL=45973.17
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 416 shares of SC cost-basis=24.0 for $9984.0 CASH-BAL=35982.17
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.21%)188 shares of JCI for -5.21
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.35%)344 shares of IMS for -5.35
+Tue May 05 08:00:00 GMT+00:00 2015 SELL JCI x188 for $9433.84 CASH-BAL=45409.01
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IMS x344 for $9449.68 CASH-BAL=54851.69
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=44851.69
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 150 shares of ADI cost-basis=66.2 for $9927.0 CASH-BAL=34917.69
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=45926.69
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=31.7 for $9976.05 CASH-BAL=35943.64
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 77 shares of SBUX cost-basis=46.2 for $3968.58 CASH-BAL=31968.06
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 137 shares of SCI cost-basis=25.8 for $3988.07 CASH-BAL=27972.99
+
+---- Final Portfolio Holdings as of Sat Jun 27 04:22:20 GMT+00:00 2015 ----
+null 431 of SBUX with cost basis of 46.2 and pct-chg: 18.2% with % of portfolio weight=21.9%
+null 774 of SCI with cost basis of 25.8 and pct-chg: 15.2% with % of portfolio weight=21.4%
+null 416 of SC with cost basis of 24.0 and pct-chg: 8.72% with % of portfolio weight=10.1%
+null 150 of ADI with cost basis of 66.2 and pct-chg: -0.645% with % of portfolio weight=9.17%
+null 315 of AMED with cost basis of 31.7 and pct-chg: 24.1% with % of portfolio weight=11.5%
+
+Total Invested Amount = 79591.32 with % of portfolio weight=74.0%
+Cash Bal = 27972.99 with % of portfolio weight=26.0%
+Net Value = 107564.31
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Sat Jun 27 04:22:20 GMT+00:00 2015
+Total Trading days: 177
+Net Gain/Loss = 7564.31
+Pct Chg = 7.56%

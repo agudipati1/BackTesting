@@ -1,0 +1,76 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Wed Jun 24 07:19:02 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=90633.13
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 623 shares of MRVL cost-basis=16.0 for $9977.345 CASH-BAL=80648.785
+Tue Jan 13 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.97%)623 shares of MRVL for -1.97
+Tue Jan 13 08:00:00 GMT+00:00 2015 SELL MRVL x623 for $9787.33 CASH-BAL=90429.115
+Wed Jan 14 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.5%)13 shares of CMG for -1.5
+Wed Jan 14 08:00:00 GMT+00:00 2015 SELL CMG x13 for $9226.62 CASH-BAL=99648.735
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=89659.825
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 117 shares of CCI cost-basis=85.3 for $9974.25 CASH-BAL=79678.575
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=69702.715
+Thu Jan 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.84%)421 shares of TSM for -1.84
+Thu Jan 29 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9805.09 CASH-BAL=79500.805
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=69507.545
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 166 shares of VRSN cost-basis=60.0 for $9955.02 CASH-BAL=59545.525
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 65 shares of SBUX cost-basis=89.3 for $5926.7 CASH-BAL=53611.825
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 177 shares of MOH cost-basis=56.3 for $9958.02 CASH-BAL=43646.805
+Thu Feb 12 08:00:00 GMT+00:00 2015 BUY: 68 shares of CCI cost-basis=86.1 for $5956.12 CASH-BAL=37683.685
+Wed Feb 25 08:00:00 GMT+00:00 2015 BUY: 42 shares of SBUX cost-basis=90.2 for $3958.92 CASH-BAL=33717.765
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.3 for $5924.32 CASH-BAL=27786.445
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 92 shares of VRSN cost-basis=61.6 for $5941.36 CASH-BAL=21838.085
+Thu Mar 05 08:00:00 GMT+00:00 2015 BUY: 96 shares of MOH cost-basis=58.4 for $5977.92 CASH-BAL=15853.165
+Mon Mar 16 08:00:00 GMT+00:00 2015 BUY: 39 shares of CME cost-basis=96.2 for $3902.34 CASH-BAL=11943.825
+Wed Mar 25 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell 50EMA: (-1.52%)185 shares of CCI for -1.8
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL CCI x185 for $15658.4 CASH-BAL=27595.225
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 61 shares of MOH cost-basis=59.5 for $3941.82 CASH-BAL=23646.405
+Fri Mar 27 08:00:00 GMT+00:00 2015 BUY: 60 shares of VRSN cost-basis=62.5 for $3977.7 CASH-BAL=19661.705
+Thu Apr 02 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.51%)206 shares of CME for -3.51
+Thu Apr 02 08:00:00 GMT+00:00 2015 SELL CME x206 for $19139.46 CASH-BAL=38794.165
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 476 shares of EIGI cost-basis=21.0 for $9986.48 CASH-BAL=28800.685
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 200 shares of APOG cost-basis=49.8 for $9956.0 CASH-BAL=18837.685
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.05%)334 shares of MOH for 7.63
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL MOH x334 for $21416.08 CASH-BAL=40246.765
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of CE cost-basis=67.2 for $9942.64 CASH-BAL=30297.125
+Tue Apr 21 08:00:00 GMT+00:00 2015 BUY: 114 shares of APOG cost-basis=50.7 for $5950.8 CASH-BAL=24339.325
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 260 shares of EIGI cost-basis=21.7 for $5987.8 CASH-BAL=18344.525
+Fri Apr 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.28%)318 shares of VRSN for 3.96
+Fri Apr 24 08:00:00 GMT+00:00 2015 SELL VRSN x318 for $20682.72 CASH-BAL=39020.245
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 344 shares of IMS cost-basis=29.0 for $9976.0 CASH-BAL=29037.245
+Tue Apr 28 08:00:00 GMT+00:00 2015 StopLoss SELL: (-9.32%)736 shares of EIGI for -9.32
+Tue Apr 28 08:00:00 GMT+00:00 2015 SELL EIGI x736 for $14499.2 CASH-BAL=43529.445
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 416 shares of SC cost-basis=24.0 for $9984.0 CASH-BAL=33538.445
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 73 shares of APOG cost-basis=51.4 for $3972.66 CASH-BAL=29558.785
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.35%)344 shares of IMS for -5.35
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IMS x344 for $9449.68 CASH-BAL=39001.465
+Tue May 12 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-2.23%)148 shares of CE for -2.23
+Tue May 12 08:00:00 GMT+00:00 2015 SELL CE x148 for $9728.04 CASH-BAL=48722.505
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 241 shares of SC cost-basis=24.3 for $5979.21 CASH-BAL=42736.295
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=32736.295
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 628 shares of FLY cost-basis=15.9 for $9991.48 CASH-BAL=22737.815
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=33746.815
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 70 shares of AVGO cost-basis=141 for $9904.3 CASH-BAL=23835.515
+Fri Jun 12 08:00:00 GMT+00:00 2015 BUY: 156 shares of SC cost-basis=24.5 for $3971.76 CASH-BAL=19856.755
+
+---- Final Portfolio Holdings as of Wed Jun 24 07:19:02 GMT+00:00 2015 ----
+null 440 of SBUX with cost basis of 45.1 and pct-chg: 19.8%
+null 387 of APOG with cost basis of 51.4 and pct-chg: 16.9%
+null 813 of SC with cost basis of 24.5 and pct-chg: 8.05%
+null 628 of FLY with cost basis of 15.9 and pct-chg: 1.94%
+null 70 of AVGO with cost basis of 141.0 and pct-chg: 0.0353%
+
+Total Invested Amount = 88660.3
+Cash Bal = 19856.755
+Net Value = 108517.055
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Wed Jun 24 07:19:02 GMT+00:00 2015
+Total Trading days: 174
+Net Gain/Loss = 8517.055
+Pct Chg = 8.52%

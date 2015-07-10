@@ -1,0 +1,56 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Mon Jun 29 17:33:36 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=90024.14
+Thu Jan 29 08:00:00 GMT+00:00 2015 BUY: 106 shares of VAR cost-basis=94.0 for $9968.24 CASH-BAL=80048.9
+Thu Jan 29 08:00:00 GMT+00:00 2015 BUY: 67 shares of BA cost-basis=148 for $9901.26 CASH-BAL=70140.64
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=60174.24
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=50191.73
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5954.56 CASH-BAL=44230.17
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 41 shares of SBUX cost-basis=91.1 for $3935.18 CASH-BAL=40287.99
+Wed Apr 01 08:00:00 GMT+00:00 2015 StopLoss-ScaledSoftStop SELL: ($93.833)218 @$93.02 shares of SBUX for 2.01
+Wed Apr 01 08:00:00 GMT+00:00 2015 SELL SBUX x218 for $20278.36 CASH-BAL=60559.35
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 228 shares of SCI cost-basis=25.1 for $5985.0 CASH-BAL=54567.35
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)220 shares of SEE for -1.86
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9781.2 CASH-BAL=64341.55
+Fri Apr 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.02%)67 shares of BA for 0.349
+Fri Apr 24 08:00:00 GMT+00:00 2015 SELL BA x67 for $9942.8 CASH-BAL=74277.35
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 359 shares of HQY cost-basis=27.8 for $9965.84 CASH-BAL=64304.51
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 204 shares of XPO cost-basis=48.8 for $9961.32 CASH-BAL=54336.19
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.59%)106 shares of VAR for -5.59
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.65%)359 shares of HQY for -5.65
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL VAR x106 for $9418.1 CASH-BAL=63747.29
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x359 for $9409.39 CASH-BAL=73149.68
+Fri May 08 08:00:00 GMT+00:00 2015 BUY: 185 shares of IMPV cost-basis=54.0 for $9986.3 CASH-BAL=63156.38
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=53156.38
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=64165.38
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=31.7 for $9976.05 CASH-BAL=54182.33
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 146 shares of JUNO cost-basis=68.4 for $9980.56 CASH-BAL=44194.77
+Tue Jun 09 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-9.17%)146 shares of JUNO for -9.17
+Tue Jun 09 08:00:00 GMT+00:00 2015 SELL JUNO x146 for $9072.44 CASH-BAL=53260.21
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 137 shares of SCI cost-basis=25.8 for $3988.07 CASH-BAL=49265.14
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 192 shares of CMN cost-basis=52.0 for $9984.0 CASH-BAL=39274.14
+Fri Jun 12 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.37%)204 shares of XPO for -2.88
+Fri Jun 12 08:00:00 GMT+00:00 2015 SELL XPO x204 for $9681.84 CASH-BAL=48948.98
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 193 shares of RDUS cost-basis=51.7 for $9983.89 CASH-BAL=38958.09
+
+---- Final Portfolio Holdings as of Mon Jun 29 17:33:36 GMT+00:00 2015 ----
+null 774 of SCI with cost basis of 25.8 and pct-chg: 14.0% with % of portfolio weight=20.9%
+null 185 of IMPV with cost basis of 54.0 and pct-chg: 18.7% with % of portfolio weight=10.9%
+null 315 of AMED with cost basis of 31.7 and pct-chg: 28.0% with % of portfolio weight=11.7%
+null 192 of CMN with cost basis of 52.0 and pct-chg: 4.2% with % of portfolio weight=9.55%
+null 193 of RDUS with cost basis of 51.7 and pct-chg: 22.1% with % of portfolio weight=11.2%
+
+Total Invested Amount = 69955.94 with % of portfolio weight=64.2%
+Cash Bal = 38958.09 with % of portfolio weight=35.8%
+Net Value = 108914.03
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Mon Jun 29 17:33:36 GMT+00:00 2015
+Total Trading days: 180
+Net Gain/Loss = 8914.03
+Pct Chg = 8.91%

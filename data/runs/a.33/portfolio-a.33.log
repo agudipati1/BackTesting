@@ -1,0 +1,133 @@
+Start Date: Wed Jan 01 08:00:00 GMT+00:00 2014
+End Date: Sun Jun 28 15:09:59 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 6
+-----------------
+Fri Jan 03 08:00:00 GMT+00:00 2014 BUY: 202 shares of MKTO cost-basis=41.2 for $8326.44 CASH-BAL=91666.56
+Fri Jan 03 08:00:00 GMT+00:00 2014 BUY: 244 shares of PFPT cost-basis=34.2 for $8339.92 CASH-BAL=83319.64
+Tue Jan 07 08:00:00 GMT+00:00 2014 BUY: 110 shares of SPLK cost-basis=75.4 for $8292.9 CASH-BAL=75019.74
+Thu Jan 09 08:00:00 GMT+00:00 2014 BUY: 149 shares of M cost-basis=55.8 for $8314.2 CASH-BAL=66698.54
+Wed Jan 29 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-1.73%)149 shares of M for -4.4
+Wed Jan 29 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-3.09%)110 shares of SPLK for -3.21
+Wed Jan 29 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-1.59%)244 shares of PFPT for 2.05
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL M x149 for $7955.11 CASH-BAL=74646.65
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL SPLK x110 for $8033.3 CASH-BAL=82672.95
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL PFPT x244 for $8518.04 CASH-BAL=91183.99
+Mon Feb 03 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.88%)202 shares of MKTO for -5.88
+Mon Feb 03 08:00:00 GMT+00:00 2014 SELL MKTO x202 for $7843.66 CASH-BAL=99020.65
+Mon Feb 10 08:00:00 GMT+00:00 2014 BUY: 201 shares of SALE cost-basis=41.3 for $8307.33 CASH-BAL=90706.32
+Wed Feb 12 08:00:00 GMT+00:00 2014 BUY: 263 shares of SN cost-basis=31.7 for $8342.36 CASH-BAL=82356.96
+Thu Feb 13 08:00:00 GMT+00:00 2014 BUY: 57 shares of TWC cost-basis=145 for $8254.17 CASH-BAL=74095.79
+Tue Feb 18 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.33%)263 shares of SN for -6.33
+Tue Feb 18 08:00:00 GMT+00:00 2014 SELL SN x263 for $7821.62 CASH-BAL=81910.41
+Wed Feb 19 08:00:00 GMT+00:00 2014 BUY: 103 shares of FLS cost-basis=80.6 for $8301.8 CASH-BAL=73601.61
+Wed Feb 26 08:00:00 GMT+00:00 2014 BUY: 133 shares of HEI cost-basis=62.7 for $8339.1 CASH-BAL=65255.51
+Tue Mar 04 08:00:00 GMT+00:00 2014 BUY: 212 shares of NUVA cost-basis=39.3 for $8329.48 CASH-BAL=56919.03
+Thu Mar 06 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.17%)212 shares of NUVA for -5.17
+Thu Mar 06 08:00:00 GMT+00:00 2014 SELL NUVA x212 for $7905.48 CASH-BAL=64817.51
+Mon Mar 10 08:00:00 GMT+00:00 2014Market-Uptrend-Sell 20EMA: (-2.87%)201 shares of SALE for -1.85
+Mon Mar 10 08:00:00 GMT+00:00 2014 SELL SALE x201 for $8160.6 CASH-BAL=72971.11
+Tue Mar 11 08:00:00 GMT+00:00 2014 BUY: 166 shares of EMES cost-basis=50.1 for $8316.6 CASH-BAL=64647.51
+Thu Mar 13 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.14%)57 shares of TWC for -5.14
+Thu Mar 13 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.11%)103 shares of FLS for -6.11
+Thu Mar 13 08:00:00 GMT+00:00 2014 SELL TWC x57 for $7836.93 CASH-BAL=72477.44
+Thu Mar 13 08:00:00 GMT+00:00 2014 SELL FLS x103 for $7801.22 CASH-BAL=80271.66
+Wed Mar 26 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.4%)133 shares of HEI for -6.4
+Wed Mar 26 08:00:00 GMT+00:00 2014 SELL HEI x133 for $7812.42 CASH-BAL=88077.08
+Fri May 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-2.99%)166 shares of EMES for 52.4
+Fri May 16 08:00:00 GMT+00:00 2014 SELL EMES x166 for $12682.4 CASH-BAL=100752.48
+Wed May 28 08:00:00 GMT+00:00 2014 BUY: 284 shares of CAL cost-basis=29.3 for $8321.2 CASH-BAL=92424.28
+Mon Jun 02 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.1%)284 shares of CAL for -5.1
+Mon Jun 02 08:00:00 GMT+00:00 2014 SELL CAL x284 for $7903.72 CASH-BAL=100321.0
+Tue Jun 17 08:00:00 GMT+00:00 2014 BUY: 138 shares of JWA cost-basis=60.1 for $8293.8 CASH-BAL=92020.2
+Thu Jun 19 08:00:00 GMT+00:00 2014 BUY: 279 shares of GLOG cost-basis=29.9 for $8336.52 CASH-BAL=83676.68
+Fri Jun 20 08:00:00 GMT+00:00 2014 BUY: 225 shares of GMLP cost-basis=37.1 for $8343.0 CASH-BAL=75326.68
+Fri Jun 20 08:00:00 GMT+00:00 2014 BUY: 251 shares of KS cost-basis=33.2 for $8335.71 CASH-BAL=66983.97
+Wed Jun 25 08:00:00 GMT+00:00 2014 BUY: 272 shares of GCI cost-basis=30.7 for $8342.24 CASH-BAL=58634.73
+Thu Jun 26 08:00:00 GMT+00:00 2014 BUY: 221 shares of MEI cost-basis=37.7 for $8327.28 CASH-BAL=50300.45
+Mon Jul 07 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.61%)279 shares of GLOG for -5.61
+Mon Jul 07 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-8.09%)251 shares of KS for -8.09
+Mon Jul 07 08:00:00 GMT+00:00 2014 SELL GLOG x279 for $7876.17 CASH-BAL=58169.62
+Mon Jul 07 08:00:00 GMT+00:00 2014 SELL KS x251 for $7668.05 CASH-BAL=65830.67
+Tue Jul 08 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.18%)221 shares of MEI for -5.18
+Tue Jul 08 08:00:00 GMT+00:00 2014 SELL MEI x221 for $7902.96 CASH-BAL=73726.63
+Fri Jul 11 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.56%)225 shares of GMLP for -5.56
+Fri Jul 11 08:00:00 GMT+00:00 2014 SELL GMLP x225 for $7886.25 CASH-BAL=81605.88
+Thu Aug 07 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-2.0%)138 shares of JWA for -2.01
+Thu Aug 07 08:00:00 GMT+00:00 2014 SELL JWA x138 for $8133.72 CASH-BAL=89732.6
+Fri Aug 22 08:00:00 GMT+00:00 2014 BUY: 147 shares of GCI cost-basis=31.8 for $4990.65 CASH-BAL=84734.95
+Thu Sep 04 08:00:00 GMT+00:00 2014 BUY: 210 shares of MEI cost-basis=39.7 for $8341.2 CASH-BAL=76386.75
+Tue Sep 09 08:00:00 GMT+00:00 2014Market-Uptrend-Sell 20EMA: (-3.58%)419 shares of GCI for 1.65
+Tue Sep 09 08:00:00 GMT+00:00 2014 SELL GCI x419 for $13567.22 CASH-BAL=89946.97
+Thu Sep 25 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-4.31%)210 shares of MEI for -4.31
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL MEI x210 for $7988.4 CASH-BAL=97928.37
+Tue Oct 21 08:00:00 GMT+00:00 2014 BUY: 202 shares of AKRX cost-basis=41.3 for $8340.58 CASH-BAL=89580.79
+Mon Oct 27 08:00:00 GMT+00:00 2014 BUY: 177 shares of EPAM cost-basis=46.9 for $8303.07 CASH-BAL=81270.72
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 141 shares of BMY cost-basis=59.0 for $8316.18 CASH-BAL=72947.54
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 295 shares of BIN cost-basis=28.3 for $8333.75 CASH-BAL=64606.79
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 101 shares of CACI cost-basis=82.1 for $8287.05 CASH-BAL=56312.74
+Fri Oct 31 08:00:00 GMT+00:00 2014 BUY: 55 shares of FLT cost-basis=151 for $8280.8 CASH-BAL=48024.94
+Thu Nov 06 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-8.34%)202 shares of AKRX for -8.34
+Thu Nov 06 08:00:00 GMT+00:00 2014 SELL AKRX x202 for $7651.76 CASH-BAL=55669.7
+Wed Dec 10 08:00:00 GMT+00:00 2014Market-CautiousUp-Sell -3%: (-4.51%)55 shares of FLT for -4.51
+Wed Dec 10 08:00:00 GMT+00:00 2014 SELL FLT x55 for $7914.5 CASH-BAL=63577.2
+Tue Dec 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-6.3%)177 shares of EPAM for -1.51
+Tue Dec 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-1.79%)141 shares of BMY for -2.27
+Tue Dec 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 20EMA: (-3.56%)101 shares of CACI for 1.51
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL EPAM x177 for $8184.48 CASH-BAL=71754.68
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL BMY x141 for $8134.29 CASH-BAL=79881.97
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL CACI x101 for $8419.36 CASH-BAL=88294.33
+Thu Dec 18 08:00:00 GMT+00:00 2014 BUY: 131 shares of KRFT cost-basis=63.4 for $8302.78 CASH-BAL=79984.55
+Tue Dec 23 08:00:00 GMT+00:00 2014 BUY: 165 shares of BIN cost-basis=29.0 for $4987.95 CASH-BAL=74989.6
+Mon Jan 12 08:00:00 GMT+00:00 2015 StopLoss-ScaledSoftStop SELL: ($29.29)460 @$28.85 shares of BIN for -0.486
+Mon Jan 12 08:00:00 GMT+00:00 2015 SELL BIN x460 for $13271.0 CASH-BAL=88253.6
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 94 shares of SBUX cost-basis=88.2 for $8292.68 CASH-BAL=79953.92
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 184 shares of SEE cost-basis=45.3 for $8329.68 CASH-BAL=71617.24
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 342 shares of SCI cost-basis=24.4 for $8341.38 CASH-BAL=63268.86
+Fri Feb 13 08:00:00 GMT+00:00 2015 BUY: 428 shares of EIGI cost-basis=19.5 for $8341.72 CASH-BAL=54920.14
+Fri Mar 06 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.24%)131 shares of KRFT for -2.23
+Fri Mar 06 08:00:00 GMT+00:00 2015 SELL KRFT x131 for $8124.62 CASH-BAL=63037.76
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 53 shares of SBUX cost-basis=90.0 for $4931.12 CASH-BAL=58099.64
+Wed Mar 11 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-7.16%)428 shares of EIGI for -7.16
+Wed Mar 11 08:00:00 GMT+00:00 2015 SELL EIGI x428 for $7751.08 CASH-BAL=65843.72
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 34 shares of SBUX cost-basis=91.1 for $3263.32 CASH-BAL=62573.4
+Wed Apr 01 08:00:00 GMT+00:00 2015 StopLoss-ScaledSoftStop SELL: ($93.833)181 @$93.02 shares of SBUX for 1.99
+Wed Apr 01 08:00:00 GMT+00:00 2015 SELL SBUX x181 for $16836.62 CASH-BAL=79403.02
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 190 shares of SCI cost-basis=25.1 for $4987.5 CASH-BAL=74408.52
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)184 shares of SEE for -1.87
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x184 for $8180.64 CASH-BAL=82582.16
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 300 shares of HQY cost-basis=27.8 for $8328.0 CASH-BAL=74247.16
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 170 shares of XPO cost-basis=48.8 for $8301.1 CASH-BAL=65939.06
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.67%)300 shares of HQY for -5.67
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x300 for $7863.0 CASH-BAL=73795.06
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 50 shares of TWC cost-basis=167 for $8327.5 CASH-BAL=65460.56
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 50 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x50 for $9180.0 CASH-BAL=74633.56
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 263 shares of AMED cost-basis=31.7 for $8329.21 CASH-BAL=66297.35
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 122 shares of JUNO cost-basis=68.4 for $8339.92 CASH-BAL=57950.43
+Tue Jun 09 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-9.18%)122 shares of JUNO for -9.18
+Tue Jun 09 08:00:00 GMT+00:00 2015 SELL JUNO x122 for $7581.08 CASH-BAL=65524.51
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 114 shares of SCI cost-basis=25.8 for $3318.54 CASH-BAL=62198.97
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 160 shares of CMN cost-basis=52.0 for $8320.0 CASH-BAL=53871.97
+Fri Jun 12 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.37%)170 shares of XPO for -2.89
+Fri Jun 12 08:00:00 GMT+00:00 2015 SELL XPO x170 for $8068.2 CASH-BAL=61933.17
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 161 shares of RDUS cost-basis=51.7 for $8328.53 CASH-BAL=53597.64
+Fri Jun 26 08:00:00 GMT+00:00 2015 BUY: 218 shares of W cost-basis=38.2 for $8323.24 CASH-BAL=45267.4
+
+---- Final Portfolio Holdings as of Sun Jun 28 15:09:59 GMT+00:00 2015 ----
+null 646 of SCI with cost basis of 25.8 and pct-chg: 15.2% with % of portfolio weight=18.8%
+null 263 of AMED with cost basis of 31.7 and pct-chg: 24.1% with % of portfolio weight=10.1%
+null 160 of CMN with cost basis of 52.0 and pct-chg: 3.59% with % of portfolio weight=8.45%
+null 161 of RDUS with cost basis of 51.7 and pct-chg: 23.5% with % of portfolio weight=10.1%
+null 218 of W with cost basis of 38.2 and pct-chg: 0.0% with % of portfolio weight=8.16%
+
+Total Invested Amount = 56733.39 with % of portfolio weight=55.6%
+Cash Bal = 45267.4 with % of portfolio weight=44.4%
+Net Value = 102000.79
+
+---- Run stats ----
+Start-Date: Wed Jan 01 08:00:00 GMT+00:00 2014
+End-Date: Sun Jun 28 15:09:59 GMT+00:00 2015
+Total Trading days: 544
+Net Gain/Loss = 2000.79
+Pct Chg = 2.0%

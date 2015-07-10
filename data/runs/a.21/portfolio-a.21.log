@@ -1,0 +1,74 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Fri Jun 26 01:18:36 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=90633.13
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 623 shares of MRVL cost-basis=16.0 for $9977.345 CASH-BAL=80648.785
+Wed Jan 14 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.22%)623 shares of MRVL for -3.22
+Wed Jan 14 08:00:00 GMT+00:00 2015 SELL MRVL x623 for $9662.73 CASH-BAL=90304.515
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=80315.605
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=70339.745
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.29%)421 shares of TSM for -4.29
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9560.91 CASH-BAL=79893.655
+Wed Feb 04 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.18%)13 shares of CMG for -6.18
+Wed Feb 04 08:00:00 GMT+00:00 2015 SELL CMG x13 for $8788.0 CASH-BAL=88674.655
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 418 shares of BOOT cost-basis=23.9 for $9977.66 CASH-BAL=78689.995
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=68696.735
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 166 shares of VRSN cost-basis=60.0 for $9955.02 CASH-BAL=58734.715
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 67 shares of COST cost-basis=149 for $9962.9 CASH-BAL=48764.815
+Tue Feb 17 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.9%)418 shares of BOOT for -6.9
+Tue Feb 17 08:00:00 GMT+00:00 2015 SELL BOOT x418 for $9296.32 CASH-BAL=58054.135
+Tue Feb 17 08:00:00 GMT+00:00 2015 BUY: 302 shares of PAHC cost-basis=33.0 for $9966.0 CASH-BAL=48081.135
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5955.84 CASH-BAL=42118.295
+Tue Mar 10 08:00:00 GMT+00:00 2015 BUY: 95 shares of VRSN cost-basis=61.0 for $5964.1 CASH-BAL=36147.195
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 170 shares of PAHC cost-basis=33.8 for $5984.0 CASH-BAL=30156.195
+Tue Mar 24 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.4 for $5937.74 CASH-BAL=24211.455
+Thu Mar 26 08:00:00 GMT+00:00 2015 BUY: 61 shares of VRSN cost-basis=61.7 for $3960.12 CASH-BAL=20244.335
+Mon Apr 06 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.5%)167 shares of CME for -3.5
+Mon Apr 06 08:00:00 GMT+00:00 2015 SELL CME x167 for $15379.865 CASH-BAL=35617.2
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 206 shares of SIX cost-basis=48.5 for $9988.94 CASH-BAL=25621.26
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.26%)67 shares of COST for -2.85
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.6%)472 shares of PAHC for -1.28
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL COST x67 for $9686.19 CASH-BAL=35300.45
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL PAHC x472 for $15760.08 CASH-BAL=51053.53
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of CE cost-basis=67.2 for $9942.64 CASH-BAL=41103.89
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 518 shares of NGHC cost-basis=19.3 for $9987.04 CASH-BAL=31109.85
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 83 shares of SBUX cost-basis=45.6 for $3981.51 CASH-BAL=27121.34
+Fri Apr 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.28%)322 shares of VRSN for 5.24
+Fri Apr 24 08:00:00 GMT+00:00 2015 SELL VRSN x322 for $20942.88 CASH-BAL=48057.22
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 344 shares of IMS cost-basis=29.0 for $9976.0 CASH-BAL=38074.22
+Wed Apr 29 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.63%)206 shares of SIX for -2.61
+Wed Apr 29 08:00:00 GMT+00:00 2015 SELL SIX x206 for $9735.56 CASH-BAL=47802.78
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 130 shares of VRSK cost-basis=76.9 for $9990.5 CASH-BAL=37805.28
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.35%)344 shares of IMS for -5.35
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IMS x344 for $9449.68 CASH-BAL=47247.96
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 411 shares of SC cost-basis=24.3 for $9974.97 CASH-BAL=37265.99
+Wed May 06 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.74%)130 shares of VRSK for -5.74
+Wed May 06 08:00:00 GMT+00:00 2015 SELL VRSK x130 for $9423.7 CASH-BAL=46682.69
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 283 shares of PAYC cost-basis=35.3 for $9987.07 CASH-BAL=36688.62
+Thu May 21 08:00:00 GMT+00:00 2015 BUY: 301 shares of NGHC cost-basis=19.5 for $5986.89 CASH-BAL=30694.73
+Tue May 26 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.5%)819 shares of NGHC for -1.8
+Tue May 26 08:00:00 GMT+00:00 2015 SELL NGHC x819 for $15700.23 CASH-BAL=46387.96
+Tue May 26 08:00:00 GMT+00:00 2015 BUY: 700 shares of UEPS cost-basis=14.3 for $9982.0 CASH-BAL=36398.96
+Wed Jun 24 08:00:00 GMT+00:00 2015 BUY: 163 shares of PAYC cost-basis=35.8 for $5990.25 CASH-BAL=30401.71
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 232 shares of SC cost-basis=24.8 for $5985.6 CASH-BAL=24409.11
+
+---- Final Portfolio Holdings as of Fri Jun 26 01:18:36 GMT+00:00 2015 ----
+null 437 of SBUX with cost basis of 45.6 and pct-chg: 18.6%
+null 148 of CE with cost basis of 67.2 and pct-chg: 6.63%
+null 643 of SC with cost basis of 24.8 and pct-chg: 3.9%
+null 446 of PAYC with cost basis of 35.8 and pct-chg: 4.23%
+null 700 of UEPS with cost basis of 14.3 and pct-chg: 31.8%
+
+Total Invested Amount = 80597.65
+Cash Bal = 24409.11
+Net Value = 105006.76
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Fri Jun 26 01:18:36 GMT+00:00 2015
+Total Trading days: 176
+Net Gain/Loss = 5006.76
+Pct Chg = 5.01%

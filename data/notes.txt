@@ -1,0 +1,111 @@
+a.13- added dg-rating>70 screener
+a.14- added base-number<4 screener
+a.15- removed base-num logic and using base-stage<4 instead.
+a.16<bad> - added secondary signals logic 
+a.17<bad>- added comp-rating>70 screener
+a.18<bad>- adjusted secondary signals logic - using only 20ema now for secondary-position-buys
+	- 10ema is used for secondary-signals only if it is within pivot-area
+a.19- introduced hard and soft stop loss
+	- hard-stop-loss of -7%, 
+	- soft-stop-loss of -5% only triggers if price is not at MA-support
+a.20- fixed PR breakout day check to use pivot-price-day as opposed to breakout-day to check buy range
+	- changed downtrend sell % to 3%
+a.21<bad>- fixed secondary signal logic - has to be breaking-up/support area for 10/20ema
+a.22- added rs-rating>70 requirment for all non-ipos (ipo-dt >48months)
+a.23- increased mkt-cap to 1B (from 500M) during signal screening
+a.24-'temporarily' removed usage of secondary signals
+a.25- increased secondary buy point to 5% of total position gains (previously 2.5)
+a.26- added scaled stop loss (2.5% / 5% of cost-basis) for positions with multiple buy transactions
+a.27- added scaled stop loss (1% / 3% of cost-basis) for positions with multiple buy transactions
+a.28- base breakouts should be at new-highs/recent-highs AND  (gap-ups OR 5% gains)
+a.29- added watchlists to alpha model- permanently removed secondary signals.
+a.30- <bad logic> dont buy from watchlists if symbols undercut low of the breakout-day
+    - remove from watchlist the bases that are previously added to process signal
+a.31- fixed a.30 logic bug 
+    - market-downtrend/cautious-uptrend sells trigger only if the stock is down on that day.
+    - secondary-buy point: added 10ema and 50ma (previously only 20ema) breakouts. changed to 2.5% from ma (prevously 4%)
+a.32- changed market-cautious-uptrend buys to have max-num-of-positions limit to (maxlimit/2 + 1) [previously it was maxlmit/2)
+    - fixed an issue a.31 with secondary-buy-point
+a.33- changed max-positions limit  to 6 (previously 5)
+a.34- added selling of underperformers (bad logic never triggered this feature)
+    - BUYS: changed max positions in downtrend to TWO (previoulsy ZERO) - this is same logic as what was in previous logic for market-cautiousuptrend.
+    - BUYS: in market-cautious-uptrend is changed to be same as in uptrend
+a.35- Secondary BUYS - Uses breaking up above 10ema only if market is in uptrend (previously both uptrend and cautious-uptrend)
+    - Secondary SELLS for positions with more 2 BUY Txs is changed to <2% (previous <3%)
+    - fixed a bug with selling underperformers (logic in a.34)
+a.36- adusted selling underperformers logic (days since <5d then %chg>0, <15d %chg>1, <25 %chg>2.5, <40 %chg>4, <50 %chg>5, >50 %chg > 7.5) (previously >5 and %chg > 2)
+a.37- adusted selling underperformers logic (days since <15d then %chg>0, <30d %chg>2, <45d %chg>4, <60d %chg>6, <75d %chg>8, >90d %chg > 10) (previously check a.36)
+    - fixed a bug with selling underperformers logic (in a.36)
+a.38- fixed an issue with alpha model not picking up IPO stocks [GPRO-2014]
+    - secondary buys are done even in downtrend (previously only uptrend/cautious-uptrend) [EMES-2014]
+    - fixed a seconday-buy logic issue when using 10ema
+    - sells in downtrend checks 20ema only if position-pct-chg < 10% [QIHU-6/21/13]
+a.39- changed alpha screening threshold for DG/Comp-Rating to <60 (previously <70) 
+a.40<bad>- adusted selling underperformers logic - missing 75-90d perf threshold (days since <5d ignore,<10d %chg>0, <20d %chg>1.5, <40d %chg>3, <60d %chg>5, <75d %chg>7.5, >75d %chg > 10) (previously check a.37) [SBUX-2015]
+a.41- re-adusted selling underperformers logic - missing 75-90d perf threshold (days since <5d ignore,<10d %chg>0, <20d %chg>1.5, <40d %chg>3, <60d %chg>5, <75d %chg>6, >75d %chg > 7.5) (previously check a.40) [finally fixes the SBUX-2015]
+a.42- re-adusted selling underperformers logic - missing 75-90d perf threshold (days since <5d ignore, <10d %chg>0, <20d %chg>1.5, <40d %chg>3, <60d %chg>5, <75d %chg>7.5, >75d %chg > 8) (previously check a.41)
+a.43- changed base-stg to 5 (previously 4) [AMBA-Mar-2015]
+   - fixes to a.30 logic to check breakout day low's being undercut for watchlists
+a.44- changed watchlists process-days back to 15 (previously 10)
+a.45/46- re-adusted selling underperformers logic - (days since <10d ignore, <15d then %chg>0, <30d %chg>2, <45d %chg>4, <60d %chg>6, <75d %chg>8, >90d %chg>10, <100d %chg>12, <120d>14, >=120 %chg>15) (previously check a.42) [fixes selling AMBA-May-2015]
+a.47- 10 positions, underperformance logic simplified (<10d ignore, >=10d then %chg>0)
+a.48- back to 5 positions (undid a.47)
+    - if closing-range<40 then added to watchlists instead of ignoring it (previously clsrng<50 was ignore)
+a.49- undid the simplified underperformance logic (undid change in a.47)
+a.50- increased secondary buy thresoholds to 7% overall and 5% since last buy (previously 5% overall and 2.5% since last buy)
+a.51- decreased secondary buy BACK to prev thresoholds to 5% overall and 2.5% since last buy (previously see a.50)
+    - also added checks to 10EMA secondary buys to have min %chg of 9.5%, 20EMA to be 7.0% and 50ma  buys to be 4.5% (this avoid secondary sells as a result of AMBA,SCI and SBUX on pullbacks)
+a.52- MarketTimingSells: Uptrend and daysFromLatestTx >= 5 and <2% of 20ema and overall position-pctchg < 1% then sell it [AMBA-4/2015]
+a.53- Alpha: breakout must be a gap-day for recent-new-highs to qualify [this ignores IPAR buy on 5/12/2015 (base is still in construction as of now) ]
+    - breakoutday %chg should be > 5% (previously >=5% or gapup)
+    - sells in downtrend checks 20ema only if position-pct-chg < 1.5% [AMBA-5/8/2015] - see a.38 for corresponding change
+    - <bad> underperformance sell: checks if position has 20ema support or is above 20ema before selling due to underperformance [SBUX-5/5/2015]
+a.54- underperformance sell adjustment: added 0.5% increments starting from 0% @ 15d for every additional 5d from first-date [SBUX-5/1/2015]
+      <10d ignore, <15d >0%, <20d >0.5%, <25d >1%, <30d >1.5%, <35d >2%, <40d >2.5%, <45d >3%, <50d >3.5%, <55d >3.5%, <60d >4%, <65d >5%, <70d >5.5%, <75d >6%, <80d >6.5%, <85d >7%, <90d >7.5%, <95d >8%, <100d >8.5%, <105d >9%, <110d >9.5%, <115 >10%, <120 >10.5%, >=120 >11%
+a.56- fixed a bug in a.53 logic for underperformance sell (to be considered underperformance price is not at support/breakaway from 20ema and not above 20ema)
+    - removed a.30 check for currentday-close lower than breakoutday-low for watchlists (due to coding complexities)
+a.57- added unprocessed signals back to watchlist.
+a.58- temporarily changed max # of positions to 6
+a.59/60- added marketuptrend sell logic to sell if price <= -2% of 50dma and on a red-day [TSLA shouldve been sold on 11/6/2015 instead of 10/23/2015]
+    - fixed a bug with gap-up logic (affects all previous gap-up alpha model logics) [NSM-Jan-2015 breakout not recoginized as valid gapup]
+    - added additonal checks to ignore ETF/ETN/REIT [NRZ being incorrectly recognized as a stock on 2015-Feb]
+a.61/62- rebalances purchase-amts every 10% realized-gain/loss 
+a.63- unprocessed symbols are put back into proper watchlist bucket to prevent them from continually coming up into watclist when sent back as unprocessed signals [LOCK kept going back to watclist from 10/30/2013 breakout till Jan-2014]
+    - added 0.25 threshold when adjustedRealizedPctGains goes 1 pct-point lower than previous one. To prevent frequent rebalancing.
+a.64- alpha model doesnt consider signals on merger news.
+    - changed definition of recent IPO <365d (previously <75d) [EMES-Mar-2014 breakout not being recognized as a good base]
+    - also fixed gap-ups to correctly identify for recent IPOs (fixes to use rolling-atr when ATR is null) [EMES-March-2014]
+    - gives more weightage to recent IPOs (IPO<6m 120points, IPO<3m 140points)
+    - removed checks for comp-rating - it was NEVER populated in all previous runs 
+a.65- WatchLists: added back the logic to check if base is below the breakout-day low (removed in a.56). 
+    - the change also checks to make sure it is in buyable zone from pivot-price [AMBA in watchlist on March-2015 wa]
+    - added take-over 'TO' corp-events as merger-event (ignores them) [FMI Jan-12-2015]
+a.66- Changed numOfPositionsOpenToBuy logic to use as much cash available as possible in uptrend.
+	Uptrend: uses 200% available cash, CAUTIOUS-UPTREND: uses 100%, and DOWNTREND: 50% (concept of margin not explicity coded yet but it is essesntialy supported indirectly)
+a.67- slight adjustment to underperformance logic - doesnot sell if position is > -0.5% of 20ema [SBUX Apr-17-2015]
+a.68- market-timing: uptrend sells check 20ema if position-pct-chg < 2% (previously 1.5%) - see a.38 & a.53 for corresponding change
+    - added market-timing: cautious-uptrend sell check 20ema if position-pct-chg < 1.5%
+    - all market-timing sells are done only on red-days
+a.69- OTC symbols are ignored [VWDRY-Jan-2014]
+    - Fixed the avg-volume check (bug introduced when IPO checks were being added)
+a.70- Alpha: decreased market-cap to 750M (previously 1B) [YY-2014]
+    - Alpha: Breakout vol must be at least 150%, breakout pct-chg must be atleast 5.5% [this was done to avoid some bad breakouts in early 2014]
+a.71- Alpha: Breakout must be to new-highs (previously new-highs or new-recent-highs + gapup - this was done to avoid bad breakouts in 2014)
+a.72- Alpha: Testing breakouts signal with both new-highs and gapup (a.71 resulted in great results overall but mediocre in 2014 )
+a.73- Alpha: undid a.72 (removed gaps to new-highs - results were good - much less drawdown but less overall growth too)
+    - Alpha: removed the EPS ranking check for stocks > 4yrs after IPO (seems like data is not reliable in historydb)
+a.74- fixed a bug with calculation of num-of-positions to buy logic 
+a.75- added weak signal concept for 2008/2009 period where stock were breaking out but not at new-highs. all non-new-high breakouts are considered weak-signals for now.
+a.76- fixed a bug with historical data missing in stock-header coming from historical db (uses price-vol data when missing)
+a.77-
+
+
+TODO: 
+ - add margin trading [sort of added indirectly with the a.66]
+ - add partial sell logic
+ - add logic to use unused cash when market is favorable [sort of added indirectly with the a.66]
+ - add RSI to alpha model.
+ - need checks before buying to make sure we are not buying same security (eg., class-b shares)
+ - need checks before buying to make sure we are not over-exposed to a sector/industry-group
+
+ISSUES:

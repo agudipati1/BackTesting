@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+
+<project name="feed-listener" basedir="." default="usage">
+    <property file="build.properties"/>
+
+    <property name="src.dir" value="src"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="dist.dir" value="dist"/>
+    <property name="build.dir" value="build"/>
+    <property name="name" value="feedListener"/>
+
+	<property name="webname" value="streamer"/>
+	<property name="web.src.dir" value="websrc/src"/>
+    <property name="web.build.dir" value="websrc/war/WEB-INF/classes"/>
+	
+	<property name="test.dir" value="test"/>
+	
+    <path id="master-classpath">
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+
+    	<pathelement path="${jms.lib.jar}"/>
+    	<pathelement path="${build.dir}"/>
+    </path>
+
+    <target name="usage">
+        <echo message=""/>
+        <echo message="${name} build file"/>
+        <echo message="-----------------------------------"/>
+        <echo message=""/>
+        <echo message="Available targets are:"/>
+        <echo message=""/>
+        <echo message="build     --> Build the application"/>
+        <echo message="tests     --> Runs JUnit Tests"/>
+        <echo message=""/>
+    </target>
+
+    <target name="clean" description="Cleans the build and dist folders">
+    	<delete dir="${build.dir}"/>
+    </target>
+	
+    <target name="build" depends="clean" description="Compile main source tree java files">
+		<!-- make the build & dist dir first -->    	
+        <mkdir dir="${build.dir}"/>
+    	<mkdir dir="${dist.dir}"/>
+    	
+    	<javac destdir="${build.dir}" debug="true" includeAntRuntime="false" deprecation="false" optimize="true" failonerror="true">
+            <src path="${src.dir}"/>
+            <classpath refid="master-classpath"/>
+        </javac>
+    	
+    	<!--copy properties and .xml files to the build dir -->
+        <copy todir="${build.dir}" preservelastmodified="true">
+            <fileset dir="${src.dir}">
+                <include name="**/*.xml"/>
+            	<include name="**/*.props"/>
+            	<include name="**/*.properties"/>
+            </fileset>
+        </copy>
+    	
+    	<!-- make a jar file and place it in dist.dir -->
+    	<jar destfile="${dist.dir}/${name}.jar" basedir="${build.dir}" excludes="**/Test.class">
+    	</jar>
+
+    </target>
+
+    <path id="web-classpath">
+        <fileset dir="websrc/war/WEB-INF/lib">
+            <include name="*.jar"/>
+        </fileset>
+        <!-- We need the servlet API classes: -->
+        <!--  * for Tomcat 6/7 use servlet-api.jar -->
+        <fileset dir="${webserver.lib}">
+            <include name="servlet*.jar"/>
+        </fileset>
+        <pathelement path="${web.build.dir}"/>
+    	<pathelement path="${jms.lib.jar}"/>
+    </path>
+
+    <target name="build.war" depends="clean" description="Compile main source tree web files">
+		<!-- make the build & dist dir first -->
+    	<mkdir dir="${web.build.dir}"/>
+    	<mkdir dir="${dist.dir}"/>
+    	
+    	<javac destdir="${web.build.dir}" debug="true"  includeAntRuntime="false"
+               deprecation="false" optimize="false" failonerror="true">
+            <src path="${web.src.dir}"/>
+            <classpath refid="web-classpath"/>
+        </javac>
+    	
+    	<!--copy properties and .xml files to the build dir -->
+        <copy todir="${web.build.dir}" preservelastmodified="true">
+            <fileset dir="${web.src.dir}">
+                <include name="**/*.xml"/>
+            	<include name="**/*.props"/>
+            	<include name="**/*.properties"/>
+            	<include name="**/*.tld"/>
+            	<include name="**/*.css"/>
+            </fileset>
+        </copy>
+    	
+
+        <war destfile="${dist.dir}/${webname}.war"
+             webxml="websrc/war/WEB-INF/web.xml">
+            <fileset dir="websrc/war">
+                <include name="**/*.*"/>
+            </fileset>
+        </war>
+    </target>
+	
+	<target name="buildtests" depends="clean" description="Compile test tree java files">
+        <mkdir dir="${build.dir}"/>
+        <javac destdir="${build.dir}" debug="true" includeAntRuntime="false" deprecation="false" optimize="false" failonerror="true">
+            <src path="${test.dir}"/>
+            <classpath refid="master-classpath"/>
+        </javac>
+    </target>
+    
+    <target name="tests" depends="build, buildtests" description="Run tests">
+        <junit printsummary="on"
+            fork="false"
+            haltonfailure="false"
+            failureproperty="tests.failed"
+            showoutput="true">
+            <classpath refid="master-classpath"/>
+            <formatter type="brief" usefile="false"/>
+            
+            <batchtest>
+                <fileset dir="${build.dir}">
+                    <include name="**/*Tests.*"/>
+                </fileset>
+            </batchtest>
+            
+        </junit>
+        
+        <fail if="tests.failed">
+            tests.failed=${tests.failed}
+            ***********************************************************
+            ***********************************************************
+            ****  One or more tests failed!  Check the output ...  ****
+            ***********************************************************
+            ***********************************************************
+        </fail>
+    </target>
+
+</project>

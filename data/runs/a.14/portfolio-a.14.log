@@ -1,0 +1,138 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Wed Jun 24 07:42:45 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=90633.13
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 623 shares of MRVL cost-basis=16.0 for $9977.345 CASH-BAL=80648.785
+Tue Jan 13 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.97%)623 shares of MRVL for -1.97
+Tue Jan 13 08:00:00 GMT+00:00 2015 SELL MRVL x623 for $9787.33 CASH-BAL=90429.115
+Wed Jan 14 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.5%)13 shares of CMG for -1.5
+Wed Jan 14 08:00:00 GMT+00:00 2015 SELL CMG x13 for $9226.62 CASH-BAL=99648.735
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=89659.825
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=79683.965
+Thu Jan 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.84%)421 shares of TSM for -1.84
+Thu Jan 29 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9805.09 CASH-BAL=89482.055
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 418 shares of BOOT cost-basis=23.9 for $9977.66 CASH-BAL=79497.395
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=69504.135
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 65 shares of SBUX cost-basis=89.3 for $5926.7 CASH-BAL=63570.435
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=53604.035
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=43621.525
+Tue Feb 17 08:00:00 GMT+00:00 2015 StopLoss SELL: (-6.9%)418 shares of BOOT for -6.9
+Tue Feb 17 08:00:00 GMT+00:00 2015 SELL BOOT x418 for $9296.32 CASH-BAL=52910.845
+Tue Feb 17 08:00:00 GMT+00:00 2015 BUY: 302 shares of PAHC cost-basis=33.0 for $9966.0 CASH-BAL=42937.845
+Wed Feb 25 08:00:00 GMT+00:00 2015 BUY: 42 shares of SBUX cost-basis=90.2 for $3958.92 CASH-BAL=38971.925
+Thu Feb 26 08:00:00 GMT+00:00 2015 BUY: 124 shares of SEE cost-basis=46.3 for $5964.4 CASH-BAL=33000.525
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.3 for $5924.32 CASH-BAL=27069.205
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 236 shares of SCI cost-basis=24.7 for $5980.24 CASH-BAL=21081.965
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 169 shares of PAHC cost-basis=33.8 for $5965.7 CASH-BAL=15109.265
+Mon Mar 16 08:00:00 GMT+00:00 2015 BUY: 39 shares of CME cost-basis=96.2 for $3902.34 CASH-BAL=11199.925
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 153 shares of SCI cost-basis=25.0 for $3973.41 CASH-BAL=7219.515
+Thu Apr 02 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.51%)206 shares of CME for -3.51
+Thu Apr 02 08:00:00 GMT+00:00 2015 SELL CME x206 for $19139.46 CASH-BAL=26351.975
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 476 shares of EIGI cost-basis=21.0 for $9986.48 CASH-BAL=16358.495
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.67%)344 shares of SEE for -4.04
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x344 for $15294.24 CASH-BAL=31645.735
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.6%)471 shares of PAHC for -1.37
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL PAHC x471 for $15726.69 CASH-BAL=47365.425
+Wed Apr 22 08:00:00 GMT+00:00 2015 BUY: 135 shares of STJ cost-basis=73.6 for $9929.25 CASH-BAL=37429.175
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 260 shares of EIGI cost-basis=21.7 for $5987.8 CASH-BAL=31434.375
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 267 shares of ARRS cost-basis=37.3 for $9959.1 CASH-BAL=21468.275
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss SELL: (-6.29%)267 shares of ARRS for -6.29
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL ARRS x267 for $9339.66 CASH-BAL=30800.935
+Tue Apr 28 08:00:00 GMT+00:00 2015 StopLoss SELL: (-9.32%)736 shares of EIGI for -9.32
+Tue Apr 28 08:00:00 GMT+00:00 2015 SELL EIGI x736 for $14499.2 CASH-BAL=45293.135
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 416 shares of SC cost-basis=24.0 for $9984.0 CASH-BAL=35302.135
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 359 shares of HQY cost-basis=27.8 for $9965.84 CASH-BAL=25329.295
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.65%)359 shares of HQY for -5.65
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x359 for $9409.39 CASH-BAL=34731.685
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 465 shares of IPHI cost-basis=21.5 for $9974.25 CASH-BAL=24750.435
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.38%)465 shares of IPHI for -5.38
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IPHI x465 for $9444.15 CASH-BAL=34187.585
+Wed May 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-3.44%)135 shares of STJ for -3.44
+Wed May 06 08:00:00 GMT+00:00 2015 SELL STJ x135 for $9594.45 CASH-BAL=43775.035
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 241 shares of SC cost-basis=24.3 for $5979.21 CASH-BAL=37788.825
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Wed Jun 24 07:58:09 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=90633.13
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 623 shares of MRVL cost-basis=16.0 for $9977.345 CASH-BAL=80648.785
+Tue Jan 13 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.97%)623 shares of MRVL for -1.97
+Tue Jan 13 08:00:00 GMT+00:00 2015 SELL MRVL x623 for $9787.33 CASH-BAL=90429.115
+Wed Jan 14 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.5%)13 shares of CMG for -1.5
+Wed Jan 14 08:00:00 GMT+00:00 2015 SELL CMG x13 for $9226.62 CASH-BAL=99648.735
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=89659.825
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=79683.965
+Thu Jan 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.84%)421 shares of TSM for -1.84
+Thu Jan 29 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9805.09 CASH-BAL=89482.055
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 418 shares of BOOT cost-basis=23.9 for $9977.66 CASH-BAL=79497.395
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=69504.135
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 65 shares of SBUX cost-basis=89.3 for $5926.7 CASH-BAL=63570.435
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=53604.035
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=43621.525
+Tue Feb 17 08:00:00 GMT+00:00 2015 StopLoss SELL: (-6.9%)418 shares of BOOT for -6.9
+Tue Feb 17 08:00:00 GMT+00:00 2015 SELL BOOT x418 for $9296.32 CASH-BAL=52910.845
+Tue Feb 17 08:00:00 GMT+00:00 2015 BUY: 302 shares of PAHC cost-basis=33.0 for $9966.0 CASH-BAL=42937.845
+Wed Feb 25 08:00:00 GMT+00:00 2015 BUY: 42 shares of SBUX cost-basis=90.2 for $3958.92 CASH-BAL=38971.925
+Thu Feb 26 08:00:00 GMT+00:00 2015 BUY: 124 shares of SEE cost-basis=46.3 for $5964.4 CASH-BAL=33000.525
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.3 for $5924.32 CASH-BAL=27069.205
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 236 shares of SCI cost-basis=24.7 for $5980.24 CASH-BAL=21081.965
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 169 shares of PAHC cost-basis=33.8 for $5965.7 CASH-BAL=15109.265
+Mon Mar 16 08:00:00 GMT+00:00 2015 BUY: 39 shares of CME cost-basis=96.2 for $3902.34 CASH-BAL=11199.925
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 153 shares of SCI cost-basis=25.0 for $3973.41 CASH-BAL=7219.515
+Thu Apr 02 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.51%)206 shares of CME for -3.51
+Thu Apr 02 08:00:00 GMT+00:00 2015 SELL CME x206 for $19139.46 CASH-BAL=26351.975
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 BUY: 476 shares of EIGI cost-basis=21.0 for $9986.48 CASH-BAL=16358.495
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.67%)344 shares of SEE for -4.04
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x344 for $15294.24 CASH-BAL=31645.735
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.6%)471 shares of PAHC for -1.37
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL PAHC x471 for $15726.69 CASH-BAL=47365.425
+Wed Apr 22 08:00:00 GMT+00:00 2015 BUY: 135 shares of STJ cost-basis=73.6 for $9929.25 CASH-BAL=37429.175
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 260 shares of EIGI cost-basis=21.7 for $5987.8 CASH-BAL=31434.375
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 267 shares of ARRS cost-basis=37.3 for $9959.1 CASH-BAL=21468.275
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss SELL: (-6.29%)267 shares of ARRS for -6.29
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL ARRS x267 for $9339.66 CASH-BAL=30800.935
+Tue Apr 28 08:00:00 GMT+00:00 2015 StopLoss SELL: (-9.32%)736 shares of EIGI for -9.32
+Tue Apr 28 08:00:00 GMT+00:00 2015 SELL EIGI x736 for $14499.2 CASH-BAL=45293.135
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 416 shares of SC cost-basis=24.0 for $9984.0 CASH-BAL=35302.135
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 359 shares of HQY cost-basis=27.8 for $9965.84 CASH-BAL=25329.295
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.65%)359 shares of HQY for -5.65
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x359 for $9409.39 CASH-BAL=34731.685
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 465 shares of IPHI cost-basis=21.5 for $9974.25 CASH-BAL=24750.435
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.38%)465 shares of IPHI for -5.38
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IPHI x465 for $9444.15 CASH-BAL=34187.585
+Wed May 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-3.44%)135 shares of STJ for -3.44
+Wed May 06 08:00:00 GMT+00:00 2015 SELL STJ x135 for $9594.45 CASH-BAL=43775.035
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=33775.035
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 628 shares of FLY cost-basis=15.9 for $9991.48 CASH-BAL=23776.555
+Thu May 21 08:00:00 GMT+00:00 2015 BUY: 238 shares of SC cost-basis=24.4 for $5992.84 CASH-BAL=17776.715
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=28785.715
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=31.7 for $9976.05 CASH-BAL=18802.665
+
+---- Final Portfolio Holdings as of Wed Jun 24 07:58:09 GMT+00:00 2015 ----
+null 440 of SBUX with cost basis of 45.1 and pct-chg: 19.8%
+null 798 of SCI with cost basis of 25.0 and pct-chg: 20.3%
+null 654 of SC with cost basis of 24.4 and pct-chg: 8.47%
+null 628 of FLY with cost basis of 15.9 and pct-chg: 1.94%
+null 315 of AMED with cost basis of 31.7 and pct-chg: 27.6%
+
+Total Invested Amount = 88011.58
+Cash Bal = 18802.665
+Net Value = 106814.245
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Wed Jun 24 07:58:09 GMT+00:00 2015
+Total Trading days: 174
+Net Gain/Loss = 6814.245
+Pct Chg = 6.81%
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Wed Jun 24 08:15:16 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------

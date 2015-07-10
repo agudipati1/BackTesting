@@ -1,0 +1,67 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Fri Jun 26 03:19:04 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 09 08:00:00 GMT+00:00 2015 BUY: 815 shares of SRC cost-basis=12.3 for $9991.9 CASH-BAL=90001.1
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=80012.19
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=70036.33
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.29%)421 shares of TSM for -4.29
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9560.91 CASH-BAL=79590.24
+Mon Feb 09 08:00:00 GMT+00:00 2015 BUY: 169 shares of SXT cost-basis=58.9 for $9955.79 CASH-BAL=69627.45
+Tue Feb 10 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.19%)169 shares of SXT for -0.223
+Tue Feb 10 08:00:00 GMT+00:00 2015 SELL SXT x169 for $9940.58 CASH-BAL=79561.03
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=69594.63
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 169 shares of SXT cost-basis=58.8 for $9940.58 CASH-BAL=59647.05
+Wed Feb 11 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.1%)169 shares of SXT for 0.831
+Wed Feb 11 08:00:00 GMT+00:00 2015 SELL SXT x169 for $10030.15 CASH-BAL=69670.2
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=59687.69
+Thu Feb 12 08:00:00 GMT+00:00 2015 BUY: 165 shares of SXT cost-basis=60.2 for $9936.3 CASH-BAL=49744.39
+Wed Feb 18 08:00:00 GMT+00:00 2015 BUY: 474 shares of SRC cost-basis=12.4 for $5986.62 CASH-BAL=43750.77
+Tue Feb 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.21%)1289 shares of SRC for -1.27
+Tue Feb 24 08:00:00 GMT+00:00 2015 SELL SRC x1289 for $15790.25 CASH-BAL=59534.02
+Tue Feb 24 08:00:00 GMT+00:00 2015 BUY: 333 shares of VEEV cost-basis=29.9 for $9966.69 CASH-BAL=49560.33
+Wed Mar 04 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-14.1%)333 shares of VEEV for -14.1
+Wed Mar 04 08:00:00 GMT+00:00 2015 SELL VEEV x333 for $8564.76 CASH-BAL=58118.09
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5955.84 CASH-BAL=52155.25
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 360 shares of JD cost-basis=27.7 for $9979.2 CASH-BAL=42169.05
+Tue Mar 10 08:00:00 GMT+00:00 2015 BUY: 93 shares of SXT cost-basis=61.6 for $5952.93 CASH-BAL=36209.12
+Tue Mar 31 08:00:00 GMT+00:00 2015 BUY: 230 shares of SCI cost-basis=25.0 for $5991.5 CASH-BAL=30210.62
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 205 shares of JD cost-basis=28.3 for $5990.1 CASH-BAL=24213.52
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)220 shares of SEE for -1.86
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9781.2 CASH-BAL=33987.72
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of SCI cost-basis=25.3 for $3976.76 CASH-BAL=30003.96
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 518 shares of NGHC cost-basis=19.3 for $9987.04 CASH-BAL=20009.92
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 83 shares of SBUX cost-basis=45.6 for $3981.51 CASH-BAL=16021.41
+Tue Apr 21 08:00:00 GMT+00:00 2015 BUY: 58 shares of SXT cost-basis=62.7 for $3930.08 CASH-BAL=12084.33
+Thu Apr 30 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.25%)316 shares of SXT for 4.1
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL SXT x316 for $20653.76 CASH-BAL=32731.09
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 118 shares of JD cost-basis=29.2 for $3960.08 CASH-BAL=28764.01
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 362 shares of IMS cost-basis=27.6 for $9987.58 CASH-BAL=18769.43
+Wed May 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell 20EMA: (-2.22%)683 shares of JD for 11.2
+Wed May 06 08:00:00 GMT+00:00 2015 SELL JD x683 for $22183.84 CASH-BAL=40946.27
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 283 shares of PAYC cost-basis=35.3 for $9987.07 CASH-BAL=30952.2
+Thu May 21 08:00:00 GMT+00:00 2015 BUY: 301 shares of NGHC cost-basis=19.5 for $5986.89 CASH-BAL=24958.31
+Tue May 26 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.5%)819 shares of NGHC for -1.8
+Tue May 26 08:00:00 GMT+00:00 2015 SELL NGHC x819 for $15700.23 CASH-BAL=40651.54
+Tue May 26 08:00:00 GMT+00:00 2015 BUY: 167 shares of HEI cost-basis=59.6 for $9944.85 CASH-BAL=30699.69
+Wed Jun 24 08:00:00 GMT+00:00 2015 BUY: 163 shares of PAYC cost-basis=35.8 for $5990.25 CASH-BAL=24702.44
+
+---- Final Portfolio Holdings as of Fri Jun 26 03:19:04 GMT+00:00 2015 ----
+null 437 of SBUX with cost basis of 45.6 and pct-chg: 18.6%
+null 787 of SCI with cost basis of 25.3 and pct-chg: 17.1%
+null 362 of IMS with cost basis of 27.6 and pct-chg: 13.9%
+null 446 of PAYC with cost basis of 35.8 and pct-chg: 4.23%
+null 167 of HEI with cost basis of 59.6 and pct-chg: 3.71%
+
+Total Invested Amount = 85305.01
+Cash Bal = 24702.44
+Net Value = 110007.45
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Fri Jun 26 03:19:04 GMT+00:00 2015
+Total Trading days: 176
+Net Gain/Loss = 10007.45
+Pct Chg = 10.0%

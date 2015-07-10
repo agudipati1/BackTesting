@@ -1,0 +1,419 @@
+Start Date: Wed Jan 01 08:00:00 GMT+00:00 2014
+End Date: Mon Jul 06 18:42:49 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 02 08:00:00 GMT+00:00 2014 BUY: 960 shares of VWDRY cost-basis=10.4 for $9987.264 CASH-BAL=90005.736
+Fri Jan 03 08:00:00 GMT+00:00 2014 BUY: 292 shares of PFPT cost-basis=34.2 for $9980.56 CASH-BAL=80018.176
+Mon Jan 06 08:00:00 GMT+00:00 2014 VWDRY ATR Sell signal. atr=0.2323525691137039; vol-rate: 293% ;cls-rng=100.0
+Tue Jan 07 08:00:00 GMT+00:00 2014 VWDRY ATR Sell signal. atr=0.26654167130151474; vol-rate: 731% ;cls-rng=76.92307692307756
+Tue Jan 07 08:00:00 GMT+00:00 2014 BUY: 132 shares of SPLK cost-basis=75.4 for $9951.48 CASH-BAL=70059.696
+Thu Jan 09 08:00:00 GMT+00:00 2014 BUY: 179 shares of M cost-basis=55.8 for $9988.2 CASH-BAL=60064.496
+Thu Jan 09 08:00:00 GMT+00:00 2014 BUY: 547 shares of NTDOY cost-basis=18.3 for $9982.75 CASH-BAL=50074.746
+Fri Jan 10 08:00:00 GMT+00:00 2014 BUY: 485 shares of FDML cost-basis=20.6 for $9976.45 CASH-BAL=40091.296
+Mon Jan 13 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.17%)485 shares of FDML for -5.17
+Mon Jan 13 08:00:00 GMT+00:00 2014 SELL FDML x485 for $9467.2 -5.17%
+Mon Jan 13 08:00:00 GMT+00:00 2014 BUY: 233 shares of ENV cost-basis=42.8 for $9960.75 CASH-BAL=39583.746
+Fri Jan 17 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-18.4%)547 shares of NTDOY for -18.4
+Fri Jan 17 08:00:00 GMT+00:00 2014 SELL NTDOY x547 for $8150.3 -18.4%
+Tue Jan 21 08:00:00 GMT+00:00 2014 BUY: 508 shares of NVDQ cost-basis=19.7 for $9987.28 CASH-BAL=37732.766
+Thu Jan 23 08:00:00 GMT+00:00 2014 BUY: 84 shares of HUBB cost-basis=118 for $9915.36 CASH-BAL=27810.406
+Fri Jan 24 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-4.24%)508 shares of NVDQ for -4.24
+Fri Jan 24 08:00:00 GMT+00:00 2014 SELL NVDQ x508 for $9570.72 -4.24%
+Mon Jan 27 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-3.85%)960 shares of VWDRY for -3.85
+Mon Jan 27 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-4.1%)84 shares of HUBB for -4.1
+Mon Jan 27 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell 20EMA: (-2.21%)132 shares of SPLK for -1.95
+Mon Jan 27 08:00:00 GMT+00:00 2014 SELL VWDRY x960 for $9609.6 -3.85%
+Mon Jan 27 08:00:00 GMT+00:00 2014 SELL HUBB x84 for $9515.52 -4.1%
+Mon Jan 27 08:00:00 GMT+00:00 2014 SELL SPLK x132 for $9764.04 -1.95%
+Wed Jan 29 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.73%)179 shares of M for -4.39
+Wed Jan 29 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.52%)233 shares of ENV for -0.608
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL M x179 for $9556.81 -4.39%
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL ENV x233 for $9907.16 -0.608%
+Fri Jan 31 08:00:00 GMT+00:00 2014 PFPT ATR Sell signal. atr=1.5275854328541818; vol-rate: 321% ;cls-rng=8.544303797468238
+Thu Feb 06 08:00:00 GMT+00:00 2014 BUY: 176 shares of GMT cost-basis=56.7 for $9986.24 CASH-BAL=75699.016
+Fri Feb 07 08:00:00 GMT+00:00 2014 BUY: 79 shares of LVNTA cost-basis=126 for $9966.64 CASH-BAL=65725.376
+Wed Feb 12 08:00:00 GMT+00:00 2014 BUY: 315 shares of SN cost-basis=31.7 for $9991.8 CASH-BAL=55726.576
+Tue Feb 18 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.31%)315 shares of SN for -6.31
+Tue Feb 18 08:00:00 GMT+00:00 2014 SELL SN x315 for $9368.1 -6.31%
+Tue Feb 18 08:00:00 GMT+00:00 2014 BUY: 150 shares of PFPT cost-basis=36.1 for $5965.5 CASH-BAL=59115.176
+Tue Feb 18 08:00:00 GMT+00:00 2014 BUY: 199 shares of NMBL cost-basis=50.0 for $9948.01 CASH-BAL=49160.166
+Wed Feb 19 08:00:00 GMT+00:00 2014 BUY: 123 shares of FLS cost-basis=80.6 for $9913.8 CASH-BAL=39239.366
+Fri Feb 21 08:00:00 GMT+00:00 2014 BUY: 320 shares of STRZA cost-basis=31.2 for $9968.0 CASH-BAL=29264.366
+Mon Feb 24 08:00:00 GMT+00:00 2014 BUY: 352 shares of LEAF cost-basis=28.4 for $9982.72 CASH-BAL=19274.646
+Tue Feb 25 08:00:00 GMT+00:00 2014 BUY: 90 shares of HUM cost-basis=110 for $9944.1 CASH-BAL=9323.546
+Wed Feb 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HEI]
+Thu Feb 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HEI]
+Fri Feb 28 08:00:00 GMT+00:00 2014 Selling due to underperformance: NMBL -4.03% in 10
+Fri Feb 28 08:00:00 GMT+00:00 2014 SELL NMBL x199 for $9553.99 -4.03%
+Fri Feb 28 08:00:00 GMT+00:00 2014 BUY: 160 shares of HEI cost-basis=62.2 for $9950.4 CASH-BAL=8913.136
+Tue Mar 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NUVA]
+Wed Mar 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NUVA]
+Thu Mar 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NUVA]
+Fri Mar 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [RARE, NUVA]
+Mon Mar 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CUDA, NUVA]
+Wed Mar 12 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-7.86%)352 shares of LEAF for -7.86
+Wed Mar 12 08:00:00 GMT+00:00 2014 SELL LEAF x352 for $9204.8 -7.86%
+Wed Mar 12 08:00:00 GMT+00:00 2014 BUY: 266 shares of NUVA cost-basis=37.5 for $9969.68 CASH-BAL=8134.256
+Thu Mar 13 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.1%)123 shares of FLS for -6.1
+Thu Mar 13 08:00:00 GMT+00:00 2014 SELL FLS x123 for $9316.02 -6.1%
+Fri Mar 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM]
+Mon Mar 17 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM]
+Tue Mar 18 08:00:00 GMT+00:00 2014 BUY: 42 shares of LVNTA cost-basis=132 for $5977.02 CASH-BAL=11459.256
+Tue Mar 18 08:00:00 GMT+00:00 2014 BUY: 209 shares of MFRM cost-basis=47.8 for $9981.84 CASH-BAL=1470.416
+Fri Mar 21 08:00:00 GMT+00:00 2014 BUY: 90 shares of GMT cost-basis=59.9 for $5940.0 CASH-BAL=-4476.584
+Mon Mar 24 08:00:00 GMT+00:00 2014Market-Uptrend-Sell 50EDMA: (-6.94%)442 shares of PFPT for 2.75
+Mon Mar 24 08:00:00 GMT+00:00 2014 SELL PFPT x442 for $16398.2 2.75%
+Wed Mar 26 08:00:00 GMT+00:00 2014 StopLoss-ScaledSoftStop SELL: ($133.32)121 @$130.34 shares of LVNTA for -1.17
+Wed Mar 26 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.62%)160 shares of HEI for -5.62
+Wed Mar 26 08:00:00 GMT+00:00 2014 SELL LVNTA x121 for $15771.14 -1.17%
+Wed Mar 26 08:00:00 GMT+00:00 2014 SELL HEI x160 for $9398.4 -5.62%
+Wed Mar 26 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.53%)266 shares of NUVA for -0.737
+Wed Mar 26 08:00:00 GMT+00:00 2014 SELL NUVA x266 for $9903.18 -0.737%
+Thu Apr 03 08:00:00 GMT+00:00 2014 BUY: 163 shares of BCPC cost-basis=61.3 for $9987.01 CASH-BAL=36972.326
+Mon Apr 07 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.45%)163 shares of BCPC for -3.45
+Mon Apr 07 08:00:00 GMT+00:00 2014 SELL BCPC x163 for $9649.6 -3.45%
+Thu Apr 10 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.93%)209 shares of MFRM for -4.03
+Thu Apr 10 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.19%)90 shares of HUM for -0.822
+Thu Apr 10 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.4%)320 shares of STRZA for 0.925
+Thu Apr 10 08:00:00 GMT+00:00 2014 SELL MFRM x209 for $9586.83 -4.03%
+Thu Apr 10 08:00:00 GMT+00:00 2014 SELL HUM x90 for $9869.4 -0.822%
+Thu Apr 10 08:00:00 GMT+00:00 2014 SELL STRZA x320 for $10067.2 0.925%
+Thu Apr 17 08:00:00 GMT+00:00 2014 BUY: 95 shares of WSO cost-basis=104 for $9897.1 CASH-BAL=66213.256
+Mon Apr 21 08:00:00 GMT+00:00 2014 BUY: 144 shares of AZN cost-basis=69.1 for $9950.4 CASH-BAL=56255.856
+Tue Apr 22 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.31%)144 shares of AZN for -3.31
+Tue Apr 22 08:00:00 GMT+00:00 2014 SELL AZN x144 for $9627.84 -3.31%
+Fri Apr 25 08:00:00 GMT+00:00 2014 BUY: 99 shares of ZBH cost-basis=101 for $9953.46 CASH-BAL=55916.236
+Mon Apr 28 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.22%)266 shares of GMT for 8.26
+Mon Apr 28 08:00:00 GMT+00:00 2014 SELL GMT x266 for $17255.42 8.26%
+Wed Apr 30 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.79%)99 shares of ZBH for -3.79
+Wed Apr 30 08:00:00 GMT+00:00 2014 SELL ZBH x99 for $9583.2 -3.79%
+Thu May 01 08:00:00 GMT+00:00 2014 BUY: 92 shares of KEX cost-basis=108 for $9921.28 CASH-BAL=72812.576
+Wed May 14 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.42%)95 shares of WSO for -3.42
+Wed May 14 08:00:00 GMT+00:00 2014 SELL WSO x95 for $9565.55 -3.42%
+Wed May 28 08:00:00 GMT+00:00 2014 BUY: 341 shares of CAL cost-basis=29.3 for $9991.3 CASH-BAL=72372.826
+Mon Jun 02 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.09%)341 shares of CAL for -5.09
+Mon Jun 02 08:00:00 GMT+00:00 2014 SELL CAL x341 for $9490.03 -5.09%
+Mon Jun 09 08:00:00 GMT+00:00 2014 BUY: 454 shares of MTSI cost-basis=22.0 for $9983.46 CASH-BAL=71865.396
+Wed Jun 11 08:00:00 GMT+00:00 2014 BUY: 150 shares of LNG cost-basis=66.6 for $9987.0 CASH-BAL=61871.396
+Wed Jun 11 08:00:00 GMT+00:00 2014 BUY: 39 shares of FCNCA cost-basis=252 for $9824.49 CASH-BAL=52039.906
+Tue Jun 17 08:00:00 GMT+00:00 2014 BUY: 166 shares of JWA cost-basis=60.1 for $9976.6 CASH-BAL=42056.306
+Thu Jun 19 08:00:00 GMT+00:00 2014 BUY: 334 shares of GLOG cost-basis=29.9 for $9979.92 CASH-BAL=32069.386
+Thu Jun 19 08:00:00 GMT+00:00 2014 BUY: 180 shares of FNV cost-basis=55.5 for $9984.6 CASH-BAL=22077.786
+Thu Jun 19 08:00:00 GMT+00:00 2014 BUY: 392 shares of TAHO cost-basis=25.5 for $9992.08 CASH-BAL=12078.706
+Thu Jun 19 08:00:00 GMT+00:00 2014 BUY: 77 shares of APD cost-basis=130 for $9986.9 CASH-BAL=2084.806
+Fri Jun 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KS, GMLP]
+Mon Jun 23 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KS, GMLP]
+Tue Jun 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KS, GMLP]
+Wed Jun 25 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [TGNA, KS, GMLP]
+Thu Jun 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, TGNA, KS, GMLP]
+Fri Jun 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, TGNA, KS, GMLP]
+Mon Jun 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, TGNA, KS, GMLP]
+Tue Jul 01 08:00:00 GMT+00:00 2014 Selling due to underperformance: FCNCA -3.81% in 20
+Tue Jul 01 08:00:00 GMT+00:00 2014 SELL FCNCA x39 for $9457.5 -3.81%
+Tue Jul 01 08:00:00 GMT+00:00 2014 BUY: 131 shares of ANET cost-basis=76.0 for $9956.0 CASH-BAL=1572.306
+Tue Jul 01 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, TGNA, KS, GMLP]
+Wed Jul 02 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, KS, GMLP]
+Thu Jul 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, CNL, KS, GMLP]
+Mon Jul 07 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.59%)334 shares of GLOG for -5.59
+Mon Jul 07 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.11%)131 shares of ANET for -5.11
+Mon Jul 07 08:00:00 GMT+00:00 2014 SELL GLOG x334 for $9428.82 -5.59%
+Mon Jul 07 08:00:00 GMT+00:00 2014 SELL ANET x131 for $9454.27 -5.11%
+Mon Jul 07 08:00:00 GMT+00:00 2014 BUY: 270 shares of MEI cost-basis=37.0 for $9992.7 CASH-BAL=10441.696
+Mon Jul 07 08:00:00 GMT+00:00 2014 BUY: 313 shares of TGNA cost-basis=31.9 for $9978.44 CASH-BAL=456.256
+Tue Jul 08 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-3.89%)454 shares of MTSI for -4.44
+Tue Jul 08 08:00:00 GMT+00:00 2014 SELL MTSI x454 for $9547.62 -4.44%
+Thu Jul 10 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.8%)270 shares of MEI for -5.8
+Thu Jul 10 08:00:00 GMT+00:00 2014 SELL MEI x270 for $9420.3 -5.8%
+Realized-Gain-Loss: -10463.8 adjusted-to-%: -10% max-amt-per-position is: 18000.0
+Fri Jul 11 08:00:00 GMT+00:00 2014 BUY: 46 shares of KEX cost-basis=111 for $5358.54 CASH-BAL=14044.636
+Tue Jul 22 08:00:00 GMT+00:00 2014 TGNA ATR Sell signal. atr=0.5183367616272883; vol-rate: 111% ;cls-rng=98.40848806366043
+Wed Jul 23 08:00:00 GMT+00:00 2014 APD ATR Sell signal. atr=1.503925636646318; vol-rate: 280% ;cls-rng=96.4856230031949
+Wed Jul 23 08:00:00 GMT+00:00 2014 BUY: 683 shares of LEJU cost-basis=13.2 for $8981.45 CASH-BAL=5056.186
+Thu Jul 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [JMEI]
+Mon Jul 28 08:00:00 GMT+00:00 2014 Selling due to underperformance: JWA -0.0369% in 41
+Mon Jul 28 08:00:00 GMT+00:00 2014 SELL JWA x166 for $9979.92 -0.0369%
+Mon Jul 28 08:00:00 GMT+00:00 2014 BUY: 296 shares of JMEI cost-basis=30.3 for $8962.88 CASH-BAL=6059.226
+Tue Jul 29 08:00:00 GMT+00:00 2014 BUY: 72 shares of LNG cost-basis=69.1 for $5361.12 CASH-BAL=691.106
+Thu Jul 31 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.82%)296 shares of JMEI for -5.82
+Thu Jul 31 08:00:00 GMT+00:00 2014 SELL JMEI x296 for $8447.84 -5.82%
+Fri Aug 01 08:00:00 GMT+00:00 2014 BUY: 171 shares of THC cost-basis=52.3 for $8950.14 CASH-BAL=174.806
+Mon Aug 04 08:00:00 GMT+00:00 2014 TGNA ATR Sell signal. atr=0.587437242416525; vol-rate: 98.5% ;cls-rng=91.36690647482033
+Tue Aug 05 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-9.28%)683 shares of LEJU for -9.28
+Tue Aug 05 08:00:00 GMT+00:00 2014 SELL LEJU x683 for $8155.02 -9.28%
+Thu Aug 07 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.82%)222 shares of LNG for 1.84
+Thu Aug 07 08:00:00 GMT+00:00 2014 SELL LNG x222 for $15644.34 1.84%
+Thu Aug 07 08:00:00 GMT+00:00 2014 Selling due to underperformance: APD 1.06% in 49
+Thu Aug 07 08:00:00 GMT+00:00 2014 SELL APD x77 for $10099.32 1.06%
+Thu Aug 07 08:00:00 GMT+00:00 2014 BUY: 303 shares of LEAF cost-basis=29.7 for $8983.95 CASH-BAL=25061.536
+Fri Aug 08 08:00:00 GMT+00:00 2014 LEAF ATR Sell signal. atr=1.0145828412701274; vol-rate: 230% ;cls-rng=87.93565683646123
+Tue Aug 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KMI]
+Wed Aug 13 08:00:00 GMT+00:00 2014 BUY: 231 shares of KMI cost-basis=38.8 for $8955.87 CASH-BAL=16098.666
+Fri Aug 15 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-3.19%)392 shares of TAHO for 0.911
+Fri Aug 15 08:00:00 GMT+00:00 2014 SELL TAHO x392 for $10090.08 0.911%
+Thu Aug 21 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-4.13%)180 shares of FNV for -0.142
+Thu Aug 21 08:00:00 GMT+00:00 2014 SELL FNV x180 for $9977.4 -0.142%
+Wed Aug 27 08:00:00 GMT+00:00 2014 BUY: 108 shares of ANET cost-basis=83.2 for $8981.28 CASH-BAL=27163.866
+Thu Aug 28 08:00:00 GMT+00:00 2014 BUY: 77 shares of SIG cost-basis=116 for $8960.49 CASH-BAL=18196.376
+Fri Aug 29 08:00:00 GMT+00:00 2014 BUY: 173 shares of GPRO cost-basis=51.8 for $8961.4 CASH-BAL=9227.976
+Tue Sep 02 08:00:00 GMT+00:00 2014 BUY: 29 shares of KEX cost-basis=112 for $3498.27 CASH-BAL=5722.706
+Thu Sep 04 08:00:00 GMT+00:00 2014 Selling due to underperformance: KMI 0.644% in 22
+Thu Sep 04 08:00:00 GMT+00:00 2014 SELL KMI x231 for $9020.55 0.644%
+Thu Sep 04 08:00:00 GMT+00:00 2014 BUY: 226 shares of MEI cost-basis=39.7 for $8976.72 CASH-BAL=5752.536
+Fri Sep 05 08:00:00 GMT+00:00 2014 GPRO ATR Sell signal. atr=2.7139578491583873; vol-rate: -21.7% ;cls-rng=91.44851657940661
+Fri Sep 05 08:00:00 GMT+00:00 2014 BUY: 160 shares of TGNA cost-basis=32.4 for $5360.0 CASH-BAL=385.536
+Mon Sep 08 08:00:00 GMT+00:00 2014 BUY: 91 shares of THC cost-basis=54.6 for $5368.09 CASH-BAL=-4989.554
+Tue Sep 09 08:00:00 GMT+00:00 2014 StopLoss-ScaledSoftStop SELL: ($32.724000000000004)473 @$32.38 shares of TGNA for -0.239
+Tue Sep 09 08:00:00 GMT+00:00 2014 SELL TGNA x473 for $15315.74 -0.239%
+Wed Sep 10 08:00:00 GMT+00:00 2014 BUY: 415 shares of HQY cost-basis=21.6 for $8972.3 CASH-BAL=1339.886
+Tue Sep 16 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-7.11%)415 shares of HQY for -7.11
+Tue Sep 16 08:00:00 GMT+00:00 2014 SELL HQY x415 for $8341.5 -7.11%
+Tue Sep 16 08:00:00 GMT+00:00 2014 BUY: 223 shares of ALR cost-basis=40.3 for $8975.75 CASH-BAL=691.636
+Wed Sep 17 08:00:00 GMT+00:00 2014 BUY: 160 shares of LEAF cost-basis=31.0 for $5385.6 CASH-BAL=-4700.964
+Mon Sep 22 08:00:00 GMT+00:00 2014 Selling due to underperformance: SIG -1.89% in 25
+Mon Sep 22 08:00:00 GMT+00:00 2014 SELL SIG x77 for $8798.02 -1.89%
+Mon Sep 22 08:00:00 GMT+00:00 2014 BUY: 92 shares of CLX cost-basis=97.2 for $8945.16 CASH-BAL=-4862.104
+Thu Sep 25 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-4.31%)226 shares of MEI for -4.31
+Thu Sep 25 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-2.06%)167 shares of KEX for 4.0
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL MEI x226 for $8597.04 -4.31%
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL KEX x167 for $19550.69 4.0%
+Mon Sep 29 08:00:00 GMT+00:00 2014 ANET ATR Sell signal. atr=3.8759186621975568; vol-rate: 126% ;cls-rng=95.48717948717952
+Mon Sep 29 08:00:00 GMT+00:00 2014 GPRO ATR Sell signal. atr=3.909212426579901; vol-rate: 270% ;cls-rng=92.9481733220051
+Mon Sep 29 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MYCC]
+Tue Sep 30 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.73%)223 shares of ALR for -3.73
+Tue Sep 30 08:00:00 GMT+00:00 2014 SELL ALR x223 for $8647.94 -3.73%
+Tue Sep 30 08:00:00 GMT+00:00 2014 Selling due to underperformance: LEAF 2.78% in 54
+Tue Sep 30 08:00:00 GMT+00:00 2014 SELL LEAF x463 for $14783.59 2.78%
+Tue Sep 30 08:00:00 GMT+00:00 2014 BUY: 453 shares of MYCC cost-basis=19.8 for $8982.99 CASH-BAL=37699.166
+Wed Oct 01 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.25%)453 shares of MYCC for -3.25
+Wed Oct 01 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.38%)262 shares of THC for 5.56
+Wed Oct 01 08:00:00 GMT+00:00 2014 SELL MYCC x453 for $8697.6 -3.25%
+Wed Oct 01 08:00:00 GMT+00:00 2014 SELL THC x262 for $15127.88 5.56%
+Fri Oct 03 08:00:00 GMT+00:00 2014 BUY: 117 shares of GPN cost-basis=76.3 for $8929.44 CASH-BAL=52574.206
+Mon Oct 06 08:00:00 GMT+00:00 2014 BUY: 273 shares of KITE cost-basis=32.8 for $8962.59 CASH-BAL=43604.616
+Mon Oct 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BDX]
+Tue Oct 07 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.22%)273 shares of KITE for -3.22
+Tue Oct 07 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.43%)108 shares of ANET for -0.499
+Tue Oct 07 08:00:00 GMT+00:00 2014 SELL KITE x273 for $8681.4 -3.22%
+Tue Oct 07 08:00:00 GMT+00:00 2014 SELL ANET x108 for $8943.48 -0.499%
+Thu Oct 09 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.16%)117 shares of GPN for -3.16
+Thu Oct 09 08:00:00 GMT+00:00 2014 SELL GPN x117 for $8654.49 -3.16%
+Mon Oct 13 08:00:00 GMT+00:00 2014 BUY: 231 shares of CMN cost-basis=38.9 for $8976.66 CASH-BAL=60879.326
+Mon Oct 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BDX]
+Tue Oct 14 08:00:00 GMT+00:00 2014 BUY: 71 shares of BDX cost-basis=125 for $8879.97 CASH-BAL=51992.356
+Tue Oct 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AVA]
+Wed Oct 15 08:00:00 GMT+00:00 2014 BUY: 268 shares of AVA cost-basis=33.5 for $8986.04 CASH-BAL=42999.316
+Thu Oct 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-4.14%)231 shares of CMN for -4.14
+Thu Oct 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.51%)71 shares of BDX for -3.51
+Thu Oct 16 08:00:00 GMT+00:00 2014 SELL CMN x231 for $8611.68 -4.14%
+Thu Oct 16 08:00:00 GMT+00:00 2014 SELL BDX x71 for $8575.38 -3.51%
+Tue Oct 21 08:00:00 GMT+00:00 2014 BUY: 217 shares of AKRX cost-basis=41.3 for $8959.93 CASH-BAL=51205.446
+Mon Oct 27 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell 50EMA: (-5.9%)173 shares of GPRO for 25.2
+Mon Oct 27 08:00:00 GMT+00:00 2014 SELL GPRO x173 for $11229.43 25.2%
+Mon Oct 27 08:00:00 GMT+00:00 2014 BUY: 191 shares of EPAM cost-basis=46.9 for $8959.81 CASH-BAL=53461.066
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 152 shares of BMY cost-basis=59.0 for $8964.96 CASH-BAL=44489.106
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 318 shares of BIN cost-basis=28.3 for $8983.5 CASH-BAL=35498.606
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 109 shares of CACI cost-basis=82.1 for $8943.45 CASH-BAL=26548.156
+Fri Oct 31 08:00:00 GMT+00:00 2014 BUY: 59 shares of FLT cost-basis=151 for $8883.04 CASH-BAL=17658.116
+Mon Nov 03 08:00:00 GMT+00:00 2014 BUY: 340 shares of ZEN cost-basis=26.4 for $8976.0 CASH-BAL=8675.116
+Wed Nov 05 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.53%)340 shares of ZEN for -5.53
+Wed Nov 05 08:00:00 GMT+00:00 2014 SELL ZEN x340 for $8486.4 -5.53%
+Thu Nov 06 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-8.34%)217 shares of AKRX for -8.34
+Thu Nov 06 08:00:00 GMT+00:00 2014 SELL AKRX x217 for $8219.96 -8.34%
+Wed Nov 12 08:00:00 GMT+00:00 2014 BUY: 120 shares of MSG cost-basis=74.7 for $8968.8 CASH-BAL=16391.676
+Fri Nov 14 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-2.59%)268 shares of AVA for -0.287
+Fri Nov 14 08:00:00 GMT+00:00 2014 SELL AVA x268 for $8967.28 -0.287%
+Wed Nov 19 08:00:00 GMT+00:00 2014 BUY: 171 shares of ENV cost-basis=52.6 for $8991.18 CASH-BAL=16353.776
+Fri Nov 21 08:00:00 GMT+00:00 2014 BUY: 245 shares of SWIR cost-basis=36.6 for $8971.9 CASH-BAL=7374.876
+Mon Dec 01 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.84%)171 shares of ENV for -5.84
+Mon Dec 01 08:00:00 GMT+00:00 2014 SELL ENV x171 for $8473.05 -5.84%
+Fri Dec 05 08:00:00 GMT+00:00 2014 BUY: 175 shares of ENB cost-basis=51.2 for $8951.25 CASH-BAL=6882.676
+Wed Dec 10 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.26%)175 shares of ENB for -6.26
+Wed Dec 10 08:00:00 GMT+00:00 2014 SELL ENB x175 for $8398.25 -6.26%
+Wed Dec 10 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-4.5%)59 shares of FLT for -4.5
+Wed Dec 10 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-3.46%)120 shares of MSG for -3.46
+Wed Dec 10 08:00:00 GMT+00:00 2014 SELL FLT x59 for $8490.1 -4.5%
+Wed Dec 10 08:00:00 GMT+00:00 2014 SELL MSG x120 for $8665.2 -3.46%
+Tue Dec 16 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-6.3%)191 shares of EPAM for -1.51
+Tue Dec 16 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.79%)152 shares of BMY for -2.27
+Tue Dec 16 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-3.56%)109 shares of CACI for 1.52
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL EPAM x191 for $8831.84 -1.51%
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL BMY x152 for $8768.88 -2.27%
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL CACI x109 for $9086.24 1.52%
+Thu Dec 18 08:00:00 GMT+00:00 2014 BUY: 320 shares of FGEN cost-basis=28.1 for $8976.0 CASH-BAL=50098.186
+Thu Dec 18 08:00:00 GMT+00:00 2014 BUY: 141 shares of KRFT cost-basis=63.4 for $8936.58 CASH-BAL=41154.606
+Mon Dec 22 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.25%)320 shares of FGEN for -6.25
+Mon Dec 22 08:00:00 GMT+00:00 2014 SELL FGEN x320 for $8422.4 -6.25%
+Wed Dec 24 08:00:00 GMT+00:00 2014 BUY: 177 shares of BIN cost-basis=29.0 for $5386.11 CASH-BAL=44176.896
+Wed Dec 24 08:00:00 GMT+00:00 2014 BUY: 219 shares of VA cost-basis=41.0 for $8979.0 CASH-BAL=35190.896
+Wed Jan 07 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.13%)219 shares of VA for -3.13
+Wed Jan 07 08:00:00 GMT+00:00 2015 SELL VA x219 for $8705.25 -3.13%
+Fri Jan 09 08:00:00 GMT+00:00 2015 BUY: 59 shares of AYI cost-basis=152 for $8938.5 CASH-BAL=34943.646
+Mon Jan 12 08:00:00 GMT+00:00 2015 StopLoss-ScaledSoftStop SELL: ($29.29)495 @$28.85 shares of BIN for -0.716
+Mon Jan 12 08:00:00 GMT+00:00 2015 SELL BIN x495 for $14280.75 -0.716%
+Thu Jan 15 08:00:00 GMT+00:00 2015 KRFT ATR Sell signal. atr=1.02891584569893; vol-rate: 194% ;cls-rng=78.41328413284151
+Fri Jan 16 08:00:00 GMT+00:00 2015Market-Downtrend-Sell 50EDMA: (-1.71%)245 shares of SWIR for 9.34
+Fri Jan 16 08:00:00 GMT+00:00 2015 SELL SWIR x245 for $9817.15 9.34%
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 115 shares of HELE cost-basis=77.5 for $8915.95 CASH-BAL=50104.596
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 83 shares of AGU cost-basis=107 for $8897.6 CASH-BAL=41199.996
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 101 shares of SBUX cost-basis=88.2 for $8910.22 CASH-BAL=32282.776
+Wed Jan 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Thu Jan 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [VAR, KLIC, BA]
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.06%)115 shares of HELE for -3.06
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HELE x115 for $8650.3 -3.06%
+Fri Jan 30 08:00:00 GMT+00:00 2015 BUY: 97 shares of VAR cost-basis=92.6 for $8978.32 CASH-BAL=31940.756
+Fri Jan 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, BA]
+Mon Feb 02 08:00:00 GMT+00:00 2015 BUY: 50 shares of CLX cost-basis=101 for $5391.5 CASH-BAL=26542.256
+Mon Feb 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, BA]
+Tue Feb 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, BA]
+Wed Feb 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, BA]
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 564 shares of KLIC cost-basis=15.9 for $8978.88 CASH-BAL=17556.376
+Thu Feb 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BLL, BA]
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 127 shares of BLL cost-basis=70.6 for $8967.47 CASH-BAL=8581.906
+Fri Feb 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BA]
+Mon Feb 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HAS, BA]
+Tue Feb 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SEE, HAS, BA]
+Wed Feb 11 08:00:00 GMT+00:00 2015 Selling due to underperformance: KRFT 2.59% in 55
+Wed Feb 11 08:00:00 GMT+00:00 2015 SELL KRFT x141 for $9174.87 2.59%
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 368 shares of SCI cost-basis=24.4 for $8975.52 CASH-BAL=8767.256
+Wed Feb 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SEE, HAS, BA]
+Thu Feb 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HAS, BA]
+Fri Feb 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, EPAM, BA]
+Tue Feb 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, LCI, EIGI, EPAM]
+Wed Feb 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, EIGI, EPAM, LNKD, HAS]
+Thu Feb 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, EPAM, HAS]
+Fri Feb 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, HAS]
+Mon Feb 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, HAS]
+Tue Feb 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, EIGI, HAS]
+Wed Feb 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, EIGI]
+Thu Feb 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, EIGI]
+Fri Feb 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI, EIGI]
+Mon Mar 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI]
+Tue Mar 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI]
+Wed Mar 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, LCI, BMY]
+Fri Mar 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: BLL 0.219% in 28
+Fri Mar 06 08:00:00 GMT+00:00 2015 SELL BLL x127 for $8994.14 0.219%
+Fri Mar 06 08:00:00 GMT+00:00 2015 BUY: 140 shares of AMBA cost-basis=64.2 for $8990.8 CASH-BAL=8756.596
+Fri Mar 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, BMY]
+Mon Mar 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, BMY]
+Tue Mar 10 08:00:00 GMT+00:00 2015 Selling due to underperformance: AGU 2.63% in 47
+Tue Mar 10 08:00:00 GMT+00:00 2015 SELL AGU x83 for $9138.3 2.63%
+Tue Mar 10 08:00:00 GMT+00:00 2015 BUY: 137 shares of BMY cost-basis=65.5 for $8977.61 CASH-BAL=8903.286
+Tue Mar 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Wed Mar 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Thu Mar 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Fri Mar 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Mon Mar 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Tue Mar 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Wed Mar 18 08:00:00 GMT+00:00 2015 AYI ATR Sell signal. atr=2.7500584333570126; vol-rate: 6.59% ;cls-rng=81.75399479747315
+Wed Mar 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Thu Mar 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, NVRO]
+Fri Mar 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVRO]
+Mon Mar 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVRO]
+Wed Mar 25 08:00:00 GMT+00:00 2015 Market-CautiousUp-Sell 20EMA: (-2.66%)564 shares of KLIC for -2.09
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL KLIC x564 for $8798.4 -2.09%
+Wed Mar 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: BMY -1.34% in 15
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL BMY x137 for $8863.9 -1.34%
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 168 shares of JUNO cost-basis=53.5 for $8984.64 CASH-BAL=17559.946
+Wed Mar 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: VAR 0.0949% in 54
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL VAR x97 for $8993.84 0.0949%
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 187 shares of NVRO cost-basis=48.0 for $8983.48 CASH-BAL=17556.306
+Wed Mar 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW, OVAS]
+Thu Mar 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW, OVAS]
+Fri Mar 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 32 shares of CLX cost-basis=103 for $3544.32 CASH-BAL=14004.986
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 56 shares of SBUX cost-basis=91.0 for $5374.88 CASH-BAL=8623.106
+Mon Mar 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Tue Mar 31 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 205 shares of SCI cost-basis=25.1 for $5381.25 CASH-BAL=3234.856
+Wed Apr 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS]
+Thu Apr 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS]
+Mon Apr 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Tue Apr 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 31 shares of AYI cost-basis=158 for $5237.76 CASH-BAL=-2009.904
+Wed Apr 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Fri Apr 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, GE]
+Mon Apr 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TSE, GE]
+Tue Apr 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [GE]
+Fri Apr 17 08:00:00 GMT+00:00 2015 Selling due to underperformance: CLX 6.2% in 207
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL CLX x174 for $19011.24 6.2%
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 408 shares of TSE cost-basis=22.0 for $8976.0 CASH-BAL=8011.336
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 72 shares of AMBA cost-basis=67.7 for $5368.32 CASH-BAL=2636.016
+Fri Apr 24 08:00:00 GMT+00:00 2015 SBUX ATR Sell signal. atr=0.7644492663891888; vol-rate: 169% ;cls-rng=82.99319727891164
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.07%)168 shares of JUNO for -5.07
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL JUNO x168 for $8536.08 -5.07%
+Wed Apr 29 08:00:00 GMT+00:00 2015 Market-Uptrend-Sell 20EMA: (-6.94%)187 shares of NVRO for -2.08
+Wed Apr 29 08:00:00 GMT+00:00 2015 SELL NVRO x187 for $8803.96 -2.08%
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 184 shares of XPO cost-basis=48.8 for $8984.72 CASH-BAL=10970.336
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 375 shares of AVG cost-basis=23.9 for $8970.0 CASH-BAL=1993.336
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 128 shares of SCI cost-basis=25.6 for $3581.44 CASH-BAL=-1595.104
+Fri May 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BFAM]
+Mon May 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BFAM]
+Tue May 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: TSE -0.851% in 18
+Tue May 05 08:00:00 GMT+00:00 2015 SELL TSE x408 for $8906.64 -0.851%
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 166 shares of BFAM cost-basis=54.0 for $8955.7 CASH-BAL=-1658.164
+Tue May 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX]
+Thu May 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX]
+Fri May 08 08:00:00 GMT+00:00 2015 BUY: 72 shares of SBUX cost-basis=46.3 for $3584.16 CASH-BAL=-5249.324
+Fri May 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, IMPV]
+Mon May 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IMPV]
+Tue May 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IMPV, IPAR]
+Wed May 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IMPV, IPAR]
+Thu May 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IMPV, IPAR]
+Mon May 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR]
+Tue May 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR]
+Wed May 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TWC, IPAR, TTPH]
+Thu May 21 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TWC, IPAR, TTPH]
+Fri May 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, TTPH]
+Tue May 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, IPAR, TTPH]
+Wed May 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, IPAR, TTPH]
+Thu May 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, TTPH]
+Fri May 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, TTPH]
+Mon Jun 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, TTPH]
+Tue Jun 02 08:00:00 GMT+00:00 2015 BUY: 20 shares of AYI cost-basis=161 for $3570.2 CASH-BAL=-8826.524
+Tue Jun 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, TTPH]
+Wed Jun 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, TTPH]
+Thu Jun 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, TTPH]
+Fri Jun 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: XPO -0.487% in 37
+Fri Jun 05 08:00:00 GMT+00:00 2015 SELL XPO x184 for $8947.92 -0.487%
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 121 shares of DGX cost-basis=74.0 for $8949.16 CASH-BAL=-8841.764
+Tue Jun 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN]
+Wed Jun 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN]
+Thu Jun 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN, MBLY]
+Fri Jun 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN]
+Mon Jun 15 08:00:00 GMT+00:00 2015 Selling due to underperformance: DGX -1.82% in 10
+Mon Jun 15 08:00:00 GMT+00:00 2015 SELL DGX x121 for $8793.07 -1.82%
+Mon Jun 15 08:00:00 GMT+00:00 2015 BUY: 178 shares of MBLY cost-basis=50.3 for $8960.52 CASH-BAL=-9023.214
+Mon Jun 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN]
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 173 shares of RDUS cost-basis=51.7 for $8949.29 CASH-BAL=-17979.504
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 173 shares of CMN cost-basis=51.9 for $8985.62 CASH-BAL=-26972.124
+Thu Jun 18 08:00:00 GMT+00:00 2015 RDUS ATR Sell signal. atr=2.246433417391; vol-rate: 735% ;cls-rng=54.19126328217237
+Wed Jun 24 08:00:00 GMT+00:00 2015 BUY: 281 shares of ITCI cost-basis=32.0 for $8977.95 CASH-BAL=-35957.074
+Mon Jun 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.24%)281 shares of ITCI for -3.24
+Mon Jun 29 08:00:00 GMT+00:00 2015 SELL ITCI x281 for $8694.14 -3.24%
+Wed Jul 01 08:00:00 GMT+00:00 2015 AYI ATR Sell signal. atr=3.0898531662053625; vol-rate: 91.7% ;cls-rng=76.92428452565981
+Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 196 shares of AVG cost-basis=25.1 for $5376.28 CASH-BAL=-32653.214
+
+---- Final Portfolio Holdings as of Mon Jul 06 18:42:49 GMT+00:00 2015 ----
+null 110 of AYI with cost basis of 161.0 and pct-chg: 17.0% with % of portfolio weight=19.4%
+null 386 of SBUX with cost basis of 46.3 and pct-chg: 17.0% with % of portfolio weight=19.6%
+null 701 of SCI with cost basis of 25.6 and pct-chg: 14.0% with % of portfolio weight=19.1%
+null 212 of AMBA with cost basis of 67.7 and pct-chg: 49.3% with % of portfolio weight=20.1%
+null 571 of AVG with cost basis of 25.1 and pct-chg: 9.63% with % of portfolio weight=14.7%
+null 166 of BFAM with cost basis of 54.0 and pct-chg: 6.74% with % of portfolio weight=8.94%
+null 178 of MBLY with cost basis of 50.3 and pct-chg: 8.21% with % of portfolio weight=9.07%
+null 173 of RDUS with cost basis of 51.7 and pct-chg: 31.2% with % of portfolio weight=11.0%
+null 173 of CMN with cost basis of 51.9 and pct-chg: 3.14% with % of portfolio weight=8.67%
+
+Total Invested Amount = 139564.6 with % of portfolio weight=131.0%
+Cash Bal = -32653.214 with % of portfolio weight=-30.5%
+Net Value = 106911.386
+
+---- Run stats ----
+Start-Date: Wed Jan 01 08:00:00 GMT+00:00 2014
+End-Date: Mon Jul 06 18:42:49 GMT+00:00 2015
+Total Trading days: 552
+Net Gain/Loss = 6911.386000000001
+Pct Chg = 6.91%

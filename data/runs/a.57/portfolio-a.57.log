@@ -1,0 +1,158 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Sat Jul 04 06:07:01 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 16 08:00:00 GMT+00:00 2015 BUY: 66 shares of AYI cost-basis=151 for $9942.24 CASH-BAL=90050.76
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 128 shares of HELE cost-basis=77.5 for $9923.84 CASH-BAL=80119.92
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 93 shares of AGU cost-basis=107 for $9969.6 CASH-BAL=70143.32
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=60167.46
+Wed Jan 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Thu Jan 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [VAR, BA]
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.05%)128 shares of HELE for -3.05
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HELE x128 for $9628.16 -100.0%
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 138 shares of BLL cost-basis=72.0 for $9940.14 CASH-BAL=59841.48
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 107 shares of VAR cost-basis=92.5 for $9900.71 CASH-BAL=49933.77
+Mon Feb 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, HAS]
+Tue Feb 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SEE, KLIC]
+Wed Feb 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SCI]
+Fri Feb 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, KLIC]
+Tue Feb 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO, LCI, KLIC]
+Wed Feb 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LNKD, KLIC]
+Thu Feb 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EPAM]
+Fri Feb 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Mon Feb 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, NRZ, LNKD, KLIC]
+Tue Feb 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, LNKD, KLIC]
+Wed Feb 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LNKD]
+Thu Feb 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CBPO]
+Fri Feb 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI]
+Mon Mar 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI, EIGI, KLIC]
+Tue Mar 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EIGI, KLIC]
+Wed Mar 04 08:00:00 GMT+00:00 2015 Selling due to underperformance: BLL -1.08% in 27
+Wed Mar 04 08:00:00 GMT+00:00 2015 SELL BLL x138 for $9839.4 -100.0%
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 515 shares of EIGI cost-basis=19.4 for $9985.85 CASH-BAL=49773.32
+Wed Mar 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, LCI, KLIC, BMY]
+Fri Mar 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: AGU 2.93% in 43
+Fri Mar 06 08:00:00 GMT+00:00 2015 SELL AGU x93 for $10269.06 -100.0%
+Fri Mar 06 08:00:00 GMT+00:00 2015 BUY: 168 shares of EPAM cost-basis=59.5 for $9987.6 CASH-BAL=50040.78
+Fri Mar 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI, NRZ]
+Mon Mar 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI, NRZ, LNKD, KLIC]
+Tue Mar 10 08:00:00 GMT+00:00 2015 Selling due to underperformance: VAR -0.0707% in 32
+Tue Mar 10 08:00:00 GMT+00:00 2015 SELL VAR x107 for $9900.71 -100.0%
+Tue Mar 10 08:00:00 GMT+00:00 2015 BUY: 122 shares of CBPO cost-basis=81.6 for $9952.76 CASH-BAL=49974.73
+Tue Mar 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LCI, NRZ]
+Wed Mar 11 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.67%)515 shares of EIGI for -6.67
+Wed Mar 11 08:00:00 GMT+00:00 2015 SELL EIGI x515 for $9326.65 -100.0%
+Wed Mar 11 08:00:00 GMT+00:00 2015 BUY: 156 shares of LCI cost-basis=63.8 for $9955.92 CASH-BAL=49331.46
+Wed Mar 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, NRZ]
+Thu Mar 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, NRZ, LNKD]
+Fri Mar 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Mon Mar 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NRZ, KLIC]
+Tue Mar 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NRZ]
+Wed Mar 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, BMY]
+Thu Mar 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Fri Mar 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, NRZ, LNKD, KLIC]
+Mon Mar 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC, BMY]
+Tue Mar 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [LNKD]
+Wed Mar 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA]
+Thu Mar 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Fri Mar 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, EW, AMBA]
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 62 shares of SBUX cost-basis=91.0 for $5950.76 CASH-BAL=43373.7
+Mon Mar 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW, NRZ]
+Tue Mar 31 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NTDOY]
+Wed Apr 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, NRZ, NTDOY]
+Thu Apr 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, NRZ, KLIC]
+Mon Apr 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NTDOY]
+Tue Apr 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA]
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 35 shares of AYI cost-basis=157 for $5913.6 CASH-BAL=37453.1
+Wed Apr 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, NRZ]
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, OLN, AMBA]
+Fri Apr 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, EW, KLIC, GE]
+Mon Apr 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW, KLIC]
+Tue Apr 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW, AMBA, KLIC]
+Wed Apr 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, AMBA, KLIC]
+Thu Apr 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, EW, AMBA, KLIC]
+Mon Apr 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, OLN, EW, AMBA]
+Tue Apr 21 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, AMBA]
+Wed Apr 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, AMBA]
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 88 shares of LCI cost-basis=65.1 for $5931.2 CASH-BAL=31514.9
+Thu Apr 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW]
+Fri Apr 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss-ScaledSoftStop SELL: ($65.751)244 @$61.9 shares of LCI for -5.02
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL LCI x244 for $15103.6 -100.0%
+Mon Apr 27 08:00:00 GMT+00:00 2015 BUY: 73 shares of SIG cost-basis=137 for $9973.26 CASH-BAL=36631.24
+Wed Apr 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, XPO]
+Thu Apr 30 08:00:00 GMT+00:00 2015 Selling due to underperformance: AYI 6.26% in 104
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL AYI x101 for $16861.95 -100.0%
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 417 shares of AVG cost-basis=23.9 for $9974.64 CASH-BAL=43504.55
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 89 shares of EPAM cost-basis=62.0 for $5944.31 CASH-BAL=37553.24
+Fri May 01 08:00:00 GMT+00:00 2015 BUY: 61 shares of CBPO cost-basis=87.1 for $5990.2 CASH-BAL=31556.04
+Fri May 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMBA, BFAM]
+Tue May 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX]
+Thu May 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX]
+Fri May 08 08:00:00 GMT+00:00 2015 BUY: 80 shares of SBUX cost-basis=46.3 for $3982.4 CASH-BAL=27566.64
+Fri May 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, IMPV, BFAM]
+Mon May 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BFAM]
+Tue May 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, IPAR]
+Wed May 13 08:00:00 GMT+00:00 2015 Selling due to underperformance: SIG -1.09% in 16
+Wed May 13 08:00:00 GMT+00:00 2015 SELL SIG x73 for $9871.79 -100.0%
+Wed May 13 08:00:00 GMT+00:00 2015 BUY: 136 shares of AMBA cost-basis=73.1 for $9942.96 CASH-BAL=27481.47
+Wed May 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO]
+Thu May 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO, BFAM]
+Fri May 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, BFAM]
+Mon May 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, BFAM]
+Tue May 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BFAM]
+Wed May 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TWC, XPO, IPAR, TTPH]
+Thu May 21 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO]
+Fri May 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO]
+Tue May 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, BFAM]
+Wed May 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AMED, CLGX, IPAR, BFAM]
+Thu May 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, IPAR, TTPH]
+Fri May 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED, IPAR, TTPH]
+Mon Jun 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, AMED]
+Tue Jun 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR]
+Wed Jun 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TTPH]
+Fri Jun 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TTPH, BFAM]
+Mon Jun 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, TTPH, BFAM]
+Tue Jun 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CMN, IPAR]
+Wed Jun 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR]
+Thu Jun 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, TTPH]
+Fri Jun 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BFAM]
+Mon Jun 15 08:00:00 GMT+00:00 2015 BUY: 56 shares of EPAM cost-basis=63.6 for $3974.88 CASH-BAL=23499.59
+Mon Jun 15 08:00:00 GMT+00:00 2015 BUY: 36 shares of CBPO cost-basis=90.9 for $3956.76 CASH-BAL=19535.83
+Mon Jun 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TTPH, BFAM]
+Tue Jun 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, BFAM]
+Wed Jun 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RDUS, IPAR]
+Thu Jun 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPAR, TTPH]
+Fri Jun 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, IPAR, TTPH]
+Mon Jun 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, IPAR, TTPH]
+Tue Jun 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, IPAR]
+Wed Jun 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, IPAR, TTPH, BFAM]
+Thu Jun 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, IPAR, TTPH, BFAM]
+Fri Jun 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BRLI, TTPH]
+Mon Jun 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: EPAM 9.3% in 115
+Mon Jun 29 08:00:00 GMT+00:00 2015 SELL EPAM x313 for $21778.54 -100.0%
+Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 249 shares of BRLI cost-basis=40.0 for $9964.98 CASH-BAL=31335.39
+Tue Jun 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TTPH]
+Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 218 shares of AVG cost-basis=25.1 for $5979.74 CASH-BAL=25348.65
+Wed Jul 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, IPAR]
+Thu Jul 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI]
+
+---- Final Portfolio Holdings as of Sat Jul 04 06:07:01 GMT+00:00 2015 ----
+null 430 of SBUX with cost basis of 46.3 and pct-chg: 17.1% with % of portfolio weight=20.2%
+null 219 of CBPO with cost basis of 90.9 and pct-chg: 26.9% with % of portfolio weight=21.9%
+null 635 of AVG with cost basis of 25.1 and pct-chg: 9.64% with % of portfolio weight=15.1%
+null 136 of AMBA with cost basis of 73.1 and pct-chg: 38.4% with % of portfolio weight=11.9%
+null 249 of BRLI with cost basis of 40.0 and pct-chg: 4.2% with % of portfolio weight=8.99%
+
+Total Invested Amount = 90192.46 with % of portfolio weight=78.1%
+Cash Bal = 25348.65 with % of portfolio weight=21.9%
+Net Value = 115541.11
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Sat Jul 04 06:07:01 GMT+00:00 2015
+Total Trading days: 184
+Net Gain/Loss = 15541.11
+Pct Chg = 15.5%

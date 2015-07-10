@@ -1,0 +1,3 @@
+a.13- added dg-rating>70 screener
+a.14- added base-number<4 screener
+a.15- removed base-num logic and using base-stage<4 instead.

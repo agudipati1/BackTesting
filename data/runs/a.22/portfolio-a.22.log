@@ -1,0 +1,75 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Fri Jun 26 02:23:32 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 09 08:00:00 GMT+00:00 2015 BUY: 815 shares of SRC cost-basis=12.3 for $9991.9 CASH-BAL=90001.1
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=80012.19
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=70036.33
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.29%)421 shares of TSM for -4.29
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9560.91 CASH-BAL=79590.24
+Mon Feb 09 08:00:00 GMT+00:00 2015 BUY: 169 shares of SXT cost-basis=58.9 for $9955.79 CASH-BAL=69627.45
+Tue Feb 10 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-3.19%)169 shares of SXT for -0.223
+Tue Feb 10 08:00:00 GMT+00:00 2015 SELL SXT x169 for $9940.58 CASH-BAL=79561.03
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=69594.63
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 169 shares of SXT cost-basis=58.8 for $9940.58 CASH-BAL=59647.05
+Wed Feb 11 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.1%)169 shares of SXT for 0.831
+Wed Feb 11 08:00:00 GMT+00:00 2015 SELL SXT x169 for $10030.15 CASH-BAL=69670.2
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=59687.69
+Thu Feb 12 08:00:00 GMT+00:00 2015 BUY: 424 shares of BOOT cost-basis=23.6 for $9989.44 CASH-BAL=49691.25
+Tue Feb 17 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.67%)424 shares of BOOT for -5.67
+Tue Feb 17 08:00:00 GMT+00:00 2015 SELL BOOT x424 for $9429.76 CASH-BAL=59114.01
+Tue Feb 17 08:00:00 GMT+00:00 2015 BUY: 302 shares of PAHC cost-basis=33.0 for $9966.0 CASH-BAL=49141.01
+Wed Feb 18 08:00:00 GMT+00:00 2015 BUY: 474 shares of SRC cost-basis=12.4 for $5986.62 CASH-BAL=43147.39
+Tue Feb 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.21%)1289 shares of SRC for -1.27
+Tue Feb 24 08:00:00 GMT+00:00 2015 SELL SRC x1289 for $15790.25 CASH-BAL=58930.64
+Tue Feb 24 08:00:00 GMT+00:00 2015 BUY: 333 shares of VEEV cost-basis=29.9 for $9966.69 CASH-BAL=48956.95
+Wed Mar 04 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-14.1%)333 shares of VEEV for -14.1
+Wed Mar 04 08:00:00 GMT+00:00 2015 SELL VEEV x333 for $8564.76 CASH-BAL=57514.71
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5955.84 CASH-BAL=51551.87
+Wed Mar 04 08:00:00 GMT+00:00 2015 BUY: 683 shares of UEPS cost-basis=14.6 for $9985.46 CASH-BAL=41559.41
+Tue Mar 10 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.76%)683 shares of UEPS for -3.76
+Tue Mar 10 08:00:00 GMT+00:00 2015 SELL UEPS x683 for $9616.64 CASH-BAL=51169.05
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 170 shares of PAHC cost-basis=33.8 for $5984.0 CASH-BAL=45178.05
+Fri Mar 20 08:00:00 GMT+00:00 2015 BUY: 185 shares of HNI cost-basis=53.9 for $9962.25 CASH-BAL=35208.8
+Tue Mar 31 08:00:00 GMT+00:00 2015 BUY: 230 shares of SCI cost-basis=25.0 for $5991.5 CASH-BAL=29210.3
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)220 shares of SEE for -1.86
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9781.2 CASH-BAL=38984.5
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.6%)472 shares of PAHC for -1.28
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL PAHC x472 for $15760.08 CASH-BAL=54737.58
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of SCI cost-basis=25.3 for $3976.76 CASH-BAL=50753.82
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 107 shares of HNI cost-basis=54.5 for $5943.85 CASH-BAL=44802.97
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 518 shares of NGHC cost-basis=19.3 for $9987.04 CASH-BAL=34808.93
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 159 shares of JPM cost-basis=62.8 for $9991.56 CASH-BAL=24810.37
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 83 shares of SBUX cost-basis=45.6 for $3981.51 CASH-BAL=20821.86
+Thu Apr 23 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.97%)292 shares of HNI for -5.97
+Thu Apr 23 08:00:00 GMT+00:00 2015 SELL HNI x292 for $14970.84 CASH-BAL=35785.7
+Thu Apr 23 08:00:00 GMT+00:00 2015 BUY: 188 shares of JCI cost-basis=52.9 for $9945.2 CASH-BAL=25833.5
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.21%)188 shares of JCI for -5.21
+Tue May 05 08:00:00 GMT+00:00 2015 SELL JCI x188 for $9433.84 CASH-BAL=35260.34
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 411 shares of SC cost-basis=24.3 for $9974.97 CASH-BAL=25278.37
+Thu May 21 08:00:00 GMT+00:00 2015 BUY: 301 shares of NGHC cost-basis=19.5 for $5986.89 CASH-BAL=19284.48
+Tue May 26 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.5%)819 shares of NGHC for -1.8
+Tue May 26 08:00:00 GMT+00:00 2015 SELL NGHC x819 for $15700.23 CASH-BAL=34977.71
+Tue May 26 08:00:00 GMT+00:00 2015 BUY: 91 shares of JPM cost-basis=63.9 for $5981.43 CASH-BAL=28989.28
+Tue May 26 08:00:00 GMT+00:00 2015 BUY: 700 shares of UEPS cost-basis=14.3 for $9982.0 CASH-BAL=19000.28
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 232 shares of SC cost-basis=24.8 for $5985.6 CASH-BAL=13007.68
+
+---- Final Portfolio Holdings as of Fri Jun 26 02:23:32 GMT+00:00 2015 ----
+null 437 of SBUX with cost basis of 45.6 and pct-chg: 18.6%
+null 787 of SCI with cost basis of 25.3 and pct-chg: 17.1%
+null 250 of JPM with cost basis of 63.9 and pct-chg: 7.36%
+null 643 of SC with cost basis of 24.8 and pct-chg: 3.9%
+null 700 of UEPS with cost basis of 14.3 and pct-chg: 31.8%
+
+Total Invested Amount = 93844.39
+Cash Bal = 13007.68
+Net Value = 106852.07
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Fri Jun 26 02:23:32 GMT+00:00 2015
+Total Trading days: 176
+Net Gain/Loss = 6852.07
+Pct Chg = 6.85%

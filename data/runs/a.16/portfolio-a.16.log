@@ -1,0 +1,117 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Wed Jun 24 15:22:09 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 228 shares of VA cost-basis=43.8 for $9988.68 CASH-BAL=90004.32
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 631 shares of CHRS cost-basis=15.8 for $9982.42 CASH-BAL=80014.9
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 131 shares of MPLX cost-basis=75.9 for $9942.9 CASH-BAL=70065.0
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 233 shares of KMI cost-basis=42.8 for $9974.73 CASH-BAL=60083.27
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 427 shares of TUMI cost-basis=23.4 for $9970.45 CASH-BAL=50105.82
+Mon Jan 05 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-4.93%)228 shares of VA for -4.93
+Mon Jan 05 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-4.8%)131 shares of MPLX for -4.8
+Mon Jan 05 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-2.78%)233 shares of KMI for -2.78
+Mon Jan 05 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.65%)427 shares of TUMI for -1.65
+Mon Jan 05 08:00:00 GMT+00:00 2015 SELL VA x228 for $9503.04 CASH-BAL=59601.86
+Mon Jan 05 08:00:00 GMT+00:00 2015 SELL MPLX x131 for $9472.61 CASH-BAL=69067.47
+Mon Jan 05 08:00:00 GMT+00:00 2015 SELL KMI x233 for $9704.45 CASH-BAL=78764.92
+Mon Jan 05 08:00:00 GMT+00:00 2015 SELL TUMI x427 for $9812.46 CASH-BAL=88570.38
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 13 shares of CMG cost-basis=720 for $9359.87 CASH-BAL=79203.51
+Wed Jan 14 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.5%)13 shares of CMG for -1.5
+Wed Jan 14 08:00:00 GMT+00:00 2015 SELL CMG x13 for $9226.62 CASH-BAL=88423.13
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 287 shares of CHRS cost-basis=17.4 for $5986.82 CASH-BAL=82429.31
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 421 shares of TSM cost-basis=23.7 for $9981.91 CASH-BAL=72440.4
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=62464.54
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 482 shares of SABR cost-basis=20.7 for $9982.22 CASH-BAL=52475.32
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 376 shares of HLT cost-basis=26.6 for $9986.56 CASH-BAL=42481.76
+Tue Jan 27 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-3.21%)482 shares of SABR for -3.21
+Tue Jan 27 08:00:00 GMT+00:00 2015 SELL SABR x482 for $9668.92 CASH-BAL=52143.68
+Thu Jan 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-1.84%)421 shares of TSM for -1.84
+Thu Jan 29 08:00:00 GMT+00:00 2015 SELL TSM x421 for $9805.09 CASH-BAL=61941.77
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-2.29%)376 shares of HLT for -2.29
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HLT x376 for $9764.72 CASH-BAL=71699.49
+Thu Feb 05 08:00:00 GMT+00:00 2015 BUY: 163 shares of CHRS cost-basis=18.5 for $3975.57 CASH-BAL=67716.92
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 106 shares of CME cost-basis=94.2 for $9986.26 CASH-BAL=57723.66
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 166 shares of VRSN cost-basis=60.0 for $9955.02 CASH-BAL=47761.64
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 337 shares of COMM cost-basis=29.6 for $9981.94 CASH-BAL=37772.7
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 65 shares of SBUX cost-basis=89.3 for $5926.7 CASH-BAL=31839.0
+Wed Feb 18 08:00:00 GMT+00:00 2015 BUY: 192 shares of COMM cost-basis=30.2 for $5976.96 CASH-BAL=25855.04
+Wed Feb 25 08:00:00 GMT+00:00 2015 BUY: 42 shares of SBUX cost-basis=90.2 for $3958.92 CASH-BAL=21889.12
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 61 shares of CME cost-basis=95.3 for $5924.32 CASH-BAL=15957.8
+Mon Mar 02 08:00:00 GMT+00:00 2015 BUY: 92 shares of VRSN cost-basis=61.6 for $5941.36 CASH-BAL=10009.44
+Fri Mar 06 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-4.72%)1081 shares of CHRS for 48.8
+Fri Mar 06 08:00:00 GMT+00:00 2015 SELL CHRS x1081 for $29705.88 CASH-BAL=39708.32
+Fri Mar 06 08:00:00 GMT+00:00 2015 BUY: 168 shares of FL cost-basis=59.4 for $9974.16 CASH-BAL=29727.16
+Tue Mar 10 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.73%)529 shares of COMM for -3.73
+Tue Mar 10 08:00:00 GMT+00:00 2015 SELL COMM x529 for $15378.03 CASH-BAL=45098.19
+Mon Mar 16 08:00:00 GMT+00:00 2015 BUY: 39 shares of CME cost-basis=96.2 for $3902.34 CASH-BAL=41188.85
+Mon Mar 16 08:00:00 GMT+00:00 2015 BUY: 894 shares of SUPN cost-basis=11.2 for $9985.98 CASH-BAL=31195.87
+Tue Mar 17 08:00:00 GMT+00:00 2015 BUY: 97 shares of FL cost-basis=60.1 for $5939.31 CASH-BAL=25249.56
+Tue Mar 24 08:00:00 GMT+00:00 2015 BUY: 517 shares of SUPN cost-basis=11.3 for $5986.86 CASH-BAL=19255.7
+Wed Mar 25 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.83%)1411 shares of SUPN for -5.83
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL SUPN x1411 for $15055.37 CASH-BAL=34304.07
+Fri Mar 27 08:00:00 GMT+00:00 2015 BUY: 60 shares of VRSN cost-basis=62.5 for $3977.7 CASH-BAL=30319.37
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 62 shares of FL cost-basis=60.7 for $3943.82 CASH-BAL=26368.55
+Thu Apr 02 08:00:00 GMT+00:00 2015Market-CautiousUp-Sell -3%: (-3.51%)206 shares of CME for -3.51
+Thu Apr 02 08:00:00 GMT+00:00 2015 SELL CME x206 for $19139.46 CASH-BAL=45501.01
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 232 shares of CUDA cost-basis=42.9 for $9957.44 CASH-BAL=35536.57
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 430 shares of KTWO cost-basis=23.2 for $9971.7 CASH-BAL=25557.87
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Mon Apr 13 08:00:00 GMT+00:00 2015 BUY: 136 shares of CUDA cost-basis=43.3 for $5989.44 CASH-BAL=19561.43
+Mon Apr 13 08:00:00 GMT+00:00 2015 BUY: 248 shares of KTWO cost-basis=23.5 for $5979.28 CASH-BAL=13575.15
+Fri Apr 17 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-3.14%)327 shares of FL for -2.44
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL FL x327 for $19394.37 CASH-BAL=32962.52
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 148 shares of CE cost-basis=67.2 for $9942.64 CASH-BAL=23012.88
+Fri Apr 24 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.28%)318 shares of VRSN for 3.96
+Fri Apr 24 08:00:00 GMT+00:00 2015 SELL VRSN x318 for $20682.72 CASH-BAL=43688.6
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 86 shares of CUDA cost-basis=43.9 for $3966.32 CASH-BAL=39715.28
+Fri Apr 24 08:00:00 GMT+00:00 2015 BUY: 344 shares of IMS cost-basis=29.0 for $9976.0 CASH-BAL=29732.28
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss SELL: (-6.58%)678 shares of KTWO for -6.58
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL KTWO x678 for $14916.0 CASH-BAL=44641.28
+Mon Apr 27 08:00:00 GMT+00:00 2015 BUY: 447 shares of AVOL cost-basis=22.4 for $9990.45 CASH-BAL=34643.83
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss SELL: (-7.7%)454 shares of CUDA for -7.7
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL CUDA x454 for $18400.62 CASH-BAL=53037.45
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 465 shares of IPHI cost-basis=21.5 for $9974.25 CASH-BAL=43056.2
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.35%)344 shares of IMS for -5.35
+Tue May 05 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.38%)465 shares of IPHI for -5.38
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IMS x344 for $9449.68 CASH-BAL=52498.88
+Tue May 05 08:00:00 GMT+00:00 2015 SELL IPHI x465 for $9444.15 CASH-BAL=61936.03
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 492 shares of IPHI cost-basis=20.3 for $9992.52 CASH-BAL=51936.51
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 237 shares of EXAM cost-basis=42.0 for $9951.63 CASH-BAL=41977.88
+Wed May 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell 20EMA: (-4.73%)237 shares of EXAM for -4.79
+Wed May 06 08:00:00 GMT+00:00 2015 SELL EXAM x237 for $9482.37 CASH-BAL=51453.25
+Tue May 12 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1.5%: (-2.23%)148 shares of CE for -2.23
+Tue May 12 08:00:00 GMT+00:00 2015 SELL CE x148 for $9728.04 CASH-BAL=61174.29
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 283 shares of PAYC cost-basis=35.3 for $9987.07 CASH-BAL=51180.22
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 206 shares of CRTO cost-basis=48.3 for $9947.74 CASH-BAL=41225.48
+Mon May 18 08:00:00 GMT+00:00 2015 BUY: 253 shares of AVOL cost-basis=22.8 for $5973.33 CASH-BAL=35245.15
+Thu May 21 08:00:00 GMT+00:00 2015 BUY: 165 shares of PAYC cost-basis=35.6 for $5974.65 CASH-BAL=29263.5
+Fri May 22 08:00:00 GMT+00:00 2015 BUY: 253 shares of IPHI cost-basis=21.5 for $5988.51 CASH-BAL=23267.99
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 163 shares of IPHI cost-basis=22.0 for $3973.94 CASH-BAL=19287.05
+Wed Jun 03 08:00:00 GMT+00:00 2015 BUY: 164 shares of AVOL cost-basis=23.1 for $3980.28 CASH-BAL=15299.77
+Thu Jun 04 08:00:00 GMT+00:00 2015 BUY: 120 shares of CRTO cost-basis=48.8 for $5962.8 CASH-BAL=9329.97
+Thu Jun 11 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.38%)326 shares of CRTO for -3.79
+Thu Jun 11 08:00:00 GMT+00:00 2015 SELL CRTO x326 for $15322.0 CASH-BAL=24644.97
+Thu Jun 11 08:00:00 GMT+00:00 2015 BUY: 197 shares of MBLY cost-basis=50.5 for $9942.59 CASH-BAL=14695.38
+Fri Jun 12 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EMA: (-2.53%)864 shares of AVOL for -0.986
+Fri Jun 12 08:00:00 GMT+00:00 2015 SELL AVOL x864 for $19768.32 CASH-BAL=34456.7
+Fri Jun 12 08:00:00 GMT+00:00 2015 BUY: 358 shares of HQY cost-basis=27.9 for $9984.62 CASH-BAL=24465.08
+Tue Jun 16 08:00:00 GMT+00:00 2015 BUY: 104 shares of PAYC cost-basis=36.1 for $3976.96 CASH-BAL=20481.12
+
+---- Final Portfolio Holdings as of Wed Jun 24 15:22:09 GMT+00:00 2015 ----
+null 440 of SBUX with cost basis of 45.1 and pct-chg: 19.0%
+null 908 of IPHI with cost basis of 22.0 and pct-chg: 11.5%
+null 552 of PAYC with cost basis of 36.1 and pct-chg: 3.92%
+null 197 of MBLY with cost basis of 50.5 and pct-chg: 6.92%
+null 358 of HQY with cost basis of 27.9 and pct-chg: 17.6%
+
+Total Invested Amount = 88974.1
+Cash Bal = 20481.12
+Net Value = 109455.22
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Wed Jun 24 15:22:09 GMT+00:00 2015
+Total Trading days: 175
+Net Gain/Loss = 9455.22
+Pct Chg = 9.46%

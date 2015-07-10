@@ -1,0 +1,1567 @@
+Start Date: Tue Jan 01 08:00:00 GMT+00:00 2013
+End Date: Wed Jul 08 07:50:23 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Mon Jan 07 08:00:00 GMT+00:00 2013 BUY: 257 shares of NSM cost-basis=38.8 for $9979.31 CASH-BAL=90013.69
+Wed Jan 09 08:00:00 GMT+00:00 2013 BUY: 404 shares of HCSG cost-basis=24.7 for $9986.88 CASH-BAL=80019.81
+Tue Jan 15 08:00:00 GMT+00:00 2013 BUY: 435 shares of ASGN cost-basis=22.9 for $9978.9 CASH-BAL=70033.91
+Wed Jan 16 08:00:00 GMT+00:00 2013 BUY: 233 shares of PRLB cost-basis=42.7 for $9951.43 CASH-BAL=60075.48
+Fri Jan 18 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-7.85%)257 shares of NSM for -7.85
+Fri Jan 18 08:00:00 GMT+00:00 2013 SELL NSM x257 for $9203.17 -7.85%
+Tue Jan 29 08:00:00 GMT+00:00 2013 BUY: 419 shares of DHI cost-basis=23.8 for $9980.58 CASH-BAL=59284.07
+Wed Jan 30 08:00:00 GMT+00:00 2013 BUY: 147 shares of HES cost-basis=67.9 for $9978.36 CASH-BAL=49298.71
+Wed Jan 30 08:00:00 GMT+00:00 2013 BUY: 240 shares of PLT cost-basis=41.5 for $9967.2 CASH-BAL=39324.51
+Thu Jan 31 08:00:00 GMT+00:00 2013 BUY: 749 shares of TIVO cost-basis=13.3 for $9991.66 CASH-BAL=29325.85
+Mon Feb 04 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-5.34%)240 shares of PLT for -5.34
+Mon Feb 04 08:00:00 GMT+00:00 2013 SELL PLT x240 for $9441.6 -5.34%
+Wed Feb 06 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-6.44%)233 shares of PRLB for -6.44
+Wed Feb 06 08:00:00 GMT+00:00 2013 SELL PRLB x233 for $9317.67 -6.44%
+Wed Feb 06 08:00:00 GMT+00:00 2013 BUY: 510 shares of AGO cost-basis=19.6 for $9975.6 CASH-BAL=38088.52
+Fri Feb 15 08:00:00 GMT+00:00 2013 Market-Uptrend-Sell 20EMA: (-7.94%)435 shares of ASGN for -4.73
+Fri Feb 15 08:00:00 GMT+00:00 2013 SELL ASGN x435 for $9513.45 -4.73%
+Wed Feb 20 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-8.0%)419 shares of DHI for -8.0
+Wed Feb 20 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-5.23%)510 shares of AGO for -5.23
+Wed Feb 20 08:00:00 GMT+00:00 2013 SELL DHI x419 for $9188.67 -8.0%
+Wed Feb 20 08:00:00 GMT+00:00 2013 SELL AGO x510 for $9460.5 -5.23%
+Wed Feb 20 08:00:00 GMT+00:00 2013 BUY: 244 shares of SFLY cost-basis=40.8 for $9952.76 CASH-BAL=56270.38
+Thu Feb 21 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-5.2%)147 shares of HES for -5.2
+Thu Feb 21 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-5.17%)749 shares of TIVO for -5.17
+Thu Feb 21 08:00:00 GMT+00:00 2013 SELL HES x147 for $9466.8 -5.2%
+Thu Feb 21 08:00:00 GMT+00:00 2013 SELL TIVO x749 for $9482.34 -5.17%
+Fri Feb 22 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell -3%: (-3.43%)404 shares of HCSG for -3.43
+Fri Feb 22 08:00:00 GMT+00:00 2013 SELL HCSG x404 for $9651.56 -3.43%
+Mon Feb 25 08:00:00 GMT+00:00 2013 BUY: 285 shares of JCOM cost-basis=35.0 for $9969.3 CASH-BAL=74873.78
+Wed Feb 27 08:00:00 GMT+00:00 2013 BUY: 467 shares of BLOX cost-basis=21.4 for $9984.46 CASH-BAL=64882.32
+Fri Mar 01 08:00:00 GMT+00:00 2013 BUY: 307 shares of SSTK cost-basis=32.5 for $9983.64 CASH-BAL=54891.68
+Fri Mar 08 08:00:00 GMT+00:00 2013 BUY: 799 shares of MBI cost-basis=12.5 for $9987.5 CASH-BAL=44897.18
+Mon Mar 18 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-5.75%)799 shares of MBI for -5.75
+Mon Mar 18 08:00:00 GMT+00:00 2013 SELL MBI x799 for $9420.21 -5.75%
+Mon Mar 18 08:00:00 GMT+00:00 2013 BUY: 121 shares of CVLT cost-basis=82.5 for $9976.45 CASH-BAL=44326.94
+Mon Mar 25 08:00:00 GMT+00:00 2013 Market-Uptrend-Sell 20EMA: (-2.97%)467 shares of BLOX for -2.36
+Mon Mar 25 08:00:00 GMT+00:00 2013 SELL BLOX x467 for $9755.63 -2.36%
+Thu Mar 28 08:00:00 GMT+00:00 2013 BUY: 149 shares of SIG cost-basis=67.0 for $9983.0 CASH-BAL=44085.57
+Tue Apr 02 08:00:00 GMT+00:00 2013 BUY: 155 shares of JCOM cost-basis=36.2 for $5961.3 CASH-BAL=38117.27
+Wed Apr 03 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-7.4%)121 shares of CVLT for -7.4
+Wed Apr 03 08:00:00 GMT+00:00 2013 SELL CVLT x121 for $9245.61 -7.4%
+Wed Apr 03 08:00:00 GMT+00:00 2013 BUY: 243 shares of TSLA cost-basis=41.1 for $9987.3 CASH-BAL=37361.58
+Fri Apr 05 08:00:00 GMT+00:00 2013 BUY: 147 shares of SSTK cost-basis=35.1 for $5963.79 CASH-BAL=31390.79
+Fri Apr 05 08:00:00 GMT+00:00 2013 BUY: 169 shares of NKE cost-basis=59.0 for $9965.93 CASH-BAL=21417.86
+Wed Apr 10 08:00:00 GMT+00:00 2013 BUY: 275 shares of FSLR cost-basis=36.3 for $9988.0 CASH-BAL=11422.86
+Wed Apr 17 08:00:00 GMT+00:00 2013 BUY: 94 shares of SSTK cost-basis=36.4 for $3988.42 CASH-BAL=7427.44
+Thu Apr 18 08:00:00 GMT+00:00 2013 Selling due to underperformance: SIG -2.11% in 21
+Thu Apr 18 08:00:00 GMT+00:00 2013 SELL SIG x149 for $9778.87 -2.11%
+Thu Apr 18 08:00:00 GMT+00:00 2013 BUY: 306 shares of THRX cost-basis=32.6 for $9963.36 CASH-BAL=7228.95
+Fri Apr 19 08:00:00 GMT+00:00 2013 BUY: 136 shares of SFLY cost-basis=42.0 for $5992.16 CASH-BAL=1229.79
+Tue Apr 23 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [ARMH]
+Wed Apr 24 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-6.27%)306 shares of THRX for -6.27
+Wed Apr 24 08:00:00 GMT+00:00 2013 SELL THRX x306 for $9345.24 -6.27%
+Wed Apr 24 08:00:00 GMT+00:00 2013 FSLR ATR Sell signal. atr=2.1604684750709406; vol-rate: 138% ;cls-rng=84.16988416988417
+Wed Apr 24 08:00:00 GMT+00:00 2013 BUY: 221 shares of ARMH cost-basis=45.1 for $9958.26 CASH-BAL=602.77
+Fri Apr 26 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB]
+Mon Apr 29 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB]
+Tue Apr 30 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB]
+Wed May 01 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB]
+Thu May 02 08:00:00 GMT+00:00 2013 BUY: 99 shares of JCOM cost-basis=36.9 for $3969.9 CASH-BAL=-3374.13
+Thu May 02 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3374.13;total-positions:7
+Thu May 02 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB, STX]
+Fri May 03 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3374.13;total-positions:7
+Fri May 03 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CAB, TREX]
+Mon May 06 08:00:00 GMT+00:00 2013 TSLA ATR Sell signal. atr=2.4010393234459215; vol-rate: 62.7% ;cls-rng=96.15384615384623
+Mon May 06 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3374.13;total-positions:7
+Mon May 06 08:00:00 GMT+00:00 2013 Selling due to underperformance: SFLY 3.3% in 75
+Mon May 06 08:00:00 GMT+00:00 2013 SELL SFLY x380 for $16484.4 3.3%
+Mon May 06 08:00:00 GMT+00:00 2013 BUY: 189 shares of TREX cost-basis=52.7 for $9960.3 CASH-BAL=3135.97
+Mon May 06 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AGO]
+Tue May 07 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Wed May 08 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [NFLX]
+Wed May 08 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Thu May 09 08:00:00 GMT+00:00 2013 TSLA ATR Sell signal. atr=2.9101360755521215; vol-rate: 731% ;cls-rng=47.26821192052987
+Thu May 09 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Fri May 10 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [STX]
+Fri May 10 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Mon May 13 08:00:00 GMT+00:00 2013 TSLA ATR Sell signal. atr=4.673971922420612; vol-rate: 419% ;cls-rng=97.73985761102946
+Mon May 13 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [STX]
+Mon May 13 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Tue May 14 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [QIHU, STX]
+Tue May 14 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Wed May 15 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Thu May 16 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [STX]
+Thu May 16 08:00:00 GMT+00:00 2013: cashbal=3135.97; num-po=7; market-dir=UPTREND
+Fri May 17 08:00:00 GMT+00:00 2013 BUY: 91 shares of NKE cost-basis=61.2 for $5944.12 CASH-BAL=-2815.15
+Fri May 17 08:00:00 GMT+00:00 2013: Cash Bal was negative: -2815.15;total-positions:7
+Fri May 17 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [STX]
+Fri May 17 08:00:00 GMT+00:00 2013: cashbal=-2815.15; num-po=7; market-dir=UPTREND
+Mon May 20 08:00:00 GMT+00:00 2013: Cash Bal was negative: -2815.15;total-positions:7
+Mon May 20 08:00:00 GMT+00:00 2013: cashbal=-2815.15; num-po=7; market-dir=UPTREND
+Tue May 21 08:00:00 GMT+00:00 2013: Cash Bal was negative: -2815.15;total-positions:7
+Tue May 21 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AGO, EA]
+Tue May 21 08:00:00 GMT+00:00 2013: cashbal=-2815.15; num-po=7; market-dir=UPTREND
+Wed May 22 08:00:00 GMT+00:00 2013: Cash Bal was negative: -2815.15;total-positions:7
+Wed May 22 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [INXN]
+Wed May 22 08:00:00 GMT+00:00 2013: cashbal=-2815.15; num-po=7; market-dir=UPTREND
+Thu May 23 08:00:00 GMT+00:00 2013 Market-Uptrend-Sell 20EMA: (-4.27%)221 shares of ARMH for 0.618
+Thu May 23 08:00:00 GMT+00:00 2013 SELL ARMH x221 for $10026.77 0.618%
+Thu May 23 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [INXN, PCP, ICUI]
+Thu May 23 08:00:00 GMT+00:00 2013: cashbal=7204.62; num-po=6; market-dir=UPTREND
+Fri May 24 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [INXN, PCP]
+Fri May 24 08:00:00 GMT+00:00 2013: cashbal=7204.62; num-po=6; market-dir=UPTREND
+Tue May 28 08:00:00 GMT+00:00 2013 TSLA ATR Sell signal. atr=6.347053475448745; vol-rate: 167% ;cls-rng=96.01913875598089
+Tue May 28 08:00:00 GMT+00:00 2013 Selling due to underperformance: NKE 3.32% in 53
+Tue May 28 08:00:00 GMT+00:00 2013 SELL NKE x260 for $16452.8 3.32%
+Tue May 28 08:00:00 GMT+00:00 2013 BUY: 370 shares of INXN cost-basis=27.0 for $9990.0 CASH-BAL=13653.42
+Tue May 28 08:00:00 GMT+00:00 2013: cashbal=7204.62; num-po=6; market-dir=UPTREND
+Wed May 29 08:00:00 GMT+00:00 2013 BUY: 115 shares of FSLR cost-basis=40.9 for $5952.4 CASH-BAL=7694.02
+Wed May 29 08:00:00 GMT+00:00 2013: cashbal=7694.02; num-po=6; market-dir=UPTREND
+Thu May 30 08:00:00 GMT+00:00 2013: cashbal=7694.02; num-po=6; market-dir=UPTREND
+Fri May 31 08:00:00 GMT+00:00 2013: cashbal=7694.02; num-po=6; market-dir=UPTREND
+Mon Jun 03 08:00:00 GMT+00:00 2013: cashbal=7694.02; num-po=6; market-dir=UPTREND
+Tue Jun 04 08:00:00 GMT+00:00 2013: cashbal=7694.02; num-po=6; market-dir=UPTREND
+Wed Jun 05 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell 20EMA: (-3.81%)189 shares of TREX for -0.905
+Wed Jun 05 08:00:00 GMT+00:00 2013 SELL TREX x189 for $9877.14 -0.905%
+Wed Jun 05 08:00:00 GMT+00:00 2013: cashbal=17564.16; num-po=5; market-dir=CAUTIOUS_UPTREND
+Thu Jun 06 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell 50EMA: (-2.12%)548 shares of SSTK for 21.0
+Thu Jun 06 08:00:00 GMT+00:00 2013 SELL SSTK x548 for $24133.92 21.0%
+Thu Jun 06 08:00:00 GMT+00:00 2013 BUY: 728 shares of TIVO cost-basis=13.7 for $9980.88 CASH-BAL=31703.2
+Thu Jun 06 08:00:00 GMT+00:00 2013: cashbal=41691.08; num-po=5; market-dir=CAUTIOUS_UPTREND
+Fri Jun 07 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-19.1%)728 shares of TIVO for -19.1
+Fri Jun 07 08:00:00 GMT+00:00 2013 SELL TIVO x728 for $8080.8 -19.1%
+Fri Jun 07 08:00:00 GMT+00:00 2013: cashbal=39777.0; num-po=4; market-dir=UPTREND
+Mon Jun 10 08:00:00 GMT+00:00 2013: cashbal=39777.0; num-po=4; market-dir=UPTREND
+Tue Jun 11 08:00:00 GMT+00:00 2013: cashbal=39777.0; num-po=4; market-dir=UPTREND
+Wed Jun 12 08:00:00 GMT+00:00 2013: cashbal=39777.0; num-po=4; market-dir=CAUTIOUS_UPTREND
+Thu Jun 13 08:00:00 GMT+00:00 2013 BUY: 578 shares of KKD cost-basis=17.3 for $9976.28 CASH-BAL=29793.72
+Thu Jun 13 08:00:00 GMT+00:00 2013: cashbal=39777.0; num-po=5; market-dir=CAUTIOUS_UPTREND
+Fri Jun 14 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell 50EMA: (-2.94%)390 shares of FSLR for 9.3
+Fri Jun 14 08:00:00 GMT+00:00 2013 SELL FSLR x390 for $17436.9 9.3%
+Fri Jun 14 08:00:00 GMT+00:00 2013: cashbal=47223.62; num-po=4; market-dir=CAUTIOUS_UPTREND
+Mon Jun 17 08:00:00 GMT+00:00 2013: cashbal=47223.62; num-po=4; market-dir=CAUTIOUS_UPTREND
+Tue Jun 18 08:00:00 GMT+00:00 2013: cashbal=47223.62; num-po=4; market-dir=UPTREND
+Wed Jun 19 08:00:00 GMT+00:00 2013: cashbal=47223.62; num-po=4; market-dir=UPTREND
+Thu Jun 20 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-7.29%)370 shares of INXN for -7.29
+Thu Jun 20 08:00:00 GMT+00:00 2013 SELL INXN x370 for $9268.5 -7.29%
+Thu Jun 20 08:00:00 GMT+00:00 2013: cashbal=56485.12; num-po=3; market-dir=DOWNTREND
+Fri Jun 21 08:00:00 GMT+00:00 2013 BUY: 504 shares of CIEN cost-basis=19.8 for $9974.16 CASH-BAL=46503.96
+Fri Jun 21 08:00:00 GMT+00:00 2013: cashbal=56485.12; num-po=4; market-dir=DOWNTREND
+Mon Jun 24 08:00:00 GMT+00:00 2013Market-Downtrend-Sell -3%: (-3.66%)578 shares of KKD for -3.66
+Mon Jun 24 08:00:00 GMT+00:00 2013 SELL KKD x578 for $9617.92 -3.66%
+Mon Jun 24 08:00:00 GMT+00:00 2013: cashbal=56114.88; num-po=3; market-dir=DOWNTREND
+Tue Jun 25 08:00:00 GMT+00:00 2013: cashbal=56114.88; num-po=3; market-dir=DOWNTREND
+Wed Jun 26 08:00:00 GMT+00:00 2013: cashbal=56114.88; num-po=3; market-dir=DOWNTREND
+Thu Jun 27 08:00:00 GMT+00:00 2013 BUY: 414 shares of PTLA cost-basis=24.1 for $9989.82 CASH-BAL=46118.06
+Thu Jun 27 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SSTK, ICPT]
+Thu Jun 27 08:00:00 GMT+00:00 2013: cashbal=56114.88; num-po=4; market-dir=DOWNTREND
+Fri Jun 28 08:00:00 GMT+00:00 2013: cashbal=46118.06; num-po=4; market-dir=DOWNTREND
+Mon Jul 01 08:00:00 GMT+00:00 2013 BUY: 227 shares of ICPT cost-basis=43.9 for $9963.03 CASH-BAL=36148.03
+Mon Jul 01 08:00:00 GMT+00:00 2013: cashbal=46118.06; num-po=5; market-dir=CAUTIOUS_UPTREND
+Tue Jul 02 08:00:00 GMT+00:00 2013 BUY: 122 shares of AYI cost-basis=81.4 for $9929.58 CASH-BAL=26211.45
+Tue Jul 02 08:00:00 GMT+00:00 2013: cashbal=36148.03; num-po=6; market-dir=UPTREND
+Wed Jul 03 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Fri Jul 05 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Mon Jul 08 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Tue Jul 09 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Wed Jul 10 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Thu Jul 11 08:00:00 GMT+00:00 2013 CIEN ATR Sell signal. atr=0.5531142910180511; vol-rate: 95.6% ;cls-rng=98.91304347826069
+Thu Jul 11 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Fri Jul 12 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Mon Jul 15 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Tue Jul 16 08:00:00 GMT+00:00 2013: cashbal=26211.45; num-po=6; market-dir=UPTREND
+Wed Jul 17 08:00:00 GMT+00:00 2013 BUY: 49 shares of TSLA cost-basis=54.4 for $5892.25 CASH-BAL=20312.2
+Wed Jul 17 08:00:00 GMT+00:00 2013: cashbal=20312.2; num-po=6; market-dir=UPTREND
+Thu Jul 18 08:00:00 GMT+00:00 2013: cashbal=20312.2; num-po=6; market-dir=UPTREND
+Fri Jul 19 08:00:00 GMT+00:00 2013 BUY: 1350 shares of SVU cost-basis=7.39 for $9976.5 CASH-BAL=10328.7
+Fri Jul 19 08:00:00 GMT+00:00 2013: cashbal=20312.2; num-po=7; market-dir=UPTREND
+Mon Jul 22 08:00:00 GMT+00:00 2013 BUY: 329 shares of SFUN cost-basis=30.3 for $9975.28 CASH-BAL=346.42
+Mon Jul 22 08:00:00 GMT+00:00 2013: cashbal=10328.7; num-po=8; market-dir=UPTREND
+Tue Jul 23 08:00:00 GMT+00:00 2013: cashbal=346.42; num-po=8; market-dir=UPTREND
+Wed Jul 24 08:00:00 GMT+00:00 2013: cashbal=346.42; num-po=8; market-dir=UPTREND
+Thu Jul 25 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [LL]
+Thu Jul 25 08:00:00 GMT+00:00 2013: cashbal=346.42; num-po=8; market-dir=UPTREND
+Fri Jul 26 08:00:00 GMT+00:00 2013 SFUN ATR Sell signal. atr=1.2612154057529497; vol-rate: 261% ;cls-rng=96.86800894854585
+Fri Jul 26 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [LL, POWI, FB]
+Fri Jul 26 08:00:00 GMT+00:00 2013: cashbal=346.42; num-po=8; market-dir=UPTREND
+Mon Jul 29 08:00:00 GMT+00:00 2013 Market-Uptrend-Sell 20EMA: (-4.79%)227 shares of ICPT for 0.34
+Mon Jul 29 08:00:00 GMT+00:00 2013 SELL ICPT x227 for $10003.89 0.34%
+Mon Jul 29 08:00:00 GMT+00:00 2013 BUY: 106 shares of LL cost-basis=93.7 for $9930.08 CASH-BAL=406.23
+Mon Jul 29 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [POWI]
+Mon Jul 29 08:00:00 GMT+00:00 2013: cashbal=10343.31; num-po=8; market-dir=UPTREND
+Tue Jul 30 08:00:00 GMT+00:00 2013 BUY: 268 shares of CIEN cost-basis=20.7 for $5989.8 CASH-BAL=-5590.57
+Tue Jul 30 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5590.57;total-positions:8
+Tue Jul 30 08:00:00 GMT+00:00 2013 Selling due to underperformance: PTLA -4.46% in 33
+Tue Jul 30 08:00:00 GMT+00:00 2013 SELL PTLA x414 for $9550.98 -4.46%
+Tue Jul 30 08:00:00 GMT+00:00 2013 BUY: 191 shares of POWI cost-basis=52.1 for $9945.37 CASH-BAL=-5998.96
+Tue Jul 30 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [OSK]
+Tue Jul 30 08:00:00 GMT+00:00 2013: cashbal=-5590.57; num-po=8; market-dir=UPTREND
+Wed Jul 31 08:00:00 GMT+00:00 2013 POWI ATR Sell signal. atr=1.429283954156489; vol-rate: 165% ;cls-rng=85.28428093645469
+Wed Jul 31 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Wed Jul 31 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [JCI, SNCR]
+Wed Jul 31 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Thu Aug 01 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Thu Aug 01 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [JCI]
+Thu Aug 01 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Fri Aug 02 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Fri Aug 02 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [GIB, SNCR]
+Fri Aug 02 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Mon Aug 05 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Mon Aug 05 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [LOCK]
+Mon Aug 05 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Tue Aug 06 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Tue Aug 06 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [GIB, LOCK]
+Tue Aug 06 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Wed Aug 07 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Wed Aug 07 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [GIB, OSK, LOCK, ATVI, GNC]
+Wed Aug 07 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Thu Aug 08 08:00:00 GMT+00:00 2013 TSLA ATR Sell signal. atr=6.353190784819725; vol-rate: 164% ;cls-rng=35.86698337292145
+Thu Aug 08 08:00:00 GMT+00:00 2013 SFUN ATR Sell signal. atr=1.4601959659563057; vol-rate: 245% ;cls-rng=88.16425120772958
+Thu Aug 08 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Thu Aug 08 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [GIB, CSC, OSK, LOCK, SNCR]
+Thu Aug 08 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Fri Aug 09 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Fri Aug 09 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [GIB, CSC, OSK, LOCK, GNC]
+Fri Aug 09 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Mon Aug 12 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Mon Aug 12 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, OSK, LOCK]
+Mon Aug 12 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Tue Aug 13 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Tue Aug 13 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, LOCK]
+Tue Aug 13 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Wed Aug 14 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5998.96;total-positions:8
+Wed Aug 14 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, LOCK]
+Wed Aug 14 08:00:00 GMT+00:00 2013: cashbal=-5998.96; num-po=8; market-dir=UPTREND
+Thu Aug 15 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell 20EMA: (-5.0%)1350 shares of SVU for -1.29
+Thu Aug 15 08:00:00 GMT+00:00 2013 SELL SVU x1350 for $9855.0 -1.29%
+Thu Aug 15 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, LOCK, HMIN, SNCR]
+Thu Aug 15 08:00:00 GMT+00:00 2013: cashbal=3849.04; num-po=7; market-dir=CAUTIOUS_UPTREND
+Fri Aug 16 08:00:00 GMT+00:00 2013 Selling due to underperformance: CIEN 1.66% in 56
+Fri Aug 16 08:00:00 GMT+00:00 2013 SELL CIEN x772 for $16242.88 1.66%
+Fri Aug 16 08:00:00 GMT+00:00 2013 BUY: 815 shares of LOCK cost-basis=12.3 for $9991.9 CASH-BAL=10086.02
+Fri Aug 16 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, HMIN]
+Fri Aug 16 08:00:00 GMT+00:00 2013: cashbal=3849.04; num-po=7; market-dir=CAUTIOUS_UPTREND
+Mon Aug 19 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Tue Aug 20 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC]
+Tue Aug 20 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Wed Aug 21 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [HMIN]
+Wed Aug 21 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Thu Aug 22 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CSC, HMIN]
+Thu Aug 22 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Fri Aug 23 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=UPTREND
+Mon Aug 26 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=UPTREND
+Tue Aug 27 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=UPTREND
+Wed Aug 28 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Thu Aug 29 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Fri Aug 30 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Tue Sep 03 08:00:00 GMT+00:00 2013 SFUN ATR Sell signal. atr=2.063041281022097; vol-rate: 219% ;cls-rng=92.60780287474333
+Tue Sep 03 08:00:00 GMT+00:00 2013: cashbal=10086.02; num-po=7; market-dir=CAUTIOUS_UPTREND
+Wed Sep 04 08:00:00 GMT+00:00 2013 BUY: 69 shares of AYI cost-basis=83.3 for $5976.09 CASH-BAL=4102.93
+Wed Sep 04 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE]
+Wed Sep 04 08:00:00 GMT+00:00 2013: cashbal=4102.93; num-po=7; market-dir=UPTREND
+Thu Sep 05 08:00:00 GMT+00:00 2013: cashbal=4102.93; num-po=7; market-dir=UPTREND
+Fri Sep 06 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, HIMX, KFY]
+Fri Sep 06 08:00:00 GMT+00:00 2013: cashbal=4102.93; num-po=7; market-dir=UPTREND
+Mon Sep 09 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, TW, KFY]
+Mon Sep 09 08:00:00 GMT+00:00 2013: cashbal=4102.93; num-po=7; market-dir=UPTREND
+Tue Sep 10 08:00:00 GMT+00:00 2013 SFUN ATR Sell signal. atr=2.3949583221930255; vol-rate: 100% ;cls-rng=95.05703422053223
+Tue Sep 10 08:00:00 GMT+00:00 2013 BUY: 24 shares of TSLA cost-basis=62.9 for $3992.88 CASH-BAL=103.05
+Tue Sep 10 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE]
+Tue Sep 10 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Wed Sep 11 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TW, AKRX, KFY]
+Wed Sep 11 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Thu Sep 12 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TW, KFY]
+Thu Sep 12 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Fri Sep 13 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, KFY]
+Fri Sep 13 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Mon Sep 16 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, AVG, HTH, KFY]
+Mon Sep 16 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Tue Sep 17 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, AVG, KS, HIMX, HTH, KFY]
+Tue Sep 17 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Wed Sep 18 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [HTH, KFY]
+Wed Sep 18 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Thu Sep 19 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [SALE, HTH, KFY]
+Thu Sep 19 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Fri Sep 20 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [HTH, KFY]
+Fri Sep 20 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Mon Sep 23 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CRR, SRPT, PKG, HTH]
+Mon Sep 23 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Tue Sep 24 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AMAT, SRPT, PKG]
+Tue Sep 24 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Wed Sep 25 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [FIVE, SRPT, PKG, HTH]
+Wed Sep 25 08:00:00 GMT+00:00 2013: cashbal=103.05; num-po=7; market-dir=UPTREND
+Thu Sep 26 08:00:00 GMT+00:00 2013 BUY: 43 shares of AYI cost-basis=84.9 for $3962.45 CASH-BAL=-3866.4
+Thu Sep 26 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3866.4;total-positions:7
+Thu Sep 26 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CRR, GDOT, SRPT, FUL, PKG, HTH]
+Thu Sep 26 08:00:00 GMT+00:00 2013: cashbal=-3866.4; num-po=7; market-dir=UPTREND
+Fri Sep 27 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3866.4;total-positions:7
+Fri Sep 27 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CERN, AMAT, AVG, CRR, GDOT, SRPT, FUL, PKG]
+Fri Sep 27 08:00:00 GMT+00:00 2013: cashbal=-3866.4; num-po=7; market-dir=UPTREND
+Mon Sep 30 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3866.4;total-positions:7
+Mon Sep 30 08:00:00 GMT+00:00 2013 Selling due to underperformance: POWI 3.94% in 62
+Mon Sep 30 08:00:00 GMT+00:00 2013 SELL POWI x191 for $10344.56 3.94%
+Mon Sep 30 08:00:00 GMT+00:00 2013 BUY: 417 shares of AVG cost-basis=23.9 for $9982.98 CASH-BAL=-3518.82
+Mon Sep 30 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CERN, AMAT, GDOT, SRPT, PKG, HTH]
+Mon Sep 30 08:00:00 GMT+00:00 2013: cashbal=-3866.4; num-po=7; market-dir=UPTREND
+Tue Oct 01 08:00:00 GMT+00:00 2013 AYI ATR Sell signal. atr=2.051142977922618; vol-rate: 292% ;cls-rng=94.01574803149592
+Tue Oct 01 08:00:00 GMT+00:00 2013 BUY: 55 shares of LL cost-basis=98.8 for $5977.95 CASH-BAL=-9503.77
+Tue Oct 01 08:00:00 GMT+00:00 2013: Cash Bal was negative: -9503.77;total-positions:7
+Tue Oct 01 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AMAT, GDOT, SRPT, KS, PKG, HTH]
+Tue Oct 01 08:00:00 GMT+00:00 2013: cashbal=-9503.77; num-po=7; market-dir=UPTREND
+Wed Oct 02 08:00:00 GMT+00:00 2013: Cash Bal was negative: -9503.77;total-positions:7
+Wed Oct 02 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AMAT, GDOT, SRPT]
+Wed Oct 02 08:00:00 GMT+00:00 2013: cashbal=-9503.77; num-po=7; market-dir=UPTREND
+Thu Oct 03 08:00:00 GMT+00:00 2013: Cash Bal was negative: -9503.77;total-positions:7
+Thu Oct 03 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AMAT, GDOT, VIP]
+Thu Oct 03 08:00:00 GMT+00:00 2013: cashbal=-9503.77; num-po=7; market-dir=UPTREND
+Fri Oct 04 08:00:00 GMT+00:00 2013 BUY: 119 shares of SFUN cost-basis=35.6 for $5992.84 CASH-BAL=-15503.61
+Fri Oct 04 08:00:00 GMT+00:00 2013: Cash Bal was negative: -15503.61;total-positions:7
+Fri Oct 04 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AMAT, GDOT, VIP]
+Fri Oct 04 08:00:00 GMT+00:00 2013: cashbal=-15503.61; num-po=7; market-dir=UPTREND
+Mon Oct 07 08:00:00 GMT+00:00 2013 Market-Uptrend-Sell 20EMA: (-2.07%)417 shares of AVG for -1.7
+Mon Oct 07 08:00:00 GMT+00:00 2013 SELL AVG x417 for $9820.35 -1.7%
+Mon Oct 07 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5690.26;total-positions:6
+Mon Oct 07 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [FUL, VIP]
+Mon Oct 07 08:00:00 GMT+00:00 2013: cashbal=-5690.26; num-po=6; market-dir=UPTREND
+Tue Oct 08 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5690.26;total-positions:6
+Tue Oct 08 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CERN, AMAT, FUL, VIP]
+Tue Oct 08 08:00:00 GMT+00:00 2013: cashbal=-5690.26; num-po=6; market-dir=UPTREND
+Wed Oct 09 08:00:00 GMT+00:00 2013: Cash Bal was negative: -5690.26;total-positions:6
+Wed Oct 09 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CERN, AMAT, FUL, VIP]
+Wed Oct 09 08:00:00 GMT+00:00 2013: cashbal=-5690.26; num-po=6; market-dir=UPTREND
+Thu Oct 10 08:00:00 GMT+00:00 2013 BUY: 430 shares of LOCK cost-basis=12.8 for $5985.6 CASH-BAL=-11682.86
+Thu Oct 10 08:00:00 GMT+00:00 2013: Cash Bal was negative: -11682.86;total-positions:6
+Thu Oct 10 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CERN]
+Thu Oct 10 08:00:00 GMT+00:00 2013: cashbal=-11682.86; num-po=6; market-dir=UPTREND
+Fri Oct 11 08:00:00 GMT+00:00 2013: Cash Bal was negative: -11682.86;total-positions:6
+Fri Oct 11 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TTM, VIP]
+Fri Oct 11 08:00:00 GMT+00:00 2013: cashbal=-11682.86; num-po=6; market-dir=UPTREND
+Mon Oct 14 08:00:00 GMT+00:00 2013: Cash Bal was negative: -11682.86;total-positions:6
+Mon Oct 14 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TTM, VIP]
+Mon Oct 14 08:00:00 GMT+00:00 2013: cashbal=-11682.86; num-po=6; market-dir=UPTREND
+Tue Oct 15 08:00:00 GMT+00:00 2013: Cash Bal was negative: -11682.86;total-positions:6
+Tue Oct 15 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TTM, VIP]
+Tue Oct 15 08:00:00 GMT+00:00 2013: cashbal=-11682.86; num-po=6; market-dir=UPTREND
+Wed Oct 16 08:00:00 GMT+00:00 2013: Cash Bal was negative: -11682.86;total-positions:6
+Wed Oct 16 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [MTG, TTM, VIP]
+Wed Oct 16 08:00:00 GMT+00:00 2013: cashbal=-11682.86; num-po=6; market-dir=UPTREND
+Thu Oct 17 08:00:00 GMT+00:00 2013 BUY: 277 shares of LOCK cost-basis=13.1 for $3980.49 CASH-BAL=-15670.35
+Thu Oct 17 08:00:00 GMT+00:00 2013: Cash Bal was negative: -15670.35;total-positions:6
+Thu Oct 17 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [MTG, STNG, TTM]
+Thu Oct 17 08:00:00 GMT+00:00 2013: cashbal=-15670.35; num-po=6; market-dir=UPTREND
+Fri Oct 18 08:00:00 GMT+00:00 2013: Cash Bal was negative: -15670.35;total-positions:6
+Fri Oct 18 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [MTG, VRTU, EGOV, TTM]
+Fri Oct 18 08:00:00 GMT+00:00 2013: cashbal=-15670.35; num-po=6; market-dir=UPTREND
+Mon Oct 21 08:00:00 GMT+00:00 2013: Cash Bal was negative: -15670.35;total-positions:6
+Mon Oct 21 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [VRTU, EGOV]
+Mon Oct 21 08:00:00 GMT+00:00 2013: cashbal=-15670.35; num-po=6; market-dir=UPTREND
+Tue Oct 22 08:00:00 GMT+00:00 2013: Cash Bal was negative: -15670.35;total-positions:6
+Tue Oct 22 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [VRTU, EGOV, NOAH, TTM]
+Tue Oct 22 08:00:00 GMT+00:00 2013: cashbal=-15670.35; num-po=6; market-dir=UPTREND
+Wed Oct 23 08:00:00 GMT+00:00 2013Market-Uptrend-Sell 50EDMA: (-3.5%)316 shares of TSLA for 161.0
+Wed Oct 23 08:00:00 GMT+00:00 2013 SELL TSLA x316 for $51982.0 161.0%
+Realized-Gain-Loss: 28657.8 adjusted-to-%: 20% max-amt-per-position is: 24000.0
+Wed Oct 23 08:00:00 GMT+00:00 2013 BUY: 610 shares of NOAH cost-basis=19.6 for $11980.4 CASH-BAL=24317.25
+Wed Oct 23 08:00:00 GMT+00:00 2013 BUY: 380 shares of VRTU cost-basis=31.5 for $11973.8 CASH-BAL=12336.45
+Wed Oct 23 08:00:00 GMT+00:00 2013 BUY: 486 shares of EGOV cost-basis=24.7 for $11989.62 CASH-BAL=339.83
+Wed Oct 23 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CP]
+Wed Oct 23 08:00:00 GMT+00:00 2013: cashbal=36304.65; num-po=8; market-dir=UPTREND
+Thu Oct 24 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TTM, CP]
+Thu Oct 24 08:00:00 GMT+00:00 2013: cashbal=339.83; num-po=8; market-dir=UPTREND
+Fri Oct 25 08:00:00 GMT+00:00 2013 StopLoss-HardStop SELL: (-8.77%)610 shares of NOAH for -8.77
+Fri Oct 25 08:00:00 GMT+00:00 2013 SELL NOAH x610 for $10937.3 -8.77%
+Fri Oct 25 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [MTG, CHH, NXPI, TTM, CP]
+Fri Oct 25 08:00:00 GMT+00:00 2013: cashbal=11270.13; num-po=7; market-dir=UPTREND
+Mon Oct 28 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [MTG, CHH, AVY, NXPI, LOGM, CP]
+Mon Oct 28 08:00:00 GMT+00:00 2013: cashbal=11270.13; num-po=7; market-dir=UPTREND
+Tue Oct 29 08:00:00 GMT+00:00 2013 Selling due to underperformance: LOCK 4.22% in 74
+Tue Oct 29 08:00:00 GMT+00:00 2013 SELL LOCK x1522 for $20820.96 4.22%
+Tue Oct 29 08:00:00 GMT+00:00 2013 BUY: 367 shares of LOGM cost-basis=32.6 for $11964.2 CASH-BAL=20112.89
+Tue Oct 29 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CGNX, MTG, CHH, AVY, BDBD, CP]
+Tue Oct 29 08:00:00 GMT+00:00 2013: cashbal=11270.13; num-po=7; market-dir=UPTREND
+Wed Oct 30 08:00:00 GMT+00:00 2013 BUY: 758 shares of LOCK cost-basis=15.8 for $11991.56 CASH-BAL=8114.33
+Wed Oct 30 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CGNX, MTG, CHH, ACHC, GLW, AVY, NXPI, AZPN, BDBD, CP]
+Wed Oct 30 08:00:00 GMT+00:00 2013: cashbal=20112.89; num-po=8; market-dir=UPTREND
+Thu Oct 31 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TCBI, MTG, CHH, GLW, AVY, KS, AZPN, MCHP, BDBD, CP, PRGO]
+Thu Oct 31 08:00:00 GMT+00:00 2013: cashbal=8114.33; num-po=8; market-dir=UPTREND
+Fri Nov 01 08:00:00 GMT+00:00 2013 StopLoss-SoftStop SELL: (-6.13%)367 shares of LOGM for -6.13
+Fri Nov 01 08:00:00 GMT+00:00 2013 SELL LOGM x367 for $11237.54 -6.13%
+Fri Nov 01 08:00:00 GMT+00:00 2013 BUY: 631 shares of GMED cost-basis=19.0 for $11976.38 CASH-BAL=7361.49
+Fri Nov 01 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TCBI, APOL, CHH, ACHC, GLW, TRMB, AVY, KS, AZPN, CP, HBI]
+Fri Nov 01 08:00:00 GMT+00:00 2013: cashbal=19344.87; num-po=8; market-dir=UPTREND
+Mon Nov 04 08:00:00 GMT+00:00 2013 Selling due to underperformance: EGOV -4.23% in 11
+Mon Nov 04 08:00:00 GMT+00:00 2013 SELL EGOV x486 for $11489.04 -4.23%
+Mon Nov 04 08:00:00 GMT+00:00 2013 BUY: 282 shares of NXPI cost-basis=42.5 for $11977.95 CASH-BAL=6858.58
+Mon Nov 04 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [APOL, CHH, ACHC, KS, AZPN, BDBD, CP, HBI]
+Mon Nov 04 08:00:00 GMT+00:00 2013: cashbal=7361.49; num-po=8; market-dir=UPTREND
+Tue Nov 05 08:00:00 GMT+00:00 2013 VRTU ATR Sell signal. atr=1.0101993136332739; vol-rate: 213% ;cls-rng=74.28034424770007
+Tue Nov 05 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CHH, ACHC, ORIG, KS, GNRC, AZPN, CP, HBI, NSC]
+Tue Nov 05 08:00:00 GMT+00:00 2013: cashbal=6858.58; num-po=8; market-dir=UPTREND
+Wed Nov 06 08:00:00 GMT+00:00 2013Market-Uptrend-Sell 50EDMA: (-3.58%)539 shares of JCOM for 35.2
+Wed Nov 06 08:00:00 GMT+00:00 2013 SELL JCOM x539 for $26923.05 35.2%
+Realized-Gain-Loss: 34326.3 adjusted-to-%: 30% max-amt-per-position is: 26000.0
+Wed Nov 06 08:00:00 GMT+00:00 2013 BUY: 271 shares of GNRC cost-basis=47.8 for $12951.09 CASH-BAL=20816.54
+Wed Nov 06 08:00:00 GMT+00:00 2013 BUY: 339 shares of AZPN cost-basis=38.3 for $12973.53 CASH-BAL=7836.01
+Wed Nov 06 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, APOL, CHH, ACHC, ORIG, ABMD, KS, CP, NSC, DWA]
+Wed Nov 06 08:00:00 GMT+00:00 2013: cashbal=33774.63; num-po=9; market-dir=UPTREND
+Thu Nov 07 08:00:00 GMT+00:00 2013 Market-CautiousUp-Sell -3%: (-4.19%)282 shares of NXPI for -4.19
+Thu Nov 07 08:00:00 GMT+00:00 2013 SELL NXPI x282 for $11483.04 -4.19%
+Thu Nov 07 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CHH, ACHC, ABMD, KS, VOYA, CP, PTC, HBI, DWA]
+Thu Nov 07 08:00:00 GMT+00:00 2013: cashbal=19312.05; num-po=8; market-dir=CAUTIOUS_UPTREND
+Fri Nov 08 08:00:00 GMT+00:00 2013 BUY: 45 shares of LL cost-basis=102 for $5099.85 CASH-BAL=14205.2
+Fri Nov 08 08:00:00 GMT+00:00 2013 BUY: 301 shares of ACHC cost-basis=43.1 for $12961.06 CASH-BAL=1237.14
+Fri Nov 08 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TCBI, APOL, CHH, CLGX, TREX, KS, MCHP, FDML, HBI, DWA]
+Fri Nov 08 08:00:00 GMT+00:00 2013: cashbal=14205.2; num-po=9; market-dir=UPTREND
+Mon Nov 11 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, CGNX, KS, HBI, DWA]
+Mon Nov 11 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Tue Nov 12 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, CGNX, KS, MCHP, HBI, DWA]
+Tue Nov 12 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Wed Nov 13 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, CGNX, TRMB, KS, MCHP]
+Wed Nov 13 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Thu Nov 14 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, MCHP]
+Thu Nov 14 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Fri Nov 15 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, A, MCHP]
+Fri Nov 15 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Mon Nov 18 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, A]
+Mon Nov 18 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Tue Nov 19 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, A, ABMD]
+Tue Nov 19 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Wed Nov 20 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [AEIS, A, VOYA]
+Wed Nov 20 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Thu Nov 21 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [A, VOYA, PTC]
+Thu Nov 21 08:00:00 GMT+00:00 2013: cashbal=1237.14; num-po=9; market-dir=UPTREND
+Fri Nov 22 08:00:00 GMT+00:00 2013 StopLoss-ScaledSoftStop SELL: ($104.04)206 @$101.81 shares of LL for -0.267
+Fri Nov 22 08:00:00 GMT+00:00 2013 SELL LL x206 for $20972.86 -0.267%
+Fri Nov 22 08:00:00 GMT+00:00 2013 BUY: 241 shares of A cost-basis=53.9 for $12977.85 CASH-BAL=9218.15
+Fri Nov 22 08:00:00 GMT+00:00 2013: cashbal=22203.0; num-po=9; market-dir=UPTREND
+Mon Nov 25 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [BLMN]
+Mon Nov 25 08:00:00 GMT+00:00 2013: cashbal=9218.15; num-po=9; market-dir=UPTREND
+Tue Nov 26 08:00:00 GMT+00:00 2013 BUY: 79 shares of SFUN cost-basis=40.1 for $5183.98 CASH-BAL=4027.17
+Tue Nov 26 08:00:00 GMT+00:00 2013 BUY: 224 shares of VRTU cost-basis=32.7 for $7792.96 CASH-BAL=-3772.79
+Tue Nov 26 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Tue Nov 26 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [BLMN]
+Tue Nov 26 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Wed Nov 27 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Wed Nov 27 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [BLMN]
+Wed Nov 27 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Fri Nov 29 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Fri Nov 29 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [BLMN]
+Fri Nov 29 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Mon Dec 02 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Mon Dec 02 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Tue Dec 03 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Tue Dec 03 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Wed Dec 04 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Wed Dec 04 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Thu Dec 05 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Thu Dec 05 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Fri Dec 06 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Fri Dec 06 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Mon Dec 09 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Mon Dec 09 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Tue Dec 10 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Tue Dec 10 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [TWTR]
+Tue Dec 10 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Wed Dec 11 08:00:00 GMT+00:00 2013: Cash Bal was negative: -3772.79;total-positions:9
+Wed Dec 11 08:00:00 GMT+00:00 2013 Selling due to underperformance: LOCK 1.21% in 41
+Wed Dec 11 08:00:00 GMT+00:00 2013 SELL LOCK x758 for $12143.16 1.21%
+Wed Dec 11 08:00:00 GMT+00:00 2013 BUY: 248 shares of TWTR cost-basis=52.3 for $12980.32 CASH-BAL=-4623.95
+Wed Dec 11 08:00:00 GMT+00:00 2013: cashbal=-3772.79; num-po=9; market-dir=UPTREND
+Thu Dec 12 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Thu Dec 12 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Fri Dec 13 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Fri Dec 13 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Mon Dec 16 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Mon Dec 16 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Tue Dec 17 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Tue Dec 17 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Wed Dec 18 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Wed Dec 18 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Thu Dec 19 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Thu Dec 19 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Fri Dec 20 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Fri Dec 20 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [CONN]
+Fri Dec 20 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Mon Dec 23 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Mon Dec 23 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Tue Dec 24 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Tue Dec 24 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Thu Dec 26 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Thu Dec 26 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Fri Dec 27 08:00:00 GMT+00:00 2013: Cash Bal was negative: -4623.95;total-positions:9
+Fri Dec 27 08:00:00 GMT+00:00 2013: cashbal=-4623.95; num-po=9; market-dir=UPTREND
+Mon Dec 30 08:00:00 GMT+00:00 2013 BUY: 163 shares of ACHC cost-basis=44.7 for $7784.88 CASH-BAL=-12415.83
+Mon Dec 30 08:00:00 GMT+00:00 2013: Cash Bal was negative: -12415.83;total-positions:9
+Mon Dec 30 08:00:00 GMT+00:00 2013: cashbal=-12415.83; num-po=9; market-dir=UPTREND
+Tue Dec 31 08:00:00 GMT+00:00 2013: Cash Bal was negative: -12415.83;total-positions:9
+Tue Dec 31 08:00:00 GMT+00:00 2013 Adding unprocessed symbols to watchlist: [HTZ, QDEL]
+Tue Dec 31 08:00:00 GMT+00:00 2013: cashbal=-12415.83; num-po=9; market-dir=UPTREND
+Thu Jan 02 08:00:00 GMT+00:00 2014: Cash Bal was negative: -12415.83;total-positions:9
+Thu Jan 02 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HTZ, QDEL]
+Thu Jan 02 08:00:00 GMT+00:00 2014: cashbal=-12415.83; num-po=9; market-dir=UPTREND
+Fri Jan 03 08:00:00 GMT+00:00 2014: Cash Bal was negative: -12415.83;total-positions:9
+Fri Jan 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [YY, SGMO, HTZ, QDEL]
+Fri Jan 03 08:00:00 GMT+00:00 2014: cashbal=-12415.83; num-po=9; market-dir=UPTREND
+Mon Jan 06 08:00:00 GMT+00:00 2014 BUY: 138 shares of VRTU cost-basis=33.6 for $5162.58 CASH-BAL=-17585.41
+Mon Jan 06 08:00:00 GMT+00:00 2014: Cash Bal was negative: -17585.41;total-positions:9
+Mon Jan 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [YY, HTZ]
+Mon Jan 06 08:00:00 GMT+00:00 2014: cashbal=-17585.41; num-po=9; market-dir=UPTREND
+Tue Jan 07 08:00:00 GMT+00:00 2014 SFUN ATR Sell signal. atr=3.531888861945927; vol-rate: 78.4% ;cls-rng=84.85742379547696
+Tue Jan 07 08:00:00 GMT+00:00 2014 BUY: 185 shares of AZPN cost-basis=39.6 for $7779.25 CASH-BAL=-25371.66
+Tue Jan 07 08:00:00 GMT+00:00 2014: Cash Bal was negative: -25371.66;total-positions:9
+Tue Jan 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HTZ, QDEL]
+Tue Jan 07 08:00:00 GMT+00:00 2014: cashbal=-25371.66; num-po=9; market-dir=UPTREND
+Wed Jan 08 08:00:00 GMT+00:00 2014: Cash Bal was negative: -25371.66;total-positions:9
+Wed Jan 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, HTZ, QDEL]
+Wed Jan 08 08:00:00 GMT+00:00 2014: cashbal=-25371.66; num-po=9; market-dir=UPTREND
+Thu Jan 09 08:00:00 GMT+00:00 2014 StopLoss-ScaledSoftStop SELL: ($34.272)742 @$34.12 shares of VRTU for 1.47
+Thu Jan 09 08:00:00 GMT+00:00 2014 SELL VRTU x742 for $25317.04 1.47%
+Thu Jan 09 08:00:00 GMT+00:00 2014 AYI ATR Sell signal. atr=2.1148342497484784; vol-rate: 555% ;cls-rng=25.517241379310324
+Thu Jan 09 08:00:00 GMT+00:00 2014: Cash Bal was negative: -61.62;total-positions:8
+Thu Jan 09 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, M, HTZ, QDEL]
+Thu Jan 09 08:00:00 GMT+00:00 2014: cashbal=-61.62; num-po=8; market-dir=UPTREND
+Fri Jan 10 08:00:00 GMT+00:00 2014 AYI ATR Sell signal. atr=3.851631803254175; vol-rate: 309% ;cls-rng=80.38067349926789
+Fri Jan 10 08:00:00 GMT+00:00 2014 ACHC ATR Sell signal. atr=1.2579605885028367; vol-rate: 146% ;cls-rng=86.64945547345617
+Fri Jan 10 08:00:00 GMT+00:00 2014: Cash Bal was negative: -61.62;total-positions:8
+Fri Jan 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [APOL, SNDK, M, FDML, HTZ, QDEL]
+Fri Jan 10 08:00:00 GMT+00:00 2014: cashbal=-61.62; num-po=8; market-dir=UPTREND
+Mon Jan 13 08:00:00 GMT+00:00 2014: Cash Bal was negative: -61.62;total-positions:8
+Mon Jan 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, HTH, M, HTZ, QDEL]
+Mon Jan 13 08:00:00 GMT+00:00 2014: cashbal=-61.62; num-po=8; market-dir=UPTREND
+Tue Jan 14 08:00:00 GMT+00:00 2014: Cash Bal was negative: -61.62;total-positions:8
+Tue Jan 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, HTH, M, HTZ]
+Tue Jan 14 08:00:00 GMT+00:00 2014: cashbal=-61.62; num-po=8; market-dir=UPTREND
+Wed Jan 15 08:00:00 GMT+00:00 2014 GMED ATR Sell signal. atr=0.4004956108494522; vol-rate: 387% ;cls-rng=90.76923076923082
+Wed Jan 15 08:00:00 GMT+00:00 2014 BUY: 141 shares of GNRC cost-basis=50.3 for $7788.84 CASH-BAL=-7857.46
+Wed Jan 15 08:00:00 GMT+00:00 2014: Cash Bal was negative: -7857.46;total-positions:8
+Wed Jan 15 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, CRAY, HTH, M]
+Wed Jan 15 08:00:00 GMT+00:00 2014: cashbal=-7857.46; num-po=8; market-dir=UPTREND
+Thu Jan 16 08:00:00 GMT+00:00 2014Market-Uptrend-Sell 50EDMA: (-3.68%)412 shares of GNRC for 1.03
+Thu Jan 16 08:00:00 GMT+00:00 2014 SELL GNRC x412 for $20966.68 1.03%
+Thu Jan 16 08:00:00 GMT+00:00 2014 BUY: 527 shares of HTH cost-basis=24.6 for $12969.47 CASH-BAL=125.75
+Thu Jan 16 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, M]
+Thu Jan 16 08:00:00 GMT+00:00 2014: cashbal=13102.22; num-po=8; market-dir=UPTREND
+Fri Jan 17 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNDK, CRAY, M]
+Fri Jan 17 08:00:00 GMT+00:00 2014: cashbal=125.75; num-po=8; market-dir=UPTREND
+Tue Jan 21 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVDQ, SNDK, CRAY, M]
+Tue Jan 21 08:00:00 GMT+00:00 2014: cashbal=125.75; num-po=8; market-dir=UPTREND
+Wed Jan 22 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVDQ, SNDK, EAT, FDML, M]
+Wed Jan 22 08:00:00 GMT+00:00 2014: cashbal=125.75; num-po=8; market-dir=UPTREND
+Thu Jan 23 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVDQ, SNDK, EAT, M, HUBB]
+Thu Jan 23 08:00:00 GMT+00:00 2014: cashbal=125.75; num-po=8; market-dir=UPTREND
+Fri Jan 24 08:00:00 GMT+00:00 2014 Selling due to underperformance: AZPN 4.52% in 79
+Fri Jan 24 08:00:00 GMT+00:00 2014 SELL AZPN x524 for $21704.08 4.52%
+Fri Jan 24 08:00:00 GMT+00:00 2014 BUY: 689 shares of NVDQ cost-basis=18.8 for $12980.76 CASH-BAL=8835.07
+Fri Jan 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [EAT]
+Fri Jan 24 08:00:00 GMT+00:00 2014: cashbal=125.75; num-po=8; market-dir=CAUTIOUS_UPTREND
+Mon Jan 27 08:00:00 GMT+00:00 2014: cashbal=8835.07; num-po=8; market-dir=CAUTIOUS_UPTREND
+Tue Jan 28 08:00:00 GMT+00:00 2014: cashbal=8835.07; num-po=8; market-dir=CAUTIOUS_UPTREND
+Wed Jan 29 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.55%)527 shares of HTH for -3.55
+Wed Jan 29 08:00:00 GMT+00:00 2014 SELL HTH x527 for $12516.25 -3.55%
+Wed Jan 29 08:00:00 GMT+00:00 2014: cashbal=21344.32; num-po=7; market-dir=DOWNTREND
+Thu Jan 30 08:00:00 GMT+00:00 2014: cashbal=21344.32; num-po=7; market-dir=DOWNTREND
+Fri Jan 31 08:00:00 GMT+00:00 2014: cashbal=21344.32; num-po=7; market-dir=DOWNTREND
+Mon Feb 03 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.05%)241 shares of A for 4.22
+Mon Feb 03 08:00:00 GMT+00:00 2014 SELL A x241 for $13532.15 4.22%
+Mon Feb 03 08:00:00 GMT+00:00 2014: cashbal=34869.47; num-po=6; market-dir=DOWNTREND
+Tue Feb 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [VGR]
+Tue Feb 04 08:00:00 GMT+00:00 2014: cashbal=34869.47; num-po=6; market-dir=DOWNTREND
+Wed Feb 05 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.11%)464 shares of ACHC for 7.56
+Wed Feb 05 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-8.66%)527 shares of SFUN for 79.9
+Wed Feb 05 08:00:00 GMT+00:00 2014 SELL ACHC x464 for $22327.68 7.56%
+Wed Feb 05 08:00:00 GMT+00:00 2014 SELL SFUN x527 for $38081.02 79.9%
+Realized-Gain-Loss: 54211.4 adjusted-to-%: 50% max-amt-per-position is: 30000.0
+Wed Feb 05 08:00:00 GMT+00:00 2014 BUY: 841 shares of VGR cost-basis=17.8 for $14986.62 CASH-BAL=80270.55
+Wed Feb 05 08:00:00 GMT+00:00 2014: cashbal=95264.17; num-po=5; market-dir=DOWNTREND
+Thu Feb 06 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-18.1%)248 shares of TWTR for -4.47
+Thu Feb 06 08:00:00 GMT+00:00 2014 SELL TWTR x248 for $12407.44 -4.47%
+Thu Feb 06 08:00:00 GMT+00:00 2014 BUY: 309 shares of EAT cost-basis=48.5 for $14977.23 CASH-BAL=77686.76
+Thu Feb 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GMT]
+Thu Feb 06 08:00:00 GMT+00:00 2014: cashbal=92670.99; num-po=5; market-dir=DOWNTREND
+Fri Feb 07 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell -3%: (-3.72%)689 shares of NVDQ for -3.72
+Fri Feb 07 08:00:00 GMT+00:00 2014 SELL NVDQ x689 for $12505.35 -3.72%
+Fri Feb 07 08:00:00 GMT+00:00 2014 BUY: 259 shares of GMT cost-basis=57.8 for $14977.97 CASH-BAL=75200.14
+Fri Feb 07 08:00:00 GMT+00:00 2014 BUY: 118 shares of LVNTA cost-basis=126 for $14886.88 CASH-BAL=60306.26
+Fri Feb 07 08:00:00 GMT+00:00 2014: cashbal=90185.11; num-po=6; market-dir=CAUTIOUS_UPTREND
+Mon Feb 10 08:00:00 GMT+00:00 2014 BUY: 362 shares of SALE cost-basis=41.3 for $14961.46 CASH-BAL=45337.8
+Mon Feb 10 08:00:00 GMT+00:00 2014: cashbal=60306.26; num-po=7; market-dir=UPTREND
+Tue Feb 11 08:00:00 GMT+00:00 2014 BUY: 45 shares of REGN cost-basis=327 for $14693.4 CASH-BAL=30637.4
+Tue Feb 11 08:00:00 GMT+00:00 2014 BUY: 483 shares of SCOR cost-basis=31.0 for $14973.0 CASH-BAL=15657.4
+Tue Feb 11 08:00:00 GMT+00:00 2014: cashbal=45337.8; num-po=9; market-dir=UPTREND
+Wed Feb 12 08:00:00 GMT+00:00 2014 BUY: 472 shares of SN cost-basis=31.7 for $14971.84 CASH-BAL=678.56
+Wed Feb 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [IDTI]
+Wed Feb 12 08:00:00 GMT+00:00 2014: cashbal=15657.4; num-po=10; market-dir=UPTREND
+Thu Feb 13 08:00:00 GMT+00:00 2014 BUY: 380 shares of GMED cost-basis=20.7 for $8983.2 CASH-BAL=-8311.64
+Thu Feb 13 08:00:00 GMT+00:00 2014: Cash Bal was negative: -8311.64;total-positions:10
+Thu Feb 13 08:00:00 GMT+00:00 2014: 10 positions reached. Cash Bal is: -8311.64;total-positions:10
+Thu Feb 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, IDTI]
+Thu Feb 13 08:00:00 GMT+00:00 2014: cashbal=-8311.64; num-po=10; market-dir=UPTREND
+Fri Feb 14 08:00:00 GMT+00:00 2014: Cash Bal was negative: -8311.64;total-positions:10
+Fri Feb 14 08:00:00 GMT+00:00 2014: 10 positions reached. Cash Bal is: -8311.64;total-positions:10
+Fri Feb 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, IDTI, UFPI]
+Fri Feb 14 08:00:00 GMT+00:00 2014: cashbal=-8311.64; num-po=10; market-dir=UPTREND
+Tue Feb 18 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.29%)472 shares of SN for -6.29
+Tue Feb 18 08:00:00 GMT+00:00 2014 SELL SN x472 for $14037.28 -6.29%
+Tue Feb 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, IDTI, UFPI]
+Tue Feb 18 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Wed Feb 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, FLS, GRMN, UFPI]
+Wed Feb 19 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Thu Feb 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, FLS, GRMN, UFPI]
+Thu Feb 20 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Fri Feb 21 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [STRZA, SKX, FLS, GRMN, UFPI]
+Fri Feb 21 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Mon Feb 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, FLS, LEAF, GRMN, UFPI]
+Mon Feb 24 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Tue Feb 25 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [STRZA, SKX, HUM, KATE, FLS, LEAF, GRMN, UFPI]
+Tue Feb 25 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Wed Feb 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, STRZA, HUM, KATE, FLS, LEAF, GRMN, UFPI, HEI]
+Wed Feb 26 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Thu Feb 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SKX, HUM, KATE, CRAY, FLS, LEAF, UFPI, HEI]
+Thu Feb 27 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Fri Feb 28 08:00:00 GMT+00:00 2014 EAT ATR Sell signal. atr=0.9826242650632606; vol-rate: 212% ;cls-rng=81.92771084337339
+Fri Feb 28 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [STRZA, SKX, KATE, FLS, LEAF, UFPI, HEI]
+Fri Feb 28 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Mon Mar 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [STRZA, KATE, FLS, LEAF, HEI]
+Mon Mar 03 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Tue Mar 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KATE, NUVA, FLS, LEAF, HEI]
+Tue Mar 04 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Wed Mar 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [KATE, NUVA, FLS, LEAF, HEI]
+Wed Mar 05 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Thu Mar 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NUVA, WOOF, FLS, LEAF, HEI]
+Thu Mar 06 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Fri Mar 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AGIO, RARE, NUVA, WOOF, LEAF, HEI]
+Fri Mar 07 08:00:00 GMT+00:00 2014: cashbal=5718.64; num-po=9; market-dir=UPTREND
+Mon Mar 10 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-2.87%)362 shares of SALE for -1.81
+Mon Mar 10 08:00:00 GMT+00:00 2014 SELL SALE x362 for $14697.2 -1.81%
+Mon Mar 10 08:00:00 GMT+00:00 2014 BUY: 263 shares of ZU cost-basis=56.9 for $14959.44 CASH-BAL=5442.4
+Mon Mar 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CUDA, NUVA, WOOF, TSL, LEAF, HEI, HIMX]
+Mon Mar 10 08:00:00 GMT+00:00 2014: cashbal=20408.84; num-po=9; market-dir=UPTREND
+Tue Mar 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AGIO, EMES, WOOF, LEAF, HIMX, HEI]
+Tue Mar 11 08:00:00 GMT+00:00 2014: cashbal=5442.4; num-po=9; market-dir=UPTREND
+Wed Mar 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AGIO, EMES, NUVA, WOOF, TSL, HIMX, HEI, ICFI]
+Wed Mar 12 08:00:00 GMT+00:00 2014: cashbal=5442.4; num-po=9; market-dir=UPTREND
+Thu Mar 13 08:00:00 GMT+00:00 2014 Selling due to underperformance: SCOR -0.531% in 30
+Thu Mar 13 08:00:00 GMT+00:00 2014 SELL SCOR x483 for $14900.55 -0.531%
+Thu Mar 13 08:00:00 GMT+00:00 2014 BUY: 299 shares of EMES cost-basis=50.0 for $14944.02 CASH-BAL=5384.93
+Thu Mar 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AGIO, NUVA, WOOF, HIMX, HEI]
+Thu Mar 13 08:00:00 GMT+00:00 2014: cashbal=5442.4; num-po=9; market-dir=UPTREND
+Fri Mar 14 08:00:00 GMT+00:00 2014 EMES ATR Sell signal. atr=1.164000340953642; vol-rate: 281% ;cls-rng=71.44530334973058
+Fri Mar 14 08:00:00 GMT+00:00 2014 BUY: 170 shares of EAT cost-basis=50.0 for $8987.9 CASH-BAL=-3609.97
+Fri Mar 14 08:00:00 GMT+00:00 2014: Cash Bal was negative: -3609.97;total-positions:9
+Fri Mar 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, WSM, AGIO, NUVA, WOOF, HIMX, ICFI]
+Fri Mar 14 08:00:00 GMT+00:00 2014: cashbal=-3609.97; num-po=9; market-dir=CAUTIOUS_UPTREND
+Mon Mar 17 08:00:00 GMT+00:00 2014: Cash Bal was negative: -3609.97;total-positions:9
+Mon Mar 17 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, AGIO, NUVA, WOOF, HIMX]
+Mon Mar 17 08:00:00 GMT+00:00 2014: cashbal=-3609.97; num-po=9; market-dir=CAUTIOUS_UPTREND
+Tue Mar 18 08:00:00 GMT+00:00 2014 BUY: 63 shares of LVNTA cost-basis=132 for $8965.53 CASH-BAL=-12582.5
+Tue Mar 18 08:00:00 GMT+00:00 2014: Cash Bal was negative: -12582.5;total-positions:9
+Tue Mar 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, AGIO, NUVA, WOOF, TSL, HIMX]
+Tue Mar 18 08:00:00 GMT+00:00 2014: cashbal=-12582.5; num-po=9; market-dir=UPTREND
+Wed Mar 19 08:00:00 GMT+00:00 2014: Cash Bal was negative: -12582.5;total-positions:9
+Wed Mar 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, AGIO, NUVA, WOOF, TSL, HIMX]
+Wed Mar 19 08:00:00 GMT+00:00 2014; net-val=180721.75: cashbal=-12582.5; num-po=9; market-dir=UPTREND
+Thu Mar 20 08:00:00 GMT+00:00 2014: Cash Bal was negative: -12582.5;total-positions:9
+Thu Mar 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, AGIO, WOOF, TSL, HIMX]
+Thu Mar 20 08:00:00 GMT+00:00 2014; net-val=180364.33: cashbal=-12582.5; num-po=9; market-dir=UPTREND
+Fri Mar 21 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-5.13%)45 shares of REGN for -4.87
+Fri Mar 21 08:00:00 GMT+00:00 2014 SELL REGN x45 for $13985.55 -4.87%
+Fri Mar 21 08:00:00 GMT+00:00 2014 BUY: 136 shares of GMT cost-basis=60.6 for $8976.0 CASH-BAL=-7586.95
+Fri Mar 21 08:00:00 GMT+00:00 2014: Cash Bal was negative: -7586.95;total-positions:8
+Fri Mar 21 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MFRM, AGIO, WOOF]
+Fri Mar 21 08:00:00 GMT+00:00 2014; net-val=177974.83: cashbal=-7586.95; num-po=8; market-dir=UPTREND
+Mon Mar 24 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-5.18%)263 shares of ZU for -3.51
+Mon Mar 24 08:00:00 GMT+00:00 2014 SELL ZU x263 for $14441.33 -3.51%
+Mon Mar 24 08:00:00 GMT+00:00 2014 Selling due to underperformance: EAT 3.28% in 46
+Mon Mar 24 08:00:00 GMT+00:00 2014 SELL EAT x479 for $24764.3 3.28%
+Mon Mar 24 08:00:00 GMT+00:00 2014 BUY: 317 shares of MFRM cost-basis=47.2 for $14971.91 CASH-BAL=16625.77
+Mon Mar 24 08:00:00 GMT+00:00 2014; net-val=175837.12: cashbal=6847.38; num-po=7; market-dir=UPTREND
+Tue Mar 25 08:00:00 GMT+00:00 2014 BUY: 231 shares of GMED cost-basis=21.7 for $5973.66 CASH-BAL=10645.11
+Tue Mar 25 08:00:00 GMT+00:00 2014 BUY: 423 shares of VGR cost-basis=19.0 for $8980.29 CASH-BAL=1657.82
+Tue Mar 25 08:00:00 GMT+00:00 2014; net-val=176721.2: cashbal=1657.82; num-po=7; market-dir=UPTREND
+Wed Mar 26 08:00:00 GMT+00:00 2014 StopLoss-ScaledSoftStop SELL: ($133.32)181 @$130.34 shares of LVNTA for -1.15
+Wed Mar 26 08:00:00 GMT+00:00 2014 SELL LVNTA x181 for $23591.54 -1.15%
+Wed Mar 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FF, FSLR]
+Wed Mar 26 08:00:00 GMT+00:00 2014; net-val=173249.95: cashbal=25242.36; num-po=6; market-dir=DOWNTREND
+Thu Mar 27 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-4.94%)234 shares of AYI for 50.8
+Thu Mar 27 08:00:00 GMT+00:00 2014 SELL AYI x234 for $29987.1 50.8%
+Realized-Gain-Loss: 61273.6 adjusted-to-%: 60% max-amt-per-position is: 32000.0
+Thu Mar 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [WSM, FSLR]
+Thu Mar 27 08:00:00 GMT+00:00 2014; net-val=171509.61: cashbal=55222.46; num-po=5; market-dir=DOWNTREND
+Fri Mar 28 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [WSM, FSLR]
+Fri Mar 28 08:00:00 GMT+00:00 2014; net-val=172934.31: cashbal=55222.46; num-po=5; market-dir=DOWNTREND
+Mon Mar 31 08:00:00 GMT+00:00 2014 EMES ATR Sell signal. atr=1.4493552704239698; vol-rate: 96.4% ;cls-rng=88.45208845208847
+Mon Mar 31 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FF]
+Mon Mar 31 08:00:00 GMT+00:00 2014; net-val=175989.29: cashbal=55222.46; num-po=5; market-dir=DOWNTREND
+Tue Apr 01 08:00:00 GMT+00:00 2014; net-val=176036.73: cashbal=55222.46; num-po=5; market-dir=CAUTIOUS_UPTREND
+Wed Apr 02 08:00:00 GMT+00:00 2014 EMES ATR Sell signal. atr=1.8286277586818922; vol-rate: 183% ;cls-rng=90.5389685924777
+Wed Apr 02 08:00:00 GMT+00:00 2014; net-val=177842.09: cashbal=55222.46; num-po=5; market-dir=UPTREND
+Thu Apr 03 08:00:00 GMT+00:00 2014 BUY: 233 shares of FSLR cost-basis=68.5 for $15951.18 CASH-BAL=39264.28
+Thu Apr 03 08:00:00 GMT+00:00 2014 BUY: 261 shares of BCPC cost-basis=61.3 for $15991.47 CASH-BAL=23265.81
+Thu Apr 03 08:00:00 GMT+00:00 2014 BUY: 161 shares of APC cost-basis=99.0 for $15942.22 CASH-BAL=7316.59
+Thu Apr 03 08:00:00 GMT+00:00 2014; net-val=176359.53: cashbal=55222.46; num-po=8; market-dir=UPTREND
+Fri Apr 04 08:00:00 GMT+00:00 2014 EMES ATR Sell signal. atr=2.423122914373672; vol-rate: 302% ;cls-rng=98.35466179159043
+Fri Apr 04 08:00:00 GMT+00:00 2014; net-val=177133.68: cashbal=7316.59; num-po=8; market-dir=DOWNTREND
+Mon Apr 07 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.42%)261 shares of BCPC for -3.42
+Mon Apr 07 08:00:00 GMT+00:00 2014 SELL BCPC x261 for $15451.2 -3.42%
+Mon Apr 07 08:00:00 GMT+00:00 2014; net-val=173656.1: cashbal=22760.79; num-po=7; market-dir=DOWNTREND
+Tue Apr 08 08:00:00 GMT+00:00 2014; net-val=174223.0: cashbal=22760.79; num-po=7; market-dir=DOWNTREND
+Wed Apr 09 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-2.0%)1242 shares of GMED for 12.2
+Wed Apr 09 08:00:00 GMT+00:00 2014 SELL GMED x1242 for $30242.7 12.2%
+Wed Apr 09 08:00:00 GMT+00:00 2014; net-val=174801.72: cashbal=52996.49; num-po=6; market-dir=DOWNTREND
+Thu Apr 10 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.93%)317 shares of MFRM for -2.93
+Thu Apr 10 08:00:00 GMT+00:00 2014 SELL MFRM x317 for $14540.79 -2.93%
+Thu Apr 10 08:00:00 GMT+00:00 2014 BUY: 387 shares of ECOL cost-basis=41.2 for $15959.88 CASH-BAL=51563.4
+Thu Apr 10 08:00:00 GMT+00:00 2014; net-val=172317.87: cashbal=67530.28; num-po=6; market-dir=DOWNTREND
+Fri Apr 11 08:00:00 GMT+00:00 2014; net-val=171452.77: cashbal=51563.4; num-po=6; market-dir=DOWNTREND
+Mon Apr 14 08:00:00 GMT+00:00 2014; net-val=173282.51: cashbal=51563.4; num-po=6; market-dir=DOWNTREND
+Tue Apr 15 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-1.91%)233 shares of FSLR for -3.07
+Tue Apr 15 08:00:00 GMT+00:00 2014 SELL FSLR x233 for $15468.87 -3.07%
+Tue Apr 15 08:00:00 GMT+00:00 2014; net-val=173543.54: cashbal=67025.27; num-po=5; market-dir=DOWNTREND
+Wed Apr 16 08:00:00 GMT+00:00 2014; net-val=174348.86: cashbal=67025.27; num-po=5; market-dir=DOWNTREND
+Thu Apr 17 08:00:00 GMT+00:00 2014; net-val=174154.94: cashbal=67025.27; num-po=5; market-dir=DOWNTREND
+Mon Apr 21 08:00:00 GMT+00:00 2014 BUY: 231 shares of AZN cost-basis=69.1 for $15962.1 CASH-BAL=51056.17
+Mon Apr 21 08:00:00 GMT+00:00 2014; net-val=175006.88: cashbal=67025.27; num-po=6; market-dir=DOWNTREND
+Tue Apr 22 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.29%)231 shares of AZN for -3.29
+Tue Apr 22 08:00:00 GMT+00:00 2014 SELL AZN x231 for $15444.66 -3.29%
+Tue Apr 22 08:00:00 GMT+00:00 2014; net-val=175223.62: cashbal=66493.83; num-po=5; market-dir=DOWNTREND
+Wed Apr 23 08:00:00 GMT+00:00 2014; net-val=173903.98: cashbal=66493.83; num-po=5; market-dir=DOWNTREND
+Thu Apr 24 08:00:00 GMT+00:00 2014; net-val=174782.5: cashbal=66493.83; num-po=5; market-dir=DOWNTREND
+Fri Apr 25 08:00:00 GMT+00:00 2014 BUY: 159 shares of ZBH cost-basis=101 for $15985.86 CASH-BAL=50500.97
+Fri Apr 25 08:00:00 GMT+00:00 2014; net-val=173010.97: cashbal=66493.83; num-po=6; market-dir=DOWNTREND
+Mon Apr 28 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.22%)395 shares of GMT for 6.91
+Mon Apr 28 08:00:00 GMT+00:00 2014 SELL GMT x395 for $25623.65 6.91%
+Mon Apr 28 08:00:00 GMT+00:00 2014; net-val=172467.23: cashbal=76117.62; num-po=5; market-dir=DOWNTREND
+Tue Apr 29 08:00:00 GMT+00:00 2014 BUY: 226 shares of WLK cost-basis=70.5 for $15939.78 CASH-BAL=60170.84
+Tue Apr 29 08:00:00 GMT+00:00 2014; net-val=173051.84: cashbal=76117.62; num-po=6; market-dir=DOWNTREND
+Wed Apr 30 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.76%)159 shares of ZBH for -3.76
+Wed Apr 30 08:00:00 GMT+00:00 2014 SELL ZBH x159 for $15391.2 -3.76%
+Wed Apr 30 08:00:00 GMT+00:00 2014 BUY: 224 shares of HURN cost-basis=71.2 for $15948.8 CASH-BAL=59599.24
+Wed Apr 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, KFRC]
+Wed Apr 30 08:00:00 GMT+00:00 2014; net-val=173913.06: cashbal=75555.04; num-po=6; market-dir=DOWNTREND
+Thu May 01 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.68%)224 shares of HURN for -3.68
+Thu May 01 08:00:00 GMT+00:00 2014 SELL HURN x224 for $15368.64 -3.68%
+Thu May 01 08:00:00 GMT+00:00 2014 BUY: 680 shares of KFRC cost-basis=23.5 for $15980.0 CASH-BAL=58973.88
+Thu May 01 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, CBG]
+Thu May 01 08:00:00 GMT+00:00 2014; net-val=173417.57: cashbal=74960.88; num-po=6; market-dir=DOWNTREND
+Fri May 02 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, CBG]
+Fri May 02 08:00:00 GMT+00:00 2014; net-val=173010.79: cashbal=58973.88; num-po=6; market-dir=DOWNTREND
+Mon May 05 08:00:00 GMT+00:00 2014 WLK ATR Sell signal. atr=1.9140210442891443; vol-rate: 211% ;cls-rng=75.40394973070006
+Mon May 05 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-5.62%)680 shares of KFRC for -5.62
+Mon May 05 08:00:00 GMT+00:00 2014 SELL KFRC x680 for $15089.2 -5.62%
+Mon May 05 08:00:00 GMT+00:00 2014 BUY: 557 shares of CBG cost-basis=28.7 for $15991.47 CASH-BAL=58057.61
+Mon May 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV]
+Mon May 05 08:00:00 GMT+00:00 2014; net-val=174793.82: cashbal=74056.08; num-po=6; market-dir=DOWNTREND
+Tue May 06 08:00:00 GMT+00:00 2014 EMES ATR Sell signal. atr=2.8106000759719194; vol-rate: 158% ;cls-rng=84.10596026490069
+Tue May 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, CKEC]
+Tue May 06 08:00:00 GMT+00:00 2014; net-val=177911.35: cashbal=58057.61; num-po=6; market-dir=DOWNTREND
+Wed May 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, CKEC, HNT]
+Wed May 07 08:00:00 GMT+00:00 2014; net-val=177659.98: cashbal=58057.61; num-po=6; market-dir=DOWNTREND
+Thu May 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV, CKEC, SANM, HNT]
+Thu May 08 08:00:00 GMT+00:00 2014; net-val=177306.12: cashbal=58057.61; num-po=6; market-dir=DOWNTREND
+Fri May 09 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV]
+Fri May 09 08:00:00 GMT+00:00 2014; net-val=177584.29: cashbal=58057.61; num-po=6; market-dir=DOWNTREND
+Mon May 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FISV]
+Mon May 12 08:00:00 GMT+00:00 2014; net-val=179789.97: cashbal=58057.61; num-po=6; market-dir=DOWNTREND
+Tue May 13 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-3.95%)1264 shares of VGR for 6.37
+Tue May 13 08:00:00 GMT+00:00 2014 SELL VGR x1264 for $25507.52 6.37%
+Tue May 13 08:00:00 GMT+00:00 2014 BUY: 261 shares of FISV cost-basis=61.3 for $15991.47 CASH-BAL=67559.66
+Tue May 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CKEC]
+Tue May 13 08:00:00 GMT+00:00 2014; net-val=178250.57: cashbal=83558.13; num-po=6; market-dir=DOWNTREND
+Wed May 14 08:00:00 GMT+00:00 2014; net-val=176563.14: cashbal=67559.66; num-po=6; market-dir=DOWNTREND
+Thu May 15 08:00:00 GMT+00:00 2014 BUY: 344 shares of IBN cost-basis=46.4 for $15951.28 CASH-BAL=51601.38
+Thu May 15 08:00:00 GMT+00:00 2014; net-val=174401.89: cashbal=67559.66; num-po=7; market-dir=DOWNTREND
+Fri May 16 08:00:00 GMT+00:00 2014 IBN ATR Sell signal. atr=1.2793400723492934; vol-rate: 142% ;cls-rng=98.7878787878786
+Fri May 16 08:00:00 GMT+00:00 2014; net-val=175605.49: cashbal=51601.38; num-po=7; market-dir=DOWNTREND
+Mon May 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CKEC]
+Mon May 19 08:00:00 GMT+00:00 2014; net-val=177997.3: cashbal=51601.38; num-po=7; market-dir=DOWNTREND
+Tue May 20 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.37%)261 shares of FISV for -3.37
+Tue May 20 08:00:00 GMT+00:00 2014 SELL FISV x261 for $15459.03 -3.37%
+Tue May 20 08:00:00 GMT+00:00 2014; net-val=177194.96: cashbal=67053.41; num-po=6; market-dir=DOWNTREND
+Wed May 21 08:00:00 GMT+00:00 2014 BUY: 166 shares of TIF cost-basis=96.3 for $15985.8 CASH-BAL=51060.61
+Wed May 21 08:00:00 GMT+00:00 2014; net-val=178020.48: cashbal=67053.41; num-po=7; market-dir=DOWNTREND
+Thu May 22 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [WSM]
+Thu May 22 08:00:00 GMT+00:00 2014; net-val=179858.69999999998: cashbal=51060.61; num-po=7; market-dir=DOWNTREND
+Fri May 23 08:00:00 GMT+00:00 2014 BUY: 235 shares of WSM cost-basis=68.0 for $15975.3 CASH-BAL=35078.31
+Fri May 23 08:00:00 GMT+00:00 2014; net-val=180190.35: cashbal=51060.61; num-po=8; market-dir=CAUTIOUS_UPTREND
+Tue May 27 08:00:00 GMT+00:00 2014; net-val=181710.3: cashbal=35078.31; num-po=8; market-dir=UPTREND
+Wed May 28 08:00:00 GMT+00:00 2014 BUY: 545 shares of CAL cost-basis=29.3 for $15968.5 CASH-BAL=19102.81
+Wed May 28 08:00:00 GMT+00:00 2014 BUY: 237 shares of JWN cost-basis=67.5 for $15985.65 CASH-BAL=3110.16
+Wed May 28 08:00:00 GMT+00:00 2014; net-val=182903.7: cashbal=35078.31; num-po=10; market-dir=UPTREND
+Thu May 29 08:00:00 GMT+00:00 2014; net-val=182763.33: cashbal=3110.16; num-po=10; market-dir=UPTREND
+Fri May 30 08:00:00 GMT+00:00 2014; net-val=182827.03: cashbal=3110.16; num-po=10; market-dir=UPTREND
+Mon Jun 02 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.06%)545 shares of CAL for -5.06
+Mon Jun 02 08:00:00 GMT+00:00 2014 SELL CAL x545 for $15167.35 -5.06%
+Mon Jun 02 08:00:00 GMT+00:00 2014; net-val=184275.41: cashbal=18270.51; num-po=9; market-dir=UPTREND
+Tue Jun 03 08:00:00 GMT+00:00 2014; net-val=185852.38: cashbal=18270.51; num-po=9; market-dir=UPTREND
+Wed Jun 04 08:00:00 GMT+00:00 2014; net-val=187313.85: cashbal=18270.51; num-po=9; market-dir=UPTREND
+Thu Jun 05 08:00:00 GMT+00:00 2014 BUY: 197 shares of ECOL cost-basis=43.7 for $9568.29 CASH-BAL=8695.22
+Thu Jun 05 08:00:00 GMT+00:00 2014 BUY: 188 shares of IBN cost-basis=48.0 for $9591.76 CASH-BAL=-903.54
+Thu Jun 05 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Thu Jun 05 08:00:00 GMT+00:00 2014; net-val=188299.76: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Fri Jun 06 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Fri Jun 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [VRNT]
+Fri Jun 06 08:00:00 GMT+00:00 2014; net-val=188533.29: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Mon Jun 09 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Mon Jun 09 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [VRNT]
+Mon Jun 09 08:00:00 GMT+00:00 2014; net-val=188377.85: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Tue Jun 10 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Tue Jun 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MTRX, VRNT]
+Tue Jun 10 08:00:00 GMT+00:00 2014; net-val=185950.61000000002: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Wed Jun 11 08:00:00 GMT+00:00 2014 APC ATR Sell signal. atr=1.647741861919812; vol-rate: 121% ;cls-rng=88.25561312607934
+Wed Jun 11 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Wed Jun 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [LNG, MTRX, VRNT]
+Wed Jun 11 08:00:00 GMT+00:00 2014; net-val=186358.03: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Thu Jun 12 08:00:00 GMT+00:00 2014: Cash Bal was negative: -903.54;total-positions:9
+Thu Jun 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII, LNG, MTRX]
+Thu Jun 12 08:00:00 GMT+00:00 2014; net-val=184654.51: cashbal=-903.54; num-po=9; market-dir=UPTREND
+Fri Jun 13 08:00:00 GMT+00:00 2014 BUY: 94 shares of EMES cost-basis=62.4 for $9583.3 CASH-BAL=-10493.84
+Fri Jun 13 08:00:00 GMT+00:00 2014 BUY: 116 shares of WLK cost-basis=74.6 for $9559.56 CASH-BAL=-20060.4
+Fri Jun 13 08:00:00 GMT+00:00 2014: Cash Bal was negative: -20060.4;total-positions:9
+Fri Jun 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII, LNG, MTRX, VRNT]
+Fri Jun 13 08:00:00 GMT+00:00 2014; net-val=185367.67: cashbal=-20060.4; num-po=9; market-dir=UPTREND
+Mon Jun 16 08:00:00 GMT+00:00 2014: Cash Bal was negative: -20060.4;total-positions:9
+Mon Jun 16 08:00:00 GMT+00:00 2014 Selling due to underperformance: IBN 1.94% in 32
+Mon Jun 16 08:00:00 GMT+00:00 2014 SELL IBN x532 for $26052.04 1.94%
+Mon Jun 16 08:00:00 GMT+00:00 2014 BUY: 320 shares of VRNT cost-basis=49.8 for $15945.6 CASH-BAL=-9967.96
+Mon Jun 16 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII]
+Mon Jun 16 08:00:00 GMT+00:00 2014; net-val=186349.38: cashbal=-20060.4; num-po=9; market-dir=UPTREND
+Tue Jun 17 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Tue Jun 17 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [JWA, MTRX]
+Tue Jun 17 08:00:00 GMT+00:00 2014; net-val=187236.38999999998: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Wed Jun 18 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Wed Jun 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII, JWA, MTRX]
+Wed Jun 18 08:00:00 GMT+00:00 2014; net-val=189964.62: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Thu Jun 19 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Thu Jun 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [JWA, APD, MTRX, GLOG]
+Thu Jun 19 08:00:00 GMT+00:00 2014; net-val=191015.9: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Fri Jun 20 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Fri Jun 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [EEP, JWA, KS, MTRX]
+Fri Jun 20 08:00:00 GMT+00:00 2014; net-val=186608.88: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Mon Jun 23 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Mon Jun 23 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BWLD, JWA, APD, KS, MTRX]
+Mon Jun 23 08:00:00 GMT+00:00 2014; net-val=188399.04: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Tue Jun 24 08:00:00 GMT+00:00 2014: Cash Bal was negative: -9967.96;total-positions:9
+Tue Jun 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BWLD, JWA, APD, KS, MTRX, GLOG]
+Tue Jun 24 08:00:00 GMT+00:00 2014; net-val=185397.13: cashbal=-9967.96; num-po=9; market-dir=UPTREND
+Wed Jun 25 08:00:00 GMT+00:00 2014 BUY: 87 shares of APC cost-basis=103 for $9532.59 CASH-BAL=-19507.55
+Wed Jun 25 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Wed Jun 25 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BWLD, JWA, APD, KS, MTRX]
+Wed Jun 25 08:00:00 GMT+00:00 2014; net-val=186579.08: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Thu Jun 26 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Thu Jun 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, BWLD, JWA, APD, KS]
+Thu Jun 26 08:00:00 GMT+00:00 2014; net-val=187107.76: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Fri Jun 27 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Fri Jun 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, BWLD, JWA, APD, KS]
+Fri Jun 27 08:00:00 GMT+00:00 2014; net-val=188227.94: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Mon Jun 30 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Mon Jun 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, BWLD, JWA, APD, KS]
+Mon Jun 30 08:00:00 GMT+00:00 2014; net-val=189513.62: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Tue Jul 01 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Tue Jul 01 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, ANET, BWLD, COO, JWA, APD, KS, GLOG]
+Tue Jul 01 08:00:00 GMT+00:00 2014; net-val=192407.82: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Wed Jul 02 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Wed Jul 02 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, EEP, ANET, BWLD, COO, JWA, APD, KS, GLOG]
+Wed Jul 02 08:00:00 GMT+00:00 2014; net-val=191616.26: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Thu Jul 03 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Thu Jul 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, BWLD, COO, APD, KS, GLOG]
+Thu Jul 03 08:00:00 GMT+00:00 2014; net-val=192726.11: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Mon Jul 07 08:00:00 GMT+00:00 2014: Cash Bal was negative: -19507.55;total-positions:9
+Mon Jul 07 08:00:00 GMT+00:00 2014 Selling due to underperformance: APC 3.91% in 95
+Mon Jul 07 08:00:00 GMT+00:00 2014 SELL APC x248 for $26483.92 3.91%
+Mon Jul 07 08:00:00 GMT+00:00 2014 BUY: 221 shares of ANET cost-basis=72.2 for $15949.57 CASH-BAL=-8987.2
+Mon Jul 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, BWLD, COO]
+Mon Jul 07 08:00:00 GMT+00:00 2014; net-val=192105.05000000002: cashbal=-19507.55; num-po=9; market-dir=UPTREND
+Tue Jul 08 08:00:00 GMT+00:00 2014: Cash Bal was negative: -8987.2;total-positions:9
+Tue Jul 08 08:00:00 GMT+00:00 2014 Selling due to underperformance: VRNT -2.63% in 22
+Tue Jul 08 08:00:00 GMT+00:00 2014 SELL VRNT x320 for $15532.8 -2.63%
+Tue Jul 08 08:00:00 GMT+00:00 2014 BUY: 447 shares of MEI cost-basis=35.8 for $15984.72 CASH-BAL=-9453.12
+Tue Jul 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [COO]
+Tue Jul 08 08:00:00 GMT+00:00 2014; net-val=190042.7: cashbal=-8987.2; num-po=9; market-dir=UPTREND
+Wed Jul 09 08:00:00 GMT+00:00 2014 BUY: 74 shares of WLK cost-basis=76.5 for $6318.12 CASH-BAL=-15778.24
+Wed Jul 09 08:00:00 GMT+00:00 2014: Cash Bal was negative: -15778.24;total-positions:9
+Wed Jul 09 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [COO]
+Wed Jul 09 08:00:00 GMT+00:00 2014; net-val=191811.28: cashbal=-15778.24; num-po=9; market-dir=UPTREND
+Thu Jul 10 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.18%)221 shares of ANET for -6.18
+Thu Jul 10 08:00:00 GMT+00:00 2014 SELL ANET x221 for $14970.54 -6.18%
+Thu Jul 10 08:00:00 GMT+00:00 2014: Cash Bal was negative: -814.7;total-positions:8
+Thu Jul 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [COO]
+Thu Jul 10 08:00:00 GMT+00:00 2014; net-val=188792.63: cashbal=-814.7; num-po=8; market-dir=UPTREND
+Fri Jul 11 08:00:00 GMT+00:00 2014: Cash Bal was negative: -814.7;total-positions:8
+Fri Jul 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [COO]
+Fri Jul 11 08:00:00 GMT+00:00 2014; net-val=189228.78: cashbal=-814.7; num-po=8; market-dir=UPTREND
+Mon Jul 14 08:00:00 GMT+00:00 2014: Cash Bal was negative: -814.7;total-positions:8
+Mon Jul 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [COO]
+Mon Jul 14 08:00:00 GMT+00:00 2014; net-val=189910.18: cashbal=-814.7; num-po=8; market-dir=UPTREND
+Tue Jul 15 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-2.22%)447 shares of MEI for -4.21
+Tue Jul 15 08:00:00 GMT+00:00 2014 SELL MEI x447 for $15318.69 -4.21%
+Tue Jul 15 08:00:00 GMT+00:00 2014 Selling due to underperformance: JWN 0.846% in 48
+Tue Jul 15 08:00:00 GMT+00:00 2014 SELL JWN x237 for $16127.85 0.846%
+Tue Jul 15 08:00:00 GMT+00:00 2014 BUY: 106 shares of COO cost-basis=151 for $15982.68 CASH-BAL=14628.16
+Tue Jul 15 08:00:00 GMT+00:00 2014; net-val=188894.1: cashbal=14496.99; num-po=7; market-dir=UPTREND
+Wed Jul 16 08:00:00 GMT+00:00 2014 BUY: 291 shares of CBG cost-basis=30.1 for $9573.9 CASH-BAL=5047.26
+Wed Jul 16 08:00:00 GMT+00:00 2014; net-val=188826.38: cashbal=5047.26; num-po=7; market-dir=UPTREND
+Thu Jul 17 08:00:00 GMT+00:00 2014 Market-CautiousUp-Sell 50EMA: (-1.7%)584 shares of ECOL for 9.52
+Thu Jul 17 08:00:00 GMT+00:00 2014 SELL ECOL x584 for $27973.6 9.52%
+Thu Jul 17 08:00:00 GMT+00:00 2014; net-val=187028.3: cashbal=33013.86; num-po=6; market-dir=CAUTIOUS_UPTREND
+Fri Jul 18 08:00:00 GMT+00:00 2014 BUY: 58 shares of EMES cost-basis=68.4 for $6331.28 CASH-BAL=26675.58
+Fri Jul 18 08:00:00 GMT+00:00 2014; net-val=188840.15: cashbal=26675.58; num-po=6; market-dir=UPTREND
+Mon Jul 21 08:00:00 GMT+00:00 2014; net-val=189391.37: cashbal=26675.58; num-po=6; market-dir=UPTREND
+Tue Jul 22 08:00:00 GMT+00:00 2014; net-val=192116.09: cashbal=26675.58; num-po=6; market-dir=UPTREND
+Wed Jul 23 08:00:00 GMT+00:00 2014 BUY: 1216 shares of LEJU cost-basis=13.2 for $15990.4 CASH-BAL=10678.18
+Wed Jul 23 08:00:00 GMT+00:00 2014; net-val=194284.68: cashbal=26675.58; num-po=7; market-dir=UPTREND
+Thu Jul 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [JMEI]
+Thu Jul 24 08:00:00 GMT+00:00 2014; net-val=196542.03: cashbal=10678.18; num-po=7; market-dir=UPTREND
+Fri Jul 25 08:00:00 GMT+00:00 2014; net-val=195084.18: cashbal=10678.18; num-po=7; market-dir=UPTREND
+Mon Jul 28 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-2.25%)235 shares of WSM for 0.53
+Mon Jul 28 08:00:00 GMT+00:00 2014 SELL WSM x235 for $16066.95 0.53%
+Mon Jul 28 08:00:00 GMT+00:00 2014 BUY: 528 shares of JMEI cost-basis=30.3 for $15987.84 CASH-BAL=10743.29
+Mon Jul 28 08:00:00 GMT+00:00 2014 Selling due to underperformance: TIF 1.98% in 68
+Mon Jul 28 08:00:00 GMT+00:00 2014 SELL TIF x166 for $16309.5 1.98%
+Mon Jul 28 08:00:00 GMT+00:00 2014 BUY: 176 shares of DECK cost-basis=90.8 for $15973.76 CASH-BAL=11065.03
+Mon Jul 28 08:00:00 GMT+00:00 2014; net-val=192825.79: cashbal=26738.13; num-po=7; market-dir=UPTREND
+Tue Jul 29 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNCR]
+Tue Jul 29 08:00:00 GMT+00:00 2014; net-val=192260.27: cashbal=11065.03; num-po=7; market-dir=UPTREND
+Wed Jul 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CTL]
+Wed Jul 30 08:00:00 GMT+00:00 2014; net-val=189476.41: cashbal=11065.03; num-po=7; market-dir=UPTREND
+Thu Jul 31 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.79%)528 shares of JMEI for -5.79
+Thu Jul 31 08:00:00 GMT+00:00 2014 SELL JMEI x528 for $15069.12 -5.79%
+Thu Jul 31 08:00:00 GMT+00:00 2014 BUY: 754 shares of STLD cost-basis=21.2 for $15992.34 CASH-BAL=10127.81
+Thu Jul 31 08:00:00 GMT+00:00 2014 Selling due to underperformance: CBG 2.24% in 87
+Thu Jul 31 08:00:00 GMT+00:00 2014 SELL CBG x848 for $26152.32 2.24%
+Thu Jul 31 08:00:00 GMT+00:00 2014 BUY: 407 shares of CTL cost-basis=39.2 for $15970.68 CASH-BAL=20295.45
+Thu Jul 31 08:00:00 GMT+00:00 2014; net-val=185165.37: cashbal=26127.15; num-po=7; market-dir=UPTREND
+Fri Aug 01 08:00:00 GMT+00:00 2014 BUY: 305 shares of THC cost-basis=52.3 for $15963.7 CASH-BAL=4324.75
+Fri Aug 01 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [OTEX]
+Fri Aug 01 08:00:00 GMT+00:00 2014; net-val=185454.39: cashbal=20295.45; num-po=8; market-dir=UPTREND
+Mon Aug 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [OTEX]
+Mon Aug 04 08:00:00 GMT+00:00 2014; net-val=189104.46: cashbal=4324.75; num-po=8; market-dir=UPTREND
+Tue Aug 05 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-9.25%)1216 shares of LEJU for -9.25
+Tue Aug 05 08:00:00 GMT+00:00 2014 SELL LEJU x1216 for $14519.04 -9.25%
+Tue Aug 05 08:00:00 GMT+00:00 2014 BUY: 294 shares of OTEX cost-basis=54.3 for $15975.96 CASH-BAL=2853.83
+Tue Aug 05 08:00:00 GMT+00:00 2014; net-val=186790.29: cashbal=18836.79; num-po=8; market-dir=UPTREND
+Wed Aug 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNCR, UA]
+Wed Aug 06 08:00:00 GMT+00:00 2014; net-val=186898.74: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Thu Aug 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [UA, SNCR, LEAF]
+Thu Aug 07 08:00:00 GMT+00:00 2014; net-val=188459.94999999998: cashbal=2853.83; num-po=8; market-dir=DOWNTREND
+Fri Aug 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [UA, SNCR, AIRM]
+Fri Aug 08 08:00:00 GMT+00:00 2014; net-val=190330.98: cashbal=2853.83; num-po=8; market-dir=DOWNTREND
+Mon Aug 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ICLR, SNCR, AIRM]
+Mon Aug 11 08:00:00 GMT+00:00 2014; net-val=191815.41: cashbal=2853.83; num-po=8; market-dir=DOWNTREND
+Tue Aug 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ICLR, KMI, SNCR, AIRM]
+Tue Aug 12 08:00:00 GMT+00:00 2014; net-val=192157.47: cashbal=2853.83; num-po=8; market-dir=DOWNTREND
+Wed Aug 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ICLR, KMI, SNCR, AIRM]
+Wed Aug 13 08:00:00 GMT+00:00 2014; net-val=195048.59: cashbal=2853.83; num-po=8; market-dir=CAUTIOUS_UPTREND
+Thu Aug 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ICLR, KMI, AIRM]
+Thu Aug 14 08:00:00 GMT+00:00 2014; net-val=194582.36000000002: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Fri Aug 15 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AIRM]
+Fri Aug 15 08:00:00 GMT+00:00 2014; net-val=193536.92: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Mon Aug 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AIRM]
+Mon Aug 18 08:00:00 GMT+00:00 2014; net-val=197006.3: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Tue Aug 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AIRM]
+Tue Aug 19 08:00:00 GMT+00:00 2014; net-val=197489.84: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Wed Aug 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AIRM]
+Wed Aug 20 08:00:00 GMT+00:00 2014; net-val=198117.29: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Thu Aug 21 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SNPS, AIRM]
+Thu Aug 21 08:00:00 GMT+00:00 2014; net-val=198545.32: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Fri Aug 22 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GMCR, AIRM]
+Fri Aug 22 08:00:00 GMT+00:00 2014; net-val=200986.53: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Mon Aug 25 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GMCR, KMI]
+Mon Aug 25 08:00:00 GMT+00:00 2014; net-val=203690.93: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Tue Aug 26 08:00:00 GMT+00:00 2014; net-val=205827.5: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Wed Aug 27 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GMCR, ATHM]
+Wed Aug 27 08:00:00 GMT+00:00 2014; net-val=207310.05: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Thu Aug 28 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, GMCR]
+Thu Aug 28 08:00:00 GMT+00:00 2014; net-val=208609.26: cashbal=2853.83; num-po=8; market-dir=UPTREND
+Fri Aug 29 08:00:00 GMT+00:00 2014 BUY: 412 shares of STLD cost-basis=21.9 for $9574.88 CASH-BAL=-6728.05
+Fri Aug 29 08:00:00 GMT+00:00 2014: Cash Bal was negative: -6728.05;total-positions:8
+Fri Aug 29 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, GMCR, GPRO]
+Fri Aug 29 08:00:00 GMT+00:00 2014; net-val=211102.41: cashbal=-6728.05; num-po=8; market-dir=UPTREND
+Tue Sep 02 08:00:00 GMT+00:00 2014: Cash Bal was negative: -6728.05;total-positions:8
+Tue Sep 02 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, GMCR, ATHM]
+Tue Sep 02 08:00:00 GMT+00:00 2014; net-val=207111.99: cashbal=-6728.05; num-po=8; market-dir=UPTREND
+Wed Sep 03 08:00:00 GMT+00:00 2014: Cash Bal was negative: -6728.05;total-positions:8
+Wed Sep 03 08:00:00 GMT+00:00 2014 Selling due to underperformance: DECK 0.705% in 37
+Wed Sep 03 08:00:00 GMT+00:00 2014 SELL DECK x176 for $16093.44 0.705%
+Wed Sep 03 08:00:00 GMT+00:00 2014 BUY: 313 shares of ATHM cost-basis=51.1 for $15981.78 CASH-BAL=-6630.39
+Wed Sep 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, GMCR, SNPS, UTHR]
+Wed Sep 03 08:00:00 GMT+00:00 2014; net-val=208832.18: cashbal=-6728.05; num-po=8; market-dir=UPTREND
+Thu Sep 04 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.84%)313 shares of ATHM for -5.84
+Thu Sep 04 08:00:00 GMT+00:00 2014 SELL ATHM x313 for $15055.3 -5.84%
+Thu Sep 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MEI, SIG, GMCR, SNPS, UTHR]
+Thu Sep 04 08:00:00 GMT+00:00 2014; net-val=200811.81: cashbal=8417.91; num-po=7; market-dir=UPTREND
+Fri Sep 05 08:00:00 GMT+00:00 2014 BUY: 59 shares of COO cost-basis=155 for $9582.78 CASH-BAL=-1171.87
+Fri Sep 05 08:00:00 GMT+00:00 2014: Cash Bal was negative: -1171.87;total-positions:7
+Fri Sep 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GMCR, UTHR]
+Fri Sep 05 08:00:00 GMT+00:00 2014; net-val=203188.44: cashbal=-1171.87; num-po=7; market-dir=UPTREND
+Mon Sep 08 08:00:00 GMT+00:00 2014 BUY: 162 shares of THC cost-basis=54.6 for $9556.38 CASH-BAL=-10735.25
+Mon Sep 08 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10735.25;total-positions:7
+Mon Sep 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG]
+Mon Sep 08 08:00:00 GMT+00:00 2014; net-val=201311.94: cashbal=-10735.25; num-po=7; market-dir=UPTREND
+Tue Sep 09 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10735.25;total-positions:7
+Tue Sep 09 08:00:00 GMT+00:00 2014 Selling due to underperformance: CTL 1.87% in 40
+Tue Sep 09 08:00:00 GMT+00:00 2014 SELL CTL x407 for $16275.93 1.87%
+Tue Sep 09 08:00:00 GMT+00:00 2014 BUY: 406 shares of MEI cost-basis=39.4 for $15980.16 CASH-BAL=-10453.48
+Tue Sep 09 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG]
+Tue Sep 09 08:00:00 GMT+00:00 2014; net-val=200480.35: cashbal=-10735.25; num-po=7; market-dir=UPTREND
+Wed Sep 10 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Wed Sep 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, HQY]
+Wed Sep 10 08:00:00 GMT+00:00 2014; net-val=203123.57: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Thu Sep 11 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Thu Sep 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, HQY]
+Thu Sep 11 08:00:00 GMT+00:00 2014; net-val=205777.17: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Fri Sep 12 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Fri Sep 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SIG, HQY]
+Fri Sep 12 08:00:00 GMT+00:00 2014; net-val=202742.07: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Mon Sep 15 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Mon Sep 15 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HQY]
+Mon Sep 15 08:00:00 GMT+00:00 2014; net-val=198815.47: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Tue Sep 16 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Tue Sep 16 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [HQY, ALR]
+Tue Sep 16 08:00:00 GMT+00:00 2014; net-val=201390.21: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Wed Sep 17 08:00:00 GMT+00:00 2014: Cash Bal was negative: -10453.48;total-positions:7
+Wed Sep 17 08:00:00 GMT+00:00 2014 Selling due to underperformance: COO 1.53% in 64
+Wed Sep 17 08:00:00 GMT+00:00 2014 SELL COO x165 for $25971.0 1.53%
+Wed Sep 17 08:00:00 GMT+00:00 2014 BUY: 798 shares of HQY cost-basis=20.0 for $15983.94 CASH-BAL=-480.42
+Wed Sep 17 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ALR]
+Wed Sep 17 08:00:00 GMT+00:00 2014; net-val=201379.96: cashbal=-10453.48; num-po=7; market-dir=UPTREND
+Thu Sep 18 08:00:00 GMT+00:00 2014: Cash Bal was negative: -480.42;total-positions:7
+Thu Sep 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ALR, MSCI]
+Thu Sep 18 08:00:00 GMT+00:00 2014; net-val=200586.69999999998: cashbal=-480.42; num-po=7; market-dir=UPTREND
+Fri Sep 19 08:00:00 GMT+00:00 2014: Cash Bal was negative: -480.42;total-positions:7
+Fri Sep 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ALR, MSCI]
+Fri Sep 19 08:00:00 GMT+00:00 2014; net-val=201835.22: cashbal=-480.42; num-po=7; market-dir=UPTREND
+Mon Sep 22 08:00:00 GMT+00:00 2014: Cash Bal was negative: -480.42;total-positions:7
+Mon Sep 22 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ALR, MSCI, CLX]
+Mon Sep 22 08:00:00 GMT+00:00 2014; net-val=197418.67: cashbal=-480.42; num-po=7; market-dir=UPTREND
+Tue Sep 23 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.08%)798 shares of HQY for -6.08
+Tue Sep 23 08:00:00 GMT+00:00 2014 SELL HQY x798 for $15018.36 -6.08%
+Tue Sep 23 08:00:00 GMT+00:00 2014Market-Uptrend-Sell 50EDMA: (-7.64%)451 shares of EMES for 62.1
+Tue Sep 23 08:00:00 GMT+00:00 2014 SELL EMES x451 for $50051.98 62.1%
+Realized-Gain-Loss: 80988.4 adjusted-to-%: 80% max-amt-per-position is: 36000.0
+Tue Sep 23 08:00:00 GMT+00:00 2014 BUY: 382 shares of MSCI cost-basis=47.0 for $17950.18 CASH-BAL=46618.74
+Tue Sep 23 08:00:00 GMT+00:00 2014 BUY: 189 shares of CLX cost-basis=94.9 for $17926.65 CASH-BAL=28685.09
+Tue Sep 23 08:00:00 GMT+00:00 2014 BUY: 451 shares of ALR cost-basis=39.8 for $17954.31 CASH-BAL=10723.78
+Tue Sep 23 08:00:00 GMT+00:00 2014; net-val=191732.93: cashbal=64575.92; num-po=8; market-dir=UPTREND
+Wed Sep 24 08:00:00 GMT+00:00 2014; net-val=192047.38: cashbal=10723.78; num-po=8; market-dir=UPTREND
+Thu Sep 25 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.4%)406 shares of MEI for -3.4
+Thu Sep 25 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.78%)294 shares of OTEX for 0.821
+Thu Sep 25 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.81%)416 shares of WLK for 17.8
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL MEI x406 for $15444.24 -3.4%
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL OTEX x294 for $16114.14 0.821%
+Thu Sep 25 08:00:00 GMT+00:00 2014 SELL WLK x416 for $37494.08 17.8%
+Thu Sep 25 08:00:00 GMT+00:00 2014; net-val=189470.2: cashbal=79755.24; num-po=5; market-dir=DOWNTREND
+Fri Sep 26 08:00:00 GMT+00:00 2014; net-val=188974.44: cashbal=79755.24; num-po=5; market-dir=DOWNTREND
+Mon Sep 29 08:00:00 GMT+00:00 2014; net-val=188704.16: cashbal=79755.24; num-po=5; market-dir=DOWNTREND
+Tue Sep 30 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.04%)1166 shares of STLD for 3.06
+Tue Sep 30 08:00:00 GMT+00:00 2014 SELL STLD x1166 for $26363.26 3.06%
+Tue Sep 30 08:00:00 GMT+00:00 2014; net-val=187414.61000000002: cashbal=106111.5; num-po=4; market-dir=DOWNTREND
+Wed Oct 01 08:00:00 GMT+00:00 2014Market-Downtrend-Sell 50EDMA: (-1.38%)467 shares of THC for 5.61
+Wed Oct 01 08:00:00 GMT+00:00 2014 SELL THC x467 for $26964.58 5.61%
+Wed Oct 01 08:00:00 GMT+00:00 2014; net-val=186329.64: cashbal=133069.08; num-po=3; market-dir=DOWNTREND
+Thu Oct 02 08:00:00 GMT+00:00 2014; net-val=187051.43: cashbal=133069.08; num-po=3; market-dir=DOWNTREND
+Fri Oct 03 08:00:00 GMT+00:00 2014 BUY: 235 shares of GPN cost-basis=76.3 for $17935.2 CASH-BAL=115126.88
+Fri Oct 03 08:00:00 GMT+00:00 2014; net-val=187385.37: cashbal=133069.08; num-po=4; market-dir=DOWNTREND
+Mon Oct 06 08:00:00 GMT+00:00 2014 BUY: 548 shares of KITE cost-basis=32.8 for $17990.84 CASH-BAL=97129.04
+Mon Oct 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [BDX]
+Mon Oct 06 08:00:00 GMT+00:00 2014; net-val=187372.23: cashbal=115126.88; num-po=5; market-dir=DOWNTREND
+Tue Oct 07 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-2.59%)382 shares of MSCI for -2.91
+Tue Oct 07 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.18%)548 shares of KITE for -3.18
+Tue Oct 07 08:00:00 GMT+00:00 2014 SELL MSCI x382 for $17434.48 -2.91%
+Tue Oct 07 08:00:00 GMT+00:00 2014 SELL KITE x548 for $17426.4 -3.18%
+Tue Oct 07 08:00:00 GMT+00:00 2014; net-val=185696.11: cashbal=131975.92; num-po=3; market-dir=DOWNTREND
+Wed Oct 08 08:00:00 GMT+00:00 2014; net-val=186245.14: cashbal=131975.92; num-po=3; market-dir=DOWNTREND
+Thu Oct 09 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.71%)451 shares of ALR for -3.71
+Thu Oct 09 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.12%)235 shares of GPN for -3.12
+Thu Oct 09 08:00:00 GMT+00:00 2014 SELL ALR x451 for $17295.85 -3.71%
+Thu Oct 09 08:00:00 GMT+00:00 2014 SELL GPN x235 for $17382.95 -3.12%
+Thu Oct 09 08:00:00 GMT+00:00 2014 BUY: 249 shares of RENT cost-basis=72.1 for $17945.43 CASH-BAL=148688.29
+Thu Oct 09 08:00:00 GMT+00:00 2014; net-val=185046.66: cashbal=166640.72; num-po=2; market-dir=DOWNTREND
+Fri Oct 10 08:00:00 GMT+00:00 2014; net-val=184912.46: cashbal=148688.29; num-po=2; market-dir=DOWNTREND
+Mon Oct 13 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-3.2%)249 shares of RENT for -3.2
+Mon Oct 13 08:00:00 GMT+00:00 2014 SELL RENT x249 for $17377.71 -3.2%
+Mon Oct 13 08:00:00 GMT+00:00 2014 BUY: 142 shares of BDX cost-basis=126 for $17867.86 CASH-BAL=148184.14
+Mon Oct 13 08:00:00 GMT+00:00 2014; net-val=184173.88: cashbal=166059.0; num-po=2; market-dir=DOWNTREND
+Tue Oct 14 08:00:00 GMT+00:00 2014 BUY: 528 shares of AVA cost-basis=34.0 for $17967.84 CASH-BAL=130209.3
+Tue Oct 14 08:00:00 GMT+00:00 2014; net-val=184261.75: cashbal=148184.14; num-po=3; market-dir=DOWNTREND
+Wed Oct 15 08:00:00 GMT+00:00 2014; net-val=183953.76: cashbal=130209.3; num-po=3; market-dir=DOWNTREND
+Thu Oct 16 08:00:00 GMT+00:00 2014Market-Downtrend-Sell -3%: (-4.05%)142 shares of BDX for -4.05
+Thu Oct 16 08:00:00 GMT+00:00 2014 SELL BDX x142 for $17150.76 -4.05%
+Thu Oct 16 08:00:00 GMT+00:00 2014; net-val=183105.87: cashbal=147353.06; num-po=2; market-dir=DOWNTREND
+Fri Oct 17 08:00:00 GMT+00:00 2014 BUY: 48 shares of REGN cost-basis=370 for $17742.72 CASH-BAL=129603.34
+Fri Oct 17 08:00:00 GMT+00:00 2014; net-val=183173.24: cashbal=147353.06; num-po=3; market-dir=DOWNTREND
+Mon Oct 20 08:00:00 GMT+00:00 2014; net-val=183400.03: cashbal=129603.34; num-po=3; market-dir=DOWNTREND
+Tue Oct 21 08:00:00 GMT+00:00 2014 BUY: 435 shares of AKRX cost-basis=41.3 for $17961.15 CASH-BAL=111635.19
+Tue Oct 21 08:00:00 GMT+00:00 2014; net-val=184452.06: cashbal=129603.34; num-po=4; market-dir=CAUTIOUS_UPTREND
+Wed Oct 22 08:00:00 GMT+00:00 2014; net-val=184930.37: cashbal=111635.19; num-po=4; market-dir=CAUTIOUS_UPTREND
+Thu Oct 23 08:00:00 GMT+00:00 2014; net-val=185878.13: cashbal=111635.19; num-po=4; market-dir=CAUTIOUS_UPTREND
+Fri Oct 24 08:00:00 GMT+00:00 2014; net-val=187253.6: cashbal=111635.19; num-po=4; market-dir=CAUTIOUS_UPTREND
+Mon Oct 27 08:00:00 GMT+00:00 2014 BUY: 383 shares of EPAM cost-basis=46.9 for $17966.53 CASH-BAL=93661.66
+Mon Oct 27 08:00:00 GMT+00:00 2014; net-val=187246.21: cashbal=111635.19; num-po=5; market-dir=CAUTIOUS_UPTREND
+Tue Oct 28 08:00:00 GMT+00:00 2014; net-val=186741.25: cashbal=93661.66; num-po=5; market-dir=UPTREND
+Wed Oct 29 08:00:00 GMT+00:00 2014; net-val=185996.15: cashbal=93661.66; num-po=5; market-dir=UPTREND
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 76 shares of V cost-basis=237 for $17985.4 CASH-BAL=75669.26
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 305 shares of BMY cost-basis=59.0 for $17988.9 CASH-BAL=57673.36
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 573 shares of ABMD cost-basis=31.4 for $17963.55 CASH-BAL=39702.81
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 636 shares of BIN cost-basis=28.3 for $17967.0 CASH-BAL=21728.81
+Thu Oct 30 08:00:00 GMT+00:00 2014 BUY: 712 shares of TTWO cost-basis=25.3 for $17992.24 CASH-BAL=3729.57
+Thu Oct 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CACI]
+Thu Oct 30 08:00:00 GMT+00:00 2014; net-val=186947.96: cashbal=93661.66; num-po=10; market-dir=UPTREND
+Fri Oct 31 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [TSRA, CACI, FLT]
+Fri Oct 31 08:00:00 GMT+00:00 2014; net-val=190052.88: cashbal=3729.57; num-po=10; market-dir=UPTREND
+Mon Nov 03 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ZEN, TSRA, CACI, FLT]
+Mon Nov 03 08:00:00 GMT+00:00 2014; net-val=189641.67: cashbal=3729.57; num-po=10; market-dir=UPTREND
+Tue Nov 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ZEN, SYKE, TSRA, CACI, FLT]
+Tue Nov 04 08:00:00 GMT+00:00 2014; net-val=186923.46: cashbal=3729.57; num-po=10; market-dir=UPTREND
+Wed Nov 05 08:00:00 GMT+00:00 2014 Market-Uptrend-Sell 20EMA: (-2.26%)48 shares of REGN for -0.345
+Wed Nov 05 08:00:00 GMT+00:00 2014 SELL REGN x48 for $17688.48 -0.345%
+Wed Nov 05 08:00:00 GMT+00:00 2014 BUY: 720 shares of ZEN cost-basis=25.0 for $17971.2 CASH-BAL=3432.85
+Wed Nov 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SYKE, TSRA, CACI, KAR, FLT]
+Wed Nov 05 08:00:00 GMT+00:00 2014; net-val=187783.78: cashbal=3432.85; num-po=10; market-dir=UPTREND
+Thu Nov 06 08:00:00 GMT+00:00 2014 StopLoss-HardStop SELL: (-8.3%)435 shares of AKRX for -8.3
+Thu Nov 06 08:00:00 GMT+00:00 2014 SELL AKRX x435 for $16477.8 -8.3%
+Thu Nov 06 08:00:00 GMT+00:00 2014 BUY: 119 shares of FLT cost-basis=150 for $17905.93 CASH-BAL=1990.72
+Thu Nov 06 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [SYKE, TSRA, CACI, KAR]
+Thu Nov 06 08:00:00 GMT+00:00 2014; net-val=185780.93: cashbal=1990.72; num-po=10; market-dir=UPTREND
+Fri Nov 07 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AMED, SYKE, NXTM, CACI, KAR]
+Fri Nov 07 08:00:00 GMT+00:00 2014; net-val=185611.67: cashbal=1990.72; num-po=10; market-dir=UPTREND
+Mon Nov 10 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CMPR, AMED, CACI, KAR]
+Mon Nov 10 08:00:00 GMT+00:00 2014; net-val=186124.15: cashbal=1990.72; num-po=10; market-dir=UPTREND
+Tue Nov 11 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-6.53%)720 shares of ZEN for -6.53
+Tue Nov 11 08:00:00 GMT+00:00 2014 SELL ZEN x720 for $16804.8 -6.53%
+Tue Nov 11 08:00:00 GMT+00:00 2014 BUY: 544 shares of KAR cost-basis=33.0 for $17962.88 CASH-BAL=818.64
+Tue Nov 11 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AMED, SYKE]
+Tue Nov 11 08:00:00 GMT+00:00 2014; net-val=185518.99: cashbal=818.64; num-po=10; market-dir=UPTREND
+Wed Nov 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [MSG, SWI, AMED, SYKE]
+Wed Nov 12 08:00:00 GMT+00:00 2014; net-val=186336.3: cashbal=818.64; num-po=10; market-dir=UPTREND
+Thu Nov 13 08:00:00 GMT+00:00 2014 Selling due to underperformance: AVA -0.392% in 29
+Thu Nov 13 08:00:00 GMT+00:00 2014 SELL AVA x528 for $17904.48 -0.392%
+Thu Nov 13 08:00:00 GMT+00:00 2014 BUY: 746 shares of SYKE cost-basis=24.1 for $17971.14 CASH-BAL=737.98
+Thu Nov 13 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [AMED]
+Thu Nov 13 08:00:00 GMT+00:00 2014; net-val=185955.91999999998: cashbal=737.98; num-po=10; market-dir=UPTREND
+Fri Nov 14 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [CMPR, AMED]
+Fri Nov 14 08:00:00 GMT+00:00 2014; net-val=186336.34: cashbal=737.98; num-po=10; market-dir=UPTREND
+Mon Nov 17 08:00:00 GMT+00:00 2014; net-val=186812.93: cashbal=737.98; num-po=10; market-dir=UPTREND
+Tue Nov 18 08:00:00 GMT+00:00 2014; net-val=187670.83000000002: cashbal=737.98; num-po=10; market-dir=UPTREND
+Wed Nov 19 08:00:00 GMT+00:00 2014 StopLoss-SoftStop SELL: (-5.14%)746 shares of SYKE for -5.14
+Wed Nov 19 08:00:00 GMT+00:00 2014 SELL SYKE x746 for $17053.56 -5.14%
+Wed Nov 19 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ENV, PPO]
+Wed Nov 19 08:00:00 GMT+00:00 2014; net-val=186976.18: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Thu Nov 20 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ENV, DXCM, PPO]
+Thu Nov 20 08:00:00 GMT+00:00 2014; net-val=187777.58: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Fri Nov 21 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NXTM, SWIR, ENV]
+Fri Nov 21 08:00:00 GMT+00:00 2014; net-val=188219.88: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Mon Nov 24 08:00:00 GMT+00:00 2014; net-val=189668.49: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Tue Nov 25 08:00:00 GMT+00:00 2014; net-val=190065.13: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Wed Nov 26 08:00:00 GMT+00:00 2014; net-val=190863.86000000002: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Fri Nov 28 08:00:00 GMT+00:00 2014; net-val=190556.97: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Mon Dec 01 08:00:00 GMT+00:00 2014; net-val=187817.66: cashbal=17784.54; num-po=9; market-dir=UPTREND
+Tue Dec 02 08:00:00 GMT+00:00 2014 BUY: 305 shares of ABMD cost-basis=32.7 for $10758.875 CASH-BAL=7018.665
+Tue Dec 02 08:00:00 GMT+00:00 2014; net-val=188754.69: cashbal=7018.665; num-po=9; market-dir=UPTREND
+Wed Dec 03 08:00:00 GMT+00:00 2014; net-val=189917.70500000002: cashbal=7018.665; num-po=9; market-dir=UPTREND
+Thu Dec 04 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII]
+Thu Dec 04 08:00:00 GMT+00:00 2014; net-val=189825.955: cashbal=7018.665; num-po=9; market-dir=UPTREND
+Fri Dec 05 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [GIII, ENB]
+Fri Dec 05 08:00:00 GMT+00:00 2014; net-val=192002.695: cashbal=7018.665; num-po=9; market-dir=UPTREND
+Mon Dec 08 08:00:00 GMT+00:00 2014 Selling due to underperformance: FLT -1.61% in 32
+Mon Dec 08 08:00:00 GMT+00:00 2014 SELL FLT x119 for $17625.09 -1.61%
+Mon Dec 08 08:00:00 GMT+00:00 2014 BUY: 189 shares of GIII cost-basis=94.8 for $17915.31 CASH-BAL=6714.445
+Mon Dec 08 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ENB]
+Mon Dec 08 08:00:00 GMT+00:00 2014; net-val=190222.975: cashbal=6714.445; num-po=9; market-dir=UPTREND
+Tue Dec 09 08:00:00 GMT+00:00 2014 BUY: 398 shares of TTWO cost-basis=25.9 for $10789.78 CASH-BAL=-4082.335
+Tue Dec 09 08:00:00 GMT+00:00 2014; net-val=192326.005: cashbal=-4082.335; num-po=9; market-dir=UPTREND
+Wed Dec 10 08:00:00 GMT+00:00 2014; net-val=188456.155: cashbal=-4082.335; num-po=9; market-dir=CAUTIOUS_UPTREND
+Thu Dec 11 08:00:00 GMT+00:00 2014 BUY: 106 shares of CLX cost-basis=97.0 for $10697.52 CASH-BAL=-14786.855
+Thu Dec 11 08:00:00 GMT+00:00 2014; net-val=190998.795: cashbal=-14786.855; num-po=9; market-dir=CAUTIOUS_UPTREND
+Fri Dec 12 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [ADBE]
+Fri Dec 12 08:00:00 GMT+00:00 2014; net-val=189955.20500000002: cashbal=-14786.855; num-po=9; market-dir=CAUTIOUS_UPTREND
+Mon Dec 15 08:00:00 GMT+00:00 2014 Selling due to underperformance: BMY -0.768% in 45
+Mon Dec 15 08:00:00 GMT+00:00 2014 SELL BMY x305 for $17857.75 -0.768%
+Mon Dec 15 08:00:00 GMT+00:00 2014 BUY: 246 shares of ADBE cost-basis=73.0 for $17967.84 CASH-BAL=-14910.945
+Mon Dec 15 08:00:00 GMT+00:00 2014; net-val=189039.585: cashbal=-14910.945; num-po=9; market-dir=CAUTIOUS_UPTREND
+Tue Dec 16 08:00:00 GMT+00:00 2014 Market-Downtrend-Sell 20EMA: (-6.3%)383 shares of EPAM for -1.47
+Tue Dec 16 08:00:00 GMT+00:00 2014 SELL EPAM x383 for $17709.92 -1.47%
+Tue Dec 16 08:00:00 GMT+00:00 2014; net-val=185906.395: cashbal=2791.975; num-po=8; market-dir=DOWNTREND
+Wed Dec 17 08:00:00 GMT+00:00 2014 BUY: 41 shares of V cost-basis=245 for $10622.28 CASH-BAL=-7837.305
+Wed Dec 17 08:00:00 GMT+00:00 2014; net-val=189891.055: cashbal=-7837.305; num-po=8; market-dir=CAUTIOUS_UPTREND
+Thu Dec 18 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [FGEN]
+Thu Dec 18 08:00:00 GMT+00:00 2014; net-val=193075.48500000002: cashbal=-7837.305; num-po=8; market-dir=UPTREND
+Fri Dec 19 08:00:00 GMT+00:00 2014; net-val=191743.375: cashbal=-7837.305; num-po=8; market-dir=UPTREND
+Mon Dec 22 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO]
+Mon Dec 22 08:00:00 GMT+00:00 2014; net-val=194081.465: cashbal=-7837.305; num-po=8; market-dir=UPTREND
+Tue Dec 23 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO]
+Tue Dec 23 08:00:00 GMT+00:00 2014; net-val=194736.525: cashbal=-7837.305; num-po=8; market-dir=UPTREND
+Wed Dec 24 08:00:00 GMT+00:00 2014 BUY: 354 shares of BIN cost-basis=29.0 for $10772.22 CASH-BAL=-18616.525
+Wed Dec 24 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO, VA]
+Wed Dec 24 08:00:00 GMT+00:00 2014; net-val=195605.115: cashbal=-18616.525; num-po=8; market-dir=UPTREND
+Fri Dec 26 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO]
+Fri Dec 26 08:00:00 GMT+00:00 2014; net-val=196054.095: cashbal=-18616.525; num-po=8; market-dir=UPTREND
+Mon Dec 29 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO]
+Mon Dec 29 08:00:00 GMT+00:00 2014; net-val=195530.875: cashbal=-18616.525; num-po=8; market-dir=UPTREND
+Tue Dec 30 08:00:00 GMT+00:00 2014 Adding unprocessed symbols to watchlist: [NVRO]
+Tue Dec 30 08:00:00 GMT+00:00 2014; net-val=194568.105: cashbal=-18616.525; num-po=8; market-dir=UPTREND
+Wed Dec 31 08:00:00 GMT+00:00 2014 Selling due to underperformance: ADBE -0.504% in 16
+Wed Dec 31 08:00:00 GMT+00:00 2014 SELL ADBE x246 for $17884.2 -0.504%
+Wed Dec 31 08:00:00 GMT+00:00 2014 BUY: 465 shares of NVRO cost-basis=38.7 for $17981.55 CASH-BAL=-18727.875
+Wed Dec 31 08:00:00 GMT+00:00 2014; net-val=192838.695: cashbal=-18727.875; num-po=8; market-dir=UPTREND
+Fri Jan 02 08:00:00 GMT+00:00 2015 BUY: 256 shares of TTWO cost-basis=26.3 for $7192.32 CASH-BAL=-25927.195
+Fri Jan 02 08:00:00 GMT+00:00 2015; net-val=192070.36500000002: cashbal=-25927.195; num-po=8; market-dir=UPTREND
+Mon Jan 05 08:00:00 GMT+00:00 2015 BUY: 69 shares of CLX cost-basis=98.3 for $7168.41 CASH-BAL=-33102.605
+Mon Jan 05 08:00:00 GMT+00:00 2015; net-val=189604.795: cashbal=-33102.605; num-po=8; market-dir=DOWNTREND
+Tue Jan 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.02%)465 shares of NVRO for -4.02
+Tue Jan 06 08:00:00 GMT+00:00 2015 SELL NVRO x465 for $17265.45 -4.02%
+Tue Jan 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: GIII 0.446% in 29
+Tue Jan 06 08:00:00 GMT+00:00 2015 SELL GIII x189 for $18002.25 0.446%
+Tue Jan 06 08:00:00 GMT+00:00 2015 BUY: 438 shares of VA cost-basis=41.0 for $17962.38 CASH-BAL=-15818.285
+Tue Jan 06 08:00:00 GMT+00:00 2015; net-val=187897.495: cashbal=-15818.285; num-po=7; market-dir=DOWNTREND
+Wed Jan 07 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.11%)438 shares of VA for -3.11
+Wed Jan 07 08:00:00 GMT+00:00 2015 SELL VA x438 for $17410.5 -3.11%
+Realized-Gain-Loss: 79375.1 adjusted-to-%: 70% max-amt-per-position is: 34000.0
+Wed Jan 07 08:00:00 GMT+00:00 2015 BUY: 182 shares of ABMD cost-basis=33.5 for $6784.96 CASH-BAL=-5206.745
+Wed Jan 07 08:00:00 GMT+00:00 2015; net-val=190019.745: cashbal=-5206.745; num-po=6; market-dir=DOWNTREND
+Thu Jan 08 08:00:00 GMT+00:00 2015; net-val=193237.105: cashbal=-5206.745; num-po=6; market-dir=CAUTIOUS_UPTREND
+Fri Jan 09 08:00:00 GMT+00:00 2015 Selling due to underperformance: BIN 2.16% in 70
+Fri Jan 09 08:00:00 GMT+00:00 2015 SELL BIN x990 for $29373.3 2.16%
+Realized-Gain-Loss: 80068.1 adjusted-to-%: 80% max-amt-per-position is: 36000.0
+Fri Jan 09 08:00:00 GMT+00:00 2015 BUY: 118 shares of AYI cost-basis=152 for $17877.0 CASH-BAL=6275.555
+Fri Jan 09 08:00:00 GMT+00:00 2015; net-val=191016.625: cashbal=6275.555; num-po=6; market-dir=CAUTIOUS_UPTREND
+Mon Jan 12 08:00:00 GMT+00:00 2015; net-val=190962.575: cashbal=6275.555; num-po=6; market-dir=DOWNTREND
+Tue Jan 13 08:00:00 GMT+00:00 2015; net-val=191436.635: cashbal=6275.555; num-po=6; market-dir=DOWNTREND
+Wed Jan 14 08:00:00 GMT+00:00 2015; net-val=190214.375: cashbal=6275.555; num-po=6; market-dir=DOWNTREND
+Thu Jan 15 08:00:00 GMT+00:00 2015Market-Downtrend-Sell 50EDMA: (-1.81%)117 shares of V for 3.48
+Thu Jan 15 08:00:00 GMT+00:00 2015 SELL V x117 for $29616.21 3.48%
+Thu Jan 15 08:00:00 GMT+00:00 2015 Selling due to underperformance: KAR 2.87% in 65
+Thu Jan 15 08:00:00 GMT+00:00 2015 SELL KAR x544 for $18485.12 2.87%
+Thu Jan 15 08:00:00 GMT+00:00 2015 BUY: 323 shares of HDB cost-basis=55.7 for $17978.18 CASH-BAL=36377.705
+Thu Jan 15 08:00:00 GMT+00:00 2015; net-val=188117.305: cashbal=36377.705; num-po=5; market-dir=DOWNTREND
+Fri Jan 16 08:00:00 GMT+00:00 2015; net-val=192288.405: cashbal=36377.705; num-po=5; market-dir=DOWNTREND
+Tue Jan 20 08:00:00 GMT+00:00 2015; net-val=192386.025: cashbal=36377.705; num-po=5; market-dir=DOWNTREND
+Wed Jan 21 08:00:00 GMT+00:00 2015; net-val=192658.205: cashbal=36377.705; num-po=5; market-dir=DOWNTREND
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 232 shares of HELE cost-basis=77.5 for $17986.96 CASH-BAL=18383.745
+Thu Jan 22 08:00:00 GMT+00:00 2015; net-val=195374.555: cashbal=18383.745; num-po=6; market-dir=CAUTIOUS_UPTREND
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 203 shares of SBUX cost-basis=88.2 for $17908.66 CASH-BAL=468.085
+Fri Jan 23 08:00:00 GMT+00:00 2015; net-val=195583.065: cashbal=468.085; num-po=7; market-dir=UPTREND
+Mon Jan 26 08:00:00 GMT+00:00 2015; net-val=197030.505: cashbal=468.085; num-po=7; market-dir=UPTREND
+Tue Jan 27 08:00:00 GMT+00:00 2015; net-val=194791.985: cashbal=468.085; num-po=7; market-dir=DOWNTREND
+Wed Jan 28 08:00:00 GMT+00:00 2015 ABMD ATR Sell signal. atr=1.2616415986100409; vol-rate: 752% ;cls-rng=15.9967674705456
+Wed Jan 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [KLIC]
+Wed Jan 28 08:00:00 GMT+00:00 2015; net-val=205927.055: cashbal=468.085; num-po=7; market-dir=DOWNTREND
+Thu Jan 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [VAR, KLIC, BA]
+Thu Jan 29 08:00:00 GMT+00:00 2015; net-val=209454.855: cashbal=468.085; num-po=7; market-dir=DOWNTREND
+Fri Jan 30 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.02%)232 shares of HELE for -3.02
+Fri Jan 30 08:00:00 GMT+00:00 2015 SELL HELE x232 for $17451.04 -3.02%
+Fri Jan 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [VAR, KLIC, BA]
+Fri Jan 30 08:00:00 GMT+00:00 2015; net-val=205972.635: cashbal=17912.125; num-po=6; market-dir=DOWNTREND
+Mon Feb 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [VAR, KLIC, BA]
+Mon Feb 02 08:00:00 GMT+00:00 2015; net-val=207403.435: cashbal=17912.125; num-po=6; market-dir=DOWNTREND
+Tue Feb 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, VAR, KLIC, NSP, BA]
+Tue Feb 03 08:00:00 GMT+00:00 2015; net-val=208292.745: cashbal=17912.125; num-po=6; market-dir=DOWNTREND
+Wed Feb 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, VAR, KLIC, BA]
+Wed Feb 04 08:00:00 GMT+00:00 2015; net-val=209411.225: cashbal=17912.125; num-po=6; market-dir=DOWNTREND
+Thu Feb 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, BLL, VAR, EL, KLIC, BA]
+Thu Feb 05 08:00:00 GMT+00:00 2015; net-val=210341.825: cashbal=17912.125; num-po=6; market-dir=CAUTIOUS_UPTREND
+Fri Feb 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, BLL, VAR, EL, KLIC, BA]
+Fri Feb 06 08:00:00 GMT+00:00 2015; net-val=212129.775: cashbal=17912.125; num-po=6; market-dir=UPTREND
+Mon Feb 09 08:00:00 GMT+00:00 2015 Selling due to underperformance: HDB 1.07% in 25
+Mon Feb 09 08:00:00 GMT+00:00 2015 SELL HDB x323 for $18178.44 1.07%
+Mon Feb 09 08:00:00 GMT+00:00 2015 BUY: 87 shares of ORLY cost-basis=205 for $17841.09 CASH-BAL=18235.475
+Mon Feb 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, BLL, VAR, EL, KLIC, HAS, BA]
+Mon Feb 09 08:00:00 GMT+00:00 2015; net-val=210454.045: cashbal=18235.475; num-po=6; market-dir=UPTREND
+Tue Feb 10 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EDMA: (-2.03%)1366 shares of TTWO for 5.46
+Tue Feb 10 08:00:00 GMT+00:00 2015 SELL TTWO x1366 for $37961.14 5.46%
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 319 shares of MOH cost-basis=56.3 for $17946.94 CASH-BAL=38235.675
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 194 shares of VAR cost-basis=92.5 for $17950.82 CASH-BAL=20277.855
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 224 shares of EL cost-basis=80.0 for $17922.24 CASH-BAL=2348.615
+Tue Feb 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, SEE, BLL, KLIC, HAS, MLM, BA]
+Tue Feb 10 08:00:00 GMT+00:00 2015; net-val=211980.925: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Wed Feb 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, SEE, BLL, SCI, HAS, MLM, BA]
+Wed Feb 11 08:00:00 GMT+00:00 2015; net-val=213986.255: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Thu Feb 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVDA, PRE, AKAM, HAS, MLM, BA]
+Thu Feb 12 08:00:00 GMT+00:00 2015; net-val=216037.985: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Fri Feb 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVDA, PRE, JCOM, BA]
+Fri Feb 13 08:00:00 GMT+00:00 2015; net-val=217192.205: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Tue Feb 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, JCOM]
+Tue Feb 17 08:00:00 GMT+00:00 2015; net-val=217611.445: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Wed Feb 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVDA, CHE, PRE, JCOM, LNKD, HAS]
+Wed Feb 18 08:00:00 GMT+00:00 2015; net-val=218471.685: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Thu Feb 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, NVDA, CHE, BLL, JCOM, HAS]
+Thu Feb 19 08:00:00 GMT+00:00 2015; net-val=217470.635: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Fri Feb 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, CHE, BLL, INTU, JCOM, HAS]
+Fri Feb 20 08:00:00 GMT+00:00 2015; net-val=217853.275: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Mon Feb 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, NVDA, CHE, INTU, JCOM, HAS]
+Mon Feb 23 08:00:00 GMT+00:00 2015; net-val=219759.085: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Tue Feb 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, NVDA, CHE, INTU, CBRL, HAS]
+Tue Feb 24 08:00:00 GMT+00:00 2015; net-val=219452.515: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Wed Feb 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, NVDA, CHE, INTU, CBRL, MLM]
+Wed Feb 25 08:00:00 GMT+00:00 2015; net-val=218690.605: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Thu Feb 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, NVDA, CHE, INTU, UVE, AKAM, BKS]
+Thu Feb 26 08:00:00 GMT+00:00 2015; net-val=219540.205: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Fri Feb 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, NVDA, CHE, STMP, INTU, UVE, JCOM, AKAM, BKS]
+Fri Feb 27 08:00:00 GMT+00:00 2015; net-val=218902.735: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Mon Mar 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, INTU, BKS]
+Mon Mar 02 08:00:00 GMT+00:00 2015; net-val=221953.495: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Tue Mar 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, INTU, BKS, CRM]
+Tue Mar 03 08:00:00 GMT+00:00 2015; net-val=219199.535: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Wed Mar 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, OLN, CHE, INTU, UVE, CBRL, BKS, BMY]
+Wed Mar 04 08:00:00 GMT+00:00 2015; net-val=219284.995: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Thu Mar 05 08:00:00 GMT+00:00 2015; net-val=220188.475: cashbal=2348.615; num-po=8; market-dir=UPTREND
+Fri Mar 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: ORLY -0.468% in 25
+Fri Mar 06 08:00:00 GMT+00:00 2015 SELL ORLY x87 for $17764.53 -0.468%
+Fri Mar 06 08:00:00 GMT+00:00 2015 BUY: 280 shares of AMBA cost-basis=64.2 for $17981.6 CASH-BAL=2117.545
+Fri Mar 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BJRI, JWN, OLN, INTU, UVE, CBRL, BKS, BMY]
+Fri Mar 06 08:00:00 GMT+00:00 2015; net-val=217029.795: cashbal=2117.545; num-po=8; market-dir=UPTREND
+Mon Mar 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, UVE, CBRL, BKS, BMY, CRM]
+Mon Mar 09 08:00:00 GMT+00:00 2015; net-val=218375.145: cashbal=2117.545; num-po=8; market-dir=UPTREND
+Tue Mar 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, UVE, CBRL, BMY]
+Tue Mar 10 08:00:00 GMT+00:00 2015; net-val=215643.865: cashbal=2117.545; num-po=8; market-dir=CAUTIOUS_UPTREND
+Wed Mar 11 08:00:00 GMT+00:00 2015 Selling due to underperformance: EL 0.573% in 29
+Wed Mar 11 08:00:00 GMT+00:00 2015 SELL EL x224 for $18032.0 0.573%
+Wed Mar 11 08:00:00 GMT+00:00 2015 BUY: 274 shares of BMY cost-basis=65.6 for $17974.4 CASH-BAL=2161.145
+Wed Mar 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, UVE]
+Wed Mar 11 08:00:00 GMT+00:00 2015; net-val=215085.14500000002: cashbal=2161.145; num-po=8; market-dir=CAUTIOUS_UPTREND
+Thu Mar 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, UVE, TWOU, CRM]
+Thu Mar 12 08:00:00 GMT+00:00 2015; net-val=220102.315: cashbal=2161.145; num-po=8; market-dir=CAUTIOUS_UPTREND
+Fri Mar 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, UVE, TWOU]
+Fri Mar 13 08:00:00 GMT+00:00 2015; net-val=219396.575: cashbal=2161.145; num-po=8; market-dir=CAUTIOUS_UPTREND
+Mon Mar 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Mon Mar 16 08:00:00 GMT+00:00 2015; net-val=221606.225: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Tue Mar 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Tue Mar 17 08:00:00 GMT+00:00 2015; net-val=219835.995: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Wed Mar 18 08:00:00 GMT+00:00 2015 AYI ATR Sell signal. atr=2.7500584333570126; vol-rate: 6.59% ;cls-rng=81.75399479747315
+Wed Mar 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN]
+Wed Mar 18 08:00:00 GMT+00:00 2015; net-val=222131.545: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Thu Mar 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [OLN, NVRO]
+Thu Mar 19 08:00:00 GMT+00:00 2015; net-val=223424.895: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Fri Mar 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVRO, PRSC, TWOU]
+Fri Mar 20 08:00:00 GMT+00:00 2015; net-val=223903.835: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Mon Mar 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NVRO]
+Mon Mar 23 08:00:00 GMT+00:00 2015; net-val=225007.425: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Tue Mar 24 08:00:00 GMT+00:00 2015 ABMD ATR Sell signal. atr=1.7634427846991607; vol-rate: 461% ;cls-rng=72.59259259259262
+Tue Mar 24 08:00:00 GMT+00:00 2015; net-val=235979.39500000002: cashbal=2161.145; num-po=8; market-dir=UPTREND
+Wed Mar 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: BMY -1.41% in 14
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL BMY x274 for $17727.8 -1.41%
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 336 shares of JUNO cost-basis=53.5 for $17969.28 CASH-BAL=1905.665
+Wed Mar 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: VAR 0.166% in 43
+Wed Mar 25 08:00:00 GMT+00:00 2015 SELL VAR x194 for $17987.68 0.166%
+Wed Mar 25 08:00:00 GMT+00:00 2015 BUY: 374 shares of NVRO cost-basis=48.0 for $17966.96 CASH-BAL=1912.385
+Wed Mar 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [EW, OVAS]
+Wed Mar 25 08:00:00 GMT+00:00 2015; net-val=231201.595: cashbal=1912.385; num-po=8; market-dir=CAUTIOUS_UPTREND
+Thu Mar 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW, OVAS]
+Thu Mar 26 08:00:00 GMT+00:00 2015; net-val=229646.345: cashbal=1912.385; num-po=8; market-dir=CAUTIOUS_UPTREND
+Fri Mar 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Fri Mar 27 08:00:00 GMT+00:00 2015; net-val=233564.775: cashbal=1912.385; num-po=8; market-dir=CAUTIOUS_UPTREND
+Mon Mar 30 08:00:00 GMT+00:00 2015 BUY: 112 shares of SBUX cost-basis=91.0 for $10749.76 CASH-BAL=-8844.375
+Mon Mar 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Mon Mar 30 08:00:00 GMT+00:00 2015; net-val=240552.165: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Tue Mar 31 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, EW]
+Tue Mar 31 08:00:00 GMT+00:00 2015; net-val=237766.655: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Wed Apr 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS, PRSC]
+Wed Apr 01 08:00:00 GMT+00:00 2015; net-val=234101.355: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Thu Apr 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SFS]
+Thu Apr 02 08:00:00 GMT+00:00 2015; net-val=234914.305: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Mon Apr 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG]
+Mon Apr 06 08:00:00 GMT+00:00 2015; net-val=235993.445: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Tue Apr 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, ALTR]
+Tue Apr 07 08:00:00 GMT+00:00 2015; net-val=232859.82499999998: cashbal=-8844.375; num-po=8; market-dir=CAUTIOUS_UPTREND
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 63 shares of AYI cost-basis=158 for $10644.48 CASH-BAL=-19495.855
+Wed Apr 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, ALTR]
+Wed Apr 08 08:00:00 GMT+00:00 2015; net-val=235811.735: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Thu Apr 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, APOG, RHT]
+Thu Apr 09 08:00:00 GMT+00:00 2015; net-val=236138.415: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Fri Apr 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIG, SIMO, GE, RHT]
+Fri Apr 10 08:00:00 GMT+00:00 2015; net-val=237638.505: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Mon Apr 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [TSE, GE]
+Mon Apr 13 08:00:00 GMT+00:00 2015; net-val=235638.885: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Tue Apr 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [SIMO, GE]
+Tue Apr 14 08:00:00 GMT+00:00 2015; net-val=235437.16499999998: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Wed Apr 15 08:00:00 GMT+00:00 2015; net-val=235513.765: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Thu Apr 16 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PNRA]
+Thu Apr 16 08:00:00 GMT+00:00 2015; net-val=236944.905: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Fri Apr 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, TSE, PNRA]
+Fri Apr 17 08:00:00 GMT+00:00 2015; net-val=233474.995: cashbal=-19495.855; num-po=8; market-dir=UPTREND
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 144 shares of AMBA cost-basis=67.7 for $10736.64 CASH-BAL=-30239.495
+Mon Apr 20 08:00:00 GMT+00:00 2015 Selling due to underperformance: CLX 10.3% in 209
+Mon Apr 20 08:00:00 GMT+00:00 2015 SELL CLX x364 for $39483.08 10.3%
+Mon Apr 20 08:00:00 GMT+00:00 2015 BUY: 797 shares of TSE cost-basis=22.6 for $17980.32 CASH-BAL=-8750.735
+Mon Apr 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE]
+Mon Apr 20 08:00:00 GMT+00:00 2015; net-val=233383.445: cashbal=-8750.735; num-po=8; market-dir=UPTREND
+Tue Apr 21 08:00:00 GMT+00:00 2015 BUY: 169 shares of MOH cost-basis=58.8 for $10770.37 CASH-BAL=-19528.105
+Tue Apr 21 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, PNRA, APOG]
+Tue Apr 21 08:00:00 GMT+00:00 2015; net-val=234820.345: cashbal=-19528.105; num-po=8; market-dir=UPTREND
+Wed Apr 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, STJ, PNRA, APOG, SIMO]
+Wed Apr 22 08:00:00 GMT+00:00 2015; net-val=234043.935: cashbal=-19528.105; num-po=8; market-dir=UPTREND
+Thu Apr 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, PNRA, APOG, ARRS, DPZ]
+Thu Apr 23 08:00:00 GMT+00:00 2015; net-val=235696.035: cashbal=-19528.105; num-po=8; market-dir=UPTREND
+Fri Apr 24 08:00:00 GMT+00:00 2015 SBUX ATR Sell signal. atr=0.7644492663891888; vol-rate: 169% ;cls-rng=82.99319727891164
+Fri Apr 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [MMSI, CE, STJ, PNRA, APOG, ARRS, SIMO]
+Fri Apr 24 08:00:00 GMT+00:00 2015; net-val=235377.075: cashbal=-19528.105; num-po=8; market-dir=UPTREND
+Mon Apr 27 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.03%)336 shares of JUNO for -5.03
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL JUNO x336 for $17072.16 -5.03%
+Mon Apr 27 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EDMA: (-2.77%)488 shares of MOH for 5.46
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL MOH x488 for $30299.92 5.46%
+Mon Apr 27 08:00:00 GMT+00:00 2015 BUY: 874 shares of MMSI cost-basis=20.6 for $17986.92 CASH-BAL=9836.055
+Mon Apr 27 08:00:00 GMT+00:00 2015 Selling due to underperformance: NVRO 1.81% in 33
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL NVRO x374 for $18299.82 1.81%
+Mon Apr 27 08:00:00 GMT+00:00 2015 BUY: 514 shares of ARRS cost-basis=35.0 for $17979.72 CASH-BAL=10142.155
+Mon Apr 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PRE, CE, STJ, PNRA, DPZ]
+Mon Apr 27 08:00:00 GMT+00:00 2015; net-val=226806.995: cashbal=10142.155; num-po=7; market-dir=UPTREND
+Tue Apr 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, STJ, PNRA]
+Tue Apr 28 08:00:00 GMT+00:00 2015; net-val=228084.285: cashbal=10142.155; num-po=7; market-dir=UPTREND
+Wed Apr 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, XPO, PNRA, STJ, DPZ]
+Wed Apr 29 08:00:00 GMT+00:00 2015; net-val=227995.445: cashbal=10142.155; num-po=7; market-dir=UPTREND
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.72%)874 shares of MMSI for -5.72
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL MMSI x874 for $16964.34 -5.72%
+Thu Apr 30 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 50EDMA: (-3.0%)1060 shares of ABMD for 88.7
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL ABMD x1060 for $67013.2 88.7%
+Realized-Gain-Loss: 118078.3 adjusted-to-%: 110% max-amt-per-position is: 42000.0
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 877 shares of AVG cost-basis=23.9 for $20977.84 CASH-BAL=73120.855
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 288 shares of CRM cost-basis=72.8 for $20972.16 CASH-BAL=52141.695
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 194 shares of DPZ cost-basis=108 for $20922.9 CASH-BAL=31211.795
+Thu Apr 30 08:00:00 GMT+00:00 2015 BUY: 432 shares of XPO cost-basis=48.5 for $20952.0 CASH-BAL=10252.795
+Thu Apr 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CE, PNRA, AMZN]
+Thu Apr 30 08:00:00 GMT+00:00 2015; net-val=221949.855: cashbal=10252.795; num-po=9; market-dir=UPTREND
+Fri May 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NFLX, CE, PNRA, STJ, AMZN]
+Fri May 01 08:00:00 GMT+00:00 2015; net-val=221921.855: cashbal=10252.795; num-po=9; market-dir=UPTREND
+Mon May 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [STJ, AMZN]
+Mon May 04 08:00:00 GMT+00:00 2015; net-val=223754.265: cashbal=10252.795; num-po=9; market-dir=UPTREND
+Tue May 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: TSE -3.27% in 15
+Tue May 05 08:00:00 GMT+00:00 2015 SELL TSE x797 for $17398.51 -3.27%
+Tue May 05 08:00:00 GMT+00:00 2015 BUY: 294 shares of STJ cost-basis=71.3 for $20971.02 CASH-BAL=6666.285
+Tue May 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, AMZN]
+Tue May 05 08:00:00 GMT+00:00 2015; net-val=220917.01499999998: cashbal=6666.285; num-po=9; market-dir=UPTREND
+Wed May 06 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-4.44%)514 shares of ARRS for -4.44
+Wed May 06 08:00:00 GMT+00:00 2015 SELL ARRS x514 for $17188.16 -4.44%
+Wed May 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: SBUX 7.51% in 103
+Wed May 06 08:00:00 GMT+00:00 2015 SELL SBUX x630 for $30825.9 7.51%
+Wed May 06 08:00:00 GMT+00:00 2015 BUY: 50 shares of AMZN cost-basis=419 for $20955.0 CASH-BAL=33704.345
+Wed May 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PLCE]
+Wed May 06 08:00:00 GMT+00:00 2015; net-val=220794.405: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Thu May 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX]
+Thu May 07 08:00:00 GMT+00:00 2015; net-val=222398.825: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Fri May 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [STMP, CLGX, IMPV]
+Fri May 08 08:00:00 GMT+00:00 2015; net-val=222506.065: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Mon May 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, CALM, STMP, IMPV, HUBS]
+Mon May 11 08:00:00 GMT+00:00 2015; net-val=223031.95500000002: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Tue May 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, VRTU, IMPV]
+Tue May 12 08:00:00 GMT+00:00 2015; net-val=223318.975: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Wed May 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, IMPV, PLCE]
+Wed May 13 08:00:00 GMT+00:00 2015; net-val=223791.005: cashbal=33704.345; num-po=8; market-dir=DOWNTREND
+Thu May 14 08:00:00 GMT+00:00 2015 STJ ATR Sell signal. atr=1.323274025420146; vol-rate: 29.3% ;cls-rng=93.60902255639091
+Thu May 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, IMPV, PLCE]
+Thu May 14 08:00:00 GMT+00:00 2015; net-val=227069.955: cashbal=33704.345; num-po=8; market-dir=CAUTIOUS_UPTREND
+Fri May 15 08:00:00 GMT+00:00 2015 BUY: 300 shares of STMP cost-basis=69.9 for $20982.0 CASH-BAL=12715.345
+Fri May 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, PLCE]
+Fri May 15 08:00:00 GMT+00:00 2015; net-val=229201.825: cashbal=12715.345; num-po=9; market-dir=UPTREND
+Mon May 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, PLCE]
+Mon May 18 08:00:00 GMT+00:00 2015; net-val=230176.14500000002: cashbal=12715.345; num-po=9; market-dir=UPTREND
+Tue May 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, PLCE]
+Tue May 19 08:00:00 GMT+00:00 2015; net-val=230593.555: cashbal=12715.345; num-po=9; market-dir=UPTREND
+Wed May 20 08:00:00 GMT+00:00 2015 Selling due to underperformance: CRM -3.69% in 20
+Wed May 20 08:00:00 GMT+00:00 2015 SELL CRM x288 for $20206.08 -3.69%
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 307 shares of PLCE cost-basis=68.3 for $20961.96 CASH-BAL=11945.465
+Wed May 20 08:00:00 GMT+00:00 2015; net-val=231081.595: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Thu May 21 08:00:00 GMT+00:00 2015; net-val=230374.625: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Fri May 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, VRTU]
+Fri May 22 08:00:00 GMT+00:00 2015; net-val=229533.23500000002: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Tue May 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, VRTU]
+Tue May 26 08:00:00 GMT+00:00 2015; net-val=229363.48500000002: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Wed May 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX, VRTU, AMED]
+Wed May 27 08:00:00 GMT+00:00 2015; net-val=231200.435: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Thu May 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX, AMED]
+Thu May 28 08:00:00 GMT+00:00 2015; net-val=230397.475: cashbal=11945.465; num-po=9; market-dir=UPTREND
+Fri May 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: STMP -3.82% in 14
+Fri May 29 08:00:00 GMT+00:00 2015 SELL STMP x300 for $20187.0 -3.82%
+Fri May 29 08:00:00 GMT+00:00 2015 BUY: 676 shares of AMED cost-basis=31.0 for $20969.52 CASH-BAL=11148.945
+Fri May 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX]
+Fri May 29 08:00:00 GMT+00:00 2015; net-val=229285.195: cashbal=11148.945; num-po=9; market-dir=UPTREND
+Mon Jun 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX]
+Mon Jun 01 08:00:00 GMT+00:00 2015; net-val=232751.955: cashbal=11148.945; num-po=9; market-dir=UPTREND
+Tue Jun 02 08:00:00 GMT+00:00 2015 BUY: 47 shares of AYI cost-basis=162 for $8389.97 CASH-BAL=2751.975
+Tue Jun 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CVC, DGX]
+Tue Jun 02 08:00:00 GMT+00:00 2015; net-val=232480.495: cashbal=2751.975; num-po=9; market-dir=UPTREND
+Wed Jun 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX]
+Wed Jun 03 08:00:00 GMT+00:00 2015; net-val=235976.255: cashbal=2751.975; num-po=9; market-dir=UPTREND
+Thu Jun 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX]
+Thu Jun 04 08:00:00 GMT+00:00 2015; net-val=236190.01499999998: cashbal=2751.975; num-po=9; market-dir=UPTREND
+Fri Jun 05 08:00:00 GMT+00:00 2015 Selling due to underperformance: XPO 0.235% in 36
+Fri Jun 05 08:00:00 GMT+00:00 2015 SELL XPO x432 for $21008.16 0.235%
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 145 shares of AVGO cost-basis=144 for $20852.45 CASH-BAL=2893.685
+Fri Jun 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX]
+Fri Jun 05 08:00:00 GMT+00:00 2015; net-val=238854.98500000002: cashbal=2893.685; num-po=9; market-dir=UPTREND
+Mon Jun 08 08:00:00 GMT+00:00 2015; net-val=239646.585: cashbal=2893.685; num-po=9; market-dir=UPTREND
+Tue Jun 09 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.19%)307 shares of PLCE for -5.19
+Tue Jun 09 08:00:00 GMT+00:00 2015 SELL PLCE x307 for $19881.32 -5.19%
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 403 shares of CMN cost-basis=52.0 for $20956.0 CASH-BAL=1805.005
+Tue Jun 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO]
+Tue Jun 09 08:00:00 GMT+00:00 2015; net-val=243561.665: cashbal=1805.005; num-po=9; market-dir=UPTREND
+Wed Jun 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [WETF]
+Wed Jun 10 08:00:00 GMT+00:00 2015; net-val=245383.815: cashbal=1805.005; num-po=9; market-dir=UPTREND
+Thu Jun 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [MBLY, WETF]
+Thu Jun 11 08:00:00 GMT+00:00 2015; net-val=246805.515: cashbal=1805.005; num-po=9; market-dir=UPTREND
+Fri Jun 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [WETF]
+Fri Jun 12 08:00:00 GMT+00:00 2015; net-val=249857.505: cashbal=1805.005; num-po=9; market-dir=UPTREND
+Mon Jun 15 08:00:00 GMT+00:00 2015 Selling due to underperformance: AMZN 1.06% in 40
+Mon Jun 15 08:00:00 GMT+00:00 2015 SELL AMZN x50 for $21183.5 1.06%
+Mon Jun 15 08:00:00 GMT+00:00 2015 BUY: 417 shares of MBLY cost-basis=50.3 for $20991.78 CASH-BAL=1982.725
+Mon Jun 15 08:00:00 GMT+00:00 2015; net-val=249363.945: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Tue Jun 16 08:00:00 GMT+00:00 2015; net-val=251028.365: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Wed Jun 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO]
+Wed Jun 17 08:00:00 GMT+00:00 2015; net-val=254348.375: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Thu Jun 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO, HRC]
+Thu Jun 18 08:00:00 GMT+00:00 2015; net-val=258287.345: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Fri Jun 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HRC, BMRN]
+Fri Jun 19 08:00:00 GMT+00:00 2015; net-val=256193.715: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Mon Jun 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HRC]
+Mon Jun 22 08:00:00 GMT+00:00 2015; net-val=246496.475: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Tue Jun 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BCRX, HRC]
+Tue Jun 23 08:00:00 GMT+00:00 2015; net-val=249072.475: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Wed Jun 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, BCRX, HRC, BMRN]
+Wed Jun 24 08:00:00 GMT+00:00 2015; net-val=245355.635: cashbal=1982.725; num-po=9; market-dir=UPTREND
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=33.9 for $12587.4 CASH-BAL=-10611.675
+Thu Jun 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: AVGO -3.22% in 20
+Thu Jun 25 08:00:00 GMT+00:00 2015 SELL AVGO x145 for $20188.35 -3.22%
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 316 shares of TMH cost-basis=66.4 for $20985.56 CASH-BAL=-11422.885
+Thu Jun 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, HRC, BCRX, BMRN]
+Thu Jun 25 08:00:00 GMT+00:00 2015; net-val=248388.285: cashbal=-11422.885; num-po=9; market-dir=UPTREND
+Fri Jun 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, HRC, BCRX, BMRN]
+Fri Jun 26 08:00:00 GMT+00:00 2015; net-val=246122.285: cashbal=-11422.885; num-po=9; market-dir=UPTREND
+Mon Jun 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: STJ 2.1% in 55
+Mon Jun 29 08:00:00 GMT+00:00 2015 SELL STJ x294 for $21417.9 2.1%
+Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 381 shares of HRC cost-basis=55.1 for $20985.48 CASH-BAL=-11004.465
+Mon Jun 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: AYI 10.7% in 171
+Mon Jun 29 08:00:00 GMT+00:00 2015 SELL AYI x228 for $40873.56 10.7%
+Realized-Gain-Loss: 120071.6 adjusted-to-%: 120% max-amt-per-position is: 44000.0
+Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 710 shares of ITCI cost-basis=30.9 for $21967.4 CASH-BAL=7887.695
+Mon Jun 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Mon Jun 29 08:00:00 GMT+00:00 2015; net-val=242750.375: cashbal=7887.695; num-po=9; market-dir=DOWNTREND
+Tue Jun 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Tue Jun 30 08:00:00 GMT+00:00 2015; net-val=244415.865: cashbal=7887.695; num-po=9; market-dir=DOWNTREND
+Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 480 shares of AVG cost-basis=25.2 for $13166.4 CASH-BAL=-5285.705
+Wed Jul 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Wed Jul 01 08:00:00 GMT+00:00 2015; net-val=245663.665: cashbal=-5285.705; num-po=9; market-dir=DOWNTREND
+Thu Jul 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BCRX, BMRN]
+Thu Jul 02 08:00:00 GMT+00:00 2015; net-val=245458.57499999998: cashbal=-5285.705; num-po=9; market-dir=DOWNTREND
+Mon Jul 06 08:00:00 GMT+00:00 2015; net-val=248503.07499999998: cashbal=-5285.705; num-po=9; market-dir=DOWNTREND
+Tue Jul 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CYH]
+Tue Jul 07 08:00:00 GMT+00:00 2015; net-val=248503.07499999998: cashbal=-5285.705; num-po=9; market-dir=DOWNTREND
+Wed Jul 08 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.07%)381 shares of HRC for -3.07
+Wed Jul 08 08:00:00 GMT+00:00 2015 SELL HRC x381 for $20349.21 -3.07%
+Realized-Gain-Loss: 119423.9 adjusted-to-%: 110% max-amt-per-position is: 42000.0
+Wed Jul 08 08:00:00 GMT+00:00 2015; net-val=244728.3: cashbal=15056.505; num-po=8; market-dir=DOWNTREND
+
+---- Final Portfolio Holdings as of Wed Jul 08 07:50:23 GMT+00:00 2015 ----
+null 424 of AMBA with cost basis of 67.7 and pct-chg: 43.4% with % of portfolio weight=16.8%
+null 1357 of AVG with cost basis of 25.2 and pct-chg: 9.89% with % of portfolio weight=15.3%
+null 194 of DPZ with cost basis of 108.0 and pct-chg: 4.85% with % of portfolio weight=8.96%
+null 991 of AMED with cost basis of 33.9 and pct-chg: 22.9% with % of portfolio weight=16.9%
+null 403 of CMN with cost basis of 52.0 and pct-chg: 0.967% with % of portfolio weight=8.65%
+null 417 of MBLY with cost basis of 50.3 and pct-chg: 7.59% with % of portfolio weight=9.23%
+null 316 of TMH with cost basis of 66.4 and pct-chg: -1.54% with % of portfolio weight=8.44%
+null 710 of ITCI with cost basis of 30.9 and pct-chg: 6.43% with % of portfolio weight=9.55%
+
+Total Invested Amount = 229671.795 with % of portfolio weight=93.8%
+Cash Bal = 15056.505 with % of portfolio weight=6.15%
+Net Value = 244728.3
+
+---- Run stats ----
+Start-Date: Tue Jan 01 08:00:00 GMT+00:00 2013
+End-Date: Wed Jul 08 07:50:23 GMT+00:00 2015
+Total Trading days: 918
+Net Gain/Loss = 144728.3
+Pct Chg = 145.0%

@@ -1,0 +1,2 @@
+added dg-rating>70 screener to a.12
+added base-number<4 screener to a.13

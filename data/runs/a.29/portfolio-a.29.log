@@ -1,0 +1,54 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Sat Jun 27 07:07:52 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 113 shares of SBUX cost-basis=88.2 for $9968.86 CASH-BAL=90024.14
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 220 shares of SEE cost-basis=45.3 for $9959.4 CASH-BAL=80057.74
+Wed Feb 11 08:00:00 GMT+00:00 2015 BUY: 409 shares of SCI cost-basis=24.4 for $9975.51 CASH-BAL=70075.23
+Fri Feb 13 08:00:00 GMT+00:00 2015 BUY: 512 shares of EIGI cost-basis=19.5 for $9978.88 CASH-BAL=60089.35
+Thu Feb 19 08:00:00 GMT+00:00 2015 BUY: 178 shares of EPAM cost-basis=55.9 for $9950.2 CASH-BAL=50132.15
+Mon Mar 09 08:00:00 GMT+00:00 2015 BUY: 64 shares of SBUX cost-basis=90.0 for $5954.56 CASH-BAL=44170.59
+Wed Mar 11 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-7.15%)512 shares of EIGI for -7.15
+Wed Mar 11 08:00:00 GMT+00:00 2015 SELL EIGI x512 for $9272.32 CASH-BAL=53435.91
+Wed Apr 01 08:00:00 GMT+00:00 2015 BUY: 228 shares of SCI cost-basis=25.1 for $5985.0 CASH-BAL=47443.91
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Wed Apr 15 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.67%)220 shares of SEE for -1.86
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x220 for $9781.2 CASH-BAL=57218.11
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 359 shares of HQY cost-basis=27.8 for $9965.84 CASH-BAL=47245.27
+Wed Apr 29 08:00:00 GMT+00:00 2015 BUY: 204 shares of XPO cost-basis=48.8 for $9961.32 CASH-BAL=37276.95
+Thu Apr 30 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.65%)359 shares of HQY for -5.65
+Thu Apr 30 08:00:00 GMT+00:00 2015 SELL HQY x359 for $9409.39 CASH-BAL=46679.34
+Mon May 11 08:00:00 GMT+00:00 2015Market-Downtrend-Sell 20EMA: (-2.57%)178 shares of EPAM for 14.6
+Mon May 11 08:00:00 GMT+00:00 2015 SELL EPAM x178 for $11409.8 CASH-BAL=58082.14
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 60 shares of TWC cost-basis=167 for $9993.0 CASH-BAL=48082.14
+Tue May 26 08:00:00 GMT+00:00 2015 Got Acquired/Merged: 60 shares of TWC for 10.2
+Tue May 26 08:00:00 GMT+00:00 2015 SELL TWC x60 for $11016.0 CASH-BAL=59091.14
+Wed May 27 08:00:00 GMT+00:00 2015 BUY: 315 shares of AMED cost-basis=31.7 for $9976.05 CASH-BAL=49108.09
+Fri Jun 05 08:00:00 GMT+00:00 2015 BUY: 146 shares of JUNO cost-basis=68.4 for $9980.56 CASH-BAL=39120.53
+Tue Jun 09 08:00:00 GMT+00:00 2015 StopLoss-HardStop SELL: (-9.17%)146 shares of JUNO for -9.17
+Tue Jun 09 08:00:00 GMT+00:00 2015 SELL JUNO x146 for $9072.44 CASH-BAL=48185.97
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 77 shares of SBUX cost-basis=46.2 for $3968.58 CASH-BAL=44210.39
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 137 shares of SCI cost-basis=25.8 for $3988.07 CASH-BAL=40215.32
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 192 shares of CMN cost-basis=52.0 for $9984.0 CASH-BAL=30224.32
+Fri Jun 12 08:00:00 GMT+00:00 2015Market-Uptrend-Sell 20EMA: (-2.37%)204 shares of XPO for -2.88
+Fri Jun 12 08:00:00 GMT+00:00 2015 SELL XPO x204 for $9681.84 CASH-BAL=39899.16
+Wed Jun 17 08:00:00 GMT+00:00 2015 BUY: 193 shares of RDUS cost-basis=51.7 for $9983.89 CASH-BAL=29908.27
+
+---- Final Portfolio Holdings as of Sat Jun 27 07:07:52 GMT+00:00 2015 ----
+null 431 of SBUX with cost basis of 46.2 and pct-chg: 18.2% with % of portfolio weight=21.1%
+null 774 of SCI with cost basis of 25.8 and pct-chg: 15.2% with % of portfolio weight=20.6%
+null 315 of AMED with cost basis of 31.7 and pct-chg: 24.1% with % of portfolio weight=11.1%
+null 192 of CMN with cost basis of 52.0 and pct-chg: 3.6% with % of portfolio weight=9.28%
+null 193 of RDUS with cost basis of 51.7 and pct-chg: 23.5% with % of portfolio weight=11.1%
+
+Total Invested Amount = 81548.77 with % of portfolio weight=73.2%
+Cash Bal = 29908.27 with % of portfolio weight=26.8%
+Net Value = 111457.04
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Sat Jun 27 07:07:52 GMT+00:00 2015
+Total Trading days: 177
+Net Gain/Loss = 11457.04
+Pct Chg = 11.5%

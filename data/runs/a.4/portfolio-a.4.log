@@ -1,0 +1,74 @@
+Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End Date: Mon Jun 22 08:50:42 GMT+00:00 2015
+Initial Cash: 100000.0
+Num Positions: 5
+-----------------
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 344 shares of LABL cost-basis=58.0
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY LABL x344 for $19960.0 CASH-BAL=80040.0
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY: 1370 shares of BSX cost-basis=14.6
+Thu Jan 08 08:00:00 GMT+00:00 2015 BUY BSX x1370 for $19996.3 CASH-BAL=60043.7
+Mon Jan 12 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1%: (-1.88%)344 shares of LABL for -1.88
+Mon Jan 12 08:00:00 GMT+00:00 2015 SELL LABL x344 for $19575.92 CASH-BAL=79619.62
+Thu Jan 15 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1%: (-1.96%)1370 shares of BSX for -1.96
+Thu Jan 15 08:00:00 GMT+00:00 2015 SELL BSX x1370 for $19596.7 CASH-BAL=99216.32
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 186 shares of AGU cost-basis=107
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY AGU x186 for $19947.2 CASH-BAL=79269.12
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY: 843 shares of TSM cost-basis=23.7
+Thu Jan 22 08:00:00 GMT+00:00 2015 BUY TSM x843 for $19995.53 CASH-BAL=59273.59
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 469 shares of CSWC cost-basis=42.6
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY CSWC x469 for $19982.71 CASH-BAL=39290.88
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY: 226 shares of SBUX cost-basis=88.3
+Fri Jan 23 08:00:00 GMT+00:00 2015 BUY SBUX x226 for $19945.72 CASH-BAL=19345.16
+Wed Jan 28 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1%: (-2.66%)186 shares of AGU for -2.66
+Wed Jan 28 08:00:00 GMT+00:00 2015 SELL AGU x186 for $19408.54 CASH-BAL=38753.7
+Thu Jan 29 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1%: (-1.81%)843 shares of TSM for -1.81
+Thu Jan 29 08:00:00 GMT+00:00 2015 SELL TSM x843 for $19625.47 CASH-BAL=58379.17
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY: 212 shares of CME cost-basis=94.2
+Fri Feb 06 08:00:00 GMT+00:00 2015 BUY CME x212 for $19980.52 CASH-BAL=38398.65
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 441 shares of SEE cost-basis=45.3
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY SEE x441 for $19972.07 CASH-BAL=18426.58
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY: 355 shares of MOH cost-basis=56.3
+Tue Feb 10 08:00:00 GMT+00:00 2015 BUY MOH x355 for $19980.3 CASH-BAL=-1553.72
+Mon Apr 06 08:00:00 GMT+00:00 2015 TA-SELL 50SMA: (-2.26%)212 shares of CME for -2.28
+Mon Apr 06 08:00:00 GMT+00:00 2015 SELL CME x212 for $19516.14 CASH-BAL=17962.42
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY: 277 shares of CHL cost-basis=72.0
+Wed Apr 08 08:00:00 GMT+00:00 2015 BUY CHL x277 for $19935.38 CASH-BAL=-1972.96
+Thu Apr 09 08:00:00 GMT+00:00 2015 SBUX: Applying split factor of: 2.0
+Wed Apr 15 08:00:00 GMT+00:00 2015 TA-SELL 50SMA: (-2.83%)441 shares of SEE for -1.83
+Wed Apr 15 08:00:00 GMT+00:00 2015 SELL SEE x441 for $19598.86 CASH-BAL=17625.9
+Wed Apr 15 08:00:00 GMT+00:00 2015 BUY: 1335 shares of SWHC cost-basis=15.0
+Wed Apr 15 08:00:00 GMT+00:00 2015 BUY SWHC x1335 for $19992.95 CASH-BAL=-2367.05
+Fri Apr 17 08:00:00 GMT+00:00 2015 StopLoss SELL: (-5.96%)277 shares of CHL for -5.96
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL CHL x277 for $18739.36 CASH-BAL=16372.31
+Fri Apr 17 08:00:00 GMT+00:00 2015 TA-SELL 50SMA: (-1.56%)469 shares of CSWC for 10.3
+Fri Apr 17 08:00:00 GMT+00:00 2015 SELL CSWC x469 for $22039.69 CASH-BAL=38412.0
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY: 297 shares of CE cost-basis=67.2
+Fri Apr 17 08:00:00 GMT+00:00 2015 BUY CE x297 for $19960.46 CASH-BAL=18451.54
+Tue Apr 21 08:00:00 GMT+00:00 2015 BUY: 246 shares of OCR cost-basis=81.1
+Tue Apr 21 08:00:00 GMT+00:00 2015 BUY OCR x246 for $19951.22 CASH-BAL=-1499.68
+Mon Apr 27 08:00:00 GMT+00:00 2015 TA-SELL 50SMA: (-2.77%)355 shares of MOH for 10.3
+Mon Apr 27 08:00:00 GMT+00:00 2015 SELL MOH x355 for $22033.95 CASH-BAL=20534.27
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY: 833 shares of SC cost-basis=24.0
+Tue Apr 28 08:00:00 GMT+00:00 2015 BUY SC x833 for $20000.0 CASH-BAL=534.27
+Thu May 07 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -1%: (-1.05%)297 shares of CE for -1.05
+Thu May 07 08:00:00 GMT+00:00 2015 SELL CE x297 for $19742.5 CASH-BAL=20276.77
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 302 shares of ADI cost-basis=66.2
+Wed May 20 08:00:00 GMT+00:00 2015 BUY ADI x302 for $19994.36 CASH-BAL=282.41
+
+---- Final Portfolio Holdings as of Mon Jun 22 08:50:42 GMT+00:00 2015 ----
+null 452 of SBUX with cost basis of 44.1 and pct-chg: 22.2%
+null 1335 of SWHC with cost basis of 15.0 and pct-chg: 8.04%
+null 246 of OCR with cost basis of 81.1 and pct-chg: 16.2%
+null 833 of SC with cost basis of 24.0 and pct-chg: 10.2%
+null 302 of ADI with cost basis of 66.2 and pct-chg: 2.57%
+
+Total Invested Amount = 111696.45
+Cash Bal = 282.41
+Net Value = 111978.86
+
+---- Run stats ----
+Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
+End-Date: Mon Jun 22 08:50:42 GMT+00:00 2015
+Total Trading days: 173
+Net Gain/Loss = 11978.859999999997
+Pct Chg = 12.0%
