@@ -286,7 +286,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 						if(maxCashAvailForExecution != null && maxCashAvailForExecution.getValue().compareTo(BigDecimal.ZERO) > 0) {
 							final TransactionData trans = buyPositionAndUpdatePortfolioPositions(aSignal.getSymbolInfo().getSymbol(), maxCashAvailForExecution, runDate);
 							execs.add(trans);
-							RunLogger.getRunLogger().logPortfolio(runDate + " - bought from weak-signal: " + aSignal.getSymbolInfo());
+							RunLogger.getRunLogger().logPortfolio(runDate + " - bought from weak-signal: " + aSignal.getSymbolInfo().getSymbol());
 							newPositionsBought++;
 						} else {
 							logger.info(runDate + " cannot buy any-more positons for signal: " + aSignal.getSymbolInfo().getSymbol());
@@ -913,16 +913,24 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 						if(cat == ChartAnalysisType.BREAKING_UP || cat == ChartAnalysisType.SUPPORT) {
 							continue;
 						}
-				} else if(pae1 != null) {
+				}
+				if(pae1 != null) {
 					ChartAnalysisType cat = pae1.getAnalysisType();
 						if(cat == ChartAnalysisType.BREAKING_UP  || cat == ChartAnalysisType.SUPPORT) {
 							continue;
 						}
-				} else if(pae2 != null) {
+				} 
+				
+				if(pae2 != null) {
 					ChartAnalysisType cat = pae2.getAnalysisType();
 					if(cat == ChartAnalysisType.BREAKING_UP  || cat == ChartAnalysisType.SUPPORT) {
 						continue;
 					}
+				}
+				
+				final BigDecimal pctChgFrom20ema = todaysPA.getElementPctChg(ChartElementType.PRICE_MA_20);
+				if(pctChgFrom20ema != null && pctChgFrom20ema.doubleValue()  > -0.5) {
+					continue;
 				}
 				
 				RunLogger.getRunLogger().logPortfolio(tradeDate + " StopLoss-SoftStop SELL: (" + pctChg + "%)" + pos.getQuantity() + " shares of " + pos.getSymbol() + " for " + pos.getPercentGainLoss() );
