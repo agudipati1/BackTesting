@@ -286,7 +286,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 						if(maxCashAvailForExecution != null && maxCashAvailForExecution.getValue().compareTo(BigDecimal.ZERO) > 0) {
 							final TransactionData trans = buyPositionAndUpdatePortfolioPositions(aSignal.getSymbolInfo().getSymbol(), maxCashAvailForExecution, runDate);
 							execs.add(trans);
-						
+							RunLogger.getRunLogger().logPortfolio(runDate + " - bought from weak-signal: " + aSignal.getSymbolInfo());
 							newPositionsBought++;
 						} else {
 							logger.info(runDate + " cannot buy any-more positons for signal: " + aSignal.getSymbolInfo().getSymbol());

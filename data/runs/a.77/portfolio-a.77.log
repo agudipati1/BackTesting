@@ -1,5 +1,5 @@
 Start Date: Thu Jan 01 08:00:00 GMT+00:00 2015
-End Date: Fri Jul 10 06:30:03 GMT+00:00 2015
+End Date: Fri Jul 10 07:15:26 GMT+00:00 2015
 Initial Cash: 100000.0
 Num Positions: 5
 -----------------
@@ -220,144 +220,144 @@ Fri May 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NFL
 Fri May 01 08:00:00 GMT+00:00 2015 net-val=100899.43; cashbal=827.98; num-po=8; market-dir=UPTREND; positions={AYI=5.84, PRE=-0.514, AVG=-0.0702, SBUX=8.92, AMBA=7.9, ARRS=-5.89, DPZ=-2.25, CRM=-0.0702}
 Mon May 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, STJ, AMZN]
 Mon May 04 08:00:00 GMT+00:00 2015 net-val=102212.68000000001; cashbal=827.98; num-po=8; market-dir=UPTREND; positions={AYI=9.79, PRE=-1.35, AVG=-0.864, SBUX=10.8, AMBA=11.2, ARRS=-4.1, DPZ=-2.17, CRM=-1.75}
-Tue May 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [WX, CLGX, XPO, STJ, AMZN]
+Tue May 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO, STJ, AMZN]
 Tue May 05 08:00:00 GMT+00:00 2015 net-val=100667.23999999999; cashbal=827.98; num-po=8; market-dir=UPTREND; positions={AYI=7.97, PRE=-0.514, AVG=-2.79, SBUX=8.54, AMBA=6.97, ARRS=-4.77, DPZ=-4.19, CRM=-0.166}
 Wed May 06 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-6.56%)279 shares of ARRS for -6.56
 Wed May 06 08:00:00 GMT+00:00 2015 SELL ARRS x279 for $9329.76 -6.56%
 Wed May 06 08:00:00 GMT+00:00 2015 Selling due to underperformance: SBUX 7.49% in 103
 Wed May 06 08:00:00 GMT+00:00 2015 SELL SBUX x350 for $17125.5 7.49%
-Wed May 06 08:00:00 GMT+00:00 2015 BUY: 225 shares of WX cost-basis=44.3 for $9972.0 CASH-BAL=17290.24
-Wed May 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, STJ, PLCE, AMZN]
-Wed May 06 08:00:00 GMT+00:00 2015 net-val=100896.49; cashbal=17290.24; num-po=7; market-dir=DOWNTREND; positions={AYI=8.32, WX=0.0, PRE=-0.172, AVG=-1.95, AMBA=8.37, DPZ=-3.81, CRM=1.26}
-Thu May 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO, STJ, AMZN]
-Thu May 07 08:00:00 GMT+00:00 2015 net-val=101143.81; cashbal=17290.24; num-po=7; market-dir=DOWNTREND; positions={AYI=8.65, WX=-1.29, PRE=-0.0552, AVG=-0.99, AMBA=8.09, DPZ=-2.17, CRM=2.26}
+Wed May 06 08:00:00 GMT+00:00 2015 BUY: 140 shares of STJ cost-basis=71.1 for $9949.8 CASH-BAL=17312.44
+Wed May 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [XPO, PLCE, AMZN]
+Wed May 06 08:00:00 GMT+00:00 2015 net-val=100896.49; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=8.32, PRE=-0.172, AVG=-1.95, AMBA=8.37, STJ=0.0, DPZ=-3.81, CRM=1.26}
+Thu May 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CLGX, XPO, AMZN]
+Thu May 07 08:00:00 GMT+00:00 2015 net-val=101304.51; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=8.65, PRE=-0.0552, AVG=-0.99, AMBA=8.09, STJ=0.324, DPZ=-2.17, CRM=2.26}
 Fri May 08 08:00:00 GMT+00:00 2015 PRE ATR Sell signal. atr=1.5810756295561998; vol-rate: 282% ;cls-rng=92.06680584551157
 Fri May 08 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [STMP, CLGX, XPO, IMPV]
-Fri May 08 08:00:00 GMT+00:00 2015 net-val=101295.29; cashbal=17290.24; num-po=7; market-dir=DOWNTREND; positions={AYI=10.5, WX=-1.27, PRE=3.26, AVG=-0.99, AMBA=6.3, DPZ=-1.09, CRM=-0.647}
+Fri May 08 08:00:00 GMT+00:00 2015 net-val=101609.14; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=10.5, PRE=3.26, AVG=-0.99, AMBA=6.3, STJ=1.89, DPZ=-1.09, CRM=-0.647}
 Mon May 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, CALM, STMP, XPO, IMPV]
-Mon May 11 08:00:00 GMT+00:00 2015 net-val=101374.23; cashbal=17290.24; num-po=7; market-dir=DOWNTREND; positions={AYI=11.2, WX=-2.28, PRE=3.72, AVG=0.808, AMBA=5.96, DPZ=-0.442, CRM=-2.29}
-Tue May 12 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.09%)225 shares of WX for -3.09
-Tue May 12 08:00:00 GMT+00:00 2015 SELL WX x225 for $9670.5 -3.09%
+Mon May 11 08:00:00 GMT+00:00 2015 net-val=101799.13; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=11.2, PRE=3.72, AVG=0.808, AMBA=5.96, STJ=1.98, DPZ=-0.442, CRM=-2.29}
 Tue May 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, VRTU, XPO, IMPV]
-Tue May 12 08:00:00 GMT+00:00 2015 net-val=101919.03; cashbal=26953.74; num-po=6; market-dir=DOWNTREND; positions={AYI=12.4, PRE=4.59, AVG=1.69, AMBA=7.53, DPZ=-1.15, CRM=-1.51}
+Tue May 12 08:00:00 GMT+00:00 2015 net-val=102318.53; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=12.4, PRE=4.59, AVG=1.69, AMBA=7.53, STJ=0.915, DPZ=-1.15, CRM=-1.51}
 Wed May 13 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, XPO, IMPV, PLCE]
-Wed May 13 08:00:00 GMT+00:00 2015 net-val=102299.03; cashbal=26953.74; num-po=6; market-dir=DOWNTREND; positions={AYI=14.1, PRE=4.4, AVG=2.81, AMBA=7.84, DPZ=-1.49, CRM=-1.48}
-Thu May 14 08:00:00 GMT+00:00 2015 BUY: 179 shares of IMPV cost-basis=55.6 for $9957.77 CASH-BAL=16988.97
-Thu May 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, XPO, PLCE]
-Thu May 14 08:00:00 GMT+00:00 2015 net-val=103343.53; cashbal=16988.97; num-po=7; market-dir=CAUTIOUS_UPTREND; positions={AYI=14.8, PRE=4.22, AVG=3.19, AMBA=12.0, IMPV=0.0, DPZ=-0.379, CRM=0.0122}
+Wed May 13 08:00:00 GMT+00:00 2015 net-val=102697.13; cashbal=17312.44; num-po=7; market-dir=DOWNTREND; positions={AYI=14.1, PRE=4.4, AVG=2.81, AMBA=7.84, STJ=0.901, DPZ=-1.49, CRM=-1.48}
+Thu May 14 08:00:00 GMT+00:00 2015 STJ ATR Sell signal. atr=1.323360606326207; vol-rate: 29.3% ;cls-rng=93.60902255639091
+Thu May 14 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, XPO, IMPV, PLCE]
+Thu May 14 08:00:00 GMT+00:00 2015 net-val=104130.83; cashbal=17312.44; num-po=7; market-dir=CAUTIOUS_UPTREND; positions={AYI=14.8, PRE=4.22, AVG=3.19, AMBA=12.0, STJ=4.74, DPZ=-0.379, CRM=0.0122}
 Fri May 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, PLCE]
-Fri May 15 08:00:00 GMT+00:00 2015 net-val=104653.14; cashbal=16988.97; num-po=7; market-dir=UPTREND; positions={AYI=16.0, PRE=4.33, AVG=3.86, AMBA=17.8, IMPV=1.42, DPZ=0.0111, CRM=-0.647}
+Fri May 15 08:00:00 GMT+00:00 2015 net-val=105364.67; cashbal=17312.44; num-po=7; market-dir=UPTREND; positions={AYI=16.0, PRE=4.33, AVG=3.86, AMBA=17.8, STJ=5.4, DPZ=0.0111, CRM=-0.647}
 Mon May 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, PLCE]
-Mon May 18 08:00:00 GMT+00:00 2015 net-val=105057.83; cashbal=16988.97; num-po=7; market-dir=UPTREND; positions={AYI=14.4, PRE=4.46, AVG=3.4, AMBA=20.1, IMPV=3.54, DPZ=0.691, CRM=-0.0976}
+Mon May 18 08:00:00 GMT+00:00 2015 net-val=105525.94; cashbal=17312.44; num-po=7; market-dir=UPTREND; positions={AYI=14.4, PRE=4.46, AVG=3.4, AMBA=20.1, STJ=5.08, DPZ=0.691, CRM=-0.0976}
 Tue May 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, STMP, PLCE]
-Tue May 19 08:00:00 GMT+00:00 2015 net-val=105264.58; cashbal=16988.97; num-po=7; market-dir=UPTREND; positions={AYI=15.1, PRE=4.28, AVG=2.65, AMBA=23.3, IMPV=2.63, DPZ=0.202, CRM=-1.91}
+Tue May 19 08:00:00 GMT+00:00 2015 net-val=105802.98; cashbal=17312.44; num-po=7; market-dir=UPTREND; positions={AYI=15.1, PRE=4.28, AVG=2.65, AMBA=23.3, STJ=4.87, DPZ=0.202, CRM=-1.91}
 Wed May 20 08:00:00 GMT+00:00 2015 Selling due to underperformance: CRM -3.72% in 20
 Wed May 20 08:00:00 GMT+00:00 2015 SELL CRM x137 for $9611.92 -3.72%
-Wed May 20 08:00:00 GMT+00:00 2015 BUY: 140 shares of STMP cost-basis=70.9 for $9924.6 CASH-BAL=16662.29
+Wed May 20 08:00:00 GMT+00:00 2015 BUY: 140 shares of STMP cost-basis=70.9 for $9924.6 CASH-BAL=16985.76
 Wed May 20 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PLCE]
-Wed May 20 08:00:00 GMT+00:00 2015 net-val=106125.35; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=15.7, PRE=4.46, AVG=2.48, STMP=0.0, AMBA=27.2, IMPV=5.99, DPZ=0.0746}
+Wed May 20 08:00:00 GMT+00:00 2015 net-val=106312.22; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=15.7, PRE=4.46, AVG=2.48, STMP=0.0, AMBA=27.2, STJ=4.7, DPZ=0.0746}
 Thu May 21 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [PLCE]
-Thu May 21 08:00:00 GMT+00:00 2015 net-val=105459.17; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=15.7, PRE=3.79, AVG=3.02, STMP=-0.649, AMBA=22.9, IMPV=7.43, DPZ=-0.234}
+Thu May 21 08:00:00 GMT+00:00 2015 net-val=105542.04; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=15.7, PRE=3.79, AVG=3.02, STMP=-0.649, AMBA=22.9, STJ=5.09, DPZ=-0.234}
 Fri May 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [RBA, VRTU]
-Fri May 22 08:00:00 GMT+00:00 2015 net-val=105227.54000000001; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=15.2, PRE=3.4, AVG=1.98, STMP=-1.35, AMBA=23.4, IMPV=8.02, DPZ=-1.18}
+Fri May 22 08:00:00 GMT+00:00 2015 net-val=105185.54000000001; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=15.2, PRE=3.4, AVG=1.98, STMP=-1.35, AMBA=23.4, STJ=4.43, DPZ=-1.18}
 Tue May 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [DGX, VRTU]
-Tue May 26 08:00:00 GMT+00:00 2015 net-val=105578.56; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=14.3, PRE=2.67, AVG=1.85, STMP=-2.68, AMBA=28.6, IMPV=7.28, DPZ=-1.6}
+Tue May 26 08:00:00 GMT+00:00 2015 net-val=105528.75; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=14.3, PRE=2.67, AVG=1.85, STMP=-2.68, AMBA=28.6, STJ=3.62, DPZ=-1.6}
 Wed May 27 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX, VRTU, AMED]
-Wed May 27 08:00:00 GMT+00:00 2015 net-val=106341.86; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=13.6, PRE=2.79, AVG=3.07, STMP=-2.93, AMBA=32.6, IMPV=8.45, DPZ=-1.52}
+Wed May 27 08:00:00 GMT+00:00 2015 net-val=106261.1; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=13.6, PRE=2.79, AVG=3.07, STMP=-2.93, AMBA=32.6, STJ=4.47, DPZ=-1.52}
 Thu May 28 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO, DGX, AMED]
-Thu May 28 08:00:00 GMT+00:00 2015 net-val=106115.98; cashbal=16662.29; num-po=7; market-dir=UPTREND; positions={AYI=13.2, PRE=2.86, AVG=2.4, STMP=-3.53, AMBA=31.2, IMPV=9.69, DPZ=-1.01}
+Thu May 28 08:00:00 GMT+00:00 2015 net-val=105890.70999999999; cashbal=16985.76; num-po=7; market-dir=UPTREND; positions={AYI=13.2, PRE=2.86, AVG=2.4, STMP=-3.53, AMBA=31.2, STJ=4.26, DPZ=-1.01}
 Fri May 29 08:00:00 GMT+00:00 2015 StopLoss-SoftStop SELL: (-5.15%)140 shares of STMP for -5.15
 Fri May 29 08:00:00 GMT+00:00 2015 SELL STMP x140 for $9420.6 -5.15%
-Fri May 29 08:00:00 GMT+00:00 2015 BUY: 322 shares of AMED cost-basis=31.0 for $9988.44 CASH-BAL=16080.45
-Fri May 29 08:00:00 GMT+00:00 2015 BUY: 132 shares of DGX cost-basis=75.2 for $9930.36 CASH-BAL=6143.09
-Fri May 29 08:00:00 GMT+00:00 2015 net-val=105863.58; cashbal=6143.09; num-po=8; market-dir=UPTREND; positions={AYI=11.9, PRE=2.15, AVG=2.44, DGX=0.0, AMBA=33.1, AMED=0.0, IMPV=9.24, DPZ=-1.51}
-Mon Jun 01 08:00:00 GMT+00:00 2015 net-val=107424.56999999999; cashbal=6143.09; num-po=8; market-dir=UPTREND; positions={AYI=12.5, PRE=2.47, AVG=4.7, DGX=0.262, AMBA=39.4, AMED=3.25, IMPV=7.39, DPZ=-1.16}
-Tue Jun 02 08:00:00 GMT+00:00 2015 BUY: 22 shares of AYI cost-basis=161 for $3927.22 CASH-BAL=2208.87
+Fri May 29 08:00:00 GMT+00:00 2015 BUY: 322 shares of AMED cost-basis=31.0 for $9988.44 CASH-BAL=16403.92
+Fri May 29 08:00:00 GMT+00:00 2015 BUY: 132 shares of DGX cost-basis=75.2 for $9930.36 CASH-BAL=6466.56
+Fri May 29 08:00:00 GMT+00:00 2015 net-val=105627.06; cashbal=6466.56; num-po=8; market-dir=UPTREND; positions={AYI=11.9, PRE=2.15, AVG=2.44, DGX=0.0, AMBA=33.1, AMED=0.0, STJ=3.7, DPZ=-1.51}
+Mon Jun 01 08:00:00 GMT+00:00 2015 net-val=107462.02; cashbal=6466.56; num-po=8; market-dir=UPTREND; positions={AYI=12.5, PRE=2.47, AVG=4.7, DGX=0.262, AMBA=39.4, AMED=3.25, STJ=4.6, DPZ=-1.16}
+Tue Jun 02 08:00:00 GMT+00:00 2015 BUY: 22 shares of AYI cost-basis=161 for $3927.22 CASH-BAL=2532.34
 Tue Jun 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CVC]
-Tue Jun 02 08:00:00 GMT+00:00 2015 net-val=106879.26; cashbal=2208.87; num-po=8; market-dir=UPTREND; positions={AYI=10.5, PRE=2.98, AVG=3.86, DGX=-0.695, AMBA=36.0, AMED=4.89, IMPV=6.11, DPZ=-1.32}
+Tue Jun 02 08:00:00 GMT+00:00 2015 net-val=107018.6; cashbal=2532.34; num-po=8; market-dir=UPTREND; positions={AYI=10.5, PRE=2.98, AVG=3.86, DGX=-0.695, AMBA=36.0, AMED=4.89, STJ=4.35, DPZ=-1.32}
 Wed Jun 03 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO]
-Wed Jun 03 08:00:00 GMT+00:00 2015 net-val=108645.93; cashbal=2208.87; num-po=8; market-dir=UPTREND; positions={AYI=11.3, PRE=2.89, AVG=7.54, DGX=-1.23, AMBA=41.1, AMED=6.44, IMPV=9.58, DPZ=-1.21}
+Wed Jun 03 08:00:00 GMT+00:00 2015 net-val=108476.2; cashbal=2532.34; num-po=8; market-dir=UPTREND; positions={AYI=11.3, PRE=2.89, AVG=7.54, DGX=-1.23, AMBA=41.1, AMED=6.44, STJ=4.71, DPZ=-1.21}
 Thu Jun 04 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO]
-Thu Jun 04 08:00:00 GMT+00:00 2015 net-val=109403.14; cashbal=2208.87; num-po=8; market-dir=UPTREND; positions={AYI=10.4, PRE=2.37, AVG=4.86, DGX=-0.456, AMBA=48.1, AMED=7.28, IMPV=9.24, DPZ=-1.18}
+Thu Jun 04 08:00:00 GMT+00:00 2015 net-val=109110.62; cashbal=2532.34; num-po=8; market-dir=UPTREND; positions={AYI=10.4, PRE=2.37, AVG=4.86, DGX=-0.456, AMBA=48.1, AMED=7.28, STJ=3.14, DPZ=-1.18}
 Fri Jun 05 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [AVGO]
-Fri Jun 05 08:00:00 GMT+00:00 2015 net-val=111249.51; cashbal=2208.87; num-po=8; market-dir=UPTREND; positions={AYI=11.4, PRE=2.54, AVG=7.5, DGX=-1.76, AMBA=52.5, AMED=9.99, IMPV=13.7, DPZ=-0.297}
+Fri Jun 05 08:00:00 GMT+00:00 2015 net-val=110576.69; cashbal=2532.34; num-po=8; market-dir=UPTREND; positions={AYI=11.4, PRE=2.54, AVG=7.5, DGX=-1.76, AMBA=52.5, AMED=9.99, STJ=3.81, DPZ=-0.297}
 Mon Jun 08 08:00:00 GMT+00:00 2015 Selling due to underperformance: DGX -1.92% in 10
 Mon Jun 08 08:00:00 GMT+00:00 2015 SELL DGX x132 for $9746.88 -1.92%
-Mon Jun 08 08:00:00 GMT+00:00 2015 BUY: 72 shares of AVGO cost-basis=139 for $9981.36 CASH-BAL=1960.39
-Mon Jun 08 08:00:00 GMT+00:00 2015 net-val=112176.26; cashbal=1960.39; num-po=8; market-dir=UPTREND; positions={AYI=9.88, PRE=1.66, AVG=8.0, AVGO=0.0, AMBA=60.5, AMED=11.6, IMPV=12.4, DPZ=-0.415}
+Mon Jun 08 08:00:00 GMT+00:00 2015 BUY: 72 shares of AVGO cost-basis=139 for $9981.36 CASH-BAL=2283.86
+Mon Jun 08 08:00:00 GMT+00:00 2015 net-val=111537.51; cashbal=2283.86; num-po=8; market-dir=UPTREND; positions={AYI=9.88, PRE=1.66, AVG=8.0, AVGO=0.0, AMBA=60.5, AMED=11.6, STJ=2.84, DPZ=-0.415}
 Tue Jun 09 08:00:00 GMT+00:00 2015 Selling due to underperformance: PRE 1.13% in 43
 Tue Jun 09 08:00:00 GMT+00:00 2015 SELL PRE x77 for $10019.24 1.13%
-Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 192 shares of CMN cost-basis=52.0 for $9984.0 CASH-BAL=1981.63
+Tue Jun 09 08:00:00 GMT+00:00 2015 BUY: 192 shares of CMN cost-basis=52.0 for $9984.0 CASH-BAL=2305.1
 Tue Jun 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO]
-Tue Jun 09 08:00:00 GMT+00:00 2015 net-val=114041.61; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=10.9, AVG=8.0, AVGO=1.07, AMBA=68.3, AMED=16.3, CMN=0.0, IMPV=10.9, DPZ=0.0927}
+Tue Jun 09 08:00:00 GMT+00:00 2015 net-val=113586.43000000001; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=10.9, AVG=8.0, AVGO=1.07, AMBA=68.3, AMED=16.3, CMN=0.0, STJ=3.19, DPZ=0.0927}
 Wed Jun 10 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [WETF]
-Wed Jun 10 08:00:00 GMT+00:00 2015 net-val=114732.17; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=11.2, AVG=9.67, AVGO=2.98, AMBA=66.6, AMED=20.5, CMN=-1.95, IMPV=12.2, DPZ=1.87}
+Wed Jun 10 08:00:00 GMT+00:00 2015 net-val=114298.69; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=11.2, AVG=9.67, AVGO=2.98, AMBA=66.6, AMED=20.5, CMN=-1.95, STJ=4.67, DPZ=1.87}
 Thu Jun 11 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [MBLY, WETF]
-Thu Jun 11 08:00:00 GMT+00:00 2015 net-val=115318.90000000001; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=12.5, AVG=14.6, AVGO=2.35, AMBA=64.5, AMED=20.8, CMN=-0.185, IMPV=13.0, DPZ=1.45}
+Thu Jun 11 08:00:00 GMT+00:00 2015 net-val=114901.08; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=12.5, AVG=14.6, AVGO=2.35, AMBA=64.5, AMED=20.8, CMN=-0.185, STJ=5.66, DPZ=1.45}
 Fri Jun 12 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [WETF]
-Fri Jun 12 08:00:00 GMT+00:00 2015 net-val=117343.11; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=12.4, AVG=16.1, AVGO=1.26, AMBA=74.3, AMED=23.2, CMN=-0.205, IMPV=14.8, DPZ=1.78}
+Fri Jun 12 08:00:00 GMT+00:00 2015 net-val=116639.66; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=12.4, AVG=16.1, AVGO=1.26, AMBA=74.3, AMED=23.2, CMN=-0.205, STJ=4.53, DPZ=1.78}
 Mon Jun 15 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [MBLY]
-Mon Jun 15 08:00:00 GMT+00:00 2015 net-val=117345.19; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=13.6, AVG=16.1, AVGO=3.17, AMBA=73.4, AMED=22.4, CMN=-0.839, IMPV=14.8, DPZ=0.437}
-Tue Jun 16 08:00:00 GMT+00:00 2015 net-val=118348.47; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=13.4, AVG=16.1, AVGO=2.35, AMBA=73.9, AMED=26.2, CMN=0.988, IMPV=19.6, DPZ=0.392}
+Mon Jun 15 08:00:00 GMT+00:00 2015 net-val=116572.75; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=13.6, AVG=16.1, AVGO=3.17, AMBA=73.4, AMED=22.4, CMN=-0.839, STJ=3.86, DPZ=0.437}
+Tue Jun 16 08:00:00 GMT+00:00 2015 net-val=117116.3; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=13.4, AVG=16.1, AVGO=2.35, AMBA=73.9, AMED=26.2, CMN=0.988, STJ=4.04, DPZ=0.392}
 Wed Jun 17 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO]
-Wed Jun 17 08:00:00 GMT+00:00 2015 net-val=119415.51; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=13.6, AVG=16.4, AVGO=1.41, AMBA=80.4, AMED=29.4, CMN=-0.185, IMPV=18.1, DPZ=0.537}
+Wed Jun 17 08:00:00 GMT+00:00 2015 net-val=118361.31; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=13.6, AVG=16.4, AVGO=1.41, AMBA=80.4, AMED=29.4, CMN=-0.185, STJ=4.33, DPZ=0.537}
 Thu Jun 18 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [NWBO, HRC]
-Thu Jun 18 08:00:00 GMT+00:00 2015 net-val=121558.28; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=14.5, AVG=15.6, AVGO=3.08, AMBA=87.0, AMED=31.9, CMN=1.51, IMPV=20.7, DPZ=2.03}
+Thu Jun 18 08:00:00 GMT+00:00 2015 net-val=120468.76; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=14.5, AVG=15.6, AVGO=3.08, AMBA=87.0, AMED=31.9, CMN=1.51, STJ=6.64, DPZ=2.03}
 Fri Jun 19 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HRC, BMRN]
-Fri Jun 19 08:00:00 GMT+00:00 2015 net-val=120355.32; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=15.1, AVG=16.1, AVGO=3.0, AMBA=76.1, AMED=36.4, CMN=2.12, IMPV=19.8, DPZ=1.44}
+Fri Jun 19 08:00:00 GMT+00:00 2015 net-val=119335.47; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=15.1, AVG=16.1, AVGO=3.0, AMBA=76.1, AMED=36.4, CMN=2.12, STJ=6.39, DPZ=1.44}
 Mon Jun 22 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [HRC]
-Mon Jun 22 08:00:00 GMT+00:00 2015 net-val=114897.68; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=14.8, AVG=17.4, AVGO=3.28, AMBA=39.2, AMED=36.0, CMN=3.26, IMPV=20.6, DPZ=3.2}
+Mon Jun 22 08:00:00 GMT+00:00 2015 net-val=113819.68; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=14.8, AVG=17.4, AVGO=3.28, AMBA=39.2, AMED=36.0, CMN=3.26, STJ=6.61, DPZ=3.2}
 Tue Jun 23 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BCRX, HRC]
-Tue Jun 23 08:00:00 GMT+00:00 2015 net-val=116417.59; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=14.6, AVG=19.8, AVGO=2.1, AMBA=50.9, AMED=30.3, CMN=3.83, IMPV=21.4, DPZ=2.99}
+Tue Jun 23 08:00:00 GMT+00:00 2015 net-val=115182.66; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=14.6, AVG=19.8, AVGO=2.1, AMBA=50.9, AMED=30.3, CMN=3.83, STJ=5.88, DPZ=2.99}
 Wed Jun 24 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, BCRX, HRC, BMRN]
-Wed Jun 24 08:00:00 GMT+00:00 2015 net-val=114798.63; cashbal=1981.63; num-po=8; market-dir=UPTREND; positions={AYI=12.1, AVG=17.9, AVGO=0.896, AMBA=49.9, AMED=27.2, CMN=3.51, IMPV=20.3, DPZ=1.19}
-Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 149 shares of AMED cost-basis=33.8 for $5954.04 CASH-BAL=-3979.41
+Wed Jun 24 08:00:00 GMT+00:00 2015 net-val=113560.04; cashbal=2305.1; num-po=8; market-dir=UPTREND; positions={AYI=12.1, AVG=17.9, AVGO=0.896, AMBA=49.9, AMED=27.2, CMN=3.51, STJ=4.66, DPZ=1.19}
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 149 shares of AMED cost-basis=33.8 for $5954.04 CASH-BAL=-3655.94
 Thu Jun 25 08:00:00 GMT+00:00 2015 Selling due to underperformance: AVGO 0.363% in 17
 Thu Jun 25 08:00:00 GMT+00:00 2015 SELL AVGO x72 for $10024.56 0.363%
-Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 150 shares of TMH cost-basis=66.4 for $9961.5 CASH-BAL=-3930.35
+Thu Jun 25 08:00:00 GMT+00:00 2015 BUY: 150 shares of TMH cost-basis=66.4 for $9961.5 CASH-BAL=-3606.88
 Thu Jun 25 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, HRC, BCRX, BMRN]
-Thu Jun 25 08:00:00 GMT+00:00 2015 net-val=116015.51; cashbal=-3930.35; num-po=8; market-dir=UPTREND; positions={AYI=13.0, AVG=18.0, AMBA=54.5, AMED=18.0, CMN=3.97, IMPV=21.9, TMH=0.0, DPZ=1.26}
+Thu Jun 25 08:00:00 GMT+00:00 2015 net-val=114646.62; cashbal=-3606.88; num-po=8; market-dir=UPTREND; positions={AYI=13.0, AVG=18.0, AMBA=54.5, AMED=18.0, CMN=3.97, STJ=4.97, TMH=0.0, DPZ=1.26}
 Fri Jun 26 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, HRC, BCRX, BMRN]
-Fri Jun 26 08:00:00 GMT+00:00 2015 net-val=114860.98999999999; cashbal=-3930.35; num-po=8; market-dir=UPTREND; positions={AYI=12.8, AVG=16.6, AMBA=49.9, AMED=16.1, CMN=3.6, IMPV=18.6, TMH=1.44, DPZ=4.15}
+Fri Jun 26 08:00:00 GMT+00:00 2015 net-val=113785.45; cashbal=-3606.88; num-po=8; market-dir=UPTREND; positions={AYI=12.8, AVG=16.6, AMBA=49.9, AMED=16.1, CMN=3.6, STJ=4.59, TMH=1.44, DPZ=4.15}
+Mon Jun 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: STJ 2.43% in 54
+Mon Jun 29 08:00:00 GMT+00:00 2015 SELL STJ x140 for $10199.0 2.43%
+Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 181 shares of HRC cost-basis=55.1 for $9969.48 CASH-BAL=-3391.36
 Mon Jun 29 08:00:00 GMT+00:00 2015 Selling due to underperformance: AYI 11.0% in 171
 Mon Jun 29 08:00:00 GMT+00:00 2015 SELL AYI x122 for $21870.94 11.0%
-Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 181 shares of HRC cost-basis=55.1 for $9969.48 CASH-BAL=7957.11
-Mon Jun 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, IPCM, BCRX, BMRN]
-Mon Jun 29 08:00:00 GMT+00:00 2015 net-val=113210.28; cashbal=7957.11; num-po=8; market-dir=DOWNTREND; positions={AVG=12.3, AMBA=48.7, AMED=17.4, CMN=2.28, IMPV=14.9, HRC=0.0, TMH=-1.82, DPZ=3.33}
-Tue Jun 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, IPCM, BCRX, BMRN]
-Tue Jun 30 08:00:00 GMT+00:00 2015 net-val=114340.83; cashbal=7957.11; num-po=8; market-dir=DOWNTREND; positions={AVG=13.7, AMBA=51.5, AMED=17.3, CMN=3.14, IMPV=21.6, HRC=-1.43, TMH=-1.7, DPZ=2.79}
-Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 218 shares of AVG cost-basis=25.1 for $5979.74 CASH-BAL=1970.37
-Wed Jul 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, IPCM, BCRX, BMRN]
-Wed Jul 01 08:00:00 GMT+00:00 2015 net-val=114712.56; cashbal=1970.37; num-po=8; market-dir=DOWNTREND; positions={AVG=9.13, AMBA=50.3, AMED=19.9, CMN=2.76, IMPV=20.5, HRC=-1.52, TMH=-0.597, DPZ=3.83}
-Thu Jul 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI, BCRX, BMRN]
-Thu Jul 02 08:00:00 GMT+00:00 2015 net-val=114656.06; cashbal=1970.37; num-po=8; market-dir=DOWNTREND; positions={AVG=9.64, AMBA=49.3, AMED=20.6, CMN=3.03, IMPV=20.4, HRC=-1.65, TMH=-0.898, DPZ=3.22}
-Mon Jul 06 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [ITCI]
-Mon Jul 06 08:00:00 GMT+00:00 2015 net-val=114696.65; cashbal=1970.37; num-po=8; market-dir=DOWNTREND; positions={AVG=8.69, AMBA=50.4, AMED=21.4, CMN=4.39, IMPV=18.5, HRC=-1.58, TMH=-0.748, DPZ=2.54}
+Mon Jun 29 08:00:00 GMT+00:00 2015 BUY: 322 shares of ITCI cost-basis=30.9 for $9962.68 CASH-BAL=8502.9
+Mon Jun 29 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Mon Jun 29 08:00:00 GMT+00:00 2015 net-val=112280.49; cashbal=8502.9; num-po=8; market-dir=DOWNTREND; positions={AVG=12.3, ITCI=0.0, AMBA=48.7, AMED=17.4, CMN=2.28, HRC=0.0, TMH=-1.82, DPZ=3.33}
+Tue Jun 30 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Tue Jun 30 08:00:00 GMT+00:00 2015 net-val=113056.22; cashbal=8502.9; num-po=8; market-dir=DOWNTREND; positions={AVG=13.7, ITCI=3.19, AMBA=51.5, AMED=17.3, CMN=3.14, HRC=-1.43, TMH=-1.7, DPZ=2.79}
+Wed Jul 01 08:00:00 GMT+00:00 2015 BUY: 218 shares of AVG cost-basis=25.1 for $5979.74 CASH-BAL=2516.16
+Wed Jul 01 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [IPCM, BCRX, BMRN]
+Wed Jul 01 08:00:00 GMT+00:00 2015 net-val=113377.56999999999; cashbal=2516.16; num-po=8; market-dir=DOWNTREND; positions={AVG=9.13, ITCI=1.61, AMBA=50.3, AMED=19.9, CMN=2.76, HRC=-1.52, TMH=-0.597, DPZ=3.83}
+Thu Jul 02 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [BCRX, BMRN]
+Thu Jul 02 08:00:00 GMT+00:00 2015 net-val=113239.15; cashbal=2516.16; num-po=8; market-dir=DOWNTREND; positions={AVG=9.64, ITCI=0.608, AMBA=49.3, AMED=20.6, CMN=3.03, HRC=-1.65, TMH=-0.898, DPZ=3.22}
+Mon Jul 06 08:00:00 GMT+00:00 2015 net-val=114445.14; cashbal=2516.16; num-po=8; market-dir=DOWNTREND; positions={AVG=8.69, ITCI=10.4, AMBA=50.4, AMED=21.4, CMN=4.39, HRC=-1.58, TMH=-0.748, DPZ=2.54}
 Tue Jul 07 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CYH]
-Tue Jul 07 08:00:00 GMT+00:00 2015 net-val=114696.65; cashbal=1970.37; num-po=8; market-dir=DOWNTREND; positions={AVG=8.69, AMBA=50.4, AMED=21.4, CMN=4.39, IMPV=18.5, HRC=-1.58, TMH=-0.748, DPZ=2.54}
-Wed Jul 08 08:00:00 GMT+00:00 2015 net-val=113482.36; cashbal=1970.37; num-po=8; market-dir=DOWNTREND; positions={AVG=7.1, AMBA=45.5, AMED=23.2, CMN=3.03, IMPV=16.9, HRC=-2.68, TMH=-1.29, DPZ=2.4}
+Tue Jul 07 08:00:00 GMT+00:00 2015 net-val=114445.14; cashbal=2516.16; num-po=8; market-dir=DOWNTREND; positions={AVG=8.69, ITCI=10.4, AMBA=50.4, AMED=21.4, CMN=4.39, HRC=-1.58, TMH=-0.748, DPZ=2.54}
+Wed Jul 08 08:00:00 GMT+00:00 2015 net-val=113042.4; cashbal=2516.16; num-po=8; market-dir=DOWNTREND; positions={AVG=7.1, ITCI=6.91, AMBA=45.5, AMED=23.2, CMN=3.03, HRC=-2.68, TMH=-1.29, DPZ=2.4}
 Thu Jul 09 08:00:00 GMT+00:00 2015Market-Downtrend-Sell -3%: (-3.03%)181 shares of HRC for -3.03
 Thu Jul 09 08:00:00 GMT+00:00 2015 SELL HRC x181 for $9661.78 -3.03%
 Thu Jul 09 08:00:00 GMT+00:00 2015 Adding unprocessed symbols to watchlist: [CYH]
-Thu Jul 09 08:00:00 GMT+00:00 2015 net-val=113655.81; cashbal=11625.15; num-po=7; market-dir=DOWNTREND; positions={AVG=10.0, AMBA=43.8, AMED=23.1, CMN=1.18, IMPV=19.1, TMH=-1.43, DPZ=2.64}
-Fri Jul 10 08:00:00 GMT+00:00 2015 net-val=113655.81; cashbal=11625.15; num-po=7; market-dir=DOWNTREND; positions={AVG=10.0, AMBA=43.8, AMED=23.1, CMN=1.18, IMPV=19.1, TMH=-1.43, DPZ=2.64}
+Thu Jul 09 08:00:00 GMT+00:00 2015 net-val=112949.88; cashbal=12170.94; num-po=7; market-dir=DOWNTREND; positions={AVG=10.0, ITCI=6.52, AMBA=43.8, AMED=23.1, CMN=1.18, TMH=-1.43, DPZ=2.64}
+Fri Jul 10 08:00:00 GMT+00:00 2015 net-val=112949.88; cashbal=12170.94; num-po=7; market-dir=DOWNTREND; positions={AVG=10.0, ITCI=6.52, AMBA=43.8, AMED=23.1, CMN=1.18, TMH=-1.43, DPZ=2.64}
 
----- Final Portfolio Holdings as of Fri Jul 10 06:30:03 GMT+00:00 2015 ----
-null 235 of AMBA with cost basis of 67.7 and pct-chg: 43.8% with % of portfolio weight=20.1%
-null 90 of DPZ with cost basis of 110.0 and pct-chg: 2.64% with % of portfolio weight=8.96%
-null 635 of AVG with cost basis of 25.1 and pct-chg: 10.0% with % of portfolio weight=15.4%
-null 179 of IMPV with cost basis of 55.6 and pct-chg: 19.1% with % of portfolio weight=10.4%
-null 471 of AMED with cost basis of 33.8 and pct-chg: 23.1% with % of portfolio weight=17.3%
-null 192 of CMN with cost basis of 52.0 and pct-chg: 1.18% with % of portfolio weight=8.89%
-null 150 of TMH with cost basis of 66.4 and pct-chg: -1.43% with % of portfolio weight=8.64%
+---- Final Portfolio Holdings as of Fri Jul 10 07:15:26 GMT+00:00 2015 ----
+null 235 of AMBA with cost basis of 67.7 and pct-chg: 43.8% with % of portfolio weight=20.3%
+null 90 of DPZ with cost basis of 110.0 and pct-chg: 2.64% with % of portfolio weight=9.02%
+null 635 of AVG with cost basis of 25.1 and pct-chg: 10.0% with % of portfolio weight=15.5%
+null 471 of AMED with cost basis of 33.8 and pct-chg: 23.1% with % of portfolio weight=17.4%
+null 192 of CMN with cost basis of 52.0 and pct-chg: 1.18% with % of portfolio weight=8.94%
+null 150 of TMH with cost basis of 66.4 and pct-chg: -1.43% with % of portfolio weight=8.69%
+null 322 of ITCI with cost basis of 30.9 and pct-chg: 6.52% with % of portfolio weight=9.4%
 
-Total Invested Amount = 102030.66 with % of portfolio weight=89.8%
-Cash Bal = 11625.15 with % of portfolio weight=10.2%
-Net Value = 113655.81
+Total Invested Amount = 100778.94 with % of portfolio weight=89.2%
+Cash Bal = 12170.94 with % of portfolio weight=10.8%
+Net Value = 112949.88
 
 ---- Run stats ----
 Start-Date: Thu Jan 01 08:00:00 GMT+00:00 2015
-End-Date: Fri Jul 10 06:30:03 GMT+00:00 2015
+End-Date: Fri Jul 10 07:15:26 GMT+00:00 2015
 Total Trading days: 190
-Net Gain/Loss = 13655.810000000001
-Pct Chg = 13.7%
+Net Gain/Loss = 12949.880000000001
+Pct Chg = 12.9%

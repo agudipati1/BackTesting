@@ -174,7 +174,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 				final SignalData aSignal = checkSymbolFundamentals(sym, runDate);
 				if(aSignal != null) {
 					aSignal.setPrimarySignalDate(watchDate);
-					
+					aSignal.setStrongSignal(true); // all watchlists are strong signals
 					final boolean technicalsPassed = performCurrrentDayTechnicals(sym, runDate);
 					if(technicalsPassed) {
 						signals.add(aSignal);
@@ -514,7 +514,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					//PriceAnalysisData dayPriorToBreakOutDayPA = paList.get(paList.size()-2);
 					//final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), dayPriorToBreakOutDayPA); 
 					final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), null);
-					if(closingRange < 40) {
+					if(closingRange < 40 && goodSignal && strongSignal) {
 						logger.info("Adding to WatchList because its close was weak " + symHeader.getSymbol() + " - closing range: " + closingRange);
 						
 						Set<String> symsForRunDate = watchList.get(runDate);

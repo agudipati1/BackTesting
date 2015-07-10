@@ -97,8 +97,9 @@ a.73- Alpha: undid a.72 (removed gaps to new-highs - results were good - much le
 a.74- fixed a bug with calculation of num-of-positions to buy logic 
 a.75- added weak signal concept for 2008/2009 period where stock were breaking out but not at new-highs. all non-new-high breakouts are considered weak-signals for now.
 a.76- fixed a bug with historical data missing in stock-header coming from historical db (uses price-vol data when missing)
-a.77-
-
+    - fixed the logic in a.75 which made the watchlists signals as weak-signals. Changed to strong-signals for all watchlists signals. [AMBA-Mar-2015]
+a.77- only strong signals are added to watchlist
+a.78- 
 
 TODO: 
  - add margin trading [sort of added indirectly with the a.66]
