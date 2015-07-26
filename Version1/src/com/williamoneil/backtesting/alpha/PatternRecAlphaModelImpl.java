@@ -92,7 +92,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 
 	@Override
 	public void unProcessedSignals(final List<SignalData> signals, final Date date) throws ApplicationException {
-		if(signals == null || signals.size() > 0) {
+		if(signals == null || signals.size() == 0) {
 			return;
 		}
 		

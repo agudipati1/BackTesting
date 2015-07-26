@@ -843,14 +843,17 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 					}
 				}
 				
-				if(aPos.getPercentGainLoss() <= -3 && !symbolsIdentifiedAsSell.contains(aPos.getSymbol())) {
-					final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
-					// add to sell-list only on a red-day
-					if(prevDayPrice.getClose().doubleValue() >  pa.getPrice().getClose().doubleValue()) {
-						RunLogger.getRunLogger().logPortfolio(runDate + "Market-Downtrend-Sell -3%: (" + aPos.getPercentGainLoss() + "%)" + aPos.getQuantity() + " shares of " + aPos.getSymbol() + " for " + aPos.getPercentGainLoss());
-						sellPositions.add(aPos);
-						symbolsIdentifiedAsSell.add(aPos.getSymbol());
-						continue;
+				final BigDecimal pctChgFrom20ema = pa.getElementPctChg(ChartElementType.PRICE_MA_20);
+				if(pctChgFrom20ema.doubleValue() < -0.5) { 
+					if(aPos.getPercentGainLoss() <= -3 && !symbolsIdentifiedAsSell.contains(aPos.getSymbol())) {
+						final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
+						// add to sell-list only on a red-day
+						if(prevDayPrice.getClose().doubleValue() >  pa.getPrice().getClose().doubleValue()) {
+							RunLogger.getRunLogger().logPortfolio(runDate + "Market-Downtrend-Sell -3%: (" + aPos.getPercentGainLoss() + "%)" + aPos.getQuantity() + " shares of " + aPos.getSymbol() + " for " + aPos.getPercentGainLoss());
+							sellPositions.add(aPos);
+							symbolsIdentifiedAsSell.add(aPos.getSymbol());
+							continue;
+						}
 					}
 				}
 			}
@@ -865,15 +868,17 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
 							
 				//final int daysFromLastTx = Math.abs(Days.daysBetween(new DateTime(runDate), new DateTime(aPos.getLatestTransactionDate(TransactionType.BUY))).getDays());
-				
-				if(aPos.getPercentGainLoss() <= -3  && !symbolsIdentifiedAsSell.contains(aPos.getSymbol())) {
-					final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
-					// add to sell-list only on a red-day
-					if(prevDayPrice.getClose().doubleValue() >  pa.getPrice().getClose().doubleValue()) {
-						RunLogger.getRunLogger().logPortfolio(runDate + " Market-CautiousUp-Sell -3%: (" + aPos.getPercentGainLoss()+ "%)" + aPos.getQuantity() + " shares of " + aPos.getSymbol() + " for " + aPos.getPercentGainLoss());
-						sellPositions.add(aPos);
-						symbolsIdentifiedAsSell.add(aPos.getSymbol());
-						continue;
+				final BigDecimal pctChgFrom20ema = pa.getElementPctChg(ChartElementType.PRICE_MA_20);
+				if(pctChgFrom20ema.doubleValue() < -0.5) { 
+					if(aPos.getPercentGainLoss() <= -3  && !symbolsIdentifiedAsSell.contains(aPos.getSymbol())) {
+						final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
+						// add to sell-list only on a red-day
+						if(prevDayPrice.getClose().doubleValue() >  pa.getPrice().getClose().doubleValue()) {
+							RunLogger.getRunLogger().logPortfolio(runDate + " Market-CautiousUp-Sell -3%: (" + aPos.getPercentGainLoss()+ "%)" + aPos.getQuantity() + " shares of " + aPos.getSymbol() + " for " + aPos.getPercentGainLoss());
+							sellPositions.add(aPos);
+							symbolsIdentifiedAsSell.add(aPos.getSymbol());
+							continue;
+						}
 					}
 				}
 				

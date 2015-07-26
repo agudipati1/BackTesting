@@ -136,18 +136,19 @@ a.91- Changed a.82 maxInvestedPercent based on market-condition Uptrend=150, Cau
 a.92/93- Testing with margin = 30% (previously it was 50%)
 a.94/95- reverted a.92/93.. margin now 50%
     - Testing with maxPositions = 4 (previously 5)
-a.96- ActOnMarketSell: Uses 20ema/10ema when 50sma is not available (happens for recent IPOs such as TWTR Jan-2014).
+a.96[BAD]- ActOnMarketSell: Uses 20ema/10ema when 50sma is not available (happens for recent IPOs such as TWTR Jan-2014).
     - Alpha: removed the concept of weak-signals
     - Alpha: prepares watchlists 15 days ahead of startdate
-a.99- Aplha: testing with vol-rate >= 200 (prev 150) and buy-range <7% (prev 5%)
-a.100- Alpha: made closing range < 50 on breakout-day will go to watchlist (previously 40) [CLDX Nob 2014]
+a.99[BAD]- Aplha: testing with vol-rate >= 200 (prev 150) and buy-range <7% (prev 5%)
+a.100[BAD]- Alpha: made closing range < 50 on breakout-day will go to watchlist (previously 40) [CLDX Nob 2014]
      - Alpha: changed market cap to 1B (previously 750M) [avoids NVDQ in Jan 2014]
      - Alpha: added logic to ignore breakouts that doesnt close to new high (handle breakouts are ignored) Jul 2014, DEPO Aug 2014]
-a.101- MarketSells - Dont sell on market-timing (eg., market in downtrend) and if stock is still above 20ema [SNCR-Aug-2014]
-     - 
+a.101- MarketSells - Dont sell on market-timing (eg., market in downtrend & cautious-up) if stock is still above 20ema by -0.5% [SNCR-Aug-2014 & SNCR Aug-2013]
+     - Bug in unprocessed signals not added to watchlists
+a.102- 
+
 TODO: 
  - add partial sell logic
- - add logic to use unused cash when market is favorable [sort of added indirectly with the a.66]
  - add RSI to alpha model.
  - need checks before buying to make sure we are not buying same security (eg., class-b shares)
  - need checks before buying to make sure we are not over-exposed to a sector/industry-group
