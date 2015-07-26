@@ -54,19 +54,45 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 	
 	private Map<Date, Set<String>> watchList = new HashMap<Date, Set<String>>();
 	
+	private static final int MAX_DAYS_IN_WATCHLIST = 15;
+	
 	@Autowired
 	private WONDAOImpl wonDAO = null;
 	
 	@Override
 	public void init() throws ApplicationException {
 	}
+	
 	@Override
-	public void prepareForRun(String runId, String runName, Date startDate, Date endDate) throws ApplicationException {		
+	public void prepareForRun(String runId, String runName, Date startDate, Date endDate) throws ApplicationException {
+		// This prepares the alpha model to be ready on start-date 
+		// by preparing the watchlist for the past runs
+		final Calendar startCal = Calendar.getInstance();
+		startCal.setTime(startDate);
+		
+		final Calendar preparationDay = Calendar.getInstance();
+		preparationDay.setTime(startDate);
+		preparationDay.add(Calendar.DATE, -(MAX_DAYS_IN_WATCHLIST + 1));
+		RunLogger.getRunLogger().logAlpha("Preparing signals for watchlists from: " + preparationDay.getTime());
+		
+		while(preparationDay.before(startCal)) {
+			preparationDay.add(Calendar.DATE, 1);
+			
+			final int dayOfWeek = preparationDay.get(Calendar.DAY_OF_WEEK);
+			if(dayOfWeek == Calendar.SATURDAY || dayOfWeek == Calendar.SUNDAY) {
+				continue;
+			} 
+			
+			final List<SignalData> signals = this.getSignals(preparationDay.getTime());
+			if(signals != null && signals.size() > 0) {
+				this.unProcessedSignals(signals, preparationDay.getTime());
+			}
+		}
 	}
 
 	@Override
 	public void unProcessedSignals(final List<SignalData> signals, final Date date) throws ApplicationException {
-		if(signals == null) {
+		if(signals == null || signals.size() > 0) {
 			return;
 		}
 		
@@ -155,8 +181,8 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		final Set<Date> removeDates = new HashSet<Date>();
 		for(final Date watchDate : watchDates) {
 			final int daysDiff = Math.abs(Days.daysBetween(new DateTime(watchDate), new DateTime(runDate)).getDays());
-			if(daysDiff > 15) {
-				// do not process and remove all watch-list symbols more than 7 days
+			if(daysDiff > MAX_DAYS_IN_WATCHLIST) {
+				// do not process and remove all watch-list symbols more than 15 days (apprx. 2 weeks)
 				removeDates.add(watchDate);
 				continue;
 			}
@@ -201,7 +227,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 							continue;
 						}
 						
-						if(breakOutDayPA.getPrice().getLow().doubleValue() > currentDayPA.getPrice().getClose().doubleValue()) {
+						if(breakOutDayPA.getPrice().getLow().doubleValue() >= currentDayPA.getPrice().getClose().doubleValue()) {
 							// below the breakout day low
 							// then this should be in the buy area and above 10ema for us to consider as a buy signal
 							if(currentDayPA.getElementPctChg(ChartElementType.PRICE_MA_10).doubleValue() < 0) {
@@ -209,8 +235,13 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 							}
 						}
 						
+						// need to be above pivot price for us to consider as a buy
+						if(pivotPriceDayPA.getPrice().getHigh().doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
+							continue;
+						}
+						
 							// still above the breakout day low.. good thing.. just need to check if it is still in buy-range.
-							if(pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.05)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
+							if(pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.07)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
 								continue;
 							}
 							signals.add(aSignal);
@@ -230,7 +261,9 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			watchList.remove(removeDate);
 		}
 		
-		RunLogger.getRunLogger().logAlpha( runDate + " : Watchlists added : " + watchListSymAdded);
+		if(watchListSymAdded.toString().length() > 0) {
+			RunLogger.getRunLogger().logAlpha( runDate + " : Watchlists added : " + watchListSymAdded);
+		}
 		
 		return signals;
 	}
@@ -297,7 +330,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 						return null;
 					}
 					
-					if(symHeader.getMktCap() == null || symHeader.getMktCap().doubleValue() < 750000000) { //750M
+					if(symHeader.getMktCap() == null || symHeader.getMktCap().doubleValue() < 1000000000) { //1B
 						//logger.info("Ignoring small-cap signal - " + symHeader.getSymbol() + " - " + symHeader.getMktCap());
 						return null;
 					}
@@ -383,7 +416,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			return null;
 		}
 		
-		if(aBase.getSymbol().equalsIgnoreCase("amba")){
+		if(aBase.getSymbol().equalsIgnoreCase("asgn")){
 			System.out.print("");
 		}
 		
@@ -433,26 +466,27 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			final boolean isRecentIpo = sym.isRecentIPO(runDate);
 			
 			boolean goodSignal = false;
-			boolean strongSignal = false;
-			boolean weakSignal = false;
+			//boolean strongSignal = false;
+			//boolean weakSignal = false;
 			
 			final PriceAnalysisData currentDayPA = sym.getPriceAnalysisForDate(runDate);
 			final PriceAnalysisData breakOutDayPA = sym.getPriceAnalysisForDate(aBase.getPivotDt());
 			final PriceAnalysisData pivotPriceDayPA = sym.getPriceAnalysisForDate(aBase.getPivotPriceDt());
-			if(currentDayPA == null || breakOutDayPA == null || pivotPriceDayPA == null) {
+			final PriceAnalysisData startDayPA = sym.getPriceAnalysisForDate(aBase.getBaseStartDt());
+			if(currentDayPA == null || breakOutDayPA == null || pivotPriceDayPA == null || startDayPA == null) {
 				return null;
 			}
 			
 			final BigDecimal volPctChgOnBreakOutDay = Helpers.getPercetChange(new BigDecimal(breakOutDayPA.getPrice().getVolume()), breakOutDayPA.getVol50dSma());
-				if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 150) {
+				if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 200) {
 					//signalDescList.add("Vol-Rate on breakout is: " + volPctChgOnBreakOutDay);
 					goodSignal = true;
-					strongSignal = true;
+					//strongSignal = true;
 //					RunLogger.getRunLogger().logAlpha(aBase.getPivotDt() + " " + aBase.getSymbol() + " Good Vol rate is: " + volPctChgOnBreakOutDay.doubleValue());
-				} else if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 100) {
+//				} else if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 100) {
 					//signalDescList.add("Vol-Rate on breakout is: " + volPctChgOnBreakOutDay);
-					goodSignal = true;
-					weakSignal = true;
+					//goodSignal = true;
+					//weakSignal = true;
 //					RunLogger.getRunLogger().logAlpha(aBase.getPivotDt() + " " + aBase.getSymbol() + " Good Vol rate is: " + volPctChgOnBreakOutDay.doubleValue());
 				}  else {
 					if(isRecentIpo && volPctChgOnBreakOutDay == null) {
@@ -484,21 +518,16 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 				// we need the breakout to be at a new-high/recent new highs
 				if(newHigh) {
 					goodSignal = true;
-					if(!weakSignal) {
-						strongSignal = true;
-					}
-			  } else if(newRecentHigh) {
-					if(gapup) {
+					//if(!weakSignal) {
+					//	strongSignal = true;
+					//}
+			  } else if(newRecentHigh || gapup) {
 						goodSignal = true;
-						weakSignal = true;
-					} else {
-						// must be gap-up if its a recent-new-high
-						return null;
-					}
-				} else if(!isRecentIpo) {
+						//weakSignal = true;
+			  } else if(!isRecentIpo) {
 					// not a new-high or recent-new-high.. we reject this if it isnt a recent ipo (coz ipos seem to have bug with recent-high/new-high logic)
 					return null;
-				}
+			  }
 				
 				final InstrumentPriceModel priceBeforeBreakOut = sym.getPriceForNDaysBeforeDate(1, breakOutDayPA.getPrice().getPriceDate());
 				final double breakOutDayPctChg = Helpers.getPercetChange(breakOutDayPA.getPrice().getClose(), priceBeforeBreakOut.getClose()).doubleValue();
@@ -511,10 +540,23 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					return null;
 				}
 				
+				//find the high-day of the base
+				PriceAnalysisData highDayBeforeBreakOut = null; 
+				if(startDayPA.getPrice().getHigh().doubleValue() >  pivotPriceDayPA.getPrice().getHigh().doubleValue()) {
+					highDayBeforeBreakOut = startDayPA;
+				} else {
+					highDayBeforeBreakOut = pivotPriceDayPA;
+				}
+				
+				// the below ignore low handles or bases that dont breakout to new high (2% above last high)
+				if(highDayBeforeBreakOut.getPrice().getHigh().doubleValue() * 1.02 >= breakOutDayPA.getPrice().getClose().doubleValue()) {
+					return null;
+				}
+				
 					//PriceAnalysisData dayPriorToBreakOutDayPA = paList.get(paList.size()-2);
 					//final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), dayPriorToBreakOutDayPA); 
 					final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), null);
-					if(closingRange < 40 && goodSignal && strongSignal) {
+					if(closingRange < 50 && goodSignal) {// && strongSignal) {
 						logger.info("Adding to WatchList because its close was weak " + symHeader.getSymbol() + " - closing range: " + closingRange);
 						
 						Set<String> symsForRunDate = watchList.get(runDate);
@@ -527,7 +569,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					} 
 					
 					// check if it is beyond buy-price (if so -add it to watchlist)
-					if(goodSignal && pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.05)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
+					if(goodSignal && pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.07)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
 						logger.info("Adding to WatchList because it is currently beyond buy-range - " + symHeader.getSymbol() + " - " + breakOutDayPA.getPrice().getClose().doubleValue());
 						
 						Set<String> symsForRunDate = watchList.get(runDate);
@@ -543,14 +585,14 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			if(goodSignal) {
 				final SignalData signal = this.checkSymbolFundamentals(sym, runDate);
 				if(signal != null) {
-					signal.setStrongSignal(strongSignal);
+					signal.setStrongSignal(true); //signal.setStrongSignal(strongSignal);
 					signal.setPrimarySignalDate(aBase.getPivotDt());
 				}
 				return signal;
 			}
 			
 		}catch(ApplicationException aex) {
-			aex.printStackTrace();
+			//aex.printStackTrace();
 			throw aex;
 		} catch(Exception ex) {
 			ex.printStackTrace();

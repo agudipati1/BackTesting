@@ -99,11 +99,53 @@ a.75- added weak signal concept for 2008/2009 period where stock were breaking o
 a.76- fixed a bug with historical data missing in stock-header coming from historical db (uses price-vol data when missing)
     - fixed the logic in a.75 which made the watchlists signals as weak-signals. Changed to strong-signals for all watchlists signals. [AMBA-Mar-2015]
 a.77- only strong signals are added to watchlist
-a.78- StopLoss using SoftStop-Sell: Added logic to make sure stop is above -0.5% from 20ema to be considered for soft-stoploss-sell [PLT-2/4/2013]
+a.78/79- StopLoss using SoftStop-Sell: Added logic to make sure stop is above -0.5% from 20ema to be considered for soft-stoploss-sell [PLT-2/4/2013]
     - minor bug fix where 20ema & 50dma signal maynot be considered 
+a.80- Alpha: Watchlist- below pivot-price are not considered as a buy [ARRS 4/27/2015]
+a.81- Alpha: if base breakout was not a newhigh then recent-new-high OR gap-ups will be fine to be considered a good signal. <No symbol in particular>
+    - Changed stop-loss Hard to -6.5% and soft to -4.5% (previously it was -7% and -5% respectively) <no symbol in particular>
+    - Changed numOfPositionsOpentoBuy in downtrend to 0.25 * minNumOfPositionsOpenToBuy (previously it was 0.5 * minNumOfPositionsOpenToBuy ie., same as cautious uptrend) <No symbol in particular>
+a.82- added maxInvestedPercent based on market-condition (Uptrend=100, CautiousUptrend=66% and Downtred=33%
+a.83- Changed a.82 maxInvestedPercent based on market-condition Uptrend=150, CautiousUptrend=70% and Downtred=40% [previously see a.82]
+a.84- Changed a.82 maxInvestedPercent based on market-condition Uptrend=150, CautiousUptrend=60% and Downtred=25% [previously see a.83]
+a.85- Undid a.81: Changed stop-loss Hard to -7% and soft to -5% (previously it was -6.5% and -4.5% respectively)
+    - fixed a bug in secondary-buy: was incorrectly using 20dema instead of 50dsma for 50ema secondary buy check
+a.86- reworked a.51 logic for secondary buys on moving-averages
+          uptrend: check for 10ema means pct-chg >= 7, 20ema >= 5 & 50sma >= 3
+          cautious-uptrend: check for 20ema means pct-chg >= 6 & 50sma >= 4
+          downtrend: check for 50sma means >= 5
+      (this was done to make the buying in uptrend more aggressive.. although underperforming sells needs to be fixed as noted in a.5.1 comments)
+      [previous values see a.51 - checks to 10EMA secondary buys to have min %chg of 9.5%, 20EMA to be 7.0% and 50ma  buys to be 4.5% (this avoid secondary sells as a result of AMBA,SCI and SBUX on pullbacks)]
+    - also changed restriction for overall-pct-chg for secondary buy to be > 3% and pct-chg-from-last-buy > 2 (previously it was 5% and pct-chg-from-last-buy > 2.5)
+    - also changed 10/20/50ma breakouts to be <=1.5% (previous it was 1.25)
 
+a.87- adjusted secondary sell logic: must be < -0.75 to be considered a underperformer (previous < -0.5)
+    - added condition to secondary sell logic to check for 50sma < -0.75 to be considered  a underperformer (previously none)
+    - underperformance sell adjustment: added 0.5% increments starting from 0% @ 15d for every additional 5d from first-date [SBUX-5/1/2015]
+      <10d ignore, <15d >0%, <30d >1%, <45d >2%, <60d >3%, <75d >4%, <90d >5%, <105d >6%, <120 >7%, <135 >8%, <150 >9%,, >=150 >10%
+a.88- secondary buy logic: made overall-pct-chg and pct-chg-since-last-buy to be market-direction specific
+      uptrend- overall-pct-chg > 3 and pct-chg-since-last-buy > 1
+      cautious-uptrend- overall-pct-chg > 2.5 and pct-chg-since-last-buy > 1.5
+      downtrend- overall-pct-chg > 5 and pct-chg-since-last-buy > 2
+      [This makes the secondary buys aggressive in uptrend] (previously it was flat 3% and 2% respectively for pct-chg and pct-chg-from-last-buy - see a.86 for corresponding change)
+a.89- added initial implementation of margin (50% margin)
+    - numOfPositionsOpenToBuy: when margin allowed is reduced by 1 during uptrend.
+a.90- bug in calculating the numOfPositionsOpentoBuy when margin is allowed.
+      (removed the min-positions to buy logic in favor or max-pct-invested logic)
+a.91- Changed a.82 maxInvestedPercent based on market-condition Uptrend=150, CautiousUptrend=75% and Downtred=30% [previously see a.84]
+a.92/93- Testing with margin = 30% (previously it was 50%)
+a.94/95- reverted a.92/93.. margin now 50%
+    - Testing with maxPositions = 4 (previously 5)
+a.96- ActOnMarketSell: Uses 20ema/10ema when 50sma is not available (happens for recent IPOs such as TWTR Jan-2014).
+    - Alpha: removed the concept of weak-signals
+    - Alpha: prepares watchlists 15 days ahead of startdate
+a.99- Aplha: testing with vol-rate >= 200 (prev 150) and buy-range <7% (prev 5%)
+a.100- Alpha: made closing range < 50 on breakout-day will go to watchlist (previously 40) [CLDX Nob 2014]
+     - Alpha: changed market cap to 1B (previously 750M) [avoids NVDQ in Jan 2014]
+     - Alpha: added logic to ignore breakouts that doesnt close to new high (handle breakouts are ignored) Jul 2014, DEPO Aug 2014]
+a.101- MarketSells - Dont sell on market-timing (eg., market in downtrend) and if stock is still above 20ema [SNCR-Aug-2014]
+     - 
 TODO: 
- - add margin trading [sort of added indirectly with the a.66]
  - add partial sell logic
  - add logic to use unused cash when market is favorable [sort of added indirectly with the a.66]
  - add RSI to alpha model.

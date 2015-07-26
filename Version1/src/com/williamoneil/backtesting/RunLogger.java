@@ -34,7 +34,7 @@ public class RunLogger {
 		final File runAlphaLogFile = new File(runLogFolder, "alpha-" + runId + ".log");
 		final File runPortfolioLogFile = new File(runLogFolder, "portfolio-" + runId + ".log");
 		final File runExecutionLogFile = new File(runLogFolder, "execution-" + runId + ".log");
-		final File runBTELogFile = new File(runLogFolder, "bte-" + runId + ".log");
+		final File runBTELogFile = new File(runLogFolder, "bte-" + runId + ".csv");
 		
 		runLogFolder.mkdirs();
 		

@@ -150,8 +150,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		ResultSet rs = null;
 
 		SymbolHeaderInfoModel data = null;
-		try
-		{
+		try {
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall("{call RayHistory.dbo.RAY_GetStockHeaderInfo(?,?,?)}");
 			stmt.setInt(1, msId);
