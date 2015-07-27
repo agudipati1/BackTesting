@@ -145,7 +145,26 @@ a.100[BAD]- Alpha: made closing range < 50 on breakout-day will go to watchlist 
      - Alpha: added logic to ignore breakouts that doesnt close to new high (handle breakouts are ignored) Jul 2014, DEPO Aug 2014]
 a.101- MarketSells - Dont sell on market-timing (eg., market in downtrend & cautious-up) if stock is still above 20ema by -0.5% [SNCR-Aug-2014 & SNCR Aug-2013]
      - Bug in unprocessed signals not added to watchlists
-a.102- 
+a.102- ScaledSoftStop Sell for positions with 2-txs must be above 0.5% (previously 1%) [AMBA Aprl 2015]
+       ScaledSoftStop Sell for positions with 1-txs must be above 1% (previously 2%) [AZPN Jan 2014]
+     - Secondary buys - logic introduced to make secondary buys a bit aggressive [KITE, TSLA]
+			:Uptrend all ema bounces are bought as long as price is <=3% from ema (previously <=1.5%)
+      			:CautiousUptrend all ema bounces are bought as long as price is <=2% from ema (previously <=1.5%)
+      			:Downtrend all ema bounces are bought as long as price is <=1.5% from ema (previously <=1.5%)
+a.103-Testing with 3 positions
+a.104- Undid a.103 (back to 4 positions)
+     - Changed a.102 Secondary buys - logic introduced to make secondary buys a bit aggressive [KITE, TSLA didnt work well]
+	:Uptrend all ema bounces are bought as long as price is <=2% from ema (previously <=3%)
+      	:CautiousUptrend all ema bounces are bought as long as price is <=1.75% from ema (previously <=1.5%)
+      	:Downtrend all ema bounces are bought as long as price is <=1.5% from ema (previously <=1.5%)
+     - MarketTiming Sells: If any of the MAs are acting as support/breaking-up then NO sells are performed [AZPN JAN-2015]
+     - MaketTiming Sells: Uptrend Sell 20EMA - must be <0.5 to be considered a sell (previously <1%) [AMBA APR-2015]
+     - Secondary Buys Allowed to buy upto 5 times for single position (4th buy = 15% and 5th buy = 10%  - previously max 3 allowed)
+     - Secondary Buys: Changed lot of values to make it more aggresive buy
+a.105 - Secondary Buys: Changed max allowed buy-tx for a position to 4 (previously 5 - see a.104)
+      - Secondary Buys: Reduced the aggressive buying a bit.
+      - Secondary Buys: Added aggressive buy mode when stock has moved >=10% from last-buy-tx AND when over-all-pct-chg >= 15%
+
 
 TODO: 
  - add partial sell logic
