@@ -22,10 +22,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.williamoneil.ApplicationException;
 import com.williamoneil.backtesting.dao.InstrumentPriceModel;
 import com.williamoneil.backtesting.dao.PeriodicityType;
+import com.williamoneil.backtesting.dao.SymbolInfoModel;
 import com.williamoneil.backtesting.dao.TradeDateType;
 import com.williamoneil.backtesting.dao.WONDAOImpl;
 import com.williamoneil.backtesting.util.Helpers;
-import com.williamoneil.backtesting.util.HighLowTickInTradingDaysHelper;
 import com.williamoneil.backtesting.util.HighTickInCalendarDaysHelper;
 import com.williamoneil.backtesting.util.PriceChartAnalyzer;
 import com.williamoneil.backtesting.util.PriceMovingAverageHelper;
@@ -91,8 +91,11 @@ public class WONMarketTimer  {
 	}
 
 	private List<TimingSignalData> getMarketTiming(String indexSymbol, Date startDate, Date endDate) throws ApplicationException {
-		
-		final List<InstrumentPriceModel> prices = wonDAO.getPriceHistory(indexSymbol, startDate, endDate, PeriodicityType.DAILY, false, null);
+		final SymbolInfoModel indexInfo = wonDAO.getSymbolInfoDataForSymbol(indexSymbol);
+		if(indexInfo == null) {
+			throw new ApplicationException("No index symbol found for: " + indexSymbol);
+		}
+		final List<InstrumentPriceModel> prices = wonDAO.getPriceHistory(indexInfo.getInstrumentId(), startDate, endDate, PeriodicityType.DAILY, false, null);
 		
 		final List<TimingSignalData> signals = WONMarketTimerHelper.getMarketTimings(prices);
 		

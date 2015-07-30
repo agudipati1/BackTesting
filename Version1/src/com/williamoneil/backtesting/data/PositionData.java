@@ -21,7 +21,12 @@ import com.williamoneil.backtesting.util.Helpers;
  */
 public class PositionData {
 
+	private long msId = -1;
 	private String symbol = null;
+	private String cusip = null;
+	private String gicsSubIndCode = null;
+	private String indCode = null;
+	
 	private PositionType positionType = null;
 	private int quantity = 0;
 	private CurrencyData cost = CurrencyData.instantiate(BigDecimal.ZERO);
@@ -105,13 +110,15 @@ public class PositionData {
 		return null;
 	}
 	
+
 	public void addTransaction(TransactionData tx) {
-		if(this.symbol == null) {
+		if(this.symbol == null || this.msId == -1) {
 			// this is a new position - lets copy the symbol from tx
 			this.symbol = tx.getSymbol();
+			this.msId = tx.getMsId();
 		} else {
-			// this is an existing position - so symbol in tx should match the symbol in position
-			if(!this.symbol.equalsIgnoreCase(tx.getSymbol())) {
+			// this is an existing position - so msid in tx should match the symbol in position
+			if(this.msId != tx.getMsId()) {
 				throw new RuntimeException("Cannot add a transaction for a different symbol (" + tx.getSymbol() + ") to a positon for symbol-" + this.symbol);
 			}
 		}
@@ -212,4 +219,60 @@ public class PositionData {
 	public List<TransactionData> getTransactions() {
 		return transactions;
 	}
+	/**
+	 * @return the msId
+	 */
+	public long getMsId() {
+		return msId;
+	}
+
+	/**
+	 * @param msId the msId to set
+	 */
+	public void setMsId(long msId) {
+		this.msId = msId;
+	}
+
+	/**
+	 * @return the cusip
+	 */
+	public String getCusip() {
+		return cusip;
+	}
+
+	/**
+	 * @param cusip the cusip to set
+	 */
+	public void setCusip(String cusip) {
+		this.cusip = cusip;
+	}
+
+	/**
+	 * @return the gicsSubIndCode
+	 */
+	public String getGicsSubIndCode() {
+		return gicsSubIndCode;
+	}
+
+	/**
+	 * @param gicsSubIndCode the gicsSubIndCode to set
+	 */
+	public void setGicsSubIndCode(String gicsSubIndCode) {
+		this.gicsSubIndCode = gicsSubIndCode;
+	}
+
+	/**
+	 * @return the indCode
+	 */
+	public String getIndCode() {
+		return indCode;
+	}
+
+	/**
+	 * @param indCode the indCode to set
+	 */
+	public void setIndCode(String indCode) {
+		this.indCode = indCode;
+	}
+	
 }

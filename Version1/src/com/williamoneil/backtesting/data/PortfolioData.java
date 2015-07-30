@@ -34,9 +34,27 @@ public class PortfolioData {
 		return symSet;
 	}
 	
-	public PositionData getPositionForSymbol(String symbol) {
+	public PositionData getPositionForMsId(long msId) {
 		for(PositionData aPos : positions) {
-			if(aPos.getSymbol().equalsIgnoreCase(symbol)) {
+			if(aPos.getMsId()== msId) {
+				return aPos;
+			}
+		}
+		
+		return null;
+	}
+	
+	// Used to identify if we are buying different stock from same company (eg FOXA/FOX etc.,)
+	public PositionData getPositionForCusipMatch(String cusip) {
+		if(cusip == null || cusip.length() <= 5) {
+			return null;
+		}
+		
+		// first 6 in cusip identifies the company
+		final String cusipSubStr = cusip.substring(0, 6);
+		
+		for(PositionData aPos : positions) {
+			if(aPos.getCusip() != null && aPos.getCusip().length() > 6 && aPos.getCusip().substring(0, 6).equalsIgnoreCase(cusipSubStr)) {
 				return aPos;
 			}
 		}
@@ -53,7 +71,7 @@ public class PortfolioData {
 				// first find if this is an existing position
 				
 				for(final PositionData aPos : this.getPositions()) {
-					if(aPos.getSymbol().equalsIgnoreCase(tx.getSymbol())) {
+					if(aPos.getMsId() == tx.getMsId()) {
 						position = aPos;
 						break;
 					} else {
@@ -73,7 +91,7 @@ public class PortfolioData {
 			} else if(tx.getTransactionType() == TransactionType.SELL) {
 				//  find the position in portfolio positions list and remove it
 				for(final PositionData aPos : this.getPositions()) {
-					if(aPos.getSymbol().equalsIgnoreCase(tx.getSymbol())) {
+					if(aPos.getMsId() == tx.getMsId()) {
 						position = aPos;
 						
 						// get costbasis before the tx is processed (coz adding tx changes it cost-basis)

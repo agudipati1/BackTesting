@@ -18,7 +18,7 @@ public interface ExecutionModel {
 	
 	public void prepareForRun(String runId, String runName, Date startDate, Date endDate) throws ApplicationException;
 	
-	public TransactionData buy(String symbol, CurrencyData maxCashAvailForExecution, Date tradeDt) throws ApplicationException;
+	public TransactionData buy(long msId, String symbol, CurrencyData maxCashAvailForExecution, Date tradeDt) throws ApplicationException;
 	
-	public TransactionData sell(String symbol, int quantity, Date tradeDate) throws ApplicationException;
+	public TransactionData sell(long msId, String symbol,  int quantity, Date tradeDate) throws ApplicationException;
 }

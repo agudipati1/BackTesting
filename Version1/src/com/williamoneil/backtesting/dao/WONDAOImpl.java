@@ -32,15 +32,20 @@ public class WONDAOImpl extends BaseDAOImpl {
 	
 	private DataSource lmDataSource = null;
 	
-	public InstrumentPriceModel getPriceTick(final String symbol, PeriodicityType periodicity, final Date dt) throws ApplicationException {
-	      final List<InstrumentPriceModel> prices = this.getPriceHistory(symbol, dt, dt, periodicity, false, null);
+	public InstrumentPriceModel getPriceTick(final long msid, PeriodicityType periodicity, final Date dt) throws ApplicationException {
+		final SymbolInfoModel info = getSymbolInfoData(msid);
+		if(info == null) {
+			return null;
+		}
+		
+	      final List<InstrumentPriceModel> prices = this.getPriceHistory(info.getInstrumentId(), dt, dt, periodicity, false, null);
 	      if(prices == null || prices.size() == 0) {
 	    	  return null;
 	      }
 	      
 	      return prices.get(0);
 	 }
-	
+	/*
 	 public List<InstrumentPriceModel> getRecentPriceHistory(final String symbol, PeriodicityType periodicity) throws ApplicationException {
 	    // first get price ticks for analysis
 	      final Calendar startDt = Calendar.getInstance();
@@ -55,11 +60,11 @@ public class WONDAOImpl extends BaseDAOImpl {
 	      
 	      return this.getPriceHistory(symbol, startDt.getTime(), endDt.getTime(), periodicity, false, null);
 	    }
-	
+	*/
 
-	public SymbolModel getSymbolData(String symbol, Date startDt, Date endDt, PeriodicityType periodicity) throws ApplicationException {
+	public SymbolModel getSymbolData(long msid, Date startDt, Date endDt, PeriodicityType periodicity) throws ApplicationException {
 		// first get symbol-info for symbol string
-		final SymbolInfoModel symInfo = this.getSymbolInfoData(symbol);
+		final SymbolInfoModel symInfo = this.getSymbolInfoData(msid);
 		if(symInfo == null) {
 			return null;
 		}
@@ -79,7 +84,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		return sym;
 	}
 	
-	public boolean getMergerEvent(int osid , Date date) throws ApplicationException {
+	public boolean getMergerEvent(long osid , Date date) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;
@@ -88,7 +93,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		{
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall("select price from wondb.dbo.APPX_CorpEvents where osid=? and corpActionType='AnnounCEMENT' and date=? and displayValue in ('PM', 'CO', 'TO')");
-			stmt.setInt(1, osid);
+			stmt.setLong(1, osid);
 			stmt.setDate(2, new java.sql.Date(date.getTime()));
 			
 			rs = stmt.executeQuery();
@@ -110,7 +115,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 	}
 	
 	
-	public SplitModel getSplitInfo(int osid , Date date) throws ApplicationException {
+	public SplitModel getSplitInfo(long osid , Date date) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;
@@ -120,7 +125,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		{
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall("select sdate, sfac from wondb.dbo.splittable where osid=? and sdate=?");
-			stmt.setInt(1, osid);
+			stmt.setLong(1, osid);
 			stmt.setDate(2, new java.sql.Date(date.getTime()));
 			
 			rs = stmt.executeQuery();
@@ -144,7 +149,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		return data;
 	}
 	
-	public SymbolHeaderInfoModel getSignalHeader(int msId , Date date, PeriodicityType periodicity) throws ApplicationException {
+	public SymbolHeaderInfoModel getSignalHeader(long msId , Date date, PeriodicityType periodicity) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;
@@ -153,7 +158,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		try {
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall("{call RayHistory.dbo.RAY_GetStockHeaderInfo(?,?,?)}");
-			stmt.setInt(1, msId);
+			stmt.setLong(1, msId);
 			stmt.setInt(2, periodicity.getDbValue());
 			stmt.setDate(3, new java.sql.Date(date.getTime()));
 			
@@ -203,7 +208,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		return data;
 	}
 	
-	public SymbolFundamentalsModel getSymbolFundamentals(int msId , Date date) throws ApplicationException {
+	public SymbolFundamentalsModel getSymbolFundamentals(long msId , Date date) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;
@@ -217,7 +222,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		{
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall("{call RayHistory.Ray.CFB_GetFinalEpsWithEntitlement(?,?,?,?,?,?)}");
-			stmt.setInt(1, msId);
+			stmt.setLong(1, msId);
 			stmt.setDate(2, new java.sql.Date(startDt.getTime().getTime()));
 			stmt.setDate(3, new java.sql.Date(date.getTime()));
 			stmt.setString(4, "weekly"); // this is not used
@@ -278,7 +283,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		return data;
 	}
 	
-	public SymbolFundamentalsInfoModel getFundamentalsInfo(int msId, Date date) throws ApplicationException {
+	public SymbolFundamentalsInfoModel getFundamentalsInfo(long msId, Date date) throws ApplicationException {
 		final SymbolFundamentalsInfoModel model = new SymbolFundamentalsInfoModel();
 				
 		Connection conn = null;
@@ -288,7 +293,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		try{
 			conn = super.getDataSource().getConnection();
 			stmt = conn.prepareCall(sql);
-			stmt.setInt(1, msId);
+			stmt.setLong(1, msId);
 			stmt.setDate(2, new java.sql.Date(date.getTime()));
 			
 			boolean hasResults = stmt.execute();
@@ -415,7 +420,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 	}
 	
 	
-	public List<FundsHoldingsModel> getFundsHoldings(int msId, Date startDt, Date asOfDt) throws ApplicationException {
+	public List<FundsHoldingsModel> getFundsHoldings(long msId, Date startDt, Date asOfDt) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;		
@@ -452,7 +457,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			super.closeResources(conn, stmt, rs);
 		}
 	}
-	
+	/*
 	public List<InstrumentPriceModel> getPriceHistory(String symbol, Date startDate, Date endDate, PeriodicityType periodicity, boolean bQuote, String currencyAbbr) throws ApplicationException {
 		// first get symbol-info for symbol string
 		final SymbolInfoModel symModel = this.getSymbolInfoData(symbol);
@@ -462,8 +467,8 @@ public class WONDAOImpl extends BaseDAOImpl {
 		
 		return getPriceHistory(symModel.getInstrumentId(), startDate, endDate, periodicity, bQuote, currencyAbbr);
 	}
-	
-	public List<InstrumentPriceModel> getPriceHistory(int osid , Date startDate, Date endDate, PeriodicityType periodicity, boolean bQuote, String currencyAbbr) throws ApplicationException {
+	*/
+	public List<InstrumentPriceModel> getPriceHistory(long osid , Date startDate, Date endDate, PeriodicityType periodicity, boolean bQuote, String currencyAbbr) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;
@@ -473,7 +478,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 		{
 			conn = this.getLmDataSource().getConnection();
 			stmt = conn.prepareCall("{call wondb.wondata.GetStockDailyPrices(?,?,?,?) }");
-			stmt.setInt(1, osid);
+			stmt.setLong(1, osid);
 			stmt.setDate(2, new java.sql.Date(startDate.getTime()));
 			stmt.setTimestamp(3, new java.sql.Timestamp(endDate.getTime()));
 			stmt.setString(4, currencyAbbr);
@@ -542,15 +547,14 @@ public class WONDAOImpl extends BaseDAOImpl {
 		return ph;
 	}
 	
-	public SymbolInfoModel getSymbolInfoData(final String symbol) throws ApplicationException {
+	public SymbolInfoModel getSymbolInfoDataForSymbol(final String symbol) throws ApplicationException {
 		Connection conn = null;
 		CallableStatement stmt = null;
 		ResultSet rs = null;		
 		try {
 			conn = super.getDataSource().getConnection();
-			stmt = conn.prepareCall("{call dbo.InstrumentSymbolSearchExact(?, ?)} ");
+			stmt = conn.prepareCall("SELECT i.msid, i.InstrumentID, i.InstrumentTypeID, i.symbol, i.name, i.status, i.tradingDateEarliest,i.tradingdatelatest, i.sedol, i.cusip, i.isin,  i.industrygroupcode,  i.GicsSubIndustryCode, i.story FROM Panaray.ref.Instrument i where i.symbol= ? ");
 			stmt.setString(1, symbol);
-			stmt.setBoolean(2, false);
 			
 			if(!stmt.execute()) {
 			  return null;
@@ -562,19 +566,67 @@ public class WONDAOImpl extends BaseDAOImpl {
 			}
 				
 			final SymbolInfoModel aInfo = new SymbolInfoModel();
-			aInfo.setMsId(rs.getInt(1));
-			aInfo.setInstrumentId(rs.getInt(2));
-			aInfo.setSymbol(rs.getString(3).trim());
-			aInfo.setName(rs.getString(4));
-			aInfo.setType(InstrumentType.fromDB(rs.getInt(5)));
-			aInfo.setHistoryStartDt(rs.getDate(6));
-			aInfo.setLastTradeDt(rs.getDate(7));
-			aInfo.setExchange(rs.getString(8));
-			aInfo.setActive(rs.getBoolean(9));
+			aInfo.setMsId(rs.getLong(1));
+			aInfo.setInstrumentId(rs.getLong(2));
+			aInfo.setType(InstrumentType.fromDB(rs.getInt(3)));
+			aInfo.setSymbol(rs.getString(4).trim());
+			aInfo.setName(rs.getString(5));
+			aInfo.setActive(rs.getString(6) != null && rs.getString(6).equalsIgnoreCase("A"));
+			aInfo.setHistoryStartDt(rs.getDate(7));
+			aInfo.setLastTradeDt(rs.getDate(8));
+			aInfo.setSedol(rs.getString(9));
+			aInfo.setCusip(rs.getString(10));
+			aInfo.setIsin(rs.getString(11));
+			aInfo.setGicsSubIndCode(rs.getString(12));
+			aInfo.setIndCode(rs.getString(13));
+			aInfo.setStory(rs.getString(14));
 			
 			return aInfo;
 		} catch(SQLException sqlEx) {
-			_logger.error("Error getting SymbolInfo for symbol: " + symbol ,sqlEx);
+			_logger.error("Error getting SymbolInfo for sym: " + symbol ,sqlEx);
+			throw new ApplicationException(sqlEx);
+		} finally {
+			super.closeResources(conn, stmt, rs);
+		}
+	}
+	
+	public SymbolInfoModel getSymbolInfoData(final long msid) throws ApplicationException {
+		Connection conn = null;
+		CallableStatement stmt = null;
+		ResultSet rs = null;		
+		try {
+			conn = super.getDataSource().getConnection();
+			stmt = conn.prepareCall("SELECT i.msid, i.InstrumentID, i.InstrumentTypeID, i.symbol, i.name, i.status, i.tradingDateEarliest,i.tradingdatelatest, i.sedol, i.cusip, i.isin,  i.industrygroupcode,  i.GicsSubIndustryCode, i.story FROM Panaray.ref.Instrument i where i.msid= ? ");
+			stmt.setLong(1, msid);
+			
+			if(!stmt.execute()) {
+			  return null;
+			}
+			
+			rs = stmt.getResultSet();
+			if(!rs.next()) {
+			  return null;
+			}
+				
+			final SymbolInfoModel aInfo = new SymbolInfoModel();
+			aInfo.setMsId(rs.getLong(1));
+			aInfo.setInstrumentId(rs.getLong(2));
+			aInfo.setType(InstrumentType.fromDB(rs.getInt(3)));
+			aInfo.setSymbol(rs.getString(4).trim());
+			aInfo.setName(rs.getString(5));
+			aInfo.setActive(rs.getString(6) != null && rs.getString(6).equalsIgnoreCase("A"));
+			aInfo.setHistoryStartDt(rs.getDate(7));
+			aInfo.setLastTradeDt(rs.getDate(8));
+			aInfo.setSedol(rs.getString(9));
+			aInfo.setCusip(rs.getString(10));
+			aInfo.setIsin(rs.getString(11));
+			aInfo.setGicsSubIndCode(rs.getString(12));
+			aInfo.setIndCode(rs.getString(13));
+			aInfo.setStory(rs.getString(14));
+			
+			return aInfo;
+		} catch(SQLException sqlEx) {
+			_logger.error("Error getting SymbolInfo for msid: " + msid ,sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
@@ -582,11 +634,11 @@ public class WONDAOImpl extends BaseDAOImpl {
 	}
 	
 	public List<BasePatternModel> getBreakOutBasesBetweenDates(final Date startDate, final Date endDate) throws ApplicationException {
-		final String sql = "select sc.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice "
-					+ " from patternrecdb.dbo.base b, wondb.dbo.secmaster sc "
+		final String sql = "select i.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice,b.instrumentid, i.msid "
+					+ " from patternrecdb.dbo.base b, panaraymaster.panaray.ref.instrument i "
 					+ " where b.versionid = (select top 1 pv.versionid from PatternRecDB.dbo.ProductVersion pv where pv.ProductCode = 3) "
 					+ " and b.pivotdate >= ? and b.pivotDate < ?"
-					+ " and b.instrumentid = sc.osid and sc.countrycode = 1 ";
+					+ " and b.instrumentid = i.instrumentid and i.instrumenttypeid = 1 and sc.countrycode = 1 ";
 		
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -617,6 +669,8 @@ public class WONDAOImpl extends BaseDAOImpl {
 				
 				aPattern.setBaseType(BaseType.fromDB(rs.getInt(13)));
 				aPattern.setPivotPrice(rs.getBigDecimal(14));
+				aPattern.setOsid(rs.getLong(15));
+				aPattern.setMsid(rs.getLong(16));
 				
 				patterns.add(aPattern);
 			}
@@ -629,14 +683,14 @@ public class WONDAOImpl extends BaseDAOImpl {
 		}
 	}
 	
-	public BasePatternModel getBreakingOutBasesForOsidAndDate(final int osid, final Date date) throws ApplicationException {
+	public BasePatternModel getBreakingOutBasesForOsidAndDate(final long osid, final Date date) throws ApplicationException {
 		
 		
-		final String sql = "select sc.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice "
-					+ " from patternrecdb.dbo.base b, wondb.dbo.secmaster sc "
+		final String sql = "select i.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice,b.instrumentid, i.msid"
+					+ " from patternrecdb.dbo.base b, panaraymaster.panaray.ref.instrument i "
 					+ " where b.versionid = (select top 1 pv.versionid from PatternRecDB.dbo.ProductVersion pv where pv.ProductCode = 3) "
 					+ " and b.pivotdate=? and b.PeriodicityID=0 and b.instrumentid = ? "
-					+ " and b.instrumentid=sc.osid and sc.countrycode=1 ";
+					+ " and b.instrumentid=i.instrumentid and i.countrycode=1 and i.instrumenttypeid = 1 ";
 		
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -645,7 +699,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			conn = getLmDataSource().getConnection();
 			stmt = conn.prepareStatement(sql);
 			stmt.setDate(1, new java.sql.Date(date.getTime()));
-			stmt.setInt(2, osid);
+			stmt.setLong(2, osid);
 			rs = stmt.executeQuery();
 			
 			if(rs.next()) {
@@ -666,6 +720,8 @@ public class WONDAOImpl extends BaseDAOImpl {
 				
 				aPattern.setBaseType(BaseType.fromDB(rs.getInt(13)));
 				aPattern.setPivotPrice(rs.getBigDecimal(14));
+				aPattern.setOsid(rs.getLong(15));
+				aPattern.setMsid(rs.getLong(16));
 				
 				return aPattern;
 			}
@@ -680,11 +736,11 @@ public class WONDAOImpl extends BaseDAOImpl {
 	}
 	
 	public List<BasePatternModel> getBreakingOutBasesForDate(final Date date) throws ApplicationException {
-		final String sql = "select sc.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice "
-					+ " from patternrecdb.dbo.base b, wondb.dbo.secmaster sc "
+		final String sql = "select  i.symbol,b.BaseID,b.PeriodicityID,b.BaseStartDate,b.LeftSideHighDate,b.PivotPriceDate,b.PivotDate,b.BaseEndDate,b.BaseLength,b.BaseNumber,b.BaseStage,b.BaseStatusID,b.BaseTypeID,b.PivotPrice,b.instrumentid, i.msid "
+					+ " from patternrecdb.dbo.base b, panaraymaster.panaray.ref.instrument i "
 					+ " where b.versionid = (select top 1 pv.versionid from PatternRecDB.dbo.ProductVersion pv where pv.ProductCode = 3) "
 					+ " and b.pivotdate=? and b.PeriodicityID=0 "
-					+ " and b.instrumentid=sc.osid and sc.countrycode=1 ";
+					+ " and b.instrumentid=i.instrumentid and i.countrycode=1 and i.instrumenttypeid=1";
 		
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -714,6 +770,8 @@ public class WONDAOImpl extends BaseDAOImpl {
 				
 				aPattern.setBaseType(BaseType.fromDB(rs.getInt(13)));
 				aPattern.setPivotPrice(rs.getBigDecimal(14));
+				aPattern.setOsid(rs.getInt(15));
+				aPattern.setMsid(rs.getLong(16));
 				
 				patterns.add(aPattern);
 			}

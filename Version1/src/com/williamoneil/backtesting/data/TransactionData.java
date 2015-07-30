@@ -14,6 +14,7 @@ import com.williamoneil.backtesting.util.Helpers;
  */
 public class TransactionData {
 
+	private long msId = -1;
 	private String symbol = null;
 	private Date transDt = null;
 	private TransactionType transactionType = null;
@@ -29,6 +30,24 @@ public class TransactionData {
 		quantity = (int) (quantity * splitFactor.doubleValue());
 	}
 	
+	/**
+	 * @return the msId
+	 */
+	public long getMsId() {
+		return msId;
+	}
+
+
+
+	/**
+	 * @param msId the msId to set
+	 */
+	public void setMsId(long msId) {
+		this.msId = msId;
+	}
+
+
+
 	/**
 	 * @return the symbol
 	 */

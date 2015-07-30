@@ -33,7 +33,7 @@ public class SymbolModel {
 	private List<PriceAnalysisData> paList = null;
 	
 	public boolean isRecentIPO(final Date fromDate) {
-		if(headerInfo.getIpoDt() != null) {
+		if(headerInfo != null && headerInfo.getIpoDt() != null) {
 			final int ipoDaysAgo = Math.abs(Days.daysBetween(new DateTime(headerInfo.getIpoDt()), new DateTime(fromDate)).getDays());
 			if(ipoDaysAgo <= 365) {
 				return true;

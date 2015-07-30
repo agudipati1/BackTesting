@@ -162,14 +162,33 @@ a.104- Undid a.103 (back to 4 positions)
      - Secondary Buys Allowed to buy upto 5 times for single position (4th buy = 15% and 5th buy = 10%  - previously max 3 allowed)
      - Secondary Buys: Changed lot of values to make it more aggresive buy
 a.105 - Secondary Buys: Changed max allowed buy-tx for a position to 4 (previously 5 - see a.104)
-      - Secondary Buys: Reduced the aggressive buying a bit.
+      - Secondary Buys: Reduced the aggressive buying a bit (practically undid a.104)
       - Secondary Buys: Added aggressive buy mode when stock has moved >=10% from last-buy-tx AND when over-all-pct-chg >= 15%
-
+a.106- Removed usage of Avg-Vol from history-db (used calculated avg-vol instead) and removed hard dependency on MktCap/Rs-Rating from historicaldb
+a.107<HALF DONE>- Reduced the % check for swap stock for underpermance logic by half [this swapped AMBA on 5-May-2015 before its big run]
+a.108- Secondary Buys: Changed logic for all aggressive buys to check for pctchg on the day >= -0.5% (previously blue day)
+       Secondary Buys: Made secondary buys a bit more aggressive for stocks that are running. 	
+         : Cautious Uptrend- Use breakouts of 10ema for aggresive buys (previosly only uptrend supported it)
+         : Downtrend- Use breakouts above 20ema for aggresive bys (prev only uptrend/cautious-up supported it)
+a.109/110: Secondary Buys: Changed aggressive secondary buys to happen sooner but a secondary buys in general spread apart.
+             logic for aggresive buys sooner:  pctChg-overall >= 10% OR pctchg-since-last-buy > 10% (prev 15% AND 10% respectively)
+             logic for secondary buys spread apart:
+                 : Uptrend  - pctchg-since-last-buy >  5% (prev 3%)
+        	 : Cautious-Uptrend  - pctchg-since-last-buy > 6% (prev 4%)
+        	 : Downtrend  - pctchg-since-last-buy >  7% (prev 5%)
+a.111: Alpha: Relaxed DG rating constraint to <50 (previous 60) [FB breakout on Jul-2013]
+      Secondary Buys: logic for secondary buys are adjusted from a.109 to make them a bit less spread apart from a.109
+         All market-directions use pct-chg and pct-chg-from-last-buy as >5% for secondary buys (previously see a.109)
+a.112/113/114: MarketTiming Sells: Downtrend - Sell losers fast in downtrend 
+         - When pct-chg-from-20ema < -0.5% then Sell if pct-loss <= -1% (prev pct-loss <= -3%)
+a.115: Alpha: FIXED PR SQL - it was ignoring dead stocks (because of the SQL join to SECMASTER)
+       Ignores buying class-b shares when owning class-a shares etc., (eg FOXA and FOX)
+       Adjusted underperformance sell to sell losers faster.
 
 TODO: 
  - add partial sell logic
  - add RSI to alpha model.
- - need checks before buying to make sure we are not buying same security (eg., class-b shares)
+
  - need checks before buying to make sure we are not over-exposed to a sector/industry-group
 
 ISSUES:

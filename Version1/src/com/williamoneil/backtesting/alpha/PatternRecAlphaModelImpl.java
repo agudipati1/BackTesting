@@ -33,7 +33,6 @@ import com.williamoneil.backtesting.dao.InstrumentPriceModel;
 import com.williamoneil.backtesting.dao.PeriodicityType;
 import com.williamoneil.backtesting.dao.SymbolFundamentalsInfoModel;
 import com.williamoneil.backtesting.dao.SymbolFundamentalsModel;
-import com.williamoneil.backtesting.dao.SymbolHeaderInfoModel;
 import com.williamoneil.backtesting.dao.SymbolModel;
 import com.williamoneil.backtesting.dao.WONDAOImpl;
 import com.williamoneil.backtesting.data.SignalData;
@@ -52,7 +51,7 @@ import com.williamoneil.backtesting.util.PriceChartAnalyzer;
 public class PatternRecAlphaModelImpl implements AlphaModel {
 	private static final Log logger = LogFactory.getLog(PatternRecAlphaModelImpl.class);
 	
-	private Map<Date, Set<String>> watchList = new HashMap<Date, Set<String>>();
+	private Map<Date, Set<Long>> watchList = new HashMap<Date, Set<Long>>();
 	
 	private static final int MAX_DAYS_IN_WATCHLIST = 15;
 	
@@ -97,19 +96,65 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		}
 		
 		// put the signals back into the watchlist for the specific date
-		final Set<String> symsBackIntoWatchList = new HashSet<String>();
+		final Set<Long> symsBackIntoWatchList = new HashSet<Long>();
+		final Set<String> symsBackIntoWatchListStr = new HashSet<String>();
 		for(final SignalData sig : signals) {
-			symsBackIntoWatchList.add(sig.getSymbolInfo().getSymbol());
+			symsBackIntoWatchList.add(sig.getSymbolInfo().getMsId());
+			symsBackIntoWatchListStr.add(sig.getSymbolInfo().getSymbol());
 			
-			Set<String> symsForRunDate = watchList.get(sig.getPrimarySignalDate());
+			Set<Long> symsForRunDate = watchList.get(sig.getPrimarySignalDate());
 			if(symsForRunDate == null) {
-				symsForRunDate = new HashSet<String>();
+				symsForRunDate = new HashSet<Long>();
 				watchList.put(sig.getPrimarySignalDate(), symsForRunDate);
 			}
-			symsForRunDate.add(sig.getSymbolInfo().getSymbol());
+			symsForRunDate.add(sig.getSymbolInfo().getMsId());
 		}
 
-		RunLogger.getRunLogger().logPortfolio(date + " Adding unprocessed symbols to watchlist: " + symsBackIntoWatchList);
+		RunLogger.getRunLogger().logPortfolio(date + " Adding unprocessed symbols to watchlist: " + symsBackIntoWatchListStr);
+	}
+
+
+	private static void addSignalIfNotFromSameCompany(final SignalData aSignal, final List<SignalData> masterSignals) {
+		if(aSignal == null) {
+			return;
+		}
+		
+		if(aSignal.getSymbolInfo() == null || aSignal.getSymbolInfo().getCusip() == null) {
+			masterSignals.add(aSignal);
+			return;
+		} 
+		
+		final String cusipSubStr = aSignal.getSymbolInfo().getCusip().substring(0, 6);
+		boolean matchFound  = false;
+		for(final SignalData aMasterSignal: masterSignals) {
+			if(aMasterSignal.getSymbolInfo() == null || aMasterSignal.getSymbolInfo().getCusip() == null) {
+				continue;
+			} else {
+				if(aMasterSignal.getSymbolInfo().getCusip().startsWith(cusipSubStr)) {
+					// match found.. ignore this 
+					matchFound = true;
+					break;
+				} else {
+					continue;
+				}
+			}
+		}
+		
+		if(!matchFound) {
+			masterSignals.add(aSignal);
+		}	
+	}
+	private static void addSignalsIfTheyAreNotFromSameCompany(final List<SignalData> signalsToBeAdded, final List<SignalData> masterSignals) {
+		if(signalsToBeAdded == null || signalsToBeAdded.size() == 0) {
+			return;
+		}
+		if(masterSignals == null) {
+			return;
+		}
+		
+		for(final SignalData aSignal : signalsToBeAdded) {
+			addSignalIfNotFromSameCompany(aSignal, masterSignals);
+		}
 	}
 	
 	/* (non-Javadoc)
@@ -121,8 +166,8 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		
 		// first process watchlist symbols
 		final List<SignalData> watchListSignals = processWatchList(runDate);
-		if(watchListSignals != null) {
-			signals.addAll(watchListSignals);
+		if(watchListSignals != null && watchListSignals.size() > 0) {
+			addSignalsIfTheyAreNotFromSameCompany(watchListSignals, signals);
 		}
 		
 		// next process the bases being broken out
@@ -143,7 +188,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			final SignalData aSignal = checkBaseFundamentals(aBase, runDate, false);
 			if(aSignal != null) {
 				basesApprovedSym.append(aBase.getSymbol() + ",");
-				signals.add(aSignal);
+				addSignalIfNotFromSameCompany(aSignal, signals);
 			}
 		}
 		
@@ -188,9 +233,9 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			}
 			
 			// process the watchlist
-			final Set<String> syms = watchList.get(watchDate);
-			final Set<String> removeSyms = new HashSet<String>();
-			for(final String symStr : syms) {
+			final Set<Long> syms = watchList.get(watchDate);
+			final Set<Long> removeSyms = new HashSet<Long>();
+			for(final Long symStr : syms) {
 				
 				final SymbolModel sym = this.getSymbolModel(symStr, runDate);
 				if(sym == null) {
@@ -206,7 +251,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 						signals.add(aSignal);
 					
 						watchListSymAdded.append(aSignal.getSymbolInfo().getSymbol() + ",");
-						removeSyms.add(aSignal.getSymbolInfo().getSymbol());
+						removeSyms.add(aSignal.getSymbolInfo().getMsId());
 					} else {
 						// didnt pass technical.. but maybe this is still buyable
 						
@@ -247,7 +292,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 							signals.add(aSignal);
 							
 							watchListSymAdded.append(aSignal.getSymbolInfo().getSymbol() + ",");
-							removeSyms.add(aSignal.getSymbolInfo().getSymbol());
+							removeSyms.add(aSignal.getSymbolInfo().getMsId());
 					}
 
 				}
@@ -301,60 +346,56 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			return null;
 		}
 		
-		final SymbolHeaderInfoModel symHeader = sym.getHeaderInfo();
-		if(symHeader == null) {
-			return null;
-		}
-		
 		if(sym.isMergerEvent()) {
 			return null;
 		}
-		if(symHeader.isFfo() || symHeader.isNav() || (symHeader.getIndustryName() != null && (symHeader.getIndustryName().contains("REIT") || symHeader.getIndustryName().contains("ETF")  || symHeader.getIndustryName().contains("ETN")))) {
+		if(sym.getHeaderInfo() != null && (sym.getHeaderInfo().isFfo() || sym.getHeaderInfo().isNav() || (sym.getHeaderInfo().getIndustryName() != null && (sym.getHeaderInfo().getIndustryName().contains("REIT") || sym.getHeaderInfo().getIndustryName().contains("ETF")  || sym.getHeaderInfo().getIndustryName().contains("ETN"))))) {
 			//logger.info("Ignoring REIT/ETFs signal - " + symHeader.getSymbol());
 			return null;
 		}
 		
-		if(sym.getSymInfo().getSymbol().equalsIgnoreCase("vwdry")) {
-			System.err.print("");
+		/*
+		if(sym.getSymInfo() != null && sym.getSymInfo().getExchange() != null && sym.getSymInfo().getExchange().contains("OTC")) {
+			return null;
 		}
-		if(sym.getSymInfo().getExchange().contains("OTC")) {
+		*/
+		
+		final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
+		if(pa == null) {
 			return null;
 		}
 		
 		final boolean isRecentIpo = sym.isRecentIPO(runDate);
 		
 		// first lets check its liquidity and price min thresholds
-
-					if(symHeader.getCurrPrice() <= 7) {
+		
+		
+					if(pa.getPrice().getClose().doubleValue() <= 7) {
 						//logger.info("Ignoring less than $5 signal - " + symHeader.getSymbol() + " @" + symHeader.getCoName());
 						return null;
 					}
 					
-					if(symHeader.getMktCap() == null || symHeader.getMktCap().doubleValue() < 1000000000) { //1B
+					if(sym.getHeaderInfo() != null && sym.getHeaderInfo().getMktCap() != null && sym.getHeaderInfo().getMktCap().doubleValue() < 1000000000) { //1B
 						//logger.info("Ignoring small-cap signal - " + symHeader.getSymbol() + " - " + symHeader.getMktCap());
 						return null;
 					}
-					if(symHeader.getAvgVol() == null ||symHeader.getAvgVol() <= 100000 || symHeader.getAvgVol() * symHeader.getCurrPrice() < 1000000) {
-						//logger.info("Ignoring low avg-daily-dollar-vol signal - " + symHeader.getSymbol() + " - " + symHeader.getAvgVol() * symHeader.getCurrPrice());
-						if(!isRecentIpo && symHeader.getAvgVol() != null) {
-							return null;
+					
+					if(pa.getVol50dSma() != null) {
+						if(pa.getVol50dSma().intValue() <= 100000 || pa.getVol50dSma().intValue() * pa.getPrice().getClose().doubleValue() < 1000000) {
+							//logger.info("Ignoring low avg-daily-dollar-vol signal - " + symHeader.getSymbol() + " - " + symHeader.getAvgVol() * symHeader.getCurrPrice());
+							if(!isRecentIpo) {
+								return null;
+							}
 						}
 					}
-					if(symHeader.getRsRank() == null || symHeader.getRsRank() < 70) {
+					
+					if(sym.getHeaderInfo() != null && sym.getHeaderInfo().getRsRank() != null && sym.getHeaderInfo().getRsRank() < 70) {
 						//logger.info("Ignoring low RS-Rating signal - " + symHeader.getSymbol() + " - " + symHeader.getRsRank());
 						return null;
 					}
 
 		final SymbolFundamentalsModel fundies = this.wonDAO.getSymbolFundamentals(sym.getSymInfo().getMsId(), runDate);
-		if(fundies == null) {
-			return null;
-		}
-		/*
-		if(fundies.getInfo().getRsRank()!= null && fundies.getInfo().getRsRank() < 70) {
-			return null;
-		}
-		*/
-		if(fundies.getInfo().getDgRating() != null && fundies.getInfo().getDgRating() < 60) {
+		if(fundies != null && fundies.getInfo().getDgRating() != null && fundies.getInfo().getDgRating() < 50) {
 			return null;
 		}
 		
@@ -390,7 +431,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		return aSignal;
 	}
 	
-	private SymbolModel getSymbolModel(final String symbol, final Date runDate) throws ApplicationException {
+	private SymbolModel getSymbolModel(final long msid, final Date runDate) throws ApplicationException {
 		final Calendar startCal = Calendar.getInstance();
 		startCal.setTime(runDate);
 		startCal.add(Calendar.DATE, -1 * Constants.DAYS_BACK);
@@ -398,16 +439,16 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		final Date startDate = startCal.getTime();
 		
 		// get everything about that signal for that date
-		final SymbolModel sym = this.getWonDAO().getSymbolData(symbol, startDate, runDate, PeriodicityType.DAILY);
+		final SymbolModel sym = this.getWonDAO().getSymbolData(msid, startDate, runDate, PeriodicityType.DAILY);
 		if(sym == null) {
 			return null;
 		}
-		
+		/*
 		final SymbolHeaderInfoModel symHeader = sym.getHeaderInfo();
 		if(symHeader == null) {
 			return null;
 		}
-		
+		*/
 		return sym;
 	}
 	
@@ -442,17 +483,17 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			}
 			
 			// get everything about that signal for that date
-			final SymbolModel sym = getSymbolModel(aBase.getSymbol(), runDate);
+			final SymbolModel sym = getSymbolModel(aBase.getMsid(), runDate);
 			if(sym == null) {
 				return null;
 			}
 			
-			final SymbolHeaderInfoModel symHeader = sym.getHeaderInfo();
+			//final SymbolHeaderInfoModel symHeader = sym.getHeaderInfo();
 
 			if(sym.isMergerEvent()) {
 				return null;
 			}
-			if(symHeader.isFfo() || symHeader.isNav() || (symHeader.getIndustryName() != null && (symHeader.getIndustryName().contains("REIT") || symHeader.getIndustryName().contains("ETF")  || symHeader.getIndustryName().contains("ETN")))) {
+			if(sym.getHeaderInfo() != null && (sym.getHeaderInfo().isFfo() || sym.getHeaderInfo().isNav() || (sym.getHeaderInfo().getIndustryName() != null && (sym.getHeaderInfo().getIndustryName().contains("REIT") || sym.getHeaderInfo().getIndustryName().contains("ETF")  || sym.getHeaderInfo().getIndustryName().contains("ETN"))))) {
 				//logger.info("Ignoring REIT/ETFs signal - " + symHeader.getSymbol());
 				return null;
 			}
@@ -557,27 +598,27 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					//final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), dayPriorToBreakOutDayPA); 
 					final double closingRange = PriceChartAnalyzer.getClosingRange(breakOutDayPA.getPrice(), null);
 					if(closingRange < 50 && goodSignal) {// && strongSignal) {
-						logger.info("Adding to WatchList because its close was weak " + symHeader.getSymbol() + " - closing range: " + closingRange);
+						logger.info("Adding to WatchList because its close was weak " + aBase.getSymbol() + " - closing range: " + closingRange);
 						
-						Set<String> symsForRunDate = watchList.get(runDate);
+						Set<Long> symsForRunDate = watchList.get(runDate);
 						if(symsForRunDate == null) {
-							symsForRunDate = new HashSet<String>();
+							symsForRunDate = new HashSet<Long>();
 							watchList.put(runDate, symsForRunDate);
 						}
-						symsForRunDate.add(aBase.getSymbol());
+						symsForRunDate.add(aBase.getMsid());
 						return null;
 					} 
 					
 					// check if it is beyond buy-price (if so -add it to watchlist)
 					if(goodSignal && pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.07)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
-						logger.info("Adding to WatchList because it is currently beyond buy-range - " + symHeader.getSymbol() + " - " + breakOutDayPA.getPrice().getClose().doubleValue());
+						logger.info("Adding to WatchList because it is currently beyond buy-range - " + aBase.getSymbol() + " - " + breakOutDayPA.getPrice().getClose().doubleValue());
 						
-						Set<String> symsForRunDate = watchList.get(runDate);
+						Set<Long> symsForRunDate = watchList.get(runDate);
 						if(symsForRunDate == null) {
-							symsForRunDate = new HashSet<String>();
+							symsForRunDate = new HashSet<Long>();
 							watchList.put(runDate, symsForRunDate);
 						}
-						symsForRunDate.add(aBase.getSymbol());
+						symsForRunDate.add(aBase.getMsid());
 						
 						return null;
 					}
@@ -592,7 +633,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			}
 			
 		}catch(ApplicationException aex) {
-			aex.printStackTrace();
+			//aex.printStackTrace();
 			throw aex;
 		} catch(Exception ex) {
 			ex.printStackTrace();
@@ -616,7 +657,6 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 	public void setWonDAO(WONDAOImpl wonDAO) {
 		this.wonDAO = wonDAO;
 	}
-	
 }
 
 class FundamentalScore implements Comparable<FundamentalScore> {
@@ -634,6 +674,7 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 
 		// RATINGS-SCORE
 		ratingsScore = 0;
+		if(fundies != null) {
 		final SymbolFundamentalsInfoModel info = fundies.getInfo();
 		if(info != null) {
 			if(info.getEpsRank() != null && info.getEpsRank() >= 90) {
@@ -697,7 +738,7 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 		
 		//IPO SCORE
 		ipoScore = 0;
-		if(sym != null && sym.getHeaderInfo().getIpoDt() != null) {
+		if(sym != null && sym.getHeaderInfo() != null && sym.getHeaderInfo().getIpoDt() != null) {
 			final int monthsDiff = Math.abs(Months.monthsBetween(new DateTime(sym.getHeaderInfo().getIpoDt()), new DateTime(sym.getAsOfDate())).getMonths());
 			if(monthsDiff <= 3) {
 				ipoScore = 140;
@@ -782,6 +823,7 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 				}
 			}
 		}
+		}
 	}
 	
 	
@@ -811,6 +853,6 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 	 */
 	@Override
 	public int hashCode() {
-		return this.sym.getSymInfo().getMsId();
+		return (int) this.sym.getSymInfo().getMsId();
 	}
 }

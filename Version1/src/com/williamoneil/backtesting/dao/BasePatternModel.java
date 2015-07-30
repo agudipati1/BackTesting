@@ -6,6 +6,9 @@ import java.util.Date;
 
 
 public class BasePatternModel {
+	private long osid = -1;
+	private long msid = -1;
+	
 	private long baseId = 0;
 	private BaseType baseType = null;
 	private boolean isDaily = true;
@@ -20,6 +23,31 @@ public class BasePatternModel {
 	private String symbol = null;
 	private Date pivotDt = null;
 	
+	/**
+	 * @return the osid
+	 */
+	public long getOsid() {
+		return osid;
+	}
+	/**
+	 * @param osid the osid to set
+	 */
+	public void setOsid(long osid) {
+		this.osid = osid;
+	}
+	
+	/**
+	 * @return the msid
+	 */
+	public long getMsid() {
+		return msid;
+	}
+	/**
+	 * @param msid the msid to set
+	 */
+	public void setMsid(long msid) {
+		this.msid = msid;
+	}
 	/**
 	 * @return the symbol
 	 */

@@ -40,20 +40,20 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.williamoneil.backtesting.ExecutionModel#execute(java.lang.String, com.williamoneil.backtesting.data.CurrencyData, java.util.Date, com.williamoneil.backtesting.data.TransactionType)
+	 * @see com.williamoneil.backtesting.ExecutionModel#execute(long, java.lang.String, com.williamoneil.backtesting.data.CurrencyData, java.util.Date, com.williamoneil.backtesting.data.TransactionType)
 	 */
 	@Override
-	public TransactionData buy(String symbol, CurrencyData maxCashAvailForExecution, Date tradeDate) throws ApplicationException {
-		if(symbol == null || maxCashAvailForExecution == null || maxCashAvailForExecution.getValue().doubleValue() <= 0) {
+	public TransactionData buy(long msId, final String symbol, CurrencyData maxCashAvailForExecution, Date tradeDate) throws ApplicationException {
+		if(msId == -1 || maxCashAvailForExecution == null || maxCashAvailForExecution.getValue().doubleValue() <= 0) {
 			return null;
 		}
 
-		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(symbol, PeriodicityType.DAILY, tradeDate);
+		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(msId, PeriodicityType.DAILY, tradeDate);
 		if(priceTick == null) {
-			throw new ApplicationException("No price tick available to perform BUY transaction for: " + symbol  + " on " + tradeDate);
+			throw new ApplicationException("No price tick available to perform BUY transaction for: " + msId  + " on " + tradeDate);
 		}
 		if(priceTick.getDateType() == TradeDateType.HOLIDAY || priceTick.getDateType() == TradeDateType.MARKET_CLOSE) {
-			throw new ApplicationException("BUY tx requested on holiday or market-close for: " + symbol  + " on " + tradeDate);
+			throw new ApplicationException("BUY tx requested on holiday or market-close for: " + msId  + " on " + tradeDate);
 		}
 		
 		final BigDecimal txPrice = priceTick.getClose().multiply(new BigDecimal(1 + priceSlipFactorPct));
@@ -72,6 +72,7 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity));
 				
 		TransactionData tx = new TransactionData();
+		tx.setMsId(msId);
 		tx.setSymbol(symbol);
 		tx.setQuantity(quantity);
 		tx.setTransDt(tradeDate);
@@ -85,20 +86,20 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.williamoneil.backtesting.ExecutionModel#sell(java.lang.String, int, java.util.Date)
+	 * @see com.williamoneil.backtesting.ExecutionModel#sell(long, java.lang.String, int, java.util.Date)
 	 */
 	@Override
-	public TransactionData sell(String symbol, int quantity, Date tradeDate) throws ApplicationException {
-		if(symbol == null || quantity <= 0) {
+	public TransactionData sell(long msId, final String symbol, int quantity, Date tradeDate) throws ApplicationException {
+		if(msId == -1 || quantity <= 0) {
 			return null;
 		}
 
-		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(symbol, PeriodicityType.DAILY, tradeDate);
+		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(msId, PeriodicityType.DAILY, tradeDate);
 		if(priceTick == null) {
-			throw new ApplicationException("No price tick was found to do SELL transaction for: " + symbol  + " on " + tradeDate);
+			throw new ApplicationException("No price tick was found to do SELL transaction for: " + msId  + " on " + tradeDate);
 		}
 		if(priceTick.getDateType() == TradeDateType.HOLIDAY || priceTick.getDateType() == TradeDateType.MARKET_CLOSE) {
-			throw new ApplicationException("SELL tx requested on holiday or market-close for: " + symbol  + " on " + tradeDate);
+			throw new ApplicationException("SELL tx requested on holiday or market-close for: " + msId  + " on " + tradeDate);
 		}
 		
 		final BigDecimal txPrice = priceTick.getClose().multiply(new BigDecimal(1 - priceSlipFactorPct));
@@ -106,6 +107,7 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity));
 
 		TransactionData tx = new TransactionData();
+		tx.setMsId(msId);
 		tx.setSymbol(symbol);
 		tx.setQuantity(quantity);
 		tx.setTransDt(tradeDate);
