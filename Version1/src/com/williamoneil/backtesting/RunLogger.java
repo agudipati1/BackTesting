@@ -61,7 +61,7 @@ public class RunLogger {
 		}
 	}
 	
-	private static final SimpleDateFormat _sdf = new SimpleDateFormat("MM/dd/YYYY");
+	private static final SimpleDateFormat _sdf = new SimpleDateFormat("MM/dd/yyyy");
 	public void logForBTE(Date tradeDt, TransactionType txType, String symbol, int quantity,  BigDecimal price, BigDecimal cost) throws ApplicationException {
 		try{
 			//"Date,Action,Symbol,Shares,Price,Cost"

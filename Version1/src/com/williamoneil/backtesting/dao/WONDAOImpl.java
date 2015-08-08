@@ -140,7 +140,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 
 		} catch (SQLException sqlEx) {
 			// _logger.error(sqlEx.getErrorCode(), sqlEx);
-			_logger.error("Error in get-split for: " + osid, sqlEx);
+			_logger.error("Error in get split for: " + osid, sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
@@ -199,7 +199,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 
 		} catch (SQLException sqlEx) {
 			// _logger.error(sqlEx.getErrorCode(), sqlEx);
-			_logger.error("Error in getting Stock-Header for msid- " + msId, sqlEx);
+			_logger.error("Error in getting StockHeader for msid-" + msId, sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
@@ -395,6 +395,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			}
 			
 		}catch(SQLException sqlex) {
+			sqlex.printStackTrace();
 			throw new ApplicationException(sqlex);
 		} finally {
 			if(rs != null) {
@@ -626,7 +627,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			
 			return aInfo;
 		} catch(SQLException sqlEx) {
-			_logger.error("Error getting SymbolInfo for msid: " + msid ,sqlEx);
+			_logger.error("Error getting Symbol Info for msid: " + msid ,sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
@@ -777,7 +778,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			}
 			return patterns;
 		} catch(SQLException sqlEx) {
-			_logger.error("Error getting breaking-out patterns for date: " + date + " Error was: "  + sqlEx,sqlEx);
+			_logger.error("Error getting breaking out patterns for date: " + date + " Error was: "  + sqlEx,sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);

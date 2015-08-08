@@ -18,9 +18,7 @@ public class SignalData {
 	private Date signalDate = null;
 	private TransactionType transactionType = null;
 	private Float signalStrength = null;
-	private boolean strongSignal = false;
-	//private List<SignalInfoData> signalInfos = null;
-
+	
 	/**
 	 * @return the symbol
 	 */
@@ -89,19 +87,5 @@ public class SignalData {
 	 */
 	public void setPrimarySignalDate(Date primarySignalDate) {
 		this.primarySignalDate = primarySignalDate;
-	}
-
-	/**
-	 * @return the strongSignal
-	 */
-	public boolean isStrongSignal() {
-		return strongSignal;
-	}
-
-	/**
-	 * @param strongSignal the strongSignal to set
-	 */
-	public void setStrongSignal(boolean strongSignal) {
-		this.strongSignal = strongSignal;
 	}
 }

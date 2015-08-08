@@ -96,7 +96,7 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 
 		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(msId, PeriodicityType.DAILY, tradeDate);
 		if(priceTick == null) {
-			throw new ApplicationException("No price tick was found to do SELL transaction for: " + msId  + " on " + tradeDate);
+			throw new ApplicationException("No price tick was found to perform SELL transaction for: " + msId  + " on " + tradeDate);
 		}
 		if(priceTick.getDateType() == TradeDateType.HOLIDAY || priceTick.getDateType() == TradeDateType.MARKET_CLOSE) {
 			throw new ApplicationException("SELL tx requested on holiday or market-close for: " + msId  + " on " + tradeDate);

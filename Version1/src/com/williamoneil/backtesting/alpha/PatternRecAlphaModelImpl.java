@@ -193,7 +193,9 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 		}
 		
 		RunLogger.getRunLogger().logAlpha(runDate + ": Bases processed : " + basesSym.toString());
-		RunLogger.getRunLogger().logAlpha(runDate + ": signals : " + basesApprovedSym.toString());
+		if(basesApprovedSym.length() > 0) {
+			RunLogger.getRunLogger().logAlpha(runDate + ": signals : " + basesApprovedSym.toString());
+		}
 		
 		/*
 		 * Comparator to sort by % gains.
@@ -212,7 +214,9 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			buffy.append( signal.getSymbolInfo().getSymbol() + "(" + signal.getSignalStrength() +"), ");
 		}
 		
-		RunLogger.getRunLogger().logAlpha(runDate + ": Signals ordered by strength : " + buffy.toString());
+		if(buffy.length() > 0) {
+			RunLogger.getRunLogger().logAlpha(runDate + ": Signals ordered by strength : " + buffy.toString());
+		}
 		return signals;
 	}
 	
@@ -242,10 +246,26 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					continue;
 				}
 				
+				if(sym.getSymInfo().getSymbol().equalsIgnoreCase("kite")) {
+					System.err.println("kite");
+				}
+				
+				final PriceAnalysisData currentDayPA = sym.getPriceAnalysisForDate(runDate);
+				if(currentDayPA == null) {
+					continue;
+				}
+				// ignore if price > 20% above 20ema
+				final BigDecimal pctChgFrom20ema = currentDayPA.getElementPctChg(ChartElementType.PRICE_MA_20);
+				if(pctChgFrom20ema != null && pctChgFrom20ema.doubleValue() >= 15) {
+					continue;
+				}
+				if(sym.getHeaderInfo() != null && sym.getHeaderInfo().getRsRank() != null && sym.getHeaderInfo().getRsRank() < 70) {
+					continue;
+				}
+				
 				final SignalData aSignal = checkSymbolFundamentals(sym, runDate);
 				if(aSignal != null) {
 					aSignal.setPrimarySignalDate(watchDate);
-					aSignal.setStrongSignal(true); // all watchlists are strong signals
 					final boolean technicalsPassed = performCurrrentDayTechnicals(sym, runDate);
 					if(technicalsPassed) {
 						signals.add(aSignal);
@@ -267,11 +287,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 						if(pivotPriceDayPA == null) {
 							continue;
 						}
-						final PriceAnalysisData currentDayPA = sym.getPriceAnalysisForDate(runDate);
-						if(currentDayPA == null) {
-							continue;
-						}
-						
+	
 						if(breakOutDayPA.getPrice().getLow().doubleValue() >= currentDayPA.getPrice().getClose().doubleValue()) {
 							// below the breakout day low
 							// then this should be in the buy area and above 10ema for us to consider as a buy signal
@@ -354,18 +370,12 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			return null;
 		}
 		
-		/*
-		if(sym.getSymInfo() != null && sym.getSymInfo().getExchange() != null && sym.getSymInfo().getExchange().contains("OTC")) {
-			return null;
-		}
-		*/
-		
 		final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
 		if(pa == null) {
 			return null;
 		}
 		
-		final boolean isRecentIpo = sym.isRecentIPO(runDate);
+		//final boolean isRecentIpo = sym.isRecentIPO(runDate);
 		
 		// first lets check its liquidity and price min thresholds
 		
@@ -381,17 +391,12 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					}
 					
 					if(pa.getVol50dSma() != null) {
-						if(pa.getVol50dSma().intValue() <= 100000 || pa.getVol50dSma().intValue() * pa.getPrice().getClose().doubleValue() < 1000000) {
+						if(pa.getVol50dSma().intValue() <= 250000 || pa.getVol50dSma().intValue() * pa.getPrice().getClose().doubleValue() < 15000000) { //$20M
 							//logger.info("Ignoring low avg-daily-dollar-vol signal - " + symHeader.getSymbol() + " - " + symHeader.getAvgVol() * symHeader.getCurrPrice());
-							if(!isRecentIpo) {
+							//if(!isRecentIpo) {
 								return null;
-							}
+							//}
 						}
-					}
-					
-					if(sym.getHeaderInfo() != null && sym.getHeaderInfo().getRsRank() != null && sym.getHeaderInfo().getRsRank() < 70) {
-						//logger.info("Ignoring low RS-Rating signal - " + symHeader.getSymbol() + " - " + symHeader.getRsRank());
-						return null;
 					}
 
 		final SymbolFundamentalsModel fundies = this.wonDAO.getSymbolFundamentals(sym.getSymInfo().getMsId(), runDate);
@@ -415,11 +420,11 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			final int monthsDiff = Math.abs(Months.monthsBetween(new DateTime(sym.getHeaderInfo().getIpoDt()), new DateTime(runDate)).getMonths());
 			if(monthsDiff > 48 && fundies.getInfo().getEpsRank() != null && fundies.getInfo().getEpsRank() < 70) { 
 				// 4 years after IPO means it should have good EPS rank
-				return null;			
+				return null;
 			}
 		}
 		*/
-		final FundamentalScore score = new FundamentalScore(sym, fundies);
+		final FundamentalScore score = new FundamentalScore(sym, fundies, runDate);
 		
 		final SignalData aSignal = new SignalData();
 		aSignal.setSignalDate(runDate);
@@ -457,7 +462,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			return null;
 		}
 		
-		if(aBase.getSymbol().equalsIgnoreCase("asgn")){
+		if(aBase.getSymbol().equalsIgnoreCase("kite")){
 			System.out.print("");
 		}
 		
@@ -519,7 +524,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			}
 			
 			final BigDecimal volPctChgOnBreakOutDay = Helpers.getPercetChange(new BigDecimal(breakOutDayPA.getPrice().getVolume()), breakOutDayPA.getVol50dSma());
-				if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 200) {
+				if(volPctChgOnBreakOutDay != null  && volPctChgOnBreakOutDay.doubleValue() >= 150) {
 					//signalDescList.add("Vol-Rate on breakout is: " + volPctChgOnBreakOutDay);
 					goodSignal = true;
 					//strongSignal = true;
@@ -611,7 +616,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 					
 					// check if it is beyond buy-price (if so -add it to watchlist)
 					if(goodSignal && pivotPriceDayPA.getPrice().getHigh().multiply(new BigDecimal(1.07)).doubleValue() < currentDayPA.getPrice().getClose().doubleValue()) {
-						logger.info("Adding to WatchList because it is currently beyond buy-range - " + aBase.getSymbol() + " - " + breakOutDayPA.getPrice().getClose().doubleValue());
+						RunLogger.getRunLogger().logAlpha("Adding to WatchList because it is currently beyond buy-range - " + aBase.getSymbol() + " - " + breakOutDayPA.getPrice().getClose().doubleValue());
 						
 						Set<Long> symsForRunDate = watchList.get(runDate);
 						if(symsForRunDate == null) {
@@ -622,11 +627,35 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 						
 						return null;
 					}
-							
+					if(goodSignal) {
+						// add to watchlist if RS rating is less than 70 - FB 2013 breakout
+						if(sym.getHeaderInfo() != null && sym.getHeaderInfo().getRsRank() != null && sym.getHeaderInfo().getRsRank() < 70) {
+							RunLogger.getRunLogger().logAlpha("Adding to WatchList because RS rating is below threshold- " + aBase.getSymbol() + " - " + sym.getHeaderInfo().getRsRank());
+							Set<Long> symsForRunDate = watchList.get(runDate);
+							if(symsForRunDate == null) {
+								symsForRunDate = new HashSet<Long>();
+								watchList.put(runDate, symsForRunDate);
+							}
+							symsForRunDate.add(aBase.getMsid());
+							return null;
+						}
+						
+						// add to watchlist if price > 20% above 20ema
+						final BigDecimal pctChgFrom20ema = currentDayPA.getElementPctChg(ChartElementType.PRICE_MA_20);
+						if(pctChgFrom20ema != null && pctChgFrom20ema.doubleValue() >= 15) {
+							RunLogger.getRunLogger().logAlpha("Adding to WatchList because current-price >= 15% from 20ema- " + aBase.getSymbol() + " - " + pctChgFrom20ema);
+							Set<Long> symsForRunDate = watchList.get(runDate);
+							if(symsForRunDate == null) {
+								symsForRunDate = new HashSet<Long>();
+								watchList.put(runDate, symsForRunDate);
+							}
+							symsForRunDate.add(aBase.getMsid());
+							return null;
+						}
+					}
 			if(goodSignal) {
 				final SignalData signal = this.checkSymbolFundamentals(sym, runDate);
 				if(signal != null) {
-					signal.setStrongSignal(true); //signal.setStrongSignal(strongSignal);
 					signal.setPrimarySignalDate(aBase.getPivotDt());
 				}
 				return signal;
@@ -669,19 +698,30 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 	private int ipoScore = 0;
 	private int groupScore = 0;
 	
-	public FundamentalScore(SymbolModel sym, SymbolFundamentalsModel fundies) {
+	public FundamentalScore(SymbolModel sym, SymbolFundamentalsModel fundies, Date runDate) throws ApplicationException {
 		this.sym = sym;
 
 		// RATINGS-SCORE
 		ratingsScore = 0;
+		
+		final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
+		if(pa!= null) {
+			final BigDecimal volRate = pa.getElementPctChg(ChartElementType.VOL);
+			if(volRate != null) {
+				ratingsScore += (int) (volRate.doubleValue() / 10);
+			}
+		}
+		
 		if(fundies != null) {
 		final SymbolFundamentalsInfoModel info = fundies.getInfo();
 		if(info != null) {
 			if(info.getEpsRank() != null && info.getEpsRank() >= 90) {
-				ratingsScore+= 20;
+				ratingsScore+= 35;
 			} else if (info.getEpsRank() != null && info.getEpsRank() >= 80) {
-				ratingsScore+= 15;
+				ratingsScore+= 25;
 			}else if (info.getEpsRank() != null && info.getEpsRank() >= 70) {
+				ratingsScore+= 20;
+			}else if (info.getEpsRank() != null && info.getEpsRank() >= 60) {
 				ratingsScore+= 10;
 			}
 			
@@ -694,11 +734,13 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 			}
 			
 			if(info.getDgRating() != null && info.getDgRating() >= 90) {
-				ratingsScore+= 35;
-			} else if(info.getDgRating() != null && info.getDgRating() >= 80) {
 				ratingsScore+= 30;
-			} else if(info.getDgRating() != null && info.getDgRating() >= 70) {
+			} else if(info.getDgRating() != null && info.getDgRating() >= 80) {
 				ratingsScore+= 25;
+			} else if(info.getDgRating() != null && info.getDgRating() >= 70) {
+				ratingsScore+= 20;
+			}else if(info.getDgRating() != null && info.getDgRating() >= 60) {
+				ratingsScore+= 15;
 			}
 			
 			if(info.getAdRating() != null && info.getAdRating() >= 45) {
@@ -721,6 +763,8 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 				ratingsScore+= 20;
 			}else if(info.getRsRank() != null && info.getRsRank() >= 70) {
 				ratingsScore+= 15;
+			}else if(info.getRsRank() != null && info.getRsRank() >= 60) {
+				ratingsScore+= 10;
 			}
 		}
 
@@ -740,27 +784,19 @@ class FundamentalScore implements Comparable<FundamentalScore> {
 		ipoScore = 0;
 		if(sym != null && sym.getHeaderInfo() != null && sym.getHeaderInfo().getIpoDt() != null) {
 			final int monthsDiff = Math.abs(Months.monthsBetween(new DateTime(sym.getHeaderInfo().getIpoDt()), new DateTime(sym.getAsOfDate())).getMonths());
-			if(monthsDiff <= 3) {
-				ipoScore = 140;
-			} else if(monthsDiff <= 6) {
-				ipoScore = 120;
-			} else if(monthsDiff <= 12) {
-				ipoScore = 100;
-			} else if (monthsDiff <= 24) {
-				ipoScore = 90;
-			} else if (monthsDiff <= 36) {
-				ipoScore = 80;
-			} else if (monthsDiff <= 48) {
-				ipoScore = 70;
-			} else if (monthsDiff <= 60) {
-				ipoScore = 50;
-			} else if (monthsDiff <= 72) {
+			if(monthsDiff <= 12) {
 				ipoScore = 30;
-			} else if (monthsDiff <= 84) {
+			} else if(monthsDiff <= 24) {
+				ipoScore = 25;
+			} else if(monthsDiff <= 36) {
+				ipoScore = 20;
+			} else if (monthsDiff <= 48) {
+				ipoScore = 15;
+			} else if (monthsDiff <= 60) {
 				ipoScore = 10;
-			} else if (monthsDiff <= 96) {
+			} else if (monthsDiff <= 72) {
 				ipoScore = 5;
-			}
+			} 
 		}
 	
 		// OWNERSHIP SCORE

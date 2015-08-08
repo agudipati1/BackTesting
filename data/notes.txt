@@ -181,14 +181,41 @@ a.111: Alpha: Relaxed DG rating constraint to <50 (previous 60) [FB breakout on 
          All market-directions use pct-chg and pct-chg-from-last-buy as >5% for secondary buys (previously see a.109)
 a.112/113/114: MarketTiming Sells: Downtrend - Sell losers fast in downtrend 
          - When pct-chg-from-20ema < -0.5% then Sell if pct-loss <= -1% (prev pct-loss <= -3%)
-a.115: Alpha: FIXED PR SQL - it was ignoring dead stocks (because of the SQL join to SECMASTER)
+a.115/116: Alpha: FIXED PR SQL - it was ignoring dead stocks (because of the SQL join to SECMASTER)
        Ignores buying class-b shares when owning class-a shares etc., (eg FOXA and FOX)
-       Adjusted underperformance sell to sell losers faster.
-
+       Adjusted underperformance sell logic to sell losers faster.
+a.117: Alpha: 150K min avg-vol (prev 100K) and avg-$-vol > 15M (previously 1M)
+a.118: Alpha: 500K min avg-vol (prev 150K) and avg-$-vol > 50M (prev 15M)
+a.119: Alpha: 250K min avg-vol (prev 500K) and avg-$-vol > 20M (prev 50M)
+	Portfolio: min-num positions = 5 (prev 4)
+	Portfolio: secondary buys increased to 5 (prev 4). 5th buy is set to 10% of max amount
+a.120: Portfolio: min-num positions = 8 (prev 5)
+a.121: Portfolio: underperformance sells/swap out - only if position's pct-chg is above 1% and num-days-from-first-buy > 7 THEN MA support/breakouts are checked  [LNKD Mar-2015 holding should have been sold in favor or AMBA]
+       Portfolio: changing min-num-positions to 5 (prev 8)
+       Portfolio: changed minPctInvested to 50% in DOWNTREND (prev 30%) and to 100% in CAUTIOUS_UPTREND (prev 75%) [GILD Nov 2013, KITE OCT 2014 are downtrend breakouts and are being missed]
+a.122: <BAD>Portfolio: underperformance sells/swap out - only if position's pct-chg is above 0% AND num-days-from-first-buy > 7 AND num-days-from-last-tx <= 7  THEN MA support/breakouts are checked  [SBUX Feb-2013 was sold due to underperformance]
+       Alpha: RS rating < 70 will be added to watchlist (previously ignored) [FB-july-2013 has Rs rating < 50 on breakout]
+       Alpha: curr-pric > 20% from 20ema will be added to watchlist [KITE OCt-2013 breakout day should be ignored]
+a.123: <BAD>Portfolio: underperformance sells/swap out - only if position's pct-chg is above 0% OR num-days-from-first-buy > 7  THEN MA support/breakouts are checked  [SBUX Feb-2013 was sold due to underperformance] (previously see a.122 - changed AND to OR)
+	Alpha: signals in Watch lists must have RS Rating > 70  [MRK breakout in 2014 was being added from watchlist]
+a.124: Portfolio: underperformance sells/swap out - only if position's pct-chg is above 0% OR num-days-from-first-buy > 7  THEN MA support/breakouts are checked  [SBUX Feb-2013 was sold due to underperformance] (previously see a.123 - changed back OR to AND)
+	Alpha: changed vol-rate on breakout to 150% (prev 200) [QIHU 2013 breakout was being ignored]
+	Alpha: removed the recent-ipo pass for avg-vol and avg-$-vol checks (low vol stocks like SSTK and EMES are being bought)
+	Alpha: added vol-rate to signal-strength
+a.125: Secondary Buys:  All market-directions use pct-chg and pct-chg-from-last-buy as >7.5% for secondary buys (previously see a.111)
+	Alpha: avg-$-vol is reduced to $15M (prev 20M) [KITE-OCT-2014 was not being recoginized because of a.124 change]
+a.126: Alpha: Reworked Signal Strength. 
+	Portfolio: Stocks with Signal-strength  > 100 will get priority pref for swap
+	Portfolio: changed minPctInvested to 75% in DOWNTREND (prev 50% - GPN ignored on OCT-2014)
+a.127: Secondary Buys:  All market-directions use pct-chg and pct-chg-from-last-buy as >10% for secondary buys (previously see a.125)
+       Portfolio: Swapping under-performers happens based on signal-strength. Signal strength thresholds are DOWNTREND: 150, CAUTIOUS_UPTREND: 100, UPTREND: 0
+a.128: Alpha: curr-pric > 15% from 20ema will be added to watchlist (prev 20% see a.122) [CUDA DEC-2013 buy off breakout is >15% from 20ema and will result in shakeout]
+a.129: 
+ 
 TODO: 
  - add partial sell logic
  - add RSI to alpha model.
-
+ - AMBA scaled-stop sell logic is still triggerring it
  - need checks before buying to make sure we are not over-exposed to a sector/industry-group
 
 ISSUES:
