@@ -29,7 +29,7 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 	@Autowired
 	private WONDAOImpl wonDAO = null;
 	
-	private double costPerTx = 7.00;
+	private BigDecimal costPerTx = new BigDecimal(7);
 	private double priceSlipFactorPct = 0.0;
 	
 	/* (non-Javadoc)
@@ -61,7 +61,7 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 		int quantity = maxCashAvailForExecution.getValue().divide(txPrice, Helpers.mc).intValue();
 		
 		//  make sure we pick the right quantity to trade so our total tx amt will be less than max-cash-avail-for-execution
-		while(((quantity * txPrice.doubleValue()) + costPerTx) > maxCashAvailForExecution.getValue().doubleValue()) {
+		while(((quantity * txPrice.doubleValue()) + costPerTx.doubleValue()) > maxCashAvailForExecution.getValue().doubleValue()) {
 			quantity = quantity -1;
 		}
 		
@@ -69,14 +69,14 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 			return null;
 		}
 		
-		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity));
+		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity)).add(costPerTx);
 				
 		TransactionData tx = new TransactionData();
 		tx.setMsId(msId);
 		tx.setSymbol(symbol);
 		tx.setQuantity(quantity);
 		tx.setTransDt(tradeDate);
-		tx.setCost(new BigDecimal(costPerTx));
+		tx.setCost(costPerTx);
 		tx.setTransactionType(TransactionType.BUY);
 		tx.setTotalAmt(CurrencyData.instantiate(totalAmt));
 		
@@ -96,22 +96,21 @@ public class SimpleExecutionModelImpl implements ExecutionModel {
 
 		final InstrumentPriceModel priceTick = wonDAO.getPriceTick(msId, PeriodicityType.DAILY, tradeDate);
 		if(priceTick == null) {
-			throw new ApplicationException("No price tick was found to perform SELL transaction for: " + msId  + " on " + tradeDate);
+			throw new ApplicationException("No price tick was found to perform SELL transaction for msid:" + msId  + " on " + tradeDate);
 		}
 		if(priceTick.getDateType() == TradeDateType.HOLIDAY || priceTick.getDateType() == TradeDateType.MARKET_CLOSE) {
 			throw new ApplicationException("SELL tx requested on holiday or market-close for: " + msId  + " on " + tradeDate);
 		}
 		
 		final BigDecimal txPrice = priceTick.getClose().multiply(new BigDecimal(1 - priceSlipFactorPct));
-		
-		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity));
+		final BigDecimal totalAmt = txPrice.multiply(new BigDecimal(quantity)).subtract(costPerTx);
 
 		TransactionData tx = new TransactionData();
 		tx.setMsId(msId);
 		tx.setSymbol(symbol);
 		tx.setQuantity(quantity);
 		tx.setTransDt(tradeDate);
-		tx.setCost(new BigDecimal(costPerTx));
+		tx.setCost(costPerTx);
 		tx.setTransactionType(TransactionType.SELL);
 		tx.setTotalAmt(CurrencyData.instantiate(totalAmt));
 		

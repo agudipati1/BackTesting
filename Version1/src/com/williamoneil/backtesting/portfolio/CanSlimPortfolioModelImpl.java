@@ -146,17 +146,18 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 		if(stopLossSellTxs != null) {
 			execs.addAll(stopLossSellTxs);
 		}
-		// perform any sells because of Technical Analysis
-		final List<TransactionData> taSellTxs = this.checkAndPerformSellTechAnalysisForPositions(runDate, symbolMap);
-		if(taSellTxs != null) {
-			execs.addAll(taSellTxs);
-		}
 		
 		logger.info(runDate + " MarketSignal: Buy=" + marketTimeSignal.getMarketSignalType() + "; MarketSignalDate=" + marketTimeSignal.getSignalDate());
 			//act on market-time-signal
 			final List<TransactionData> mtSellTxs = this.actOnMarketTimeSignal(runDate, symbolMap, marketTimeSignal.getMarketSignalType());
 			if(mtSellTxs != null) {
 				execs.addAll(mtSellTxs);
+			}
+		
+			// perform any sells because of Technical Analysis
+			final List<TransactionData> taSellTxs = this.performSellTechAnalysisForPositions(runDate, symbolMap);
+			if(taSellTxs != null) {
+				execs.addAll(taSellTxs);
 			}
 			
 			// perform secondary buys to positions only if market is not in downtrend
@@ -171,10 +172,10 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			float maxPctInvested = 0;
 			if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.DOWNTREND) {
 				maxPctInvested = this.maxPercentInvestedInDowntrend;
-				signalStrengthForSwap = 150;
+				signalStrengthForSwap = 0;
 			} else if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.CAUTIOUS_UPTREND) {
 				maxPctInvested = this.maxPercentInvestedInCautiousUptrend;
-				signalStrengthForSwap = 100;
+				signalStrengthForSwap = 0;
 			} else if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.UPTREND) {
 				maxPctInvested = this.maxPercentInvestedInUptrend;
 			}
@@ -199,50 +200,8 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			}
 		}
 		numOfPositionsOpenToBuy = (int) Math.round(cashBal.doubleValue() / maxAmtPerPosition.doubleValue());
-		//minNumOfPositionsOpenToBuy = numOfPositionsOpenToBuy;
-		
-		
-		/*
-		if(cashBal.doubleValue() > 0) {
-			if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.UPTREND ) {
-				numOfPositionsOpenToBuy = 2 * minNumOfPositionsOpenToBuy;
-				if(this.marginPctAllowed > 0 && numOfPositionsOpenToBuy > 1) {
-					numOfPositionsOpenToBuy = numOfPositionsOpenToBuy - 1;
-				}
-				//minNumOfPositionsOpenToBuy = minNumOfPositionsOpenToBuy;
-			} else if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.CAUTIOUS_UPTREND) {
-				numOfPositionsOpenToBuy = minNumOfPositionsOpenToBuy;
-				minNumOfPositionsOpenToBuy = (int) Math.round(0.5 * minNumOfPositionsOpenToBuy);
-			} else if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.DOWNTREND) {
-				numOfPositionsOpenToBuy = (int) Math.round (0.25 * minNumOfPositionsOpenToBuy);
-				minNumOfPositionsOpenToBuy = 0;
-			}
-		} else {
-			RunLogger.getRunLogger().logPortfolio(runDate + ": Cash Bal was negative: " + cashBal.doubleValue() + ";total-positions:" + getPortfolioData().getCurrentNumOfPosition()); 
-		}
-		*/
-		
-		
-		/*
-		int numOfPositionsOpenToBuy = this.numOfPositions - portfolio.getTotalNumOfPositions();
-		if(numOfPositionsOpenToBuy < 0) {
-			throw new RuntimeException("This just happened. Fix this please");
-		} else {
-			// if market is in downtrend we dont buy anything more than half the positions
-			if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.UPTREND 
-					|| marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.CAUTIOUS_UPTREND) {
-				
-			} else if(marketTimeSignal.getMarketSignalType() == SimpleMarketSignalType.DOWNTREND) {
-				numOfPositionsOpenToBuy = (Math.round(numOfPositions / 2) - portfolio.getTotalNumOfPositions() + 1);
-				if(numOfPositionsOpenToBuy < 0) {
-					numOfPositionsOpenToBuy = 0;
-				}
-			} 
-		}
-		*/
 		
 		final List <SignalData> unProcessedSignals = new ArrayList<SignalData>();
-		//final List<SignalData> weakSignals = new ArrayList<SignalData>();
 		boolean cannotProcessAnyMoreSignals = false;
 		
 		int newPositionsBought = 0;
@@ -259,7 +218,6 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				logger.info(runDate + " Got #" + signals.size()  + " signals: " + syms.toString());
 		
 				for(final SignalData aSignal : signals) {
-				
 					if(cannotProcessAnyMoreSignals) {
 						unProcessedSignals.add(aSignal);
 						continue;
@@ -276,17 +234,17 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 						continue;
 					}
 					
-					if(newPositionsBought == numOfPositionsOpenToBuy) {
+					if(newPositionsBought == numOfPositionsOpenToBuy || newPositionsBought == 2) {
 						if(signalStrengthForSwap > aSignal.getSignalStrength()) {
 							RunLogger.getRunLogger().logPortfolio(runDate + " max new positions (" + newPositionsBought + ") reached. No swapping [" + aSignal.getSymbolInfo().getSymbol() + "]  with weak-signal-strength: " + aSignal.getSignalStrength());
 							unProcessedSignals.add(aSignal);
 							continue;
 						}
 
-						RunLogger.getRunLogger().logPortfolio(runDate + " max new positions (" + newPositionsBought + ") reached. Checking for swap-outs.");
+						RunLogger.getRunLogger().logPortfolio(runDate + " max new positions (" + newPositionsBought + ") reached. Checking for swap-outs for " + aSignal.getSymbolInfo().getSymbol() + "[" + aSignal.getSignalStrength() + "]");
 						final List<TransactionData> swapOutTxs = swapOutUnderPerformingPositionForSignal(runDate, aSignal, symbolMap);
 						if(swapOutTxs == null || swapOutTxs.size() == 0) {
-							RunLogger.getRunLogger().logPortfolio(runDate + " nothing left to swap out");
+							RunLogger.getRunLogger().logPortfolio(runDate + " nothing left to swap out for " + aSignal.getSymbolInfo().getSymbol() + "[" + aSignal.getSignalStrength() + "]");
 							cannotProcessAnyMoreSignals = true;
 							unProcessedSignals.add(aSignal);
 							continue;
@@ -313,7 +271,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				this.alphaModel.unProcessedSignals(unProcessedSignals, runDate);
 			}
 		
-			RunLogger.getRunLogger().logPortfolio(runDate + " net-val=" + getPortfolioData().getTotalPortfolioValue().getValue().doubleValue()  + "; cashbal=" + getPortfolioData().getCashPosition().getCurrentValue().getValue().doubleValue() + "; %inv=" + getPortfolioData().getPercentInvested() + "%; num-po=" + getPortfolioData().getCurrentNumOfPosition()  + "; market-dir=" + marketTimeSignal.getMarketSignalType() + "; positions=" + this.portfolio.getPositionsAndPctChg());
+			RunLogger.getRunLogger().logPortfolio(runDate + " net=" + getPortfolioData().getTotalPortfolioValue().getValue().setScale(2, RoundingMode.FLOOR).doubleValue()  + "; cash=" + getPortfolioData().getCashPosition().getCurrentValue().getValue().doubleValue() + "; %inv=" + getPortfolioData().getPercentInvested() + "%; mkt=" + marketTimeSignal.getMarketSignalType() + "; pos=" + getPortfolioData().getCurrentNumOfPosition() + ": "+  this.portfolio.getPositionsAndPctChg());
 
 		return execs;
 	}
@@ -325,12 +283,6 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 		}
 		if(signal.getSymbolInfo().getSymbol().equalsIgnoreCase("cuda")) {
 			System.err.println("cuda");
-		}
-		
-		boolean strongSignal = false;
-		if(signal.getSignalStrength() != null && signal.getSignalStrength() >= 100) {
-			// high signal strength
-			strongSignal = true;
 		}
 		
 		/*
@@ -351,69 +303,66 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			if(sym == null || sym.getPriceForDate(runDate) == null) {
 				continue;
 			}
-			
+			if(aPos.getPercentGainLoss() < 0) {
+				
+				final TransactionData latestBuyTx = aPos.getLatestUnSoldBuyTransaction();
+				final List<TransactionData> allTxs = aPos.getTransactions();
+				final TransactionData firstTx = allTxs.get(0);
+				
+				
+				final Date latestTxDt = aPos.getLatestTransactionDate(null);
+				final int daysDiffFromLatestTx = Math.abs(Days.daysBetween(new DateTime(latestTxDt), new DateTime(runDate)).getDays());
+				final int daysDiffFromLatestBuy = Math.abs(Days.daysBetween(new DateTime(latestBuyTx.getTransDt()), new DateTime(runDate)).getDays());
+				final int daysDiffFromFirstBuy = Math.abs(Days.daysBetween(new DateTime(firstTx.getTransDt()), new DateTime(runDate)).getDays());
+	
+				if(daysDiffFromLatestTx < 1) {
+					// same day tx not allowed
+					continue;
+				}
+				
+				if(daysDiffFromFirstBuy <= 5 || daysDiffFromLatestBuy <= 5){ 
+					continue;
+				} else if (daysDiffFromFirstBuy < 10 && aPos.getPercentGainLoss() > 0) {
+						continue;
+				}
+				
+				RunLogger.getRunLogger().logPortfolio(runDate + " Selling loser due to underperformance: " + aPos.getSymbol() + " " + aPos.getPercentGainLoss() + "% in " + daysDiffFromFirstBuy);
+				final List<PositionData> sellPositions = new ArrayList<PositionData>();
+				sellPositions.add(aPos);
+				final List<TransactionData> swapOutAndInTxs= sellPositionsAndUpdatePortfolioPositions(sellPositions, runDate);
+				if(swapOutAndInTxs != null && swapOutAndInTxs.size() > 0) {
+					final TransactionData inTx = this.buyPositionAndUpdatePortfolioPositions(signal.getSymbolInfo().getMsId(), signal.getSymbolInfo().getSymbol(), this.getMaxBuyAmountAllowedForExecution(null), runDate); 
+					swapOutAndInTxs.add(inTx);
+					return swapOutAndInTxs;
+				}
+			} else {
+				// pct-chg > 0 means we exhausted with the losers. we need underperformance logic for swap now
+				break;
+			}
+		}
+		
+		boolean highConvictionSignal = signal.getSignalStrength() != null && signal.getSignalStrength() >= 100;
+		if(!highConvictionSignal) {
+			return null;
+		}
+		// exhausted selling loser. now trying to check for under-performers
+		for(final PositionData aPos: sortedPos) {
+			final SymbolModel sym = symbolMap.get(aPos.getMsId());
+			if(sym == null || sym.getPriceForDate(runDate) == null) {
+				continue;
+			}
 			final TransactionData latestBuyTx = aPos.getLatestTransaction(TransactionType.BUY);
 			final List<TransactionData> allTxs = aPos.getTransactions();
 			final TransactionData firstTx = allTxs.get(0);
 			
 			final int daysDiffFromLatestBuy = Math.abs(Days.daysBetween(new DateTime(latestBuyTx.getTransDt()), new DateTime(runDate)).getDays());
 			final int daysDiffFromFirstBuy = Math.abs(Days.daysBetween(new DateTime(firstTx.getTransDt()), new DateTime(runDate)).getDays());
-			/*
-			if(daysDiffFromLatestBuy < 10) {
-				continue;
-			} else if (daysDiffFromFirstBuy < 15 && aPos.getPercentGainLoss() > 0) {
-					continue;
-			} else if (daysDiffFromFirstBuy < 20 && aPos.getPercentGainLoss() > 0.5) {
-				continue;
-			} else if (daysDiffFromFirstBuy < 25 && aPos.getPercentGainLoss() > 1) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 30 && aPos.getPercentGainLoss() > 1.5) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 35 && aPos.getPercentGainLoss() > 2) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 40 && aPos.getPercentGainLoss() > 2.5) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 45 && aPos.getPercentGainLoss() > 3) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 50 && aPos.getPercentGainLoss() > 3.5) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 55 && aPos.getPercentGainLoss() > 4) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 60 && aPos.getPercentGainLoss() > 4.5) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 65 && aPos.getPercentGainLoss() > 5) {
-				continue;
-			} else  if(daysDiffFromFirstBuy < 70 && aPos.getPercentGainLoss() > 5.5) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 75 && aPos.getPercentGainLoss() > 6) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 80 && aPos.getPercentGainLoss() > 6.5) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 85 && aPos.getPercentGainLoss() > 7) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 90 && aPos.getPercentGainLoss() > 7.5) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 95 && aPos.getPercentGainLoss() > 8) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 100 && aPos.getPercentGainLoss() > 8.5) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 105 && aPos.getPercentGainLoss() > 9) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 110 && aPos.getPercentGainLoss() > 9.5) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 115 && aPos.getPercentGainLoss() > 10) {
-				continue;
-			} else if(daysDiffFromFirstBuy < 120 && aPos.getPercentGainLoss() > 10.5) {
-				continue;				
-			}else if (daysDiffFromFirstBuy >= 120 && aPos.getPercentGainLoss() > 11) {
-				continue;
-			}
-			*/
+
 			if(daysDiffFromFirstBuy <= 5 || daysDiffFromLatestBuy <= 5){ 
 				continue;
 			} else if (daysDiffFromFirstBuy < 10 && aPos.getPercentGainLoss() > 0) {
 					continue;
-			} else  if(daysDiffFromFirstBuy < 25 && aPos.getPercentGainLoss() > 0.5) {
+			} else if(daysDiffFromFirstBuy < 25 && aPos.getPercentGainLoss() > 0.5) {
 				continue;
 			} else  if(daysDiffFromFirstBuy < 40 && aPos.getPercentGainLoss() > 1) {
 				continue;
@@ -436,7 +385,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			}
 			
 			// this check likely will avoid holding a stock that goes sideways/nowhere after breakout 
-			if(!strongSignal && daysDiffFromFirstBuy >= 7 && aPos.getPercentGainLoss() > 0) {
+			if(daysDiffFromFirstBuy >= 7 && aPos.getPercentGainLoss() > 0) {
 				final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
 				if(pa == null) {
 					continue;
@@ -484,8 +433,83 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			
 		}
 		
-		if(strongSignal) { 
-			RunLogger.getRunLogger().logPortfolio(runDate + ": Could not swap a position for strong-signal: " + signal.getSymbolInfo().getSymbol());
+		if(highConvictionSignal) {
+			final boolean veryHighConvictionSignal = signal.getSignalStrength() != null && signal.getSignalStrength() >= 150;
+			if(veryHighConvictionSignal) {
+				/*
+				 * Comparator to sort by % gains.
+				 */
+				Comparator<PositionData> pctChgFrom50smaSorter = new Comparator<PositionData>() {
+					@Override
+					public int compare(PositionData arg0, PositionData arg1) {
+						try {
+							final SymbolModel sym1 = symbolMap.get(arg0.getMsId());
+							if(sym1 == null || sym1.getPriceForDate(runDate) == null) {
+								return Integer.MIN_VALUE;
+							}
+							final SymbolModel sym2 = symbolMap.get(arg1.getMsId());
+							if(sym2 == null || sym2.getPriceForDate(runDate) == null) {
+								return Integer.MIN_VALUE;
+							}
+							
+							final PriceAnalysisData pa1 = sym1.getPriceAnalysisForDate(runDate);
+							if(pa1 == null) {
+								return Integer.MIN_VALUE;
+							}
+							final PriceAnalysisData pa2 = sym2.getPriceAnalysisForDate(runDate);
+							if(pa2 == null) {
+								return Integer.MIN_VALUE;
+							}
+							BigDecimal pae1 = pa1.getElementPctChg(ChartElementType.PRICE_MA_50);
+							if(pae1 == null) {
+								pae1 = pa1.getElementPctChg(ChartElementType.PRICE_MA_20);
+							}
+							BigDecimal pae2 = pa2.getElementPctChg(ChartElementType.PRICE_MA_50);
+							if(pae2 == null) {
+								pae2 = pa2.getElementPctChg(ChartElementType.PRICE_MA_20);
+							}
+							
+							return pae1.compareTo(pae2);
+						}catch(Exception ex) {
+							return Integer.MIN_VALUE;
+						}
+					}
+				};
+			
+				final List<PositionData> sortedPos2 = new ArrayList<PositionData>(positions);
+				Collections.sort(sortedPos, pctChgFrom50smaSorter);
+				
+				// highConvictionSignal with strength > 150 will need aggressive sell-swaps
+				for(final PositionData aPos: sortedPos2) {
+					final SymbolModel sym = symbolMap.get(aPos.getMsId());
+					if(sym == null || sym.getPriceForDate(runDate) == null) {
+						continue;
+					}
+					final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
+					if(pa == null) {
+						continue;
+					}
+					
+					final BigDecimal pctChgFrom20Ema = pa.getElementPctChg(ChartElementType.PRICE_MA_20);
+					if(pctChgFrom20Ema.doubleValue() >= -0.75) {
+						continue;
+					}
+					
+					RunLogger.getRunLogger().logPortfolio(runDate + " High Conviction swap due to underperformance: " + aPos.getSymbol() + " " + aPos.getPercentGainLoss() + "%");
+					final List<PositionData> sellPositions = new ArrayList<PositionData>();
+					sellPositions.add(aPos);
+					final List<TransactionData> swapOutAndInTxs= sellPositionsAndUpdatePortfolioPositions(sellPositions, runDate);
+					if(swapOutAndInTxs != null && swapOutAndInTxs.size() > 0) {
+						final TransactionData inTx = this.buyPositionAndUpdatePortfolioPositions(signal.getSymbolInfo().getMsId(), signal.getSymbolInfo().getSymbol(), this.getMaxBuyAmountAllowedForExecution(null), runDate); 
+						swapOutAndInTxs.add(inTx);
+						return swapOutAndInTxs;
+					}
+				}
+				
+				RunLogger.getRunLogger().logPortfolio(runDate + ": Could not swap a position for very high-conviction-signal: " + signal.getSymbolInfo().getSymbol() + "[" + signal.getSignalStrength() + "]");
+			} else { 
+				RunLogger.getRunLogger().logPortfolio(runDate + ": Could not swap a position for high-conviction-signal: " + signal.getSymbolInfo().getSymbol() + "[" + signal.getSignalStrength() + "]");
+			}
 		}
 		
 		return null;
@@ -582,26 +606,40 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 					continue;
 				}
 				
+				final TransactionData lastBuyTx = aPos.getLatestUnSoldBuyTransaction();
+				
+				final Date latestBuyTxDt = lastBuyTx.getTransDt();
 				final Date latestTxDt = aPos.getLatestTransactionDate(null);
-				final int daysSinceLastPurchase = Math.abs(Days.daysBetween(new DateTime(latestTxDt), new DateTime(runDate)).getDays());
-				if(daysSinceLastPurchase < 5) {
-					// need at least 5 days since last purchase to do any secondary purchases
+
+				final int daysSinceLastTx = Math.abs(Days.daysBetween(new DateTime(latestTxDt), new DateTime(runDate)).getDays());
+				if(daysSinceLastTx < 5) {
+					// two-day rule for secondary-buys
 					continue;
 				}
 				
-				final TransactionData lastBuyTx = aPos.getLatestTransaction(TransactionType.BUY);
+				final int daysSinceLastBuyTx = Math.abs(Days.daysBetween(new DateTime(latestBuyTxDt), new DateTime(runDate)).getDays());
+				if(daysSinceLastBuyTx < 5) {
+					// need at least 5 days since last purchase to do any secondary purchases
+					continue;
+				}
 				
 				final double pctChg = aPos.getPercentGainLoss();
 				final double pctChgSinceLastBuy = Helpers.getPercetChange(sym.getPriceForDate(runDate).getClose(), lastBuyTx.getCostBasisPerShare()).doubleValue();
 
 				boolean useAggressiveBuy = false;
-				if(pctChg >= 10 || pctChgSinceLastBuy >= 10) {
-					useAggressiveBuy = true;
+				if(marketSignal == SimpleMarketSignalType.DOWNTREND) {
+					if(pctChg >= 15 || pctChgSinceLastBuy >= 15) {
+						useAggressiveBuy = true;
+					}
+				} else {
+					if(pctChg >= 10 || pctChgSinceLastBuy >= 10) {
+						useAggressiveBuy = true;
+					}
 				}
 				
-				final double pctChgInUpTrend = 10;
+				final double pctChgInUpTrend = 7.5;
 				final double pctChgInCautiousUpTrend = pctChgInUpTrend;
-				final double pctChgInDownTrend = 10;
+				final double pctChgInDownTrend = 7.5;
 
 				final double pctChgSinceLastBuyInUpTrend = pctChgInUpTrend;
 				final double pctChgSinceLastBuyInCautiousUpTrend = pctChgInCautiousUpTrend;
@@ -612,7 +650,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 					continue;
 				}
 				final PriceAnalysisElementData pae0= pa.getAnalysisFor(ChartElementType.PRICE_MA_10);
-				final double pctChgToUse10emaBuyInUpTrend = 10;
+				final double pctChgToUse10emaBuyInUpTrend = 7.5;
 
 				final PriceAnalysisElementData pae1 = pa.getAnalysisFor(ChartElementType.PRICE_MA_20);
 				final double pctChgToUse20emaBuyInUpTrend = pctChgInUpTrend;
@@ -638,7 +676,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 									txs.add(trans);
 									continue;
 								}
-							} else  if(useAggressiveBuy && cat == ChartAnalysisType.SUPPORT) {
+							} else if(useAggressiveBuy && cat == ChartAnalysisType.SUPPORT) {
 								// aggressive buys will buy anytime stock is near support of MA
 								final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
 								if(Helpers.getPercetChange(pa.getPrice().getClose(), prevDayPrice.getClose()).doubleValue() >= -1) {
@@ -761,7 +799,17 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 					
 					if(useAggressiveBuy) {
 						// downtrend allow for buy off 20ema  only if it is breaking up
-						final ChartAnalysisType cat20 = pae0 == null ? null : pae0.getAnalysisType();
+						
+						final ChartAnalysisType cat10 = pae0 == null ? null : pae0.getAnalysisType();
+						if( cat10 == ChartAnalysisType.BREAKING_UP) {
+							if(Helpers.getPercetChange(pa.getPrice().getClose(), pa.getPrice10dEma()).doubleValue() <= 1.5) {
+								final TransactionData trans = buyPositionAndUpdatePortfolioPositions(aPos.getMsId(), aPos.getSymbol(), maxAllowedAmtForPurchase, runDate);
+								txs.add(trans);
+								continue;
+							}
+						}
+						
+						final ChartAnalysisType cat20 = pae1 == null ? null : pae1.getAnalysisType();
 						if( cat20 == ChartAnalysisType.BREAKING_UP) {
 							if(Helpers.getPercetChange(pa.getPrice().getClose(), pa.getPrice10dEma()).doubleValue() <= 1.5) {
 								final TransactionData trans = buyPositionAndUpdatePortfolioPositions(aPos.getMsId(), aPos.getSymbol(), maxAllowedAmtForPurchase, runDate);
@@ -1132,8 +1180,8 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 		return symbolMap;
 	}
 	
-	private List<TransactionData> checkAndPerformSellTechAnalysisForPositions(final Date tradeDate, final HashMap<Long, SymbolModel> symbolsMap) throws ApplicationException {
-		final List<PositionData> sellPositions = new ArrayList<PositionData>(); 
+	private List<TransactionData> performSellTechAnalysisForPositions(final Date tradeDate, final HashMap<Long, SymbolModel> symbolsMap) throws ApplicationException {
+		final List<TransactionData> partialSellPositions = new ArrayList<TransactionData>(); 
 		// perform loss-sells
 		for(final PositionData pos : this.portfolio.getPositions()) {
 			final SymbolModel symModel = symbolsMap.get(pos.getMsId());
@@ -1154,21 +1202,89 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				logger.info(tradeDate + " No latest price-analysis data found in symbol-model for position: " + pos.getSymbol());
 				continue;
 			}
+						
+			//perform aggressive sells here
+			
+			final Map<TransactionType, Integer> txCountMap = pos.getTransactionCount();
+			final int buyCount = txCountMap.get(TransactionType.BUY) == null ? 0 : txCountMap.get(TransactionType.BUY);
+			final int sellCount = txCountMap.get(TransactionType.SELL) == null ? 0 : txCountMap.get(TransactionType.SELL);
+			
+			if(buyCount - sellCount <= 1) {
+				// we give some room to run for positions with single transactions
+				continue;
+			} 
+			
+			final TransactionData latestBuyTx = pos.getLatestUnSoldBuyTransaction();
+			//final TransactionData latestSellTx = pos.getLatestTransaction(TransactionType.SELL);
+			
+			final BigDecimal pctChgFromLatestBuyTx = Helpers.getPercetChange(currentPA.getPrice().getClose(), latestBuyTx.getCostBasisPerShare());
+			final BigDecimal pctChg  = Helpers.getPercetChange(currentPA.getPrice().getClose(), prevPA.getPrice().getClose());
+			
+			if(pctChgFromLatestBuyTx != null &&  pctChgFromLatestBuyTx.doubleValue() <= this.stopLossPct_SoftStop) {
+				// sell only if it is not at support of a MA
+				final PriceAnalysisElementData pae50 = currentPA.getAnalysisFor(ChartElementType.PRICE_MA_50);
+				final PriceAnalysisElementData pae20 = currentPA.getAnalysisFor(ChartElementType.PRICE_MA_20);
+				if( (pae50 != null && (pae50.getAnalysisType() != ChartAnalysisType.SUPPORT && pae50.getAnalysisType() != ChartAnalysisType.BREAKING_UP))
+						|| (pae20 != null && (pae20.getAnalysisType() != ChartAnalysisType.SUPPORT && pae20.getAnalysisType() != ChartAnalysisType.BREAKING_UP))) {
+					// sell only on a red-day
+					if(pctChg.doubleValue() < 0) {
+						RunLogger.getRunLogger().logPortfolio(tradeDate + " partial-sell due to poor latest-buy (" + pctChgFromLatestBuyTx.doubleValue() + "%): " + latestBuyTx.getQuantity() + " of " + latestBuyTx.getSymbol());
+						final TransactionData partialSellTx = this.partialSellPositionAndUpdatePortfolioPositions(latestBuyTx.getMsId(), latestBuyTx.getSymbol(), latestBuyTx.getQuantity(), tradeDate);
+						partialSellPositions.add(partialSellTx);
+						continue;	
+					}
+				}
+			}
 			
 			final BigDecimal prevAtr = prevPA.getAtr14d();
 			final double closingRange = PriceChartAnalyzer.getClosingRange(currentPA.getPrice(), null);
-			if(prevAtr != null && currentPA.getPrice().getClose().doubleValue() >= prevPA.getPrice().getClose().doubleValue() + 2 * prevAtr.doubleValue()) {
-				RunLogger.getRunLogger().logPortfolio(tradeDate + " " +  pos.getSymbol() + " ATR Sell signal. atr=" + prevAtr.doubleValue() + "; vol-rate: " + currentPA.getElementPctChg(ChartElementType.VOL) + "% ;cls-rng=" + closingRange);
+			
+			final BigDecimal pctChgFrom10ema  = currentPA.getElementPctChg(ChartElementType.PRICE_MA_10);
+			final BigDecimal volRate = currentPA.getElementPctChg(ChartElementType.VOL);
+			
+			if(prevAtr != null && currentPA.getPrice().getClose().doubleValue() >= prevPA.getPrice().getClose().doubleValue() + 2 * prevAtr.doubleValue()
+					&& closingRange >= 80
+					&& pctChgFrom10ema != null && pctChgFrom10ema.doubleValue() > 5
+					&& pctChg != null && pctChg.doubleValue() >= 5
+					&& (volRate == null || volRate.doubleValue() >= 150)) {
+				RunLogger.getRunLogger().logPortfolio(tradeDate + " " +  pos.getSymbol() + " ATR Sell signal. vol-rate: " + currentPA.getElementPctChg(ChartElementType.VOL) + "% ;cls-rng=" + closingRange);
+				final TransactionData partialSellTx = this.partialSellPositionAndUpdatePortfolioPositions(latestBuyTx.getMsId(), latestBuyTx.getSymbol(), latestBuyTx.getQuantity(), tradeDate);
+				partialSellPositions.add(partialSellTx);
+				continue;	
 			}
 			
-			//TODO: perform aggressive sells here
+			//final BigDecimal pctChgFrom10ema  = currentPA.getElementPctChg(ChartElementType.PRICE_MA_10);
+			final BigDecimal pctChgFrom20ema  = currentPA.getElementPctChg(ChartElementType.PRICE_MA_20);
+			if(pctChgFrom10ema.doubleValue() >= 15 || pctChgFrom20ema != null && pctChgFrom20ema.doubleValue() >= 20) {
+				RunLogger.getRunLogger().logPortfolio(tradeDate + " " +  pos.getSymbol() + " MA extended Sell signal. % from 10ema- " + pctChgFrom10ema + "; % from 20ema: " + pctChgFrom20ema );
+				final TransactionData partialSellTx = this.partialSellPositionAndUpdatePortfolioPositions(latestBuyTx.getMsId(), latestBuyTx.getSymbol(), latestBuyTx.getQuantity(), tradeDate);
+				partialSellPositions.add(partialSellTx);
+				continue;
+			}
+			
+			
+			if(closingRange <= 30) {
+				// bad close
+				if(pctChg.doubleValue() <= -5 && (volRate == null || volRate.doubleValue() >= 200)) {
+					// bad close and a high-pct-drop on heavy vol 
+					RunLogger.getRunLogger().logPortfolio(tradeDate + " " +  pos.getSymbol() + " Weak Close on high vol. %-chg=" + pctChg.doubleValue() + "; vol-rate: " + currentPA.getElementPctChg(ChartElementType.VOL) + "% ;cls-rng=" + closingRange);
+					final TransactionData partialSellTx = this.partialSellPositionAndUpdatePortfolioPositions(latestBuyTx.getMsId(), latestBuyTx.getSymbol(), latestBuyTx.getQuantity(), tradeDate);
+					partialSellPositions.add(partialSellTx);
+					continue;
+				}
+				
+				final BigDecimal tr = currentPA.getPrice().getHigh().subtract(currentPA.getPrice().getLow());
+				if ((volRate == null || volRate.doubleValue() >= 150)
+					&& prevAtr.doubleValue() * 2 < tr.doubleValue() ) {
+					// heavy vol + high volalite day + bad close
+					RunLogger.getRunLogger().logPortfolio(tradeDate + " " +  pos.getSymbol() + " Weak Close on high vol volatile day. tr=" +  tr.doubleValue() + ";atr=" + prevAtr.doubleValue() + "; vol-rate: " + currentPA.getElementPctChg(ChartElementType.VOL) + "% ;cls-rng=" + closingRange);
+					final TransactionData partialSellTx = this.partialSellPositionAndUpdatePortfolioPositions(latestBuyTx.getMsId(), latestBuyTx.getSymbol(), latestBuyTx.getQuantity(), tradeDate);
+					partialSellPositions.add(partialSellTx);
+					continue;
+				}
+			}
 		}
-		
-		if(sellPositions.size() > 0) {
-			return sellPositionsAndUpdatePortfolioPositions(sellPositions, tradeDate);
-		}
-		
-		return null;
+		return partialSellPositions;
 	}
 	
 	private List<TransactionData> checkAndPerformSellStopLossForPositions(final Date tradeDate, final HashMap<Long, SymbolModel> symbolMap, final SimpleMarketSignalType marketSignal) throws ApplicationException {
@@ -1204,7 +1320,11 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 			}
 			
 			// check the scaled stop-losses
-			final int numTxs = sortedTxs.size();
+			final Map<TransactionType, Integer> txCountMap = pos.getTransactionCount();
+			final int buyCount = txCountMap.get(TransactionType.BUY) == null ? 0 : txCountMap.get(TransactionType.BUY);
+			final int sellCount = txCountMap.get(TransactionType.SELL) == null ? 0 : txCountMap.get(TransactionType.SELL);
+			
+			final int numTxs = buyCount - sellCount;
 			
 			// scaled-stop-losses ensures profits are protected
 			// this is done only for multi-transaction positions
@@ -1283,7 +1403,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				transactions.add(tx);
 			}
 
-			RunLogger.getRunLogger().logPortfolio((tradeDate + " "  + tx.getTransactionType() + " " + tx.getSymbol() + " x" + tx.getQuantity() +  " for $" + tx.getTotalAmt().getValue().doubleValue() + " " + aSellPosition.getPercentGainLoss() + "%"));
+			RunLogger.getRunLogger().logPortfolio((tradeDate + " "  + tx.getTransactionType() + " " + tx.getSymbol() + " @" + tx.getCostBasisPerShare().doubleValue() + " x" + tx.getQuantity() +  " for $" + tx.getTotalAmt().getValue().doubleValue() + " " + aSellPosition.getPercentGainLoss() + "%"));
 			portfolio.addTransaction(tx);
 		}
 		
@@ -1292,13 +1412,23 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 
 	private TransactionData buyPositionAndUpdatePortfolioPositions(long msid, String symbol, CurrencyData maxAmt, Date tradeDate) throws ApplicationException {
 			final TransactionData tx = this.execModel.buy(msid, symbol, maxAmt, tradeDate);
-			final PositionData aPos= portfolio.addTransaction(tx);
 			
+			final PositionData aPos= portfolio.addTransaction(tx);			
 			if(aPos != null) {
-				RunLogger.getRunLogger().logPortfolio(tradeDate + " BUY: " + tx.getQuantity() + " shares of " + tx.getSymbol() + " cost-basis=" + aPos.getCostBasisPerShare() + " for $" + tx.getTotalAmt().getValue().doubleValue() + " CASH-BAL=" + portfolio.getCashPosition().getCurrentValue().getValue().doubleValue());
+				RunLogger.getRunLogger().logPortfolio(tradeDate + " " + tx.getTransactionType() + " " + tx.getQuantity() + " shares of " + tx.getSymbol() + " @" + tx.getCostBasisPerShare().doubleValue() +  " for $" + tx.getTotalAmt().getValue().doubleValue() + ";cost-basis=" + aPos.getCostBasisPerShare() +";CASH-BAL=" + portfolio.getCashPosition().getCurrentValue().getValue().doubleValue());
 			}
 			return tx;
 	}
+
+	private TransactionData partialSellPositionAndUpdatePortfolioPositions(long msid, String symbol, int quantity, Date tradeDate) throws ApplicationException {
+		final TransactionData tx = this.execModel.sell(msid, symbol, quantity, tradeDate);
+		final PositionData aPos= portfolio.addTransaction(tx);
+		if(aPos != null) {
+			RunLogger.getRunLogger().logPortfolio(tradeDate + " partial-sell: " + tx.getQuantity() + " shares of " + tx.getSymbol() + " @" + tx.getCostBasisPerShare().doubleValue()  + " for $" + tx.getTotalAmt().getValue().doubleValue() + ";cost-basis=" + aPos.getCostBasisPerShare() + ";CASH-BAL=" + portfolio.getCashPosition().getCurrentValue().getValue().doubleValue());
+		}
+		return tx;
+}
+
 	
 	/**
 	 * @return the wonDAO

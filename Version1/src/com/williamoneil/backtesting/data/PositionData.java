@@ -81,6 +81,33 @@ public class PositionData {
 		
 		return sortedTxs;
 	}
+
+	/*
+	 * this API returns the latest unsold buy-tx. 
+	 * Assumption is that the sell transactions are done in LIFO (LAST IN FIRST OUT) way. 
+	 */
+	public TransactionData getLatestUnSoldBuyTransaction() {
+		final List<TransactionData> sortedTxs = getTransactionsSortedByTradeDate();
+		if(sortedTxs == null || sortedTxs.size() == 0) {
+			return null;
+		}
+		
+		int buySellCount = 0;
+		for(TransactionData aTx : sortedTxs) {
+			if(aTx.getTransactionType() == TransactionType.BUY) {
+				buySellCount++;
+			} else {
+				buySellCount--;
+			}
+			
+			if(buySellCount >= 1) {
+				return aTx;
+			}
+		}
+
+		return null;
+	}
+
 	
 	public TransactionData getLatestTransaction(TransactionType txType) {
 		final List<TransactionData> sortedTxs = getTransactionsSortedByTradeDate();
@@ -123,22 +150,21 @@ public class PositionData {
 			}
 		}
 		
-		if(tx != null) {
+		cost = CurrencyData.instantiate(cost.getValue().add(tx.getCost()));
 			if(tx.getTransactionType() == TransactionType.BUY) {
 				quantity = quantity + tx.getQuantity();
-				cost = CurrencyData.instantiate(cost.getValue().add(tx.getCost()));
+				
 				currentValue = CurrencyData.instantiate(currentValue.getValue().add(tx.getTotalAmt().getValue()));
 				costBasis = CurrencyData.instantiate((costBasis.getValue().add(tx.getTotalAmt().getValue())));
 			} else if (tx.getTransactionType() == TransactionType.SELL) {
 				quantity = quantity - tx.getQuantity();
-				cost = CurrencyData.instantiate(cost.getValue().add(tx.getCost()));
 				currentValue = CurrencyData.instantiate(currentValue.getValue().subtract(tx.getTotalAmt().getValue()));
+				costBasis = CurrencyData.instantiate((costBasis.getValue().subtract(tx.getTotalAmt().getValue())));
 			} else {
 				throw new RuntimeException("Only buy/sell tx are supported for now..");
 			}
 			
 			transactions.add(tx);
-		}
 	}
 	
 	public Map<TransactionType, Integer> getTransactionCount() {

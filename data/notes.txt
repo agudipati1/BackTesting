@@ -208,14 +208,29 @@ a.126: Alpha: Reworked Signal Strength.
 	Portfolio: Stocks with Signal-strength  > 100 will get priority pref for swap
 	Portfolio: changed minPctInvested to 75% in DOWNTREND (prev 50% - GPN ignored on OCT-2014)
 a.127: Secondary Buys:  All market-directions use pct-chg and pct-chg-from-last-buy as >10% for secondary buys (previously see a.125)
-       Portfolio: Swapping under-performers happens based on signal-strength. Signal strength thresholds are DOWNTREND: 150, CAUTIOUS_UPTREND: 100, UPTREND: 0
-a.128: Alpha: curr-pric > 15% from 20ema will be added to watchlist (prev 20% see a.122) [CUDA DEC-2013 buy off breakout is >15% from 20ema and will result in shakeout]
-a.129: 
- 
+       Portfolio: Swapping under-performers based on signal-strength. Signal strength thresholds are DOWNTREND: 150, CAUTIOUS_UPTREND: 100, UPTREND: 0
+       Alpha: curr-pric > 15% from 20ema will be added to watchlist (prev 20% see a.122) [CUDA DEC-2013 buy off breakout is >15% from 20ema and will result in shakeout]
+a.128: temporary: Undid a.127 portfolio: swapping under performers based on signal strength logic
+a.129: Portfolio: Swapping under-performers: aggressive swap sell for for very-high-conviction signals ie., sig-str>=150.
+	 aggressive swap sell logic: sort positions by pct-chg from 50sma, and first position below 20ema will be sold
+         also re-organized swapping logic: losers are swapped immediately, underperformances are checked for signal-strength > 100, for signal-strength>150:  20ema check is made after sorting positions by 50ema pct-chg
+a.130: <bad> Portflio: added logic for partial/aggressive sells
+a.131: fixed a bug with stop-sells not triggering - bug introduced in a.130
+       partial-sell logic of losing secondary buys is changed to check for 20ema/50sma support and sells only on down-day
+a.132: partial-sell: added weak close on high volume to partial sells
+       executuon: fixed an issue with tx-cost not being accounted for
+       portfolio:secondary buys - wait for 3 days after any prev tx before performing secondary buying (prev 1 day)
+a.133: portfolio: limits a MAX of 2 new positions bought in a day (swaps allowed though)
+	portfolio:secondary buys - wait for 5 days after any prev tx (prev 3 days see a.132)
+	portfolio:secondary buys - over-pct-gains must be 7.5% for secondary buys (prev 10% see a.127)
+	portfolio:secondary buys - aggressive buys in downtrend is 15% (prev all aggressive buys at 10%). Also added 10ema breakout checks for downtrend aggressive buys.
+a.134: 
+
+
 TODO: 
- - add partial sell logic
+ - add signals for new-highs, up-on-vol
+ - add logic to buy signals when market is bouncing from deep lows/downtrends (current logic only buys at new-highs)
  - add RSI to alpha model.
- - AMBA scaled-stop sell logic is still triggerring it
  - need checks before buying to make sure we are not over-exposed to a sector/industry-group
 
 ISSUES:

@@ -25,10 +25,13 @@ public class PortfolioData {
 	
 	private BigDecimal realizedGainLoss = BigDecimal.ZERO;
 	
-	public Map<String, Double> getPositionsAndPctChg() {
-		final Map<String, Double> symSet = new HashMap<String, Double>();
+	public Map<String, List<Double>> getPositionsAndPctChg() {
+		final Map<String, List<Double>> symSet = new HashMap<String, List<Double>>();
 		for(final PositionData pos: positions) {
-			symSet.put(pos.getSymbol(), pos.getPercentGainLoss());
+			final List<Double> l = new ArrayList<Double>();
+			l.add(pos.getPercentGainLoss());
+			l.add(pos.getCurrentValue().getValue().multiply(Helpers.HUNDRED).divide(this.getTotalPortfolioValue().getValue(), Helpers.mc).doubleValue());
+			symSet.put(pos.getSymbol(), l);
 		}
 		
 		return symSet;
@@ -87,7 +90,7 @@ public class PortfolioData {
 					
 					this.getPositions().add(position);
 				}
-				cashBalAfterTx = this.getCashPosition().getCurrentValue().getValue().subtract(tx.getTotalAmt().getValue()).subtract(tx.getCost());
+				cashBalAfterTx = this.getCashPosition().getCurrentValue().getValue().subtract(tx.getTotalAmt().getValue());
 			} else if(tx.getTransactionType() == TransactionType.SELL) {
 				//  find the position in portfolio positions list and remove it
 				for(final PositionData aPos : this.getPositions()) {
@@ -111,7 +114,7 @@ public class PortfolioData {
 				}
 				
 				//add sell proceeds to cash
-				cashBalAfterTx = this.getCashPosition().getCurrentValue().getValue().add(tx.getTotalAmt().getValue()).subtract(tx.getCost());
+				cashBalAfterTx = this.getCashPosition().getCurrentValue().getValue().add(tx.getTotalAmt().getValue());
 			}
 			
 			this.getCashPosition().setCurrentPrice(cashBalAfterTx);

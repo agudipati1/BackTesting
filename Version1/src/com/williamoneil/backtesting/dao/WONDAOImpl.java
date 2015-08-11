@@ -140,7 +140,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 
 		} catch (SQLException sqlEx) {
 			// _logger.error(sqlEx.getErrorCode(), sqlEx);
-			_logger.error("Error in get split for: " + osid, sqlEx);
+			_logger.error("Error in get split-info for osid: " + osid, sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
@@ -627,7 +627,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			
 			return aInfo;
 		} catch(SQLException sqlEx) {
-			_logger.error("Error getting Symbol Info for msid: " + msid ,sqlEx);
+			_logger.error("Error getting Symbol for msid: " + msid ,sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);
