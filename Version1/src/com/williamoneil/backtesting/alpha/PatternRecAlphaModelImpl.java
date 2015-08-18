@@ -662,7 +662,7 @@ public class PatternRecAlphaModelImpl implements AlphaModel {
 			}
 			
 		}catch(ApplicationException aex) {
-			//aex.printStackTrace();
+			aex.printStackTrace();
 			throw aex;
 		} catch(Exception ex) {
 			ex.printStackTrace();

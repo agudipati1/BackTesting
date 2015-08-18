@@ -222,8 +222,7 @@ a.132: partial-sell: added weak close on high volume to partial sells
        portfolio:secondary buys - wait for 3 days after any prev tx before performing secondary buying (prev 1 day)
 a.133: portfolio: limits a MAX of 2 new positions bought in a day (swaps allowed though)
 	portfolio:secondary buys - wait for 5 days after any prev tx (prev 3 days see a.132)
-	portfolio:secondary buys - over-pct-gains must be 7.5% for secondary buys (prev 10% see a.127)
-	portfolio:secondary buys - aggressive buys in downtrend is 15% (prev all aggressive buys at 10%). Also added 10ema breakout checks for downtrend aggressive buys.
+	portfolio:secondary buys - Added 10ema breakout for downtrend aggressive buys.
 a.134: 
 
 

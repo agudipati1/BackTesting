@@ -266,7 +266,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 
 		} catch (SQLException sqlEx) {
 			// _logger.error(sqlEx.getErrorCode(), sqlEx);
-			_logger.error("Error in getStockHeader for: " + msId, sqlEx);
+			_logger.error("Error in get-StockHeader for: " + msId, sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
 			super.closeResources(conn, stmt, rs);

@@ -82,6 +82,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 	
 	private PortfolioData portfolio = null;
 	
+	
 	@Override
 	public void init(AlphaModel aModel, ExecutionModel eModel) throws ApplicationException {
 		this.alphaModel = aModel;
@@ -627,19 +628,13 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				final double pctChgSinceLastBuy = Helpers.getPercetChange(sym.getPriceForDate(runDate).getClose(), lastBuyTx.getCostBasisPerShare()).doubleValue();
 
 				boolean useAggressiveBuy = false;
-				if(marketSignal == SimpleMarketSignalType.DOWNTREND) {
-					if(pctChg >= 15 || pctChgSinceLastBuy >= 15) {
-						useAggressiveBuy = true;
-					}
-				} else {
 					if(pctChg >= 10 || pctChgSinceLastBuy >= 10) {
 						useAggressiveBuy = true;
 					}
-				}
 				
-				final double pctChgInUpTrend = 7.5;
+				final double pctChgInUpTrend = 10;
 				final double pctChgInCautiousUpTrend = pctChgInUpTrend;
-				final double pctChgInDownTrend = 7.5;
+				final double pctChgInDownTrend = 10;
 
 				final double pctChgSinceLastBuyInUpTrend = pctChgInUpTrend;
 				final double pctChgSinceLastBuyInCautiousUpTrend = pctChgInCautiousUpTrend;
@@ -650,7 +645,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 					continue;
 				}
 				final PriceAnalysisElementData pae0= pa.getAnalysisFor(ChartElementType.PRICE_MA_10);
-				final double pctChgToUse10emaBuyInUpTrend = 7.5;
+				final double pctChgToUse10emaBuyInUpTrend = 10;
 
 				final PriceAnalysisElementData pae1 = pa.getAnalysisFor(ChartElementType.PRICE_MA_20);
 				final double pctChgToUse20emaBuyInUpTrend = pctChgInUpTrend;
@@ -679,7 +674,7 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 							} else if(useAggressiveBuy && cat == ChartAnalysisType.SUPPORT) {
 								// aggressive buys will buy anytime stock is near support of MA
 								final InstrumentPriceModel prevDayPrice = sym.getPriceForNDaysBeforeDate(1, runDate);
-								if(Helpers.getPercetChange(pa.getPrice().getClose(), prevDayPrice.getClose()).doubleValue() >= -1) {
+								if(Helpers.getPercetChange(pa.getPrice().getClose(), prevDayPrice.getClose()).doubleValue() >= 0) {
 									// add to buy-list only on a 'relatively' blue-day
 									final TransactionData trans = buyPositionAndUpdatePortfolioPositions(aPos.getMsId(), aPos.getSymbol(), maxAllowedAmtForPurchase, runDate);
 									txs.add(trans);
