@@ -198,7 +198,8 @@ public class WONDAOImpl extends BaseDAOImpl {
 			}
 
 		} catch (SQLException sqlEx) {
-			// _logger.error(sqlEx.getErrorCode(), sqlEx);
+			// 
+			_logger.error(sqlEx.getErrorCode(), sqlEx);
 			_logger.error("Error in getting StockHeader for msid-" + msId, sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {
@@ -627,6 +628,7 @@ public class WONDAOImpl extends BaseDAOImpl {
 			
 			return aInfo;
 		} catch(SQLException sqlEx) {
+			sqlEx.printStackTrace();
 			_logger.error("Error getting Symbol for msid: " + msid ,sqlEx);
 			throw new ApplicationException(sqlEx);
 		} finally {

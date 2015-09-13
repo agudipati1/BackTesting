@@ -1030,7 +1030,9 @@ public class CanSlimPortfolioModelImpl implements PortfolioModel {
 				}
 				
 				final PriceAnalysisData pa = sym.getPriceAnalysisForDate(runDate);
-				
+				if(pa == null) {
+					continue;
+				}
 				// if any of MAs are supporting the price then dont do any sells
 				final PriceAnalysisElementData pae10 = pa.getAnalysisFor(ChartElementType.PRICE_MA_10);
 				final PriceAnalysisElementData pae20 = pa.getAnalysisFor(ChartElementType.PRICE_MA_20);
